@@ -1,0 +1,218 @@
+{
+  "final_context_evidence_rate": {
+    "n": 7,
+    "N": 15,
+    "rate": 0.4666666666666667
+  },
+  "definition": "Actual final context sent to answering model; strict native gold quote+source/page, all multihop groups required; errors scored0. Visual semantic evidence separately source-audited.",
+  "answer_citation_coverage": {
+    "n": 10,
+    "N": 10,
+    "rate": 1.0
+  },
+  "retrieval_tool_call_distribution_successful_queries": {
+    "1": 7,
+    "2": 10
+  },
+  "context_grade_distribution_answerable_successful": {
+    "2": 8,
+    "0": 6,
+    "1": 1
+  },
+  "per_query_context_review": [
+    {
+      "query_id": "basic_dev_01",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original p17 explicitly forecasts 4% in 2020s, 5% in 2010s and more than 6% in 2000s. All answer claims supported by cited context.",
+      "context_ids": [
+        "wdr2024:p17:g3:c0",
+        "wdr2024:p35:g1:c0",
+        "wdr2024:p11:g2:c0",
+        "wdr2024:p67:g2:c0",
+        "wdr2024:p77:g2:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_02",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "False abstention: original p36 states 108 countries. Context has classification discussion and front matter, but no count. Failure is retrieval/context omission, not absence in document.",
+      "context_ids": [
+        "wdr2024:p35:vision:c2",
+        "wdr2024:p70:g2:c0",
+        "wdr2024:p35:g2:c0",
+        "wdr2024:p5:g0:c0",
+        "wdr2024:p1:g0:c0",
+        "wdr2024:p77:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_03",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Answer substitutes frequency interval below 25% and a literature definition 8-36% for requested typical 11% plateau. P75 native paragraph itself also gives median slowdown at 11%, but cited p75:g0 lacks that paragraph. First two cited contextual claims are supported; claimed long-run 10% is not established by cited p35:g1 numeric axes. P34 would be a clearer source for below one-tenth.",
+      "context_ids": [
+        "wdr2024:p75:g0:c0",
+        "wdr2024:p72:g2:c0",
+        "wdr2024:p232:vision:c1",
+        "wdr2024:p35:g1:c0",
+        "wdr2024:p78:g4:c0",
+        "wdr2024:p74:g2:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_04",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Both cited chunks and original p34/p67 explicitly connect Vietnam strategy 2021-2030 with high-income target 2045.",
+      "context_ids": [
+        "wdr2024:p62:g3:c0",
+        "wdr2024:p67:g2:c0",
+        "wdr2024:p34:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_05",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original p39 and actual cited chunk state about US$33,000 in 2023; date, country and unit match.",
+      "context_ids": [
+        "wdr2024:p39:g1:c0",
+        "wdr2024:p250:g2:c0",
+        "wdr2024:p215:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_06",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original p41 and cited context state tertiary education rates 15% in 2000 and 42% in 2012.",
+      "context_ids": [
+        "wdr2024:p41:g3:c0",
+        "wdr2024:p99:g2:c0",
+        "wdr2024:p245:g1:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_07",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original p41 and cited Chile paragraph state first Latin American country to reach high-income status in 2012.",
+      "context_ids": [
+        "wdr2024:p41:g2:c0",
+        "wdr2024:p22:g0:c0",
+        "wdr2024:p62:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_08",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original p41 explicitly says adaptation of Norwegian salmon farming technologies to local conditions. Norway answer supported.",
+      "context_ids": [
+        "wdr2024:p41:g2:c0",
+        "wdr2024:p210:g2:c0",
+        "wdr2024:p208:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_09",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "False abstention: p45 explicitly states middle-income GHG/GDP intensity 3.5 times high-income. Retrieved p265 supports a different 2.5-times ENERGY statistic, which the answer mentions without citation. It does not answer GHG intensity. Missing p45 is material.",
+      "context_ids": [
+        "wdr2024:p265:g1:c0",
+        "wdr2024:p265:vision:c1",
+        "wdr2024:p107:g0:c0",
+        "wdr2024:p144:g0:c0",
+        "wdr2024:p63:g2:c0",
+        "wdr2024:p36:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_10",
+      "context_grade": 1,
+      "strict_complete_evidence": false,
+      "reason": "AI grade 0/context 0 is too absolute: p107 genuinely says energy intensity about double, and p108 Figure3.5 native labels give UMIC9.0/HIC5.1, supporting 1.76 for that subgroup. Answer distinguishes these populations and has supported citations. However it misses intended p45 2.5-times statistic. Question has no date/section and Vietnamese wording can be read as upper-middle-income; report has alternate quantitative statements. Recommend partial credit and explicit ambiguity review, not a fabricated unsupported-answer error.",
+      "context_ids": [
+        "wdr2024:p107:g0:c0",
+        "wdr2024:p108:g0:c0",
+        "wdr2024:p264:vision:c0",
+        "wdr2024:p47:g1:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_11",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "False abstention: p52 defines killer acquisitions as buying innovative firms to kill future competing products and technologies. Context retrieves bibliography p139 and headings/footers instead; statement about only bibliography is valid for retrieved excerpts but not whole report.",
+      "context_ids": [
+        "wdr2024:p141:g0:c0",
+        "wdr2024:p167:g0:c0",
+        "wdr2024:p21:g3:c0",
+        "wdr2024:p69:g3:c0",
+        "wdr2024:p269:g3:c0",
+        "wdr2024:p139:g2:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_12",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "False abstention: original p137 says FAT covers 11 developing economies. Retrieved p145 describes 300 technologies/50 functions without country count. Correct related survey hit is insufficient evidence for requested quantity.",
+      "context_ids": [
+        "wdr2024:p21:g3:c0",
+        "wdr2024:p3:g0:c0",
+        "wdr2024:p145:g2:c0",
+        "wdr2024:p5:g0:c0",
+        "wdr2024:p1:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_13",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Cited p93 is a legitimate alternative to gold p91: original says Estonia reached80% of Western European income by2021. Full country/year/comparator supported.",
+      "context_ids": [
+        "wdr2024:p94:g1:c0",
+        "wdr2024:p93:g1:c0",
+        "wdr2024:p251:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_14",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "False abstention: original p254 says more than140 countries targets cover about88% global emissions. Actual final context is footer/continued-figure fragments on46,144,169,230,239, so content retrieval fails completely.",
+      "context_ids": [
+        "wdr2024:p169:g3:c0",
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p239:g3:c0",
+        "wdr2024:p144:g4:c0",
+        "wdr2024:p230:g4:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_15",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original p254 and cited Izmir paragraph support both80% exported and primarily Europe. Extra geographic claims in answer also supported.",
+      "context_ids": [
+        "wdr2024:p254:g1:c0",
+        "wdr2024:p111:g1:c0",
+        "wdr2024:p205:vision:c1"
+      ]
+    }
+  ],
+  "model_calls": 44,
+  "model_http_attempts_recorded": 48,
+  "usage": {
+    "prompt_tokens": 42704,
+    "completion_tokens": 2588,
+    "total_tokens": 64870
+  },
+  "usd_cost": null,
+  "cost_limitations": "No verified USD tariff; usage available only for recorded model responses, failures/setup may not supply token usage.",
+  "errors": 0
+}

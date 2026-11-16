@@ -1,5 +1,9 @@
 # Định dạng dữ liệu
 
+Corpus thật: `chunks.json`; benchmark riêng ở `benchmark/basic_questions.json`
+và `benchmark/advanced_questions.json`. `index_manifest.json` pin corpus/model/vector.
+Nguồn và quyền: [DATA_ACCESS](../docs/DATA_ACCESS.md).
+
 Các file `example_*.json` chỉ minh họa định dạng, không đủ để nộp bài. Dữ liệu thật là JSON array UTF-8; nếu dùng định dạng khác, ghi cách chuyển trong README.
 
 - **Chunk:** `id`, `text`, `source_id`, `source`, `page`, `metadata`. ID phải duy nhất; giữ phiên bản hoặc ngày nếu có.

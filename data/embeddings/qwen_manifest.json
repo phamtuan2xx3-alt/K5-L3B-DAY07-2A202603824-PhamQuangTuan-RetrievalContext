@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen3-Embedding-8B",
+  "revision": "1d8ad4ca9b3dd8059ad90a75d4983776a23d44af",
+  "dimensions": 4096,
+  "normalization": "L2",
+  "precision": "bfloat16",
+  "source_chunks_sha256": "eb781e714532316079b615b6f85390ab0d4a06f38617b4fc89d3641dccaae43e",
+  "chunks": 911,
+  "completed": 911,
+  "tokens_this_run": 205075,
+  "seconds_this_run": 75.93118810400006,
+  "truncated_inputs": 0,
+  "gpu": "NVIDIA A100-SXM4-80GB"
+}

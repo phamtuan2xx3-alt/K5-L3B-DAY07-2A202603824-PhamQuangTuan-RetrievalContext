@@ -1,0 +1,18 @@
+{
+  "config": {
+    "id": "dense_qwen",
+    "method": "dense_qwen",
+    "top_k": 6,
+    "context_budget": 10000,
+    "max_rounds": 2,
+    "page_expansion": false,
+    "model": "gemini-3.8-flash-high",
+    "hypothesis": "Larger multilingual embedding and more candidates improve evidence coverage."
+  },
+  "cases_sha256": "d032959b7b56972753b1dedddd45156ac69d9f0447815247fadbca3273afa6cd",
+  "index_manifest_sha256": "03f73b1bc1a3d7b288ac621bf04f86337c58a74ac556522b32b5248059678869",
+  "implementation_sha256": {
+    "src/agent.py": "3b6568e9ff7e282e13ea986f9b4f82e35e172d7bac83e98d36b11a47f53d429c",
+    "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "final_context_evidence_rate": {
+    "n": 6,
+    "N": 15,
+    "rate": 0.4
+  },
+  "definition": "Actual final context sent to answering model; strict native gold quote+source/page, all multihop groups required; errors scored0. Visual semantic evidence separately source-audited.",
+  "answer_citation_coverage": {
+    "n": 7,
+    "N": 7,
+    "rate": 1.0
+  },
+  "retrieval_tool_call_distribution_successful_queries": {
+    "1": 5,
+    "2": 4
+  },
+  "context_grade_distribution_answerable_successful": {
+    "2": 7
+  },
+  "per_query_context_review": [
+    {
+      "query_id": "basic_dev_01",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo nội dung báo cáo (mức trung bình 4%), trích dẫn đúng ngữ cảnh hỗ trợ.",
+      "context_ids": [
+        "wdr2024:p17:g3:c0",
+        "wdr2024:p64:g0:c0",
+        "wdr2024:p87:vision:c0",
+        "wdr2024:p23:g0:c0",
+        "wdr2024:p11:g1:c0",
+        "wdr2024:p65:g2:c0",
+        "wdr2024:p255:g0:c0",
+        "wdr2024:p171:vision:c0",
+        "wdr2024:p43:vision:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_02",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Câu trả lời nêu đúng số lượng 108 quốc gia theo phân loại của Ngân hàng Thế giới và trích dẫn đoạn văn bản hoàn toàn khớp.",
+      "context_ids": [
+        "wdr2024:p35:vision:c2",
+        "wdr2024:p35:g2:c0",
+        "wdr2024:p68:g0:c0",
+        "wdr2024:p63:g1:c0",
+        "wdr2024:p35:vision:c1",
+        "wdr2024:p144:g2:c0",
+        "wdr2024:p1:g0:c0",
+        "wdr2024:p3:g0:c0",
+        "wdr2024:p5:g0:c0",
+        "wdr2024:p6:g0:c0",
+        "wdr2024:p6:g1:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_03",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": [
+        "wdr2024:p74:g0:c0",
+        "wdr2024:p75:g0:c0",
+        "wdr2024:p75:vision:c0",
+        "wdr2024:p71:g3:c0",
+        "wdr2024:p76:g1:c0",
+        "wdr2024:p74:g1:c0",
+        "wdr2024:p132:vision:c0",
+        "wdr2024:p232:vision:c0",
+        "wdr2024:p109:vision:c1"
+      ]
+    },
+    {
+      "query_id": "basic_dev_04",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": [
+        "wdr2024:p216:g0:c0",
+        "wdr2024:p145:vision:c1",
+        "wdr2024:p205:vision:c1",
+        "wdr2024:p197:g0:c0",
+        "wdr2024:p127:g0:c0",
+        "wdr2024:p199:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_05",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": [
+        "wdr2024:p175:vision:c0",
+        "wdr2024:p132:vision:c1",
+        "wdr2024:p109:vision:c0",
+        "wdr2024:p60:g0:c0",
+        "wdr2024:p61:g3:c0",
+        "wdr2024:p245:g2:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_06",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": []
+    },
+    {
+      "query_id": "basic_dev_07",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": []
+    },
+    {
+      "query_id": "basic_dev_08",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": []
+    },
+    {
+      "query_id": "basic_dev_09",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": []
+    },
+    {
+      "query_id": "basic_dev_10",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": []
+    },
+    {
+      "query_id": "basic_dev_11",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác, sát với thông tin trong báo cáo và cả hai trích dẫn đều hỗ trợ đầy đủ.",
+      "context_ids": [
+        "wdr2024:p214:g1:c0",
+        "wdr2024:p52:g0:c0",
+        "wdr2024:p137:g3:c0",
+        "wdr2024:p61:g1:c0",
+        "wdr2024:p139:g2:c0",
+        "wdr2024:p217:g1:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_12",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo dữ liệu trong báo cáo (11 nền kinh tế đang phát triển) và trích dẫn chính xác.",
+      "context_ids": [
+        "wdr2024:p145:g2:c0",
+        "wdr2024:p137:g1:c0",
+        "wdr2024:p145:g1:c0",
+        "wdr2024:p265:g1:c0",
+        "wdr2024:p265:g3:c0",
+        "wdr2024:p31:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_13",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo ngữ cảnh được trích dẫn (Estonia đạt 80% mức thu nhập Tây Âu vào năm 2021).",
+      "context_ids": [
+        "wdr2024:p93:g1:c0",
+        "wdr2024:p94:g0:c0",
+        "wdr2024:p91:g2:c0",
+        "wdr2024:p94:g1:c0",
+        "wdr2024:p257:vision:c1",
+        "wdr2024:p19:g2:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_14",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác và trích dẫn chuẩn xác từ ngữ cảnh (khoảng 88% lượng phát thải toàn cầu).",
+      "context_ids": [
+        "wdr2024:p254:g0:c0",
+        "wdr2024:p271:g0:c0",
+        "wdr2024:p265:g2:c0",
+        "wdr2024:p188:g0:c0",
+        "wdr2024:p268:g3:c0",
+        "wdr2024:p273:g4:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_15",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (80%) và trích dẫn nguồn đầy đủ, hợp lệ.",
+      "context_ids": [
+        "wdr2024:p254:g1:c0",
+        "wdr2024:p177:g0:c0",
+        "wdr2024:p267:vision:c0",
+        "wdr2024:p176:g2:c0",
+        "wdr2024:p171:vision:c0",
+        "wdr2024:p171:vision:c1"
+      ]
+    }
+  ],
+  "model_calls": 27,
+  "model_http_attempts_recorded": 31,
+  "usage": {
+    "prompt_tokens": 45188,
+    "completion_tokens": 1481,
+    "total_tokens": 56003
+  },
+  "usd_cost": null,
+  "cost_limitations": "No verified USD tariff; usage available only for recorded model responses, failures/setup may not supply token usage.",
+  "errors": 8
+}

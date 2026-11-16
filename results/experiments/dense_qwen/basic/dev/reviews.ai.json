@@ -1,0 +1,874 @@
+[
+  {
+    "query_id": "basic_dev_01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original p17 confirms 4% forecast and additional 5%/more than6% decade comparisons.",
+    "source_pages": [
+      17
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8669,
+        "completion_tokens": 281,
+        "total_tokens": 10827
+      },
+      "seconds": 16.905010599992238,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_01",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo báo cáo (4%), trích dẫn đúng ngữ cảnh hỗ trợ.",
+      "source_pages": [
+        17
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      17
+    ]
+  },
+  {
+    "query_id": "basic_dev_02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original p66 confirms108 and equal split in2023 classification; p65 independently supports historical58 countries under1978 definition. Years correctly distinguished.",
+    "source_pages": [
+      65,
+      66
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8669,
+        "completion_tokens": 281,
+        "total_tokens": 10827
+      },
+      "seconds": 16.905010599992238,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_02",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời nêu đúng số lượng 108 quốc gia hiện tại (và bổ sung thông tin 58 quốc gia năm 1978), cả hai trích dẫn đều chính xác và có trong ngữ cảnh.",
+      "source_pages": [
+        65,
+        66
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      36,
+      65,
+      66
+    ]
+  },
+  {
+    "query_id": "basic_dev_03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original64/65/75 support11% median and21% mean. Rendered75 chart inspected:5-25% bin tallest. Answer distinguishes median,mean and frequency; all associated citations supported.",
+    "source_pages": [
+      64,
+      65,
+      75
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7783,
+        "completion_tokens": 310,
+        "total_tokens": 9769
+      },
+      "seconds": 14.783574300003238,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_03",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác, nêu rõ mức khoảng 11% (trung vị) theo GDP bình quân đầu người của Mỹ và bổ sung đầy đủ thông tin liên quan từ các trang được trích dẫn.",
+      "source_pages": [
+        64,
+        65,
+        75
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      36,
+      64,
+      65,
+      75
+    ]
+  },
+  {
+    "query_id": "basic_dev_04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Both original strategy passages support Vietnam2045 high-income target; answer treats it as target not observed attainment.",
+    "source_pages": [
+      34,
+      67
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7783,
+        "completion_tokens": 310,
+        "total_tokens": 9769
+      },
+      "seconds": 14.783574300003238,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_04",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (năm 2045) và các trích dẫn đều khớp đúng với nội dung tài liệu.",
+      "source_pages": [
+        34,
+        67
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      34,
+      67
+    ]
+  },
+  {
+    "query_id": "basic_dev_05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original39 confirms aboutUS$33000 in2023; correct country/year/unit.",
+    "source_pages": [
+      39
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5863,
+        "completion_tokens": 233,
+        "total_tokens": 7149
+      },
+      "seconds": 11.672767999931239,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_05",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác, trích dẫn đúng nguồn hỗ trợ thông tin.",
+      "source_pages": [
+        39
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      39
+    ]
+  },
+  {
+    "query_id": "basic_dev_06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original41 supports15% in2000 to42% in2012. Added25-34-age condition explicitly supported on original95 and its cited chunk.",
+    "source_pages": [
+      41,
+      95
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5863,
+        "completion_tokens": 233,
+        "total_tokens": 7149
+      },
+      "seconds": 11.672767999931239,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_06",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo số liệu trong văn bản và các trích dẫn đều phù hợp.",
+      "source_pages": [
+        41,
+        95
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      41,
+      95
+    ]
+  },
+  {
+    "query_id": "basic_dev_07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original41 confirms Chile first Latin American high-income country in2012.",
+    "source_pages": [
+      41
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6571,
+        "completion_tokens": 227,
+        "total_tokens": 7750
+      },
+      "seconds": 18.7082403000677,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_07",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời chính xác và trích dẫn đầy đủ, đúng ngữ cảnh trang 41.",
+      "source_pages": [
+        41
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      41
+    ]
+  },
+  {
+    "query_id": "basic_dev_08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original41 identifies Norwegian salmon-farming technologies adapted in Chile.",
+    "source_pages": [
+      41
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6571,
+        "completion_tokens": 227,
+        "total_tokens": 7750
+      },
+      "seconds": 18.7082403000677,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_08",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời chính xác và trích dẫn đầy đủ, đúng ngữ cảnh trang 41.",
+      "source_pages": [
+        41
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      41
+    ]
+  },
+  {
+    "query_id": "basic_dev_09",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original45 supports3.5 times for all middle-income countries. Answer explicitly disambiguates population. Caveat read as no separate direct subgroup comparison in cited discussion; global absence of subgroup data is not independently certified.",
+    "source_pages": [
+      45
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8898,
+        "completion_tokens": 293,
+        "total_tokens": 11180
+      },
+      "seconds": 18.161588300019503,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_09",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (3,5 lần), làm rõ ngữ nghĩa câu hỏi và trích dẫn đầy đủ, chính xác từ ngữ cảnh.",
+      "source_pages": [
+        45
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      45
+    ]
+  },
+  {
+    "query_id": "basic_dev_10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original265 explicitly supports2.5 times for all middle-income in2022. Rendered108 Figure3.5a inspected: UMIC9.0/HIC5.1 exajoules/trillionUS$, ratio1.7647. Answer qualifies alternate subgroup reading. Full credit; originalgold unchanged despite question ambiguity.",
+    "source_pages": [
+      45,
+      108,
+      265
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8898,
+        "completion_tokens": 293,
+        "total_tokens": 11180
+      },
+      "seconds": 18.161588300019503,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_10",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (2,5 lần), đồng thời giải thích thêm trường hợp hiểu theo nhóm thu nhập trung bình cao (UMICs) với trích dẫn đầy đủ và chuẩn xác.",
+      "source_pages": [
+        45,
+        108,
+        265
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      45,
+      108,
+      265
+    ]
+  },
+  {
+    "query_id": "basic_dev_11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original52/214 support killing future competing products/technologies. Added rival-worker hiring observation explicitly present on original137. All three citations support respective claims.",
+    "source_pages": [
+      52,
+      137,
+      214
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5693,
+        "completion_tokens": 306,
+        "total_tokens": 7209
+      },
+      "seconds": 21.967963200062513,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_11",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true,
+        true,
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời nêu chính xác mục đích của 'killer acquisitions' là triệt tiêu các sản phẩm và công nghệ cạnh tranh trong tương lai, đồng thời bổ sung thông tin từ trang 137 và trích dẫn đầy đủ, chính xác.",
+      "source_pages": [
+        52,
+        137,
+        214
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      52,
+      137,
+      214
+    ]
+  },
+  {
+    "query_id": "basic_dev_12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original137 supports11 developing economies; correctly scoped survey description, not conflated with other FAT samples.",
+    "source_pages": [
+      137
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5693,
+        "completion_tokens": 306,
+        "total_tokens": 7209
+      },
+      "seconds": 21.967963200062513,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_12",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác với số lượng 11 nền kinh tế đang phát triển và trích dẫn đúng đoạn văn bản trong báo cáo.",
+      "source_pages": [
+        137
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      137
+    ]
+  },
+  {
+    "query_id": "basic_dev_13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original93 is valid alternative to gold91; Estonia80% Western European income by2021 explicit.",
+    "source_pages": [
+      91,
+      93
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6800,
+        "completion_tokens": 249,
+        "total_tokens": 8192
+      },
+      "seconds": 25.577130899997428,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_13",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (80%) và trích dẫn trực tiếp đoạn văn bản hỗ trợ từ trang 93.",
+      "source_pages": [
+        91,
+        93
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      91,
+      93
+    ]
+  },
+  {
+    "query_id": "basic_dev_14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original254 supports more than140 targets covering about88% global emissions, present in cited chunk.",
+    "source_pages": [
+      254
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6800,
+        "completion_tokens": 249,
+        "total_tokens": 8192
+      },
+      "seconds": 25.577130899997428,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_14",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (khoảng 88%) và trích dẫn chuẩn xác ngữ cảnh từ trang 254.",
+      "source_pages": [
+        254
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      254
+    ]
+  },
+  {
+    "query_id": "basic_dev_15",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original Izmir paragraph supports80% exported and primarilyEurope. Both answer claims verified.",
+    "source_pages": [
+      254
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5768,
+        "completion_tokens": 253,
+        "total_tokens": 6804
+      },
+      "seconds": 10.322352300048806,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_15",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (80%) và trích dẫn chuẩn xác đoạn văn bản tại trang 254.",
+      "source_pages": [
+        254
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      254
+    ]
+  },
+  {
+    "query_id": "basic_dev_16",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention with no guessed number. Documentwide2025 hits only107(projected debt)/171(China renewable target), neither Vietnam observedQ4 GDP or forecast. Retrieved long-term targets do not establish absence: contextgrade0.",
+    "source_pages": [],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5768,
+        "completion_tokens": 253,
+        "total_tokens": 6804
+      },
+      "seconds": 10.322352300048806,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_16",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Báo cáo không có số liệu dự báo GDP quý IV/2025 của Việt Nam; câu trả lời đã từ chối chính xác và không suy diễn.",
+      "source_pages": [],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      34,
+      67,
+      107,
+      171
+    ]
+  },
+  {
+    "query_id": "basic_dev_17",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention. Documentwide2026 hits only57(data-center electricity forecast)/107(projected debt), neither Korea annual inflation. Retrieved growth/R&D/charts do not establish absence: contextgrade0.",
+    "source_pages": [],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 3162,
+        "completion_tokens": 141,
+        "total_tokens": 3931
+      },
+      "seconds": 23.606311200070195,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_17",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu hỏi không thể trả lời do báo cáo không có số liệu tỷ lệ lạm phát thực tế cả năm 2026 của Hàn Quốc. Mô hình đã từ chối trả lời một cách chính xác.",
+      "source_pages": [],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_qwen.json",
+    "source_pages_checked": [
+      39,
+      57,
+      107
+    ]
+  }
+]

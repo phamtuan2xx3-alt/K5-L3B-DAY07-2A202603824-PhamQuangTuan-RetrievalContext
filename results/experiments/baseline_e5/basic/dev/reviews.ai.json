@@ -1,0 +1,823 @@
+[
+  {
+    "query_id": "basic_dev_01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original p17 explicitly forecasts 4% in 2020s, 5% in 2010s and more than 6% in 2000s. All answer claims supported by cited context.",
+    "source_pages": [
+      17
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5301,
+        "completion_tokens": 244,
+        "total_tokens": 7141
+      },
+      "seconds": 17.680043699918315,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_01",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác và trích dẫn đúng vị trí nguồn tại trang 17.",
+      "source_pages": [
+        17
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      17
+    ]
+  },
+  {
+    "query_id": "basic_dev_02",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "False abstention: original p36 states 108 countries. Context has classification discussion and front matter, but no count. Failure is retrieval/context omission, not absence in document.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5301,
+        "completion_tokens": 244,
+        "total_tokens": 7141
+      },
+      "seconds": 17.680043699918315,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_02",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "citation_support": [],
+      "abstention_correct": false,
+      "pass": false,
+      "reason": "Câu hỏi có trong tài liệu gốc (108 quốc gia ở trang 36) nhưng ngữ cảnh cung cấp thiếu trang 36 dẫn đến việc từ chối trả lời.",
+      "source_pages": [
+        36
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      36
+    ]
+  },
+  {
+    "query_id": "basic_dev_03",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [
+      true,
+      true,
+      false
+    ],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Answer substitutes frequency interval below 25% and a literature definition 8-36% for requested typical 11% plateau. P75 native paragraph itself also gives median slowdown at 11%, but cited p75:g0 lacks that paragraph. First two cited contextual claims are supported; claimed long-run 10% is not established by cited p35:g1 numeric axes. P34 would be a clearer source for below one-tenth.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6253,
+        "completion_tokens": 330,
+        "total_tokens": 9321
+      },
+      "seconds": 42.72797919996083,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_03",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "citation_support": [
+        true,
+        true,
+        false
+      ],
+      "abstention_correct": false,
+      "pass": false,
+      "reason": "Ngữ cảnh được cung cấp thiếu trang 36 chứa thông tin chính xác (khoảng 11% GDP bình quân đầu người của Mỹ theo báo cáo: 'typically at about 11 percent of US GDP per capita'). Do đó câu trả lời đưa ra các con số khác không đúng với nội dung được hỏi, và trích dẫn p35 không chứa thông tin mức 10%.",
+      "source_pages": [
+        36
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      36,
+      74,
+      75,
+      35
+    ]
+  },
+  {
+    "query_id": "basic_dev_04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Both cited chunks and original p34/p67 explicitly connect Vietnam strategy 2021-2030 with high-income target 2045.",
+    "source_pages": [
+      34,
+      67
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6253,
+        "completion_tokens": 330,
+        "total_tokens": 9321
+      },
+      "seconds": 42.72797919996083,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_04",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (năm 2045 theo Chiến lược phát triển kinh tế - xã hội 2021–2030), các trích dẫn đều chính xác và hỗ trợ đầy đủ.",
+      "source_pages": [
+        34,
+        67
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      34,
+      67
+    ]
+  },
+  {
+    "query_id": "basic_dev_05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original p39 and actual cited chunk state about US$33,000 in 2023; date, country and unit match.",
+    "source_pages": [
+      39
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4393,
+        "completion_tokens": 252,
+        "total_tokens": 5320
+      },
+      "seconds": 11.173932300065644,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_05",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác, đầy đủ con số và đơn vị, trích dẫn chuẩn xác theo ngữ cảnh.",
+      "source_pages": [
+        39
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      39
+    ]
+  },
+  {
+    "query_id": "basic_dev_06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original p41 and cited context state tertiary education rates 15% in 2000 and 42% in 2012.",
+    "source_pages": [
+      41
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4393,
+        "completion_tokens": 252,
+        "total_tokens": 5320
+      },
+      "seconds": 11.173932300065644,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_06",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo dữ liệu trong báo cáo, trích dẫn đầy đủ và đúng vị trí.",
+      "source_pages": [
+        41
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      41
+    ]
+  },
+  {
+    "query_id": "basic_dev_07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original p41 and cited Chile paragraph state first Latin American country to reach high-income status in 2012.",
+    "source_pages": [
+      41
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4362,
+        "completion_tokens": 260,
+        "total_tokens": 5402
+      },
+      "seconds": 30.570375700015575,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_07",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo tài liệu (năm 2012) và trích dẫn chuẩn xác đoạn văn bản hỗ trợ.",
+      "source_pages": [
+        41
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      41
+    ]
+  },
+  {
+    "query_id": "basic_dev_08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original p41 explicitly says adaptation of Norwegian salmon farming technologies to local conditions. Norway answer supported.",
+    "source_pages": [
+      41
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4362,
+        "completion_tokens": 260,
+        "total_tokens": 5402
+      },
+      "seconds": 30.570375700015575,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_08",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (Na Uy/Norwegian) và trích dẫn đúng đoạn văn bản chứa thông tin.",
+      "source_pages": [
+        41
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      41
+    ]
+  },
+  {
+    "query_id": "basic_dev_09",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "False abstention: p45 explicitly states middle-income GHG/GDP intensity 3.5 times high-income. Retrieved p265 supports a different 2.5-times ENERGY statistic, which the answer mentions without citation. It does not answer GHG intensity. Missing p45 is material.",
+    "source_pages": [
+      45
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6337,
+        "completion_tokens": 319,
+        "total_tokens": 9862
+      },
+      "seconds": 28.145045700017363,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_09",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "citation_support": [],
+      "abstention_correct": false,
+      "pass": false,
+      "reason": "Câu hỏi hoàn toàn có thể trả lời được từ tài liệu gốc (trang 45 nêu rõ cường độ phát thải GHG trên GDP của nhóm thu nhập trung bình cao gấp 3,5 lần nhóm thu nhập cao). Tuy nhiên ngữ cảnh cung cấp thiếu trang 45 và câu trả lời đã từ chối trả lời.",
+      "source_pages": [
+        45
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      45
+    ]
+  },
+  {
+    "query_id": "basic_dev_10",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "AI grade 0/context 0 is too absolute: p107 genuinely says energy intensity about double, and p108 Figure3.5 native labels give UMIC9.0/HIC5.1, supporting 1.76 for that subgroup. Answer distinguishes these populations and has supported citations. However it misses intended p45 2.5-times statistic. Question has no date/section and Vietnamese wording can be read as upper-middle-income; report has alternate quantitative statements. Recommend partial credit and explicit ambiguity review, not a fabricated unsupported-answer error.",
+    "source_pages": [
+      45
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6337,
+        "completion_tokens": 319,
+        "total_tokens": 9862
+      },
+      "seconds": 28.145045700017363,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_10",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "citation_support": [
+        true,
+        true
+      ],
+      "abstention_correct": false,
+      "pass": false,
+      "reason": "Đáp án chuẩn là 2,5 lần (trang 45). Ngữ cảnh cung cấp thiếu trang 45, dẫn đến câu trả lời đưa ra số liệu khoảng 2 lần hoặc 1,76 lần, không đúng với số liệu chuẩn của báo cáo.",
+      "source_pages": [
+        45
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      45,
+      47,
+      107,
+      108
+    ]
+  },
+  {
+    "query_id": "basic_dev_11",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "False abstention: p52 defines killer acquisitions as buying innovative firms to kill future competing products and technologies. Context retrieves bibliography p139 and headings/footers instead; statement about only bibliography is valid for retrieved excerpts but not whole report.",
+    "source_pages": [
+      52
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 3851,
+        "completion_tokens": 290,
+        "total_tokens": 5074
+      },
+      "seconds": 11.331475600018166,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_11",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "citation_support": [],
+      "abstention_correct": false,
+      "pass": false,
+      "reason": "Câu hỏi có thể trả lời được dựa trên tài liệu gốc (trang 52 nêu rõ nhằm triệt tiêu sản phẩm và công nghệ cạnh tranh trong tương lai), nhưng mô hình từ chối trả lời do thiếu ngữ cảnh được cung cấp.",
+      "source_pages": [
+        52
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      52
+    ]
+  },
+  {
+    "query_id": "basic_dev_12",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "False abstention: original p137 says FAT covers 11 developing economies. Retrieved p145 describes 300 technologies/50 functions without country count. Correct related survey hit is insufficient evidence for requested quantity.",
+    "source_pages": [
+      137
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 3851,
+        "completion_tokens": 290,
+        "total_tokens": 5074
+      },
+      "seconds": 11.331475600018166,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_12",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "citation_support": [],
+      "abstention_correct": false,
+      "pass": false,
+      "reason": "Câu hỏi có thể trả lời được dựa trên tài liệu gốc (trang 137 nêu rõ khảo sát FAT thu thập thông tin tại 11 nền kinh tế đang phát triển), nhưng mô hình từ chối trả lời do ngữ cảnh truy xuất bị thiếu.",
+      "source_pages": [
+        137
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      137
+    ]
+  },
+  {
+    "query_id": "basic_dev_13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Cited p93 is a legitimate alternative to gold p91: original says Estonia reached80% of Western European income by2021. Full country/year/comparator supported.",
+    "source_pages": [
+      91,
+      93
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4024,
+        "completion_tokens": 256,
+        "total_tokens": 6137
+      },
+      "seconds": 16.737678200006485,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_13",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời chính xác (80%) và trích dẫn được đoạn ngữ cảnh hỗ trợ đầy đủ thông tin.",
+      "source_pages": [
+        91,
+        93
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      91,
+      93
+    ]
+  },
+  {
+    "query_id": "basic_dev_14",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "False abstention: original p254 says more than140 countries targets cover about88% global emissions. Actual final context is footer/continued-figure fragments on46,144,169,230,239, so content retrieval fails completely.",
+    "source_pages": [
+      254
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4024,
+        "completion_tokens": 256,
+        "total_tokens": 6137
+      },
+      "seconds": 16.737678200006485,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_14",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "citation_support": [],
+      "abstention_correct": false,
+      "pass": false,
+      "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 254: khoảng 88%), nhưng ngữ cảnh cung cấp thiếu thông tin và mô hình đã từ chối trả lời.",
+      "source_pages": [
+        254
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      254
+    ]
+  },
+  {
+    "query_id": "basic_dev_15",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original p254 and cited Izmir paragraph support both80% exported and primarily Europe. Extra geographic claims in answer also supported.",
+    "source_pages": [
+      254
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 3865,
+        "completion_tokens": 247,
+        "total_tokens": 5395
+      },
+      "seconds": 16.638136800029315,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_15",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo tài liệu (80%), trích dẫn đầy đủ và chuẩn xác trang 254.",
+      "source_pages": [
+        254
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      254
+    ]
+  },
+  {
+    "query_id": "basic_dev_16",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct clean abstention without speculative GDP number. Documentwide year scan finds2025 only on107(projected debt) and171(China renewable target); neither gives observed Vietnam Q4 GDP. Context plans7% growth are not quarterly actuals.",
+    "source_pages": [],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 3865,
+        "completion_tokens": 247,
+        "total_tokens": 5395
+      },
+      "seconds": 16.638136800029315,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_16",
+      "answer_grade": 2,
+      "context_grade": 0,
+      "citation_support": [],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu hỏi không có thông tin trong tài liệu; mô hình đã từ chối trả lời chính xác, rõ ràng và không suy đoán.",
+      "source_pages": [],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      107,
+      171,
+      34,
+      67
+    ]
+  },
+  {
+    "query_id": "basic_dev_17",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct clean abstention without speculative inflation number. Documentwide2026 hits only57(global data-center electricity forecast) and107(projected debt), not Korea inflation. AI context_grade2 is unsupported: retrieved references/chart/footers do not establish absence; set0. Absence established by separate whole-document audit.",
+    "source_pages": [],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 1745,
+        "completion_tokens": 109,
+        "total_tokens": 2428
+      },
+      "seconds": 8.537726500071585,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_dev_17",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu hỏi không có dữ liệu trong báo cáo (không có số liệu lạm phát năm 2026 của Hàn Quốc). Hệ thống đã từ chối trả lời chính xác và không suy diễn.",
+      "source_pages": [],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_baseline.json",
+    "source_pages_checked": [
+      57,
+      107
+    ]
+  }
+]

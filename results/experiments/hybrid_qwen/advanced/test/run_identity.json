@@ -1,0 +1,18 @@
+{
+  "config": {
+    "id": "hybrid_qwen",
+    "method": "hybrid_qwen",
+    "top_k": 8,
+    "context_budget": 16000,
+    "max_rounds": 3,
+    "page_expansion": true,
+    "model": "gemini-3.8-flash-high",
+    "hypothesis": "RRF plus page expansion preserves table labels, chart conditions and adjacent evidence."
+  },
+  "cases_sha256": "6a4ac2b7b5f7806dd8a8e1b59de84eacd1bde280f5628a05b0e193b99e9c851b",
+  "index_manifest_sha256": "03f73b1bc1a3d7b288ac621bf04f86337c58a74ac556522b32b5248059678869",
+  "implementation_sha256": {
+    "src/agent.py": "677ab39d8a55a20c7e59f19b87c60c3f989d00471e2caa84a35ae68f4d96126d",
+    "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+  }
+}

@@ -1,0 +1,2076 @@
+[
+  {
+    "id": "wdr2024:p35:region0",
+    "page": 35,
+    "label": "Figure O.1",
+    "caption": "Figure O.1 Income per capita of middle-income countries relative to that of the United States has been stagnant for decades",
+    "bbox": [
+      62.5,
+      359.94,
+      541.0,
+      696.03
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.1 Income per capita of middle-income countries relative to that of the United States has been stagnant for decades 60 (%) 55 Korea, Rep. 50 45capita 40 per 35 30 PolandGNI 25 US 20 of Chile 15 10Share 5 0 197019721974197619781980198219841986198819901992199419961998200020022004200620082010201220142016201820202022 Middle-income countries Middle-income countries, excluding China Source: WDR 2024 team using data from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712. Note: The plotted lines indicate the trend of average income per capita in middle-income countries and in middle-income countries, excluding China, relative to income per capita of the United States (considered the economic frontier country). Country definitions are based on the first World Development Report (World Bank 1978), in which low-income countries have gross national income (GNI) per capita of US$250 or less; middle-income countries have GNI per capita of more than US$250; and industrialized (high-income) countries consist of member countries of the Organisation for Economic Co-operation and Development, except for Greece, Portugal, Spain, and Türkiye, which are classified as middle-income countries.",
+    "crop": "data/crops/p035-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p36:region0",
+    "page": 36,
+    "label": "Table O.1",
+    "caption": "Table O.1 World Bank country classifications and selected global indicators, 2022",
+    "bbox": [
+      62.75,
+      482.85,
+      541.0,
+      703.67
+    ],
+    "kind": "table",
+    "native_text": "Table O.1 World Bank country classifications and selected global indicators, 2022 SHARE OF SHARE OF SHARE OF PEOPLE IN SHARE OF GLOBAL INCOME GLOBAL GLOBAL EXTREME POVERTY CARBON DIOXIDE (CO2) CLASSIFICATION POPULATION (%) GDP (%) GLOBALLY (%) EMISSIONS (%) Low-income 8.9 0.6 36.5 0.5 Lower-middle-income 40.3 8.3 55.4 15.7 Upper-middle-income 35.1 30.3 7.1 48.6 High-income 15.7 60.8 1.0 35.2 Sources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.",
+    "crop": "data/crops/p036-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p37:region0",
+    "page": 37,
+    "label": "Figure O.2",
+    "caption": "Figure O.2 If capital accumulation were enough, work in middle-income countries would be nearly three-quarters as rewarding as in the United States, not just one-fifth",
+    "bbox": [
+      62.4,
+      85.41,
+      298.0,
+      470.9
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.2 If capital accumulation were w enough, work in middle-income countries i would be nearly three-quarters as rewarding m as in the United States, not just one-fifth i a 80 a 71 70 60 50 I 40Percent 30 p 21 20 T m 10 t 0 c Middle-income countries ( GDP per worker relative to US GDP per worker o Physical capital and human capital relative I to that in the United States i ( Source: WDR 2024 team using data from PWT (Penn World Table) (database version 10.1), Groningen Growth and o Development Centre, Faculty of Economics and Business, t University of Groningen, Groningen, the Netherlands, i https://www.rug.nl/ggdc/productivity/pwt/. c Note: The bars show the simple average for middle-income countries in 2019. The data are calculated using the d methodology outlined in Jones (2016). Following Jones a (2016), the figure is based on Hicks-neutral and a constant i labor share of two-thirds. GDP = gross domestic product.",
+    "crop": "data/crops/p037-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p38:region0",
+    "page": 38,
+    "label": "Figure O.3",
+    "caption": "Figure O.3 Economies become more sophisticated as they transition from middle-income to high-income status",
+    "bbox": [
+      62.88,
+      85.41,
+      541.0,
+      540.93
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.3 Economies become more sophisticated as they transition from middle-income to high-income status 1.00 JPN HUN KOR DEU AUT 0.50 POL ITA FRA FIN BEL HKGIndex ESP EST CYP PRT LVA ISR 0 LTU GRCComplexity −0.50Economic −1.00 0 5,000 10,000 15,000 20,000 25,000 30,000 35,000 40,000 45,000 50,000 55,000 60,000 GDP per capita (PWT chained PPP 2017 US$) Diversified economies Concentrated economies Nonparametric trend Source: Bahar, Bustos, and Yıldırım (2024) using PWT (Penn World Table) (database version 10.1), Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https:// www.rug.nl/ggdc/productivity/pwt/. Note: The figure plots for each economy that transitioned from GDP per capita of less than US$13,000 to more than US$31,000 (50th and 75th percentile, respectively, in 2019) the relationship between GDP per capita and sophistication of its exports. Sophistication is measured as the weighted average of the Economic Complexity Index. The figure shows the sample of economies that diversified (orange solid line)—that is, an economy’s final trend is more diversified than its starting point—and those whose production became more concentrated (dark blue dashed line). For country abbreviations, see International Organization for Standardization (ISO), https://www.iso.org/obp/ui/#search. GDP = gross domestic product; PPP = purchasing power parity.",
+    "crop": "data/crops/p038-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p39:region0",
+    "page": 39,
+    "label": "Table O.2",
+    "caption": "Table O.2 To achieve high-income status, countries will need to recalibrate their mix of ­investment, infusion, and innovation",
+    "bbox": [
+      62.75,
+      85.41,
+      541.0,
+      288.57
+    ],
+    "kind": "table",
+    "native_text": "Table O.2 To achieve high-income status, countries will need to recalibrate their mix of ­investment, infusion, and innovation INCOME CLASSIFICATION INVESTMENT INFUSION INNOVATION Low-income Higher priority Lower priority Lower priority Lower-middle-income Higher priority Higher priority Lower priority Upper-middle-income Higher priority Higher priority Higher priority Source: WDR 2024 team. Note: The orange dials indicate a strategy that is a priority for that particular income group. The blue dials indicate a strategy that is less of a priority for that particular income group until the priority strategy is successfully achieved.",
+    "crop": "data/crops/p039-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p39:region1",
+    "page": 39,
+    "label": "Figure O.4",
+    "caption": "Figure O.4 Middle-income countries must engineer two successive transitions to move to high-income status",
+    "bbox": [
+      62.5,
+      315.23,
+      541.0,
+      596.0
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.4 Middle-income countries must engineer two successive transitions to move to high-income status 1i 2i 3i Investment Investment + Infusion Investment + Infusion + Innovation Capital Productivitycontributiongrowth Relativeto Proximity to the frontier Source: WDR 2024 team. Note: The curves illustrate the relative contributions of capital and productivity to economic growth (y-axis), according to countries’ proximity to the frontier (represented by the leading economies). Countries farther out on the x-axis are closer to the frontier.",
+    "crop": "data/crops/p039-region1.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p40:region0",
+    "page": 40,
+    "label": "Figure O.5",
+    "caption": "Figure O.5 In the Republic of Korea, Poland, and Chile, the rapid growth from middle- to high-income status has been interspersed with economic crises",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      393.18
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.5 In the Republic of Korea, Poland, and Chile, the rapid growth from middle- to high-income status has been interspersed with economic crises 35,000 Korea, Rep. 30,000US$) 2015 25,000 20,000 Poland(constant 15,000 HIC threshold capita 10,000 Chile per UMIC threshold GNI 5,000 LMIC threshold 0 19601962196419661968197019721974197619781980198219841986198819901992199419961998200020022004200620082010201220142016201820202022 Source: WDR 2024 team using WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https:// datacatalog.worldbank.org/search/dataset/0037712. Note: GNI = gross national income; HIC = high-income country; LMIC = lower-middle-income country; UMIC = upper-middle- income country.",
+    "crop": "data/crops/p040-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p41:region0",
+    "page": 41,
+    "label": "Figure O.6",
+    "caption": "Figure O.6 From infusion to innovation in the Republic of Korea",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      140.79
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.6 From infusion to innovation in the Rep a. An agreement between companies to collaborate on technology",
+    "crop": "data/crops/p041-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p41:region1",
+    "page": 41,
+    "label": "Figure A.1",
+    "caption": "Figure A.1: Example of Adoption Contract",
+    "bbox": [
+      118.36,
+      143.79,
+      298.0,
+      388.07
+    ],
+    "kind": "visual",
+    "native_text": "FigureFigure A.1:A.1: ExampleExample ofof AdoptionAdoption ContractContract CALCAL COLLABORATIONCOLLABORATION AGREEMENTAGREEMENT BYBY ANDAND BETWEENBETWEEN PONPON ELECTROICELECTROIC CO.,CO., LTD.LTD. (%) ANDAND NGNG ELECTRONELECTRON DEVICESDEVICES CO.,CO., LTD.LTD. rate upplyupply ofof writtenwritten TechnicalTechnical InformationInformation Subsidy termterm ofof thisthis AgreementAgreement NECNEC willwill uponupon reasoablereasoable nishnish SEDSED withwith oneone transparenttransparent copycopy ofof eacheach pecificationpecification andand otherother technicaltechnical documentdocument asas wellwell mss andandrelatedrolntoddocumentationdocumentationwithinwithinthethescopescope nn SectionSection 11 (d)(d) hereof.hereof. TheThe time,time, mannermanner andand lsls ofof furnishingfurnishing suchsuch writtenwritten NECNEC TechnicalTechnical nn shallshall bebe separatelyseparately determineddetermined byby thethe partiesparties alal consultation.consultation. el a: National Archives of Korea, https://www.archiv shows the adoption subsidy rate alongside the inn orporate tax rate. For example, a 30 percent subs 30 percent of their expenditures on adoption fees o",
+    "crop": "data/crops/p041-region1.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p41:region2",
+    "page": 41,
+    "label": "Figure A.1",
+    "caption": "Figure A.1: Example of Adoption Contract",
+    "bbox": [
+      118.36,
+      143.79,
+      298.0,
+      388.07
+    ],
+    "kind": "visual",
+    "native_text": "FigureFigure A.1:A.1: ExampleExample ofof AdoptionAdoption ContractContract CALCAL COLLABORATIONCOLLABORATION AGREEMENTAGREEMENT BYBY ANDAND BETWEENBETWEEN PONPON ELECTROICELECTROIC CO.,CO., LTD.LTD. (%) ANDAND NGNG ELECTRONELECTRON DEVICESDEVICES CO.,CO., LTD.LTD. rate upplyupply ofof writtenwritten TechnicalTechnical InformationInformation Subsidy termterm ofof thisthis AgreementAgreement NECNEC willwill uponupon reasoablereasoable nishnish SEDSED withwith oneone transparenttransparent copycopy ofof eacheach pecificationpecification andand otherother technicaltechnical documentdocument asas wellwell mss andandrelatedrolntoddocumentationdocumentationwithinwithinthethescopescope nn SectionSection 11 (d)(d) hereof.hereof. TheThe time,time, mannermanner andand lsls ofof furnishingfurnishing suchsuch writtenwritten NECNEC TechnicalTechnical nn shallshall bebe separatelyseparately determineddetermined byby thethe partiesparties alal consultation.consultation. el a: National Archives of Korea, https://www.archiv shows the adoption subsidy rate alongside the inn orporate tax rate. For example, a 30 percent subs 30 percent of their expenditures on adoption fees o",
+    "crop": "data/crops/p041-region2.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p43:region0",
+    "page": 43,
+    "label": "Figure O.7",
+    "caption": "Figure O.7 Over the last four decades, as the Republic of Korea’s labor productivity relative to that of the United States continued to climb, Brazil’s peaked—and then sagged",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      384.68
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.7 Over the last four decades, as the Republic of Korea’s labor productivity relative to that of the United States continued to climb, Brazil’s peaked—and then sagged 70 %) Korea, Rep. 60person worker, 50per US a 40(GDP to 30 relative Brazil 20 productivity 10Labor employed 0 198019821984198619881990199219941996199820002002200420062008201020122014201620182020 Source: WDR 2024 team using data from PWT (Penn World Table) (database version 10.1), Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc​ /productivity/pwt/. Note: GDP = gross domestic product.",
+    "crop": "data/crops/p043-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p44:region0",
+    "page": 44,
+    "label": "Figure O.8",
+    "caption": "Figure O.8 Three views of creative destruction",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      320.16
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.8 Three views of creative destruction a. Energy b. Talent (Schumpeter) (Aghion and Howitt) FRONTIER FRONTIER TECHNOLOGY TECHNOLOGY Entrant Incumbents Entrant Incu Economic progress Economic progress Schumpeter’s view: incumbents Aghion and Howitt’s view can collude create value and displace Source: WDR 2024 team based on Schumpeter (1942); Aghion an",
+    "crop": "data/crops/p044-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p46:region0",
+    "page": 46,
+    "label": "Figure O.9",
+    "caption": "Figure O.9 Creation is a weak force in middle-income countries, where it is characterized by a rampant misallocation of resources",
+    "bbox": [
+      62.5,
+      422.41,
+      541.0,
+      728.0
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.9 Creation is a weak force in middle-income countries, where it is characterized by a rampant misallocation of resources a. In middle-income countries, economic growth is more carbon-intensive than in high-income countries, and middle-income countries lag in energy efficiency and adoption of low-carbon technologies 3.5 times higher 3.5 3.0 2.5 times 2.5 higherfrontier the 2.0 to 1.5 HIC = 1 1.0 40% lower 42% lowerProximity 53% lower 0.5 0 GHG emissions Energy intensity Solar electricity Wind electricity Electric vehicle intensity (as share of GDP) generation (as share generation (as share deployment (as share of GDP) of total electricity of total electricity (per million population) generation) generation) (Figure continues next page) 14 | WORLD DEVELOPMENT REPORT 2024",
+    "crop": "data/crops/p046-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p47:region0",
+    "page": 47,
+    "label": "Figure O.9",
+    "caption": "Figure O.9 Creation is a weak force in middle-income countries, where it is characterized by a rampant misallocation of resources (continued)",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      526.87
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.9 Creation is a weak force in middle-income countries, where it is characterized by a rampant misallocation of resources (continued) b. Intergenerational mobility matters more for skill c. “Flat and stay” versus “up or out”: Efficient development in middle-income countries than in firms do not expand, and inefficient firms do low-income countries not exit the market in India, Mexico, and Peru 8 HICs age 7 of 6UMICs relative 5 years 4 <5LMICs 3 2 firms Employment LICs to 1 0 −0.2 0 0.2 0.4 0.6 <5 10−14 20−24 30−34 ≥40 Regression coefficient of skilled workers’ Age of firms (years) intergenerational mobility India Mexico Peru United States Sources: Panel a: Chepeliev and Corong 2022; Energy Institute 2023; Statistics Data (portal), International Renewable Energy Agency, Abu Dhabi, United Arab Emirates, https://www.irena.org/Data; WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712. Panel b: WDR 2024 team estimates based on GDIM (Global Database on Intergenerational Mobility) (dashboard), Data Catalog, World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0050771/global-database-on-intergenerational​ -mobility. Panel c: India, Mexico, and the United States: Hsieh and Klenow 2014; Peru: World Bank 2015. Note: Panel a displays for middle-income countries compared with an index of 1, representing the high-income country (HIC) frontier, the greenhouse gas (GHG) emissions intensity of the gross domestic product (GDP), the energy intensity of GDP, the share of solar and wind energy in total electricity generation, as well as the battery electric vehicles per million population. Panel b plots regression coefficients of intergenerational mobility (which is equal to 1 minus the intergenerational relative mobility) for different country groups at the 95 percent confidence interval. The dependent variable in the regression is the share of skilled workers (“Legislators, sr. officials, managers”; “Professionals”; “Technicians and associate professionals”). The regression controls for the log of GDP per capita when the 1980s birth cohort was growing up. Intergenerational mobility estimates are for educational mobility of the 1980s cohort from the World Bank’s GDIM. HICs = high-income countries; LICs = low-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle-income countries. Panel c illustrates the average employment across a cohort of firms of different ages in the cross-section of firms. The number of employees serves as a proxy for firm size. The y-axis axis reports the average employment of each cohort relative to the average employment across firms under five years of age.",
+    "crop": "data/crops/p047-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p49:region0",
+    "page": 49,
+    "label": "Figure O.10",
+    "caption": "Figure O.10 Middle-income countries have to strike a balance among creation, preservation, and destruction",
+    "bbox": [
+      62.5,
+      445.91,
+      541.0,
+      703.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.10 Middle-income countries have to strike a balance among creation, preservation, and destruction Creation Creation Preservation Destruction Preservation Destruction Source: WDR 2024 team.",
+    "crop": "data/crops/p049-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p53:region0",
+    "page": 53,
+    "label": "Figure O.11",
+    "caption": "Figure O.11 In emerging market and developing economies, few companies are funded by venture capital or private equity",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      482.17
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.11 In emerging market and developing economies, few companies are funded by venture capital or private equity 100 35 90 30 80by by 25 persons 70 personsfunded funded 60 million 20 million 1 50 1 per percompanies 15 companies 40 of of capital equity 30 10Number Number 20 private ventural 5 10 0 0 20,000 40,000 60,000 80,000 100,000 120,000 GDP per capita (US$), 2020 High-income economies funded by venture capital EMDEs funded by venture capital High-income economies funded by private equity EMDEs funded by private equity Source: Didier and Chelva 2023. Note: The figure displays the number of companies funded by venture capital (left axis) and private equity (right axis) from deals concluded 2018–19. Economies are classified according to the World Bank’s income classification as of June 2020 (Serajuddin and Hamadeh 2020). EMDEs = emerging market and developing economies; GDP = gross domestic product.",
+    "crop": "data/crops/p053-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p55:region0",
+    "page": 55,
+    "label": "Figure O.12",
+    "caption": "Figure O.12 Countries with large, successful diasporas have the highest potential for knowledge transfers",
+    "bbox": [
+      63.25,
+      277.41,
+      541.0,
+      683.17
+    ],
+    "kind": "visual",
+    "native_text": "Figure O.12 Countries with large, successful diasporas have the highest potential for knowledge transfers (%) 70 LSO ZMB NZL AUS SUR ZAF 60 ZWE ISR FRA MWI KEN PNG SGP BHS ESP BEL MYS VUT MLT CAN TZA ISL USA SWE UGA SLE LBN LUX MUS DEU NLD IND BRN FIN NAM SLB JAM occupations 50 CYP GRC LBR VNM IRL BEN DNK SWZ CHE ITA BWA BHR AUT GBR KHM KWT NGA MDG TTO IRN QAT CHN GUY CMR ARE MOZ TGO JPN GHA CRI PAN FJI ARG NOR BLZ VCT TJK SYR BFA VEN TUN DZA BRB LAO PRT TUR NER RWA HTI ETH MMR DJI PHL CPV LKA LBY COG HRV CIV CAF CHL URY WSM“good” BRA TCD BLR 40 MAR LCA BIH IDN MKD MDV GAB SEN COL JOR EGY SVK SVN BDI HUNin CZE PAK NPL MRT ERI CUB AGO NIC RUS UZB GMB BGR OMN POL DOM SDN PER YEM SLV ARM UKR THA KGZ ROM MEX AFG GTM AZE SAU ECU ALB 30 SOM MLI BGD PRY FSM TKM COD PSE HND BOL COM IRQ GIN EST TON LVA MDA GNBmigrants KAZ GNQ GEO STP LTU 20 TMP MNGskilled 10 BTN highly of 0 Share 5 Number of migrants to Western Europe10 and North America (log scale) 15 Low-income Middle-income High-income China and India Source: WDR 2024 team. Note: Data on migration flows by skill and current occupation are from OECD DIOC 2010–11, which covers migration flows from 200 origins to 34 OECD (Organisation for Economic Co-operation and Development) country destinations. Each scatter point represents an origin (or birth) country. For each birth country, the x-axis shows the number of migrants over 15 years of age who had completed tertiary education and were living in destination countries in Western Europe or North America (AUT, BEL, FRA, DEU, NLD, CHE, USA, GBR, IRL, CAN, ESP, ITA, DNK, NOR, SWE; in logs), and the y-axis the share of these tertiary- educated migrants working as managers, professionals, or technicians (“good” occupations) in the destination country. For country abbreviations, see International Organization for Standardization (ISO), https://www.iso.org/obp/ui/#search.",
+    "crop": "data/crops/p055-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p58:region0",
+    "page": 58,
+    "label": "Figure O.13",
+    "caption": "Figure O.13 In low- and middle-income countries, the cost of capital for renewables is high",
+    "bbox": [
+      278.0,
+      85.41,
+      507.57,
+      378.9
+    ],
+    "kind": "visual",
+    "native_text": "t Figure O.13 In low- and middle-income , countries, the cost of capital for renewables l is high d 9 , 8 l 7 (%)y 6 5y capital 4 - of 3 : Cost s 2 g 1 y 0 g en Low-income High-income l Lower-middle-incomeUpper-middle-incomeg g Source: IRENA 2023. s Note: Data are for 2021 and 2022.",
+    "crop": "data/crops/p058-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p59:region0",
+    "page": 59,
+    "label": "Table O.3",
+    "caption": "Table O.3 The 3i strategy: What countries should do at different stages of development",
+    "bbox": [
+      62.25,
+      321.49,
+      541.0,
+      703.67
+    ],
+    "kind": "table",
+    "native_text": "Table O.3 The 3i strategy: What countries should do at different stages of development UPPER-MIDDLE-INCOME LOW-INCOME COUNTRIES COUNTRIES LOWER-MIDDLE-INCOME COUNTRIES 3i: Investment + Infusion + 1i: Investment 2i: Investment + Infusion Innovation Enterprise • Improve the • Discipline market leaders through integration into • Deepen capital markets investment climate globally contestable markets. and expand equity to increase • Diffuse global technologies with fluid factor and financing. domestic and product markets. • Strengthen antitrust foreign investment. • Reward value-adding firms to stimulate business regulation and dynamism. competition agencies. • Protect intellectual property rights. Talent • Invest in human • Discipline elites by providing equal opportunities • Strengthen industry- capital by for women, minorities, and disadvantaged groups. academia links broadening • Improve allocation of talent to task. domestically. foundational skills • Develop links among local and globally leading • Expand programs to and improving universities. connect with diaspora in learning outcomes. advanced economies. • Allow emigration of educated workers whose skills are not valued in domestic markets. • Enhance economic and political freedoms. Energy • Increase investment • Discipline SOEs by hardening budget constraints. • Lower the cost of capital in expanding access • Use international coalitions to encourage for low-carbon energy by and grid networks. advanced economies to ease protection of reducing risks involving • Reform regulatory domestic incumbents. technology, markets, and frameworks to • Aid adoption of energy-efficient practices. policy. attract private • Increase multilateral • Enhance economic efficiency by reflecting investment and finance for very environmental costs in energy prices. ensure fair long-term investments. competition. Source: WDR 2024 team. Note: SOEs = state-owned enterprises.",
+    "crop": "data/crops/p059-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p63:region0",
+    "page": 63,
+    "label": "Table P1.1",
+    "caption": "Table P1.1 World Bank country classifications and selected global indicators, 2022",
+    "bbox": [
+      62.45,
+      482.33,
+      541.0,
+      703.67
+    ],
+    "kind": "table",
+    "native_text": "Table P1.1 World Bank country classifications and selected global indicators, 2022 SHARE OF PEOPLE IN SHARE OF GLOBAL INCOME SHARE OF GLOBAL SHARE OF EXTREME POVERTY CARBON DIOXIDE CLASSIFICATION POPULATION (%) GLOBAL GDP (%) GLOBALLY (%) (CO2) EMISSIONS (%) Low-income 8.9 0.6 36.5 0.5 Lower-middle-income 40.3 8.3 55.4 15.7 Upper-middle-income 35.1 30.3 7.1 48.6 High-income 15.7 60.8 1.0 35.2 Sources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.",
+    "crop": "data/crops/p063-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p67:region0",
+    "page": 67,
+    "label": "Figure 1.1",
+    "caption": "Figure 1.1 A handful of economies have transitioned from middle-income to high-income status over the last three decades",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      566.88
+    ],
+    "kind": "visual",
+    "native_text": "Figure 1.1 A handful of economies have transitioned from middle-income to high-income status over the last three decades Lower- Low- middle- Upper-middle- income income income High-income 45,000 MAC 40,000 KOR 35,000 MLT 2022 30,000 SVN BHR CZE SAU EST PRI PRT(US$), 25,000 LTU High-income SVK LVA KNA OMN GRC 20,000 HRVcapita HUN BRB POL URY ATG GUYper PAN TTO SYC ROM CHL 15,000 GNI 13,845 10,000 Upper-middle-income 5,000 4,465 1,135 Lower-middle-income 0 6101,000 2,0002,4653,000 4,000 5,000 6,000 7,0007,6208,000 9,000 10,000 GNI per capita (US$), 1990 Source: WDR 2024 team using WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https:// datacatalog.worldbank.org/search/dataset/0037712. Note: Each scatter point indicates an economy’s 1990 and 2022 gross national income (GNI) per capita in current US dollar terms (using the World Bank Atlas method). The blue vertical lines show thresholds to transition to lower-middle-income status, upper-middle-income status, and high-income status in 1990 (US$610, US$2,465, and US$7,620, respectively), while the blue horizontal lines show these thresholds in 2022 (US$1,135, US$4,465, and US$13,845, respectively) based on the World Bank income classifications (https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country​ -and-lending-groups). The figure includes only economies at middle-income levels in 1990. For legibility, only economies that have transitioned to high-income status since 1990 are labeled (1990 data were unavailable for six economies). For country abbreviations, see International Organization for Standardization (ISO), https://www.iso.org/obp/ui/#search.",
+    "crop": "data/crops/p067-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p68:region0",
+    "page": 68,
+    "label": "Figure 1.2",
+    "caption": "Figure 1.2 Income per capita of middle-income countries relative to that of the United States has been stagnant for decades",
+    "bbox": [
+      63.0,
+      85.41,
+      541.0,
+      425.18
+    ],
+    "kind": "visual",
+    "native_text": "Figure 1.2 Income per capita of middle-income countries relative to that of the United States has been stagnant for decades 60 (%) 55 50 45capita 40 per 35 GNI 30 25 US 20 of 15 10Share 5 0 197019721974197619781980198219841986198819901992199419961998200020022004200620082010201220142016201820202022 Middle-income countries Middle-income countries, excluding China Source: WDR 2024 team using data from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712. Note: The plotted lines indicate the trend of average income per capita in middle-income countries and in middle-income countries, excluding China, relative to income per capita in the United States (considered as the economic frontier country). Country definitions are based on the first World Development Report (World Bank 1978), in which low-income countries have gross national income (GNI) per capita of US$250 or less, and middle-income countries have GNI per capita of more than US$250; industrialized (high-income) countries consist of member countries of the Organisation for Economic Co-operation and Development (OECD), except for Greece, Portugal, Spain, and Türkiye, which are classified as middle-income countries.",
+    "crop": "data/crops/p068-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p72:region0",
+    "page": 72,
+    "label": "Figure 1.3",
+    "caption": "Figure 1.3 Sustained growth periods are short-lived, even in rapidly growing economies",
+    "bbox": [
+      62.5,
+      364.49,
+      541.0,
+      710.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 1.3 Sustained growth periods are short-lived, even in rapidly growing economies 8.5 8.0 (%) rate 7.5 7.0growth 6.5annual 6.0 Average 5.5 5.0 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 Number of years during sustained growth periods Bangladesh China India Korea, Rep. Malaysia Source: WDR 2024 team using data from Maddison Project Database 2023, Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc​ /­historicaldevelopment/maddison/releases/maddison-project-database-2023. Note: The figure illustrates the growth paths of countries whose average gross domestic product (GDP) growth rate per capita is higher than 5 percent per year for at least eight years.",
+    "crop": "data/crops/p072-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p75:region0",
+    "page": 75,
+    "label": "Figure 1.4",
+    "caption": "Figure 1.4 Growth slowdowns are most frequent when countries’ GDP per capita is less than one-fourth of the United States’",
+    "bbox": [
+      278.0,
+      81.78,
+      502.13,
+      383.25
+    ],
+    "kind": "visual",
+    "native_text": "e Figure 1.4 Growth slowdowns are most e frequent when countries’ GDP per capita is y less than one-fourth of the United States’ c s 45 (%) r 40 s 35 h ­ 30 slowdowns h 25 o 20 r growth d of 15 10 e ­ 5 , Likelihood 0 e 0–5 5–25 25–50 50–100 . GDP per capita relative to the a frontier (United States) (%) e Source: WDR 2024 team. ­ Note: GDP = gross domestic product. e",
+    "crop": "data/crops/p075-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p76:region0",
+    "page": 76,
+    "label": "Figure 1.5",
+    "caption": "Figure 1.5 Growth is expected to slow down as countries approach the economic frontier (United States)",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      392.48
+    ],
+    "kind": "visual",
+    "native_text": "Figure 1.5 Growth is expected to slow down as countries approach the economic frontier (United States) (%) 7 6capita 5 per GDP 4 in 3 2growth 1 Annual 0 10 20 30 40 50 60 70 80 90 100 GDP per capita relative to the frontier (United States) (%) Argentina Bangladesh Bulgaria Chile China India Indonesia Mexico Poland Türkiye Source: WDR 2024 team. Note: The dashed lines represent countries that will experience a divergence from the frontier over 2023–2100, although they were closer to the frontier in 2022. The solid lines indicate a convergence to the frontier over 2023–2100. These projections are based on extrapolation of recent historical trends using the World Bank’s Long Term Growth Model. GDP = gross domestic product.",
+    "crop": "data/crops/p076-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p76:region1",
+    "page": 76,
+    "label": "Figure 1.6",
+    "caption": "Figure 1.6 Weak institutions hasten and worsen growth slowdowns",
+    "bbox": [
+      62.92,
+      402.28,
+      298.0,
+      712.55
+    ],
+    "kind": "visual",
+    "native_text": "Figure 1.6 Weak institutions hasten and worsen g a. Civil liberties and political rights 100 bili (%) 75 bprobability 50 i slowdown l 25 ofCumulative C 0 50 100 150 Proximity to the frontier (%) Not free Free Source: Chikis 2024. Note: The empirical distribution function for growth deceleration (GDP) is measured using market exchange rates. Proximity to the GDP per capita. In panel a, political institutions are based on sc House. In panel b, the plots of economic freedom use data fro Countries with scores above the median are freer. That method and 2010. See Countries and Territories (dashboard), Freedom Ho /freedom-world/scores; Index of Economic Freedom, 30th Edition www.heritage.org/index/.",
+    "crop": "data/crops/p076-region1.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p81:region0",
+    "page": 81,
+    "label": "Table S.1",
+    "caption": "Table S.1 Suggested indicators provide a clear picture of the underlying structure of an economy",
+    "bbox": [
+      62.66,
+      250.17,
+      298.0,
+      728.0
+    ],
+    "kind": "table",
+    "native_text": "Energy ofeconomy (% ident electri m cons 24 12 3 11 19 50 46 21 177 — — 658.2 736an million 394.9 255.7 772.4 336.2 491.7 1 per inhabitantsof Researchers 0.23 0.23 0.45 0.53 0.77 0.45 0.57 0.65 380structure Talent Social mobility of 00 (% group)underlying Upper- 23.25 54.40 63.40 65.25 53.20 72.80 69.00 98.00 63 relevant age secondary completion rate the of 0.0 1.0 0.0 0.0 0.2 0.0 0.3 0.0 20 index Technologypicture clear 0.47 0.36 — — — 0.37 — — —a Enterprise Productivity- constraining distortions provide 6 Index 0.5 0.0 0 –0.6 –0.1 –0.1 –0.1 –0.2 –0.5 Economic Complexity per Atlas 2023)indicators capita 650 method (current 1,500 2,540 4,180 4,870 6,750 6,870 9,070 10,940 11 US$, per GNI capita, Income Income group LMIC LMIC LMIC UMIC UMIC UMIC UMIC UMIC UMICS.1 Suggested Africa Country Nam Pakistan India Viet Indonesia South Colombia Brazil Kazakhstan TürkiyeTable",
+    "crop": "data/crops/p081-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p82:region0",
+    "page": 82,
+    "label": "Table S.1",
+    "caption": "Table S.1 Suggested indicators provide a clear picture of the underlying structure of an economy (continued)",
+    "bbox": [
+      62.41,
+      195.19,
+      298.0,
+      728.0
+    ],
+    "kind": "table",
+    "native_text": "E intens cons GDP, triper 7 4 3 2 9 4 7 3 a as(continued) stability firms — — — — — — of major 40.20 29.60 (% identifying constraint) Energy electricity economy 9 an million 783.5 340 8,483.2 5,476.3 4,947.1 4,491.3 2,582.8 5,576.4 4 per inhabitantsof Researchers — — 66 0.65 0 0.79 0.65 0.72 0.79structure Talent Social mobility of 00 (% group) —underlying Upper- 98.75 95.50 88.40 83.33 86.20 84.00 94 relevant age secondary completion rate the of 9.9 0.2 4.7 — 0 index 92.5 50.1 11.5 100 Technologypicture 00clear — — 0.11 — — 0.28 — 0a Enterprise Productivity- constraining distortions provide 4 Index 2.0 2.3 1.3 1.6 0.1 1.2 1 –0.4 Economic Complexity per Atlas 2023)indicators capita 300 method (current US$, 35,490 39,030 45,070 47,800 53,290 54,530 70,070 80 per GNI capita, Income HIC HIC HIC HIC HIC HIC HIC HIC Income groupS.1 Suggested Rep. Arab Country Korea, Japan France UnitedKingdom UnitedEmirates Belgium Qatar UnitedTable 50 | WORLD DEVELOPMENT REPORT 2024",
+    "crop": "data/crops/p082-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p86:region0",
+    "page": 86,
+    "label": "Table 2.1",
+    "caption": "Table 2.1 Middle-income countries will need to engineer two successive transitions to develop economic structures that can sustain high-income status",
+    "bbox": [
+      62.75,
+      499.99,
+      541.0,
+      703.67
+    ],
+    "kind": "table",
+    "native_text": "Table 2.1 Middle-income countries will need to engineer two successive transitions to develop economic structures that can sustain high-income status INCOME CLASSIFICATION INVESTMENT INFUSION INNOVATION Low-income Higher priority Lower priority Lower priority Lower-middle-income Higher priority Higher priority Lower priority Upper-middle-income Higher priority Higher priority Higher priority Source: WDR 2024 team. Note: The orange dials indicate a strategy that is a priority for that particular income group. The blue dials indicate a strategy that is less of a priority for that particular income group until the priority strategy is successfully achieved.",
+    "crop": "data/crops/p086-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p87:region0",
+    "page": 87,
+    "label": "Figure 2.1",
+    "caption": "Figure 2.1 As economies develop, capital accumulation brings diminishing returns",
+    "bbox": [
+      62.5,
+      443.84,
+      541.0,
+      703.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 2.1 As economies develop, capital accumulation brings diminishing returns 60 50 growth)growth 40 to capita 30 per GDP 20 Contribution of 10 (% 0 Low-income Lower-middle-income Upper-middle-income High-income Physical capital per worker Total factor productivity Source: WDR 2024 team using data from Lange, Wodon, and Carey (2018); PWT (Penn World Table) (database version 10.1), Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc/productivity/pwt/. Note: GDP = gross domestic product.",
+    "crop": "data/crops/p087-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p88:region0",
+    "page": 88,
+    "label": "Figure 2.2",
+    "caption": "Figure 2.2 A middle-income country will need to engineer two successive transitions to achieve high-income status: Infusion, followed by innovation",
+    "bbox": [
+      62.5,
+      432.63,
+      541.0,
+      703.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 2.2 A middle-income country will need to engineer two successive transitions to achieve high-income status: Infusion, followed by innovation 1i 2i 3i Investment Investment + Infusion Investment + Infusion + Innovation Capital Productivity contribution growth Relative to Proximity to the frontier Source: WDR 2024 team. Note: The curves illustrate the relative contributions of capital and productivity to economic growth (y-axis) according to countries’ proximity to the frontier (represented by leading economies). Countries farther out on the x-axis are closer to the frontier.",
+    "crop": "data/crops/p088-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p90:region0",
+    "page": 90,
+    "label": "Figure 2.3",
+    "caption": "Figure 2.3 The demand for highly skilled workers increases in middle-income countries",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      489.75
+    ],
+    "kind": "visual",
+    "native_text": "Figure 2.3 The demand for highly skilled workers increases in middle-income countries 60 (%) 50force labor 40in workers 30 skilled 20 highly of 10 Share 0 20 40 60 80 GDP per capita (constant PPP 2017 US$1,000, log scale) Low-income Middle-income High-income Source: WDR 2024 team using DataBank: Jobs, World Bank, Washington, DC, https://databank.worldbank.org/source​ /­jobs; WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org​ /­search/dataset/0037712. Note: Skilled workers consist of the top three International Standard Classification of Occupations (ISCO) codes (“Legislators, sr. officials, managers”; “Professionals”; “Technicians and associate professionals”). See ISCO (International Standard Classification of Occupations), International Labour Organization, Geneva, https://ilostat.ilo.org/methods/concepts-and​ -definitions/classification-occupation/. GDP = gross domestic product; PPP = purchasing power parity.",
+    "crop": "data/crops/p090-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p91:region0",
+    "page": 91,
+    "label": "Figure 2.4",
+    "caption": "Figure 2.4 STEM graduates are increasingly concentrated in middle-income countries, thereby increasing opportunities for technology infusion",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      482.19
+    ],
+    "kind": "visual",
+    "native_text": "Figure 2.4 STEM graduates are increasingly t concentrated in middle-income countries, t thereby increasing opportunities for c atechnology infusion A 50 f(%) 43.8 t d 40 pgraduates 30.2 s 30 h 23.5 tSTEM 20 ( tglobal i of 10 t 2.5 tShare 0 e t Low-income High-income t p Lower-middle-incomeUpper-middle-income b p Source: WDR 2024 team. eNote: The primary data for the calculation of the percentage share of science, technology, engineering, and j mathematics (STEM) graduates in tertiary education are f from UIS.Stat (dashboard), Institute for Statistics, United sNations Educational, Scientific, and Cultural Organization, Montreal, http://data.uis.unesco.org/. The STEM data set s covers 144 countries. l",
+    "crop": "data/crops/p091-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p92:region0",
+    "page": 92,
+    "label": "Figure 2.5",
+    "caption": "Figure 2.5 Calibrating policies to a country’s stage of development: From imitation to innovation in the Republic of Korea",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      154.81
+    ],
+    "kind": "visual",
+    "native_text": "Figure 2.5 Calibrating policies to a country’s stage of development: From imitation to innovation in the Republic of Korea a. An agreement between companies b. Government incentives to collaborate on technology (subsidies)",
+    "crop": "data/crops/p092-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p92:region1",
+    "page": 92,
+    "label": "Figure A.1",
+    "caption": "Figure A.1: Example of Adoption Contract",
+    "bbox": [
+      118.36,
+      157.81,
+      298.0,
+      402.09
+    ],
+    "kind": "visual",
+    "native_text": "FigureFigure A.1:A.1: ExampleExample ofof AdoptionAdoption ContractContract CALCAL COLLABORATIONCOLLABORATION AGREEMENTAGREEMENT BYBY ANDAND BETWEENBETWEEN PONPON ELECTROICELECTROIC CO.,CO., LTD.LTD. (%) ANDAND NGNG ELECTRONELECTRON DEVICESDEVICES CO.,CO., LTD.LTD. rate upplyupply ofof writtenwritten TechnicalTechnical InformationInformation Subsidy termterm ofof thisthis AgreementAgreement NECNEC willwill uponupon reasoablereasoable nishnish SEDSED withwith oneone transparenttransparent copycopy ofof eacheach pecificationpecification andand otherother technicaltechnical documentdocument asas wellwell s and related documentation within the scope nn SectionSection 11 (d)(d) hereof.hereof. TheThe time,time, mannermanner andand lsls ofof furnishingfurnishing suchsuch writtenwritten NECNEC TechnicalTechnical nn shallshall bebe separatelyseparately determineddetermined byby thethe partiesparties alal consultation.consultation. el a: National Archives of Korea, https://www.archiv shows the adoption subsidy rate alongside the inn orporate tax rate. For example, a 30 percent subs 30 percent of their expenditures on adoption fees o",
+    "crop": "data/crops/p092-region1.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p92:region2",
+    "page": 92,
+    "label": "Figure A.1",
+    "caption": "Figure A.1: Example of Adoption Contract",
+    "bbox": [
+      118.36,
+      157.81,
+      298.0,
+      402.09
+    ],
+    "kind": "visual",
+    "native_text": "FigureFigure A.1:A.1: ExampleExample ofof AdoptionAdoption ContractContract CALCAL COLLABORATIONCOLLABORATION AGREEMENTAGREEMENT BYBY ANDAND BETWEENBETWEEN PONPON ELECTROICELECTROIC CO.,CO., LTD.LTD. (%) ANDAND NGNG ELECTRONELECTRON DEVICESDEVICES CO.,CO., LTD.LTD. rate upplyupply ofof writtenwritten TechnicalTechnical InformationInformation Subsidy termterm ofof thisthis AgreementAgreement NECNEC willwill uponupon reasoablereasoable nishnish SEDSED withwith oneone transparenttransparent copycopy ofof eacheach pecificationpecification andand otherother technicaltechnical documentdocument asas wellwell s and related documentation within the scope nn SectionSection 11 (d)(d) hereof.hereof. TheThe time,time, mannermanner andand lsls ofof furnishingfurnishing suchsuch writtenwritten NECNEC TechnicalTechnical nn shallshall bebe separatelyseparately determineddetermined byby thethe partiesparties alal consultation.consultation. el a: National Archives of Korea, https://www.archiv shows the adoption subsidy rate alongside the inn orporate tax rate. For example, a 30 percent subs 30 percent of their expenditures on adoption fees o",
+    "crop": "data/crops/p092-region2.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p96:region0",
+    "page": 96,
+    "label": "Figure 2.6",
+    "caption": "Figure 2.6 The innovation gap between high-income countries and others is substantial",
+    "bbox": [
+      62.5,
+      313.63,
+      298.0,
+      673.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 2.6 The innovation gap between F high-income countries and others is s substantial c 10 9 8.4 bi 8 h i index 7 6 illi 5 4 Technology 3 h 2 0.6 1 0.0 0.0 R 0 Low-incomeLower-middle-incomeUpper-middle-income High-income Source: WDR 2024 team. S Note: The technology index is constructed using the number N of granted patents per capita and network centrality. m Network centrality is calculated to measure a country’s f “frontierness” in technology and is defined by the citations C in a country’s patents of other countries’ patents in a given",
+    "crop": "data/crops/p096-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p96:region1",
+    "page": 96,
+    "label": "Figure 2.7",
+    "caption": "Figure 2.7 Middle-income countries significantly lag behind high-income countries in research capacity",
+    "bbox": [
+      278.0,
+      313.63,
+      475.59,
+      673.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 2.7 Middle-income countries significantly lag behind high-income countries in research capacity 4,500 4,000 3,500 inhabitants 3,000 2,500 million 2,000 per 1,500 994 1,000 490 500 Researchers 48 0 High-incom Low-incomeLower-middle-incomeUpper-middle-income Source: WDR 2024 team. r Note: The primary data for number of researc . million inhabitants are from UIS.Stat (dashboard), s for Statistics, United Nations Educational, Scien s Cultural Organization, Montreal, http://data.uis.une n",
+    "crop": "data/crops/p096-region1.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p98:region0",
+    "page": 98,
+    "label": "Figure B2.3",
+    "caption": "Figure B2.3.1 Investment growth accelerations: Colombia, Republic of Korea, and Türkiye",
+    "bbox": [
+      108.0,
+      162.98,
+      298.0,
+      476.24
+    ],
+    "kind": "visual",
+    "native_text": "Figure B2.3.1 Investment growth accel Korea, and Türkiye 16 (%) 12 8growth 4 0Investment –4 Investment TFP Investment (right axis) (r Colombia Korea, R Acceleration years No Sources: Dieppe 2021; Feenstra, Inklaar, and Timm (dashboard), Our Data, Haver Analytics, New York, Development Indicators) (Data Catalog), World .worldbank​.org/search/dataset/0037712. Note: Investment refers to gross fixed capital fo Bars are simple averages of growth in invest Acceleration years cover the full duration of the acceleration years that are not included in this bo",
+    "crop": "data/crops/p098-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p102:region0",
+    "page": 102,
+    "label": "Figure B3.1",
+    "caption": "Figure B3.1.1 Today’s middle-income countries are aging more rapidly than high-income countries did in the past",
+    "bbox": [
+      108.25,
+      295.41,
+      298.0,
+      625.05
+    ],
+    "kind": "visual",
+    "native_text": "Figure B3.1.1 Today’s middle-income c than high-income countries did in the pa Korea, Rep. Bangladesh Türkiye Brazil Malaysia Indonesia India China Japan Middle-income Upper-middle-income Lower-middle-income United Kingdom Argentina High-income United States France 1860 1880 1900 1920 19 Sources: WDR 2024 team using data of World Po Division, Department of Economic and Social Affairs .un.org/wpp/; World Bank (2016). Note: The bars indicate beginning and end years 14 percent (aged) of the population age 65 and o shows total number of years to transition from aging on definitions by the Population Division of the Unite Affairs (UN DESA). Bars for income groups repres corresponding income group. The dashed vertical li",
+    "crop": "data/crops/p102-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p104:region0",
+    "page": 104,
+    "label": "Figure 3.1",
+    "caption": "Figure 3.1 Globally, harmful trade policies outnumber helpful trade policies",
+    "bbox": [
+      62.5,
+      377.91,
+      541.0,
+      704.3
+    ],
+    "kind": "visual",
+    "native_text": "Figure 3.1 Globally, harmful trade policies outnumber helpful trade policies 100,000 90,000policies 80,000 70,000trade 60,000 50,000global new 40,000 30,000of 20,000 10,000Number 0 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 Helpful trade policies Harmful trade policies Source: WDR 2024 team using the GTA (Global Trade Alert) database, St. Gallen Endowment for Prosperity through Trade, University of St. Gallen, St. Gallen, Switzerland, https://www.globaltradealert.org/data_extraction. Note: Measuring trade policies is fraught with challenges, and the GTA database may overrepresent countries that issue a relatively high quantity of legislative documents or those with greater regulatory transparency. The plotted lines indicate global trade policies that were introduced in the corresponding year. Helpful trade policies include interventions that liberalize on a nondiscriminatory basis or improve the transparency of a relevant policy. Harmful trade policies include interventions that discriminate against foreign commercial interests. See Harmonized System (dashboard), World Customs Organization, Brussels, https://www.wcotradetools.org/en/harmonized-system.",
+    "crop": "data/crops/p104-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p105:region0",
+    "page": 105,
+    "label": "Figure 3.2",
+    "caption": "Figure 3.2 Harmful interventions in the global semiconductor trade have skyrocketed since 2019",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      440.24
+    ],
+    "kind": "visual",
+    "native_text": "Figure 3.2 Harmful interventions in the global sem skyrocketed since 2019 a. New helpful trade interventions in critical technologies per year 350 300 250 interventions 200 interventions new 150 new of of 100 50Number Number 0 20102011201220132014201520162017201820192020202120222023 8541 semiconductors Source: WDR 2024 team using the GTA (Global Trade Alert) data University of St. Gallen, St. Gallen, Switzerland, https://www.glob Note: Measuring trade policies is fraught with challenges, an issue a relatively high quantity of legislative documents or thos global trade policies introduced in the corresponding year. Help nondiscriminatory basis or improve the transparency of a releva discriminate against foreign commercial interests. “8541” and “8 semiconductors. See Harmonized System (dashboard), World Cu .org/en/harmonized-system.",
+    "crop": "data/crops/p105-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p106:region0",
+    "page": 106,
+    "label": "Figure 3.3",
+    "caption": "Figure 3.3 Most developing economies are more severely indebted than ever",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      322.74
+    ],
+    "kind": "visual",
+    "native_text": "Figure 3.3 Most developing economies are more severely indebted than ever 200 (%) 175 150GDP onset of 125 100share 75 COVID-19 as 50 Debt 25 0 1950 1960 1970 1980 1990 2000 2010 2019 2020 2021 2022 EMEs’ public debt EMEs’ private debt Source: WDR 2024 team based on IMF (2023b); Kose and Ohnsorge (2024). Note: The figure shows the total debt of emerging market economies (EMEs) in terms of weighted averages broken down into public debt and private debt. GDP = gross domestic product.",
+    "crop": "data/crops/p106-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p107:region0",
+    "page": 107,
+    "label": "Figure 3.4",
+    "caption": "Figure 3.4 Debt service payments in emerging markets and middle-income countries may skyrocket as the cost of borrowing soars",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      405.34
+    ],
+    "kind": "visual",
+    "native_text": "Figure 3.4 Debt service payments in emerging markets and middle-income countries may skyrocket as the cost of borrowing soars 9.6 9.7 10 9.1 9.4 8.9 9 8.3 8 7.0 6.9 6.5 6.5 6.5 6.4 6.5 6.6 6.3 7 6.2 6.1 5.7 5.9 Projected 6 5.4 5.5 5.6 5Percent 4 3 2.2 2.4 2.5 2.5 2.6 2.6 1.8 1.7 1.7 1.8 1.7 1.6 1.6 1.6 1.7 1.7 1.8 1.8 1.8 1.8 1.8 1.8 2 1 0 2007200820092010201120122013201420152016201720182019202020212022202320242025202620272028 Interest expense (% of GDP) Interest expense (% of general government revenues) Source: WDR 2024 team using data from Fiscal Monitor (dashboard), International Monetary Fund, Washington, DC, https:// data.imf.org/?sk=4be0c9cb-272a-4667-8892-34b582b21ba6. Note: GDP = gross domestic product.",
+    "crop": "data/crops/p107-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p108:region0",
+    "page": 108,
+    "label": "Figure 3.5",
+    "caption": "Figure 3.5 In middle-income countries, the energy intensity and carbon intensity of energy consumption are quite high",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      355.54
+    ],
+    "kind": "visual",
+    "native_text": "Figure 3.5 In middle-income countries, the energy intensity and carbon intensity of energy consumption are quite high a. Energy intensity b. Carbon intensity of energy consumption 15 0.120 12.1 0.098 0.100 US$) 0.086 10 9.0 0.080intensity intensity consumption 0.060 0.056 5.1 equivalent/exajoule) 0.040Energy 5 Carbon energy (exajoules/trillion of 0.020 (GtCO2 0 0 LMICs UMICs HICs LMICs UMICs HICs Source: WDR 2024 team using data from Energy Institute (2023); WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712. Note: Data for low-income countries are not available. GtCO2 = gigatons of carbon dioxide; HICs = high-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle-income countries.",
+    "crop": "data/crops/p108-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p109:region0",
+    "page": 109,
+    "label": "Figure 3.6",
+    "caption": "Figure 3.6 In middle-income countries, the weighted average cost of capital for utility-scale solar power projects is substantially higher than the cost in high-income countries",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      487.51
+    ],
+    "kind": "visual",
+    "native_text": "Figure 3.6 In middle-income countries, the weighted average cost of capital for utility-scale solar power projects is substantially higher than the cost in high-income countries 70,000 21 US$) 60,000 18 (%) 2015 50,000 15 capital of 40,000 12 cost(constant 30,000 9 averagecapita 20,000 6 per 10,000 3GDP Weighted 0 0 Nam States LankaAlgeria FasoEthiopiaUgandaRwanda Sri Viet Rep.Rep.Indonesia AfricaColombiaBrazilBulgariaFederationMexicoKazakhstanMalaysiaChinaArgentinaTürkiyeChileHungaryPolandRepublicCzechiaSpainItalyJapanFranceGermanyKingdomAustralia Rep.SenegalPakistanKenyaBangladeshGhanaIndia ArabIslamic South Yemen, Burkina United Slovak United Egypt,Iran, Russian Low- income Lower-middle-income Upper-middle-income High-income GDP per capita Weighted average cost of capital (right axis) Low-income WACC average Lower-middle-income WACC average Upper-middle-income WACC average High-income WACC average Source: WDR 2024 team using IRENA (2023); WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712. Note: GDP = gross domestic product; WACC = weighted average cost of capital.",
+    "crop": "data/crops/p109-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p110:region0",
+    "page": 110,
+    "label": "Figure 3.7",
+    "caption": "Figure 3.7 Low- and middle-income countries are exposed to similar levels of risk from climate change, and they have less adaptive capacity",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      418.8
+    ],
+    "kind": "visual",
+    "native_text": "Figure 3.7 Low- and middle-income countries are exposed to similar levels of risk from climate change, and they have less adaptive capacity 1.0 0.9 0.8 capacity) 0.7index lower 0.6 0.5capacity indicate 0.4 0.3Adaptive scores 0.2 0.1 (higher 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Exposure index (higher scores indicate greater risk) Low-income Middle-income High-income Source: WDR 2024 team using data from ND-GAIN Country Index (University of Notre Dame Global Adaptation Index) (dashboard), University of Notre Dame, Notre Dame, IN, https://gain.nd.edu/our-work/country-index/. Note: The solid lines show the linear relationship for each country group.",
+    "crop": "data/crops/p110-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p115:region0",
+    "page": 115,
+    "label": "Figure P2.1",
+    "caption": "Figure P2.1 Rebalancing the forces of creation, preservation, and destruction to advance infusion and innovation",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      344.21
+    ],
+    "kind": "visual",
+    "native_text": "Figure P2.1 Rebalancing the forces of creation, preservation, and destruction to advance infusion and innovation Creation Creation Preservation Destruction Preservation Destruction Source: WDR 2024 team.",
+    "crop": "data/crops/p115-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p118:region0",
+    "page": 118,
+    "label": "Figure 4.1",
+    "caption": "Figure 4.1 Both entrants and incumbents create value and reinforce one another’s growth through competition in India’s computing services industry",
+    "bbox": [
+      62.88,
+      85.41,
+      541.0,
+      374.55
+    ],
+    "kind": "visual",
+    "native_text": "Figure 4.1 Both entrants and incumbents create value and reinforce one another’s growth through competition in India’s computing services industry scale) 300,000 (log 100,000 30,000employees of 10,000 3,000Number 2000 2005 2010 2015 Industry average Infosys Tata Consultancy Services Source: Worldscope (database), Baker Library, Bloomberg Center, Harvard Business School, Boston, https://www.library​ .hbs.edu/find/databases/worldscope. Note: The figure reports the number of employees in Infosys and Tata Consultancy Services and the average across firms listed in India’s stock exchange in the same two-digit industry (Mean-Industry-India). “Two-digit” refers to NAICS (North American Industry Classification System) (database), US Census Bureau, Suitland, MD, https://www.census.gov/naics/.",
+    "crop": "data/crops/p118-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p119:region0",
+    "page": 119,
+    "label": "Figure 4.2",
+    "caption": "Figure 4.2 The interactions between entrants and incumbents set the pace of creative destruction",
+    "bbox": [
+      62.5,
+      441.26,
+      541.0,
+      703.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 4.2 The interactions between entrants and incumbents set the pace of creative destruction a. Schumpeter’s view: b. Aghion and Howitt’s view: c. Akcigit and Kerr’s view: Dominant incumbents can Entrants create value and Incumbents and collude to block competition displace incumbents entrants add value FRONTIER FRONTIER FRONTIER TECHNOLOGY TECHNOLOGY TECHNOLOGY Entrant Incumbents Entrant Incumbent Incumbent Entrant Incumbent Economic progress Economic progress Economic progress Schumpeter’s view: incumbents Aghion and Howitt’s view: entrants Akcigit and Kerr’s view: incumbents can collude create value and displace incumbents and entrants add value Source: WDR 2024 team based on Schumpeter (1942); Aghion and Howitt (1992); Akcigit and Kerr (2018).",
+    "crop": "data/crops/p119-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p120:region0",
+    "page": 120,
+    "label": "Figure 4.3",
+    "caption": "Figure 4.3 Entrants drive growth: Insights from Aghion and Howitt’s seminal paper on creative destruction",
+    "bbox": [
+      278.0,
+      85.41,
+      505.18,
+      520.55
+    ],
+    "kind": "visual",
+    "native_text": "­ Figure 4.3 Entrants drive growth: Insights y from Aghion and Howitt’s seminal paper on f creative destruction ­ s t f IN r Firm 5 t , productiond Firm 4 of OUT n quality Firm 3 s or A y Firm 2 Productivity Firm 1 Source: WDR 2024 team. Note: The figure depicts a quality ladder based on the Aghion-Howitt model of creative destruction. IN represents ­ a new firm entering the market and OUT represents a firm y exiting the market. Each innovation adds a new rung to the s ladder and elevates the prospects for all future producers This hierarchy suggests that there may be underinvestmen t in innovation because innovators often fail to conside ­ the height of each rung, which determines the long-term r benefits of their creative endeavors for society. On the other hand, there may be an overinvestment in entry e Entrants primarily focus on displacing incumbents, so more n entry is associated with shorter durations of monopoly fo s incumbents, discouraging innovations by future entrants.",
+    "crop": "data/crops/p120-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p121:region0",
+    "page": 121,
+    "label": "Figure 4.4",
+    "caption": "Figure 4.4 Entrants and incumbents drive growth through turnover and upgrading: Insights from Akcigit and Kerr’s refined approach to creative destruction",
+    "bbox": [
+      62.5,
+      430.96,
+      541.0,
+      709.37
+    ],
+    "kind": "visual",
+    "native_text": "Figure 4.4 Entrants and incumbents drive growth through turnover and upgrading: Insights from Akcigit and Kerr’s refined approach to creative destruction New entrant (contribution of the Existing qualityquality latest innovation) Internal R&D product of Level External R&D Product lines Firm 1 Firm 2 Source: Akcigit and Kerr 2018. Note: R&D = research and development.",
+    "crop": "data/crops/p121-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p122:region0",
+    "page": 122,
+    "label": "Figure 4.5",
+    "caption": "Figure 4.5 Contrasting examples of innovation: Growth is driven by entrants in the United States and by incumbents in Germany",
+    "bbox": [
+      64.55,
+      421.49,
+      541.0,
+      703.17
+    ],
+    "kind": "visual",
+    "native_text": "Figure 4.5 Contrasting examples of innovation: Growth is driven by entrants in the United States and by incumbents in Germany a. Firm entry rate b. Patents per capita 12 60 10 50(%) inhabitants 8 40 rate 6 30 100,000entry 4 per 20 Firm 2 10 Patents 0 0 2000 2005 2010 2015 1980 1985 1990 1995 2000 2005 2010 Germany United States Source: Akcigit et al. 2024.",
+    "crop": "data/crops/p122-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p123:region0",
+    "page": 123,
+    "label": "Figure 4.6",
+    "caption": "Figure 4.6 Entrants and incumbents can reinforce one another’s growth: The case of the US business services industry",
+    "bbox": [
+      278.0,
+      85.41,
+      506.52,
+      393.77
+    ],
+    "kind": "visual",
+    "native_text": "­ Figure 4.6 Entrants and incumbents can e reinforce one another’s growth: The case of g the US business services industry d ­ 400,000 h 100,000 scale)y e (log 10,000 e 1,000 n . employees 100 , of f 10 s Numbere 0 ­ 1910 1930 1950 1970 1990 2010 n Dell HP IBM r Microsoft Oracle r Source: Luttmer 2011. t Note: The figure reports the number of employees for a selected group of US business services firms: Dell, Hewlett t Packard (HP), IBM, Microsoft, and Oracle. g",
+    "crop": "data/crops/p123-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p124:region0",
+    "page": 124,
+    "label": "Figure 4.7",
+    "caption": "Figure 4.7 A cartelized industry suppresses innovation and dynamism: Evidence from the Japanese auto parts sector",
+    "bbox": [
+      64.73,
+      85.41,
+      541.0,
+      676.3
+    ],
+    "kind": "visual",
+    "native_text": "Figure 4.7 A cartelized industry suppresses innovation and dynamism: Evidence from the Japanese auto parts sector a. Log sales b. R&D intensity 1.0 45 1990 35 from 0.5 25 (%) difference 1990 15difference 0 from 5 Absolute 0 –5Absolute –0.5 –15 1990 1995 2000 2005 2010 2015 1990 1995 2000 2005 2010 2015 Mitsuba Industry mean c. Number of public firms in industry 700 650 firms 600 of 550 Number 500 450 1990 1995 2000 2005 2010 2015 Source: WDR 2024 team based on Worldscope (database), Baker Library, Bloomberg Center, Harvard Business School, Boston, https://www.library.hbs.edu/find/databases/worldscope. Note: The figure reports a series of sales (panel a) and shares of research and development (R&D) expenditures relative to total investment (panel b) for Mitsuba Corporation and the average across listed firms in Japan’s stock exchange within the same two-digit industry. Panel c shows the number of listed companies in Japan’s stock exchange in the same two- digit industry. Sales are presented in logarithms and reported as a difference from their value in 1990, the first year in the sample. The share of R&D expenditures to total investment, R&D intensity, is also reported as a difference from the share in 1990. “Two-digit” refers to NAICS (North American Industry Classification System) (database), US Census Bureau, Suitland, MD, https://www.census.gov/naics/.",
+    "crop": "data/crops/p124-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p125:region0",
+    "page": 125,
+    "label": "Figure B4.1",
+    "caption": "Figure B4.1.1 The number of patents filed by corporations with the US Patent and Trademark Office has skyrocketed since 1880",
+    "bbox": [
+      110.5,
+      430.72,
+      298.0,
+      657.56
+    ],
+    "kind": "visual",
+    "native_text": "Figure B4.1.1 The number of patents f US Patent and Trademark Office has sky 80 70 filed(%) 60 patents 5040 of 30 corporations 20 by Share 10 0 18801890190019101920193019 Source: Akcigit, Grigsby, and Nicholas 2017b.",
+    "crop": "data/crops/p125-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p127:region0",
+    "page": 127,
+    "label": "Figure 4.8",
+    "caption": "Figure 4.8 In middle-income countries, the growth rate of firms across their life cycles is much lower than in the United States",
+    "bbox": [
+      62.84,
+      85.41,
+      541.0,
+      433.63
+    ],
+    "kind": "visual",
+    "native_text": "Figure 4.8 In middle-income countries, the growth rate of firms across their life cycles is much lower than in the United States a. Firm size over time b. Share of small firms over time, age India and the United States of 8 100 90 7years (%) 80 <5 6 5 firms 70 60firms to 4 50 small 40 3 of 30relative 2 Share 20 1 10 0 0 <5 10−14 20−24 30−34 ≥40 0–5 6–10 11–15 16–20 21–25 26+Employment Age of firms (years) Age of firms (years) India Malaysia Mexico Peru India United States Serbia United States Viet Nam Sources: Panel a: India, Mexico, and the United States: Hsieh and Klenow 2014; Peru: World Bank 2015; Malaysia: de Nicola and Timmis, forthcoming; Serbia and Viet Nam: World Bank 2024b. Panel b: Akcigit, Alp, and Peters 2021. Note: Panel a illustrates the average employment across a cohort of firms of different ages in the cross-section of firms. The number of employees serves as a proxy for firm size. The vertical axis reports the average employment of each cohort relative to the average employment across firms under five years of age.",
+    "crop": "data/crops/p127-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p128:region0",
+    "page": 128,
+    "label": "Figure 4.9",
+    "caption": "Figure 4.9 Microenterprises dominate firm size distributions in India, Mexico, and Peru",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      518.84
+    ],
+    "kind": "visual",
+    "native_text": "Figure 4.9 Microenterprises dominate firm o size distributions in India, Mexico, and Peru o v (%) b 80 o l t 50 eestablishments c of 25 t 15 oShare t 0 m <5 5−9 10−19 20−99100−499 500+ t t Number of employees India Mexico Peru United States t T Sources: India: Sixth Economic Census 2013–14 m (dashboard), National Data Archive, Ministry of Statistics and Programme Implementation, New Delhi, https:// p microdata.gov.in/nada43/index.php/catalog/47; Mexico: v Iacovone et al. (2022), based on tabulations from i Economic Censuses 2019 (dashboard), Instituto Nacional de Estadistica y Geografia (National Institute of Statistics i and Geography Mexico), Aguascalientes, Mexico, https:// t en.www.inegi.org.mx/programas/ce/2019/; Peru: IV Censo Nacional Económico 2008 (dashboard), Instituto Nacional de Estadística e Informática, Lima, Peru, http://censos1​ O .inei.gob.pe/cenec2008/redatam_inei/; United States: 2019 p data from BDS (Business Dynamics Statistics) (dashboard), US Census Bureau, Suitland, MD, https://www.census.gov​ T /programs-surveys/bds.html. v Note: The figure reports the share of establishments of h various size classes. Shares for India and the United States are for the manufacturing sector only. i B",
+    "crop": "data/crops/p128-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p129:region0",
+    "page": 129,
+    "label": "Figure 4.10",
+    "caption": "Figure 4.10 Young firms—not small firms—create the most jobs (net) in the United States",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      335.58
+    ],
+    "kind": "visual",
+    "native_text": "Figure 4.10 Young firms—not small firms—create the most jobs (net) in the United States created 750,000 500,000or lost 250,000 jobs of 0 –250,000Number 1–4 5–9 10–19 20–49 50–99 100–499 500+ Number of employees Age of firms (years): <1 1–4 5–9 ≥10 Source: 2019 data from Business Employment Dynamics (dashboard), Bureau of Labor Statistics, United States Department of Labor, Washington, DC, https://www.bls.gov/bdm/business-employment-dynamics-data-by-age-and-size.htm. Note: The figure reports the net number of jobs created by firms of different sizes and ages in the United States.",
+    "crop": "data/crops/p129-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p132:region0",
+    "page": 132,
+    "label": "Figure B4.3",
+    "caption": "Figure B4.3.1 Productivity-dependent financial distortions, by GDP per capita",
+    "bbox": [
+      98.5,
+      309.25,
+      541.0,
+      676.82
+    ],
+    "kind": "visual",
+    "native_text": "Figure B4.3.1 Productivity-dependent financial distortions, by GDP per capita 0.35 Ukraine 0.30 distortions 0.25 Montenegro Bulgaria Slovak Republicfinancial Bosnia and Herzegovina Czechia Luxembourg Serbia Spain 0.20 Romania Portugal Hungary Estonia Italy Belgium Croatia 0.15 Poland Slovenia Austria North Macedonia Latvia Germany Finland 0.10 Productivity-dependent Norway France 0 7 8 9 10 11 12 GDP per capita (log scale) Source: Cusolito et al., forthcoming. Note: The figure reports the estimate of a regression coefficient between the logarithm of idiosyncratic financial distortions and the logarithm of idiosyncratic physical productivity across firms, both computed as in Whited and Zhao (2021). A high value of the coefficient means that more productive firms face higher distortions in financial markets than less productive ones. Thus, there is a weaker relationship between a firm’s productivity and its debt and equity financing compared with efficient allocation. GDP = gross domestic product.",
+    "crop": "data/crops/p132-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p133:region0",
+    "page": 133,
+    "label": "Figure 4.11",
+    "caption": "Figure 4.11 Productivity-dependent distortions are more severe in low- and middle-income countries",
+    "bbox": [
+      62.5,
+      274.91,
+      541.0,
+      637.4
+    ],
+    "kind": "visual",
+    "native_text": "Figure 4.11 Productivity-dependent distortions are more severe in low- and middle-income countries 0.4 Kenya Portugal El Salvador Bangladesh Pakistan 0.3 Ethiopia Ghana distortions China India Colombia 0.2 Peru Bulgaria Chile Belgium Romania 0.1 Hungary Malaysia Latvia Italy Spain 0 Finland France Productivity-dependent –1.0 6 7 8 9 10 11 GDP per capita (log scale) Low-income Middle-income High-income Sources: Productivity-dependent distortions: WDR 2024 team calculations and Fattal Jaef (2022). Gross domestic product (GDP) per capita: PWT (Penn World Table) (database version 9.0), Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc/productivity/pwt​ /­pwt-releases/pwt9.0?lang=en. Note: The figure reports the estimates of a regression coefficient between the logarithm of idiosyncratic distortions and the logarithm of idiosyncratic physical productivity across firms, both computed as in Hsieh and Klenow (2009). The corresponding estimate for the United States is subtracted from each country’s estimate so that productivity-dependent distortions are reported relative to the level observed in the United States. A high value for this elasticity means that a productive firm confronts higher distortions than less productive ones, and thus there is a weaker relationship between firm productivity and firm size than the output-maximizing allocation would require.",
+    "crop": "data/crops/p133-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p134:region0",
+    "page": 134,
+    "label": "Figure 4.12",
+    "caption": "Figure 4.12 Management practices are worse in economies with more policy distortions",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      387.6
+    ],
+    "kind": "visual",
+    "native_text": "Figure 4.12 Management practices are worse in economies with more policy distortions 0.4 Kenya Portugal Ethiopia 0.3distortions Ghana China Colombia 0.2 India Chile 0.1 Italy Spain 0 FranceProductivity-dependent −0.1 2.0 2.2 2.4 2.6 2.8 3.0 3.2 Management indicator Sources: Productivity-dependent distortions: Fattal Jaef 2022; management indicator: WMS (World Management Survey) (dashboard), London School of Economics, London, https://worldmanagementsurvey.org (see Bloom and Van Reenen 2007). Note: Productivity-dependent distortions refer to policy distortions related to firm size that can discourage innovation and technology adoption. The figure reports, on the y-axis, the estimates of a regression coefficient between the logarithm of idiosyncratic distortions and the logarithm of idiosyncratic productivity of the firms. The idiosyncratic distortion and the physical productivity are computed as in Hsieh and Klenow (2009). On the x-axis, the figure reports the management indicator across firms, as provided in the World Management Survey.",
+    "crop": "data/crops/p134-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p135:region0",
+    "page": 135,
+    "label": "Table 4.1",
+    "caption": "Table 4.1 Examples of possible effects of market power on development outcomes",
+    "bbox": [
+      62.75,
+      533.83,
+      541.0,
+      703.67
+    ],
+    "kind": "table",
+    "native_text": "Table 4.1 Examples of possible effects of market power on development outcomes DEVELOPMENT OUTCOMES PROS CONS Productivity Mergers and acquisitions can lead to Conglomerates can cross-subsidize unproductive more efficiency. firms, crowding out more productive competitors. Consumer welfare More efficient structures can lead to It is easier to form cartels when fewer players are lower costs and therefore lower prices. in the market. Innovation Some firms acquire market power There are fewer incentives to innovate, and firm because they innovate and push the entry is low. frontier. Jobs The demand for highly skilled workers Wages for lower-skilled workers are depressed, grows. while the most talented workers are captured. Source: World Bank 2024a.",
+    "crop": "data/crops/p135-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p144:region0",
+    "page": 144,
+    "label": "Figure 5.1",
+    "caption": "Figure 5.1 The share of skilled workers in large firms increases with GDP per capita",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      489.05
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.1 The share of skilled workers in t large firms increases with GDP per capita a f 100 d a (%) 80 t r 60 iworkers of 40 p i Share 20 p l 0 i Country Country Country Country e income income income income group 1 group 2 group 3 group 4 c e Small firms, low skills Small firms, high skills p Medium firms, low skills Medium firms, high skills Large firms, low skills Large firms, high skills t t Source: Gottlieb, Poschke, and Tueting 2024. c Note: The figure shows the share of low-skilled and highly tskilled workers who are employed in small, medium, and large firms across four country income categories, which r correspond to gross domestic product (GDP) per capita levels of US$0–US$3,000 (group 1), US$3,000–US$10,000 i(group 2), US$10,000–US$30,000 (group 3), and more than US$30,000 (group 4). Shares are computed from nationally p representative labor force surveys from 76 countries f covering 805 country-years. Small firms have fewer than b10 employees. Medium firms have 10–50 employees. Large firms have more than 50 employees. Workers are classified i as low-skilled if they have less than nine years of formal C education, and as highly skilled otherwise. For countries in meach income group, the bars add up to 100 percent. a",
+    "crop": "data/crops/p144-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p145:region0",
+    "page": 145,
+    "label": "Figure B5.1",
+    "caption": "Figure B5.1.1 Better-educated managers are more likely to adopt technology in middle-income countries",
+    "bbox": [
+      107.0,
+      331.79,
+      298.0,
+      622.23
+    ],
+    "kind": "visual",
+    "native_text": "Figure B5.1.1 Better-educated manager technology in middle-income countries 0.5 of 0.3 coefficientadoption 0.4 0.2 technology 0.1 Regression 0 Top mana with BA+ General bu Sector-spe Source: WDR 2024 team based on data from the Firm Note: The figure shows coefficients from regressing a t on the independent variables shown in the figure, con firm size (small/medium/large). The figure covers the f Brazil, Cambodia, Georgia, Ghana, India, Kenya, Seneg",
+    "crop": "data/crops/p145-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p146:region0",
+    "page": 146,
+    "label": "Figure 5.2",
+    "caption": "Figure 5.2 Higher inequality is associated with higher intergenerational immobility",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      490.36
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.2 Higher inequality is associated with higher intergenerational immobility 1.0 0.8schooling in 0.6 immobility relative 0.4 0.2 Intergenerational 0 0.2 0.4 0.6 0.8 1.0 Schooling inequality in parents’ generation (Gini coefficient) Low-income countries Middle-income countries High-income countries Source: WDR 204 team based on 2018 data from GDIM (Global Database on Intergenerational Mobility) (dashboard), Data Catalog, World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0050771/global​-database​ -on-intergenerational-mobility. Note: The y-axis depicts the intergenerational relative immobility, which is the slope estimate from a regression of children’s schooling on parents’ schooling. The estimate shows the extent to which children can pull away from the shadow of their parents. The x-axis measures the Gini coefficient of years of schooling for the parents’ generation.",
+    "crop": "data/crops/p146-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p147:region0",
+    "page": 147,
+    "label": "Figure 5.3",
+    "caption": "Figure 5.3 Intergenerational mobility of skilled workers matters more for middle- income countries than for low-income countries",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      515.17
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.3 Intergenerational mobility of o skilled workers matters more for middle- c income countries than for low-income a hcountries o e HICs t UMICs r r LMICs e LICs t a −0.2 0 0.2 0.4 0.6 i Regression coefficient of skilled workers’ p intergenerational mobility a Source: WDR 2024 team estimates based on GDIM (Global f Database on Intergenerational Mobility) (dashboard), Data Catalog, World Bank, Washington, DC, https://datacatalog​ .worldbank.org/search/dataset/0050771/global-database-on​ E -intergenerational-mobility; WDI (World Development Indicators) e(DataBank), World Bank, Washington, DC, https://databank​ .worldbank.org​/­source/world-development-indicators. N Note: The figure plots regression coefficients of t intergenerational mobility (which is equal to 1 minus the pintergenerational relative mobility) for different country groups at the 95 percent confidence interval. The dependent p variable in the regression is the share of skilled workers i (“Legislators, sr. officials, managers”; “Professionals”; m“Technicians and associate professionals”). The regression controls for the log of gross domestic product (GDP) per e capita when the 1980s birth cohort was growing up. a Intergenerational mobility estimates are for educational omobility of the 1980s cohort from the World Bank GDIM. HICs = high-income countries; LICs = low-income countries; t LMICs = lower-middle-income countries; UMICs = upper- middle-income countries. N",
+    "crop": "data/crops/p147-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p150:region0",
+    "page": 150,
+    "label": "Figure 5.4",
+    "caption": "Figure 5.4 High inequality within cities is associated with low social mobility from one generation to the next",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      469.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.4 High inequality within cities is associated with low social mobility from one generation to the next 0.9 0.8 Almaty 0.7index Dar es Salaam 0.6 Tehran Bangkokmobility Mexico City Madrid 0.5 Rio de Janeiro Santiago Bogotá 0.4Country-level Cape Town 0.3 0.2 0.2 0.3 0.4 0.5 0.6 Intraurban inequality index Sources: GDIM (Global Database on Intergenerational Mobility) (dashboard), Development Research Group, World Bank, Washington, DC, https://www.worldbank.org/en/topic/poverty/brief/what-is-the-global-database-on-intergenerational​ -mobility-gdim; Park et al. 2022. Note: The mobility index is defined as 1 minus the correlation between parents’ and children’s years of schooling. The intraurban inequality index is defined as the Gini coefficient based on consumption data from the Global Monitor Database (GMD) surveys, matched with administrative area and GHS-Urban Center Database (GHS-UCDB) data. See Aron et al. 2023; GHSL (Global Human Settlement Layer) (dashboard), Joint Research Center, European Commission, Ispra, Italy, https:// ghsl.jrc.ec.europa.eu/index.php.",
+    "crop": "data/crops/p150-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p152:region0",
+    "page": 152,
+    "label": "Figure B5.2",
+    "caption": "Figure B5.2.1 Slum residents in Rio de Janeiro identified their residence in a favela as the largest impediment to getting a job",
+    "bbox": [
+      107.5,
+      280.66,
+      541.0,
+      543.82
+    ],
+    "kind": "visual",
+    "native_text": "Figure B5.2.1 Slum residents in Rio de Janeiro identified their residence in a favela as the largest impediment to getting a job Birthplace outside Rio de Janeiro Appearance employment to Skin color Residence in favela Impediments 0 10 20 30 40 50 60 70 80 90 Percent Original interviewees Children Grandchildren Source: Perlman 2010. Note: The figure shows the responses of residents of favelas in Rio de Janeiro surveyed in 1969 and 2001.",
+    "crop": "data/crops/p152-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p153:region0",
+    "page": 153,
+    "label": "Figure 5.5",
+    "caption": "Figure 5.5 In many middle-income countries, movement of workers from one part of the country to another is more limited than in high-income countries such as France and the United States",
+    "bbox": [
+      62.5,
+      355.95,
+      541.0,
+      718.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.5 In many middle-income countries, movement of workers from one part of the country to another is more limited than in high-income countries such as France and the United States 45 rate 40 35 (%) 30migration 25 employed 20lifetimethe 15 of 10 5Internal 0 China Brazil Spain Arab Rep.ColombiaIndonesiaArgentina Mexico Chile Africa France States South United Egypt, Middle income: Nontertiary-educated Tertiary-educated High income: Nontertiary-educated Tertiary-educated Source: WDR 2024 team based on data of IPUMS International (Integrated Public Use Microdata Series, Harmonized International Census Data for Social Science and Health Research) (dashboard), Minnesota Population Center, University of Minnesota, Minneapolis, https://international.ipums.org/international/. Note: The sample includes China (2000), Brazil (2000), Spain (2001), the Arab Republic of Egypt (2006), Colombia (2005), Indonesia (2010), Argentina (2001), Mexico (2000), Chile (2002), South Africa (2001), France (1999), and the United States (2000). Internal lifetime migration is defined as current residence different from residence at birth within the same country. Tertiary education refers to schooling at the university level or beyond.",
+    "crop": "data/crops/p153-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p154:region0",
+    "page": 154,
+    "label": "Figure 5.6",
+    "caption": "Figure 5.6 In many middle-income countries, migration costs are higher for individuals without high levels of education",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      463.24
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.6 In many middle-income countries, migration costs are higher for individuals without high levels of education 50 offset 4540 to 35 30 costsneeded 25 20 movingincrease 15 10wage % 5 0 Chile France Africa States Spain Argentina Brazil MexicoIndonesia Colombia China South United Middle income: Nontertiary-educated Tertiary-educated High income: Nontertiary-educated Tertiary-educated Source: Census data of IPUMS International (Integrated Public Use Microdata Series, Harmonized International Census Data for Social Science and Health Research) (dashboard), Minnesota Population Center, University of Minnesota, Minneapolis, https://international.ipums.org/international/. Note: Moving costs refer to the percentage of wage increase at the destination needed to compensate for the cost of moving. The sample includes Chile (2002), France (1999), South Africa (2001), the United States (2000), Spain (2001), Argentina (2001), Brazil (2000), Mexico (2000), Indonesia (2010), Colombia (2006), and China (2000). Tertiary education refers to schooling at the university level or beyond.",
+    "crop": "data/crops/p154-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p156:region0",
+    "page": 156,
+    "label": "Figure 5.7",
+    "caption": "Figure 5.7 There is a substantial gap between low- and high-income countries in female educational attainment",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      386.21
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.7 There is a substantial gap F between low- and high-income countries in i female educational attainment i (%) 80 at 69.3 70 tiwith 60 i 52.525+ education 50 ti age 40 b 30 27.0 lwomen l of 20 upper-secondary 10 6.4 FShare least 0 LICs LMICs UMICs HICs Source: WDR 2024 team. Note: The figure illustrates educational attainment of women 25+ years of age for at least upper-secondary education. The data cover 141 countries. HICs = high- income countries; LICs = low-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle- income countries. S W",
+    "crop": "data/crops/p156-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p156:region1",
+    "page": 156,
+    "label": "Figure 5.8",
+    "caption": "Figure 5.8 Female labor force participation is low in the Middle East and North Africa and in South Asia",
+    "bbox": [
+      278.0,
+      85.41,
+      514.31,
+      386.21
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.8 Female labor force participation is low in the Middle East and North Africa and in South Asia 60 50 (%) 40 participation, 30 15−64 labor 20 ages 10 Female 0 1960 1980 2000 2020 East Asia and Pacific Europe and Central Asia f Latin America and the Caribbean y Middle East and North Africa - = South Asia Sub-Saharan Africa - Source: WDI (World Development Indicators) (DataBank), World Bank Washington DC https://databank worldbank",
+    "crop": "data/crops/p156-region1.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p157:region0",
+    "page": 157,
+    "label": "Figure 5.9",
+    "caption": "Figure 5.9 Female labor force participation has evolved differently across countries",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      396.26
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.9 Female labor force F participation has evolved differently p across countries n 80 (%) 70 hl hforce15−64 60 50 l laborages 40 f f 30Female 20 h participation, 10 0 1990 2000 2010 2019 China Egypt, Arab Rep. India Indonesia Japan Korea, Rep. Malaysia Türkiye Source: WDI (World Development Indicators) (DataBank), S World Bank, Washington, DC, https://databank.worldbank​ I .org/source/world-development-indicators. H a",
+    "crop": "data/crops/p157-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p157:region1",
+    "page": 157,
+    "label": "Figure 5.10",
+    "caption": "Figure 5.10 The share of female professionals has risen in some countries but not others",
+    "bbox": [
+      278.0,
+      85.41,
+      515.54,
+      396.26
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.10 The share of female professionals has risen in some countries but not others 60 (%) 50 highly in 40 30 females occupations of skilled 20 Share 10 1 5 10 20 40 60 GDP per capita (US$1,000, log scale) Brazil, 1970–2010 Chile, 1960–2002 Egypt, Arab Rep., 1986–2006 India, 1983–2009 Indonesia, 1971–2005 Mexico, 1960–2015 South Africa, 1996–2007 United States, 1960–2015 , Source: WDR 2024 team based on census data of IPUMS k​ International (Integrated Public Use Microdata Series, Harmonized International Census Data for Social Science and Health Research) (dashboard) Minnesota Population",
+    "crop": "data/crops/p157-region1.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p158:region0",
+    "page": 158,
+    "label": "Figure 5.11",
+    "caption": "Figure 5.11 Globally, women own a smaller share of firms than men",
+    "bbox": [
+      62.93,
+      85.41,
+      298.0,
+      427.29
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.11 Globally, women own a smaller share (%) 40 30female-owned are 20 that 10firms of Share 0 pr Petroleumproductsproducts and tourismTransportpublishingrestaurantsConstructionOther Miningservices Wood andand OthermanufacturingManufacturinMetalan Leather IT Other No HospitalityPrintingHotels Sources: Chiplunkar and Goldberg 2021; WBES (World Bank Ente https://www.enterprisesurveys.org/en/enterprisesurveys. Note: The figure shows the share of female-owned firms acros 95th percentile. The WBES sample covers 141 countries across 1",
+    "crop": "data/crops/p158-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p159:region0",
+    "page": 159,
+    "label": "Figure 5.12",
+    "caption": "Figure 5.12 Women lag behind men in having financial accounts",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      385.96
+    ],
+    "kind": "visual",
+    "native_text": "Figure 5.12 Women lag behind men in having fina 40 30gap Moroc points) 20 Nigeriaownership Bangladesh 10 (percentageAccount 0 –10 GDP per capita (constant Sources: Global Findex (Global Financial Inclusion Database), W .org/#data_sec_focus; WDI (World Development Indicators) (D .worldbank.org/source/world-development-indicators. Note: The figure shows the absolute difference (in percentage financial account and the share of women with a financial acc mobile accounts. GDP = gross domestic product; PPP = purchas",
+    "crop": "data/crops/p159-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p171:region0",
+    "page": 171,
+    "label": "Figure 6.1",
+    "caption": "Figure 6.1 Learning by doing in the manufacture of key low-carbon technologies has resulted in rapid cost declines",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      542.55
+    ],
+    "kind": "visual",
+    "native_text": "Figure 6.1 Learning by doing in the a manufacture of key low-carbon technologies i has resulted in rapid cost declines R d 100 a Irelative scale) i (log eindex i price 1985 10 c in i t price s to U Investment 0 E 1985 1990 1995 2000 2005 2010 2015 2020 i i Onshore wind Solar photovoltaics b Computers and peripheral equipment l Software P Communication equipment t Sources: WDR 2024 team elaboration from Arkolakis t and Walsh (2023); FRED: Software (Federal Reserve 3 Economic Data: Software) (database), Federal Reserve i Bank of St. Louis, St. Louis, https://fred.stlouisfed​.org​ /tags/series?t=software; IRENA (2023); Prices and m Output for Information and Communication Technologies f (dashboard), Bureau of Economic Analysis, Suitland, MD, https://www.bea.gov/prices-and-output-information-and​ i-communication-technologies; Solar (photovoltaic) panel prices (grapher), Our World in Data, Global Change Data a Lab and Oxford Martin Program on Global Development, o University of Oxford, Oxford, UK, https://ourworldindata​ j.org/grapher/solar-pv-prices. Note: The figure compares the price of investment for the d three sectors with the fastest declines according to data from j the Bureau of Economic Analysis with that for onshore wind o and solar photovoltaics, with 1985 normalized to 1. i",
+    "crop": "data/crops/p171-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p172:region0",
+    "page": 172,
+    "label": "Figure 6.2",
+    "caption": "Figure 6.2 The diffusion of low-carbon technologies is rapidly accelerating",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      649.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 6.2 The diffusion of low-carbon technologies is rapidly accelerating a. Share of jobs related to low-carbon technologies in 35 countries 2.5 2.0 (%) 1.5postings LCTs job to 1.0 of relatedShare 0.5 0 2014 2015 2016 2017 2018 2019 2020 2021 2022 b. Share of publicly listed ﬁrms mentioning low-carbon technologies in shareholder meetings 35 (%) 30 firms 25listed meetings 20 15publicly inLCTs of Share 10 mentioning 5 0 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 Source: Bastos et al. 2023. Note: Panel a displays the share of online job postings in 35 countries that mention low-carbon technologies (LCTs) as defined by the Y02 classification of patents adopted by the European Patent Office. See Classification of Patents: Climate Change Mitigation Technologies (dashboard), European Patent Office, Munich, https://www.epo.org/en/news-events​ /­in-focus​/classification/climate-change. Panel b displays the share of shareholder meeting transcripts from publicly listed firms that mention these technologies.",
+    "crop": "data/crops/p172-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p173:region0",
+    "page": 173,
+    "label": "Map 6.1",
+    "caption": "Map 6.1 In 2022, one-third of online job postings related to low-carbon technologies were in middle-income countries",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      375.22
+    ],
+    "kind": "visual",
+    "native_text": "Map 6.1 In 2022, one-third of online job postings related to low-carbon technologies were in middle-income countries Source: WDR 2024 team analysis extending Bastos et al. (2023) to 86 countries.",
+    "crop": "data/crops/p173-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p174:region0",
+    "page": 174,
+    "label": "Figure 6.3",
+    "caption": "Figure 6.3 Low-carbon innovation is driving the emergence of new spatial clusters, start-ups, and financing",
+    "bbox": [
+      62.5,
+      160.04,
+      541.0,
+      728.0
+    ],
+    "kind": "visual",
+    "native_text": "Figure 6.3 Low-carbon innovation is driving the emergence of new spatial clusters, start-ups, and financing a. Online job postings related to low-carbon technologies in 2022, by city, state, region, or country 3.3 million online job openings were related to low-carbon technologies in 2022, with one-third in middle-income countries 80,000 70,000 postings 60,000 job 50,000 40,000 online 30,000 of 20,000 10,000 Number 0 SpainChinaSpainChinaFranceStatesChinaChinaChinaSwitzerlandFrance ChinaChinaChinaItalyCzechiaGermanySwitzerlandRepublicSingaporeStatesGermanySwitzerlandKingdomChinaFranceSpainGermanyGermanyGermany Loire, United Nanjing, la United Lombardy,Prague, Beijing,UnitedShanghai,Suzhou,Shenzhen, Andalusia, Wuhan,Hangzhou,Chengdu, Bavaria, Slovak Catalonia,Guangzhou,Madrid, de Stuttgart, Zurich, Rhône-Alpes, Texas, Hamburg,Darmstadt,Berlin, Île-de-France,Geneva, Mittelland, Pays California, Upper Slovakia, London, Espace Western Middle-income High-income b. Creation of clean energy start-ups 1,506 clean energy start-ups were listed on Crunchbase in 2021, one-quarter in middle-income countries 1,600 1,400 start-ups 1,200 1,000 energy 800 600clean 400 of 200 0 Number 19901991199219931994199519961997199819992000200120022003200420052006200720082009201020112012201320142015201620172018201920202021 Middle-income countries High-income countries (Figure continues next page) 142 | WORLD DEVELOPMENT REPORT 2024",
+    "crop": "data/crops/p174-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p175:region0",
+    "page": 175,
+    "label": "Figure 6.3",
+    "caption": "Figure 6.3 Low-carbon innovation is driving the emergence of new spatial clusters, start-ups, and financing (continued)",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      414.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 6.3 Low-carbon innovation is driving the emergence of new spatial clusters, start-ups, and financing (continued) c. Growth of clean energy ﬁnancing US$1 trillion in clean energy ﬁnancing was extended globally in 2022 1,200 1,110 1,000 853billions) 800 627(US$, 600 524 471 483 396 425 400 313 271 217 245 214 200 123 159 156 Investment 36 55 82 0 2004200520062007200820092010201120122013201420152016201720182019202020212022 Sources: Panel a: WDR 2024 team analysis extending Bastos et al. (2023) to 86 countries. Panel b: Data and Statistics (dashboard), International Energy Agency, Paris, https://www.iea.org/data-and-statistics. Panel c: 2022 data from BloombergNEF (dashboard), Bloomberg, New York, https://about.bnef.com/. Note: Panel a displays the number of online job postings by city, state, region, or country that mention low-carbon technologies as defined by the Y02 classification of patents adopted by the European Patent Office. See Classification of Patents: Climate Change Mitigation Technologies (dashboard), European Patent Office, Munich, https://www.epo.org/en​ /news-events/in-focus/classification/climate-change. Panel b displays the number of new clean energy start-ups by year for middle- and high-income countries. Panel c displays the value of clean energy financing by year globally.",
+    "crop": "data/crops/p175-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p177:region0",
+    "page": 177,
+    "label": "Figure 6.4",
+    "caption": "Figure 6.4 The rate of adoption of clean energy technologies is growing more rapidly in middle-income countries than in high-income countries, but the level of adoption is lower",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      711.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 6.4 The rate of adoption of clean energy technologies is growing more rapidly in middle-income countries than in high-income countries, but the level of adoption is lower a. Wind energy generation 10 100 9 (%) 80 7 60 power energy 8 (%) 6 rate 5 40 of wind 4 20 3 Share generation Growth from 2 0 1 0 –20 1990 1992 1994 1996 1998 2000 2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 Share from wind energy generation, HICs Growth rate, HICs (right axis) Share from wind energy generation, MICs Growth rate, MICs (right axis) b. Solar energy generation 6 180 160 5 140 (%) 4 100 power energy 120 (%) 80 rate of 3 60 solar 40 2 20 generation Share Growth 1 0 from –20 0 –40 1990 1992 1994 1996 1998 2000 2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 Share from solar energy generation, HICs Growth rate, HICs (right axis) Share from solar energy generation, MICs Growth rate, MICs (right axis) c. Electric vehicles 0.0020 250 0.0016 200vehicles (%) 0.0012 150 rate inhabitants)electric 0.0008 100 of million 0.0004 50 Growth (per 0.0000 0Number 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 Number of electric vehicles, HICs Growth rate, HICs (right axis) Number of electric vehicles, MICs Growth rate, MICs (right axis) Source: WDR 2024 team analysis using data from Statistics Data (portal), International Renewable Energy Agency, Abu Dhabi, United Arab Emirates, https://www.irena.org/Data. Note: Comparing middle- and high-income countries, panels a and b display the shares and growth rates of wind energy and solar energy, respectively, in electricity generation, and panel c the number of battery electric vehicles per million inhabitants. HICs = high-income countries; MICs = middle-income countries.",
+    "crop": "data/crops/p177-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p179:region0",
+    "page": 179,
+    "label": "Figure 6.5",
+    "caption": "Figure 6.5 Clean energy technology value chains are still dominated by high-income countries and China",
+    "bbox": [
+      62.49,
+      85.41,
+      541.0,
+      704.32
+    ],
+    "kind": "visual",
+    "native_text": "Figure 6.5 Clean energy technology value chains are still dominated by high-income countries and China a. Solar photovoltaics 50 Japan Germany of China 40 Austria Italy Korea, Rep. Spain United States products) 30 France Türkiye(number United Kingdom 20 Mexico chain Malaysia 10 IndonesiaBreadth Congo, Dem. Rep. value 0 0 5 10 15 20 Depth (average market share, %) b. Wind turbines 60 Czechia India Italy Germany of Romania 50 Bulgaria Türkiye China Japan United States 40 Tunisia France products) Korea, Rep. United Kingdom(number 30 Mexico Thailand Malaysia chain 20 Russian Federation 10Breadth Congo, Dem. Rep. value 0 0 5 10 15 20 Depth (average market share, %) c. Electric vehicles 20 South Africa of Japan China Belgium Spain Germany 15 Brazil United States Austria Australia products) India(number 10 United Kingdom chain Norway Russian Federation 5Breadth Congo, Dem. Rep. value 0 0 5 10 15 20 Depth (average market share, %) Low-income Lower-middle-income Upper-middle-income High-income Source: Rosenow and Mealy 2024. Note: Each panel measures countries’ competitive dominance across traded products in a given supply chain in terms of two key measures. Breadth represents a country’s export competitiveness across the raw materials, processed materials, subcomponents, and end products of the supply chain. Depth measures a country’s export competitiveness in terms of its average market share across supply chain products. The sample includes countries whose total number of value chain products with a revealed comparative advantage exceeds 1.",
+    "crop": "data/crops/p179-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p180:region0",
+    "page": 180,
+    "label": "Figure 6.6",
+    "caption": "Figure 6.6 Costa Rica and China are the global front-runners in jobs related to low-carbon technologies",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      478.79
+    ],
+    "kind": "visual",
+    "native_text": "Figure 6.6 Costa Rica and China are the global front-runners in jobs related to low-carbon technologies Job creation leaders Job creation laggards Higher demand Lower demand than than high-income high-income country average country average 8 800,000 7 700,000 postings (%) 6 600,000postings job job LCTs 5 500,000 LCT 4 400,000 to online 3 300,000 online of High-income country average (1.7%) 200,000 of related 2 Share 1 100,000 0 0 Number Sri GuatemalaBulgariaEcuadorJordanThailandSerbiaMauritius LankaColombiaFederationPhilippinesIndiaPeruMexicoArgentinaMalaysiaJamaicaLebanonNamibiaRepublicAfricaSenegalGeorgiaBrazilCostaChinaRica South Russian Dominican LCT share of job postings Number of LCT job postings (right axis) Source: WDR 2024 team analysis extending Bastos et al. (2023). Note: The figure displays the share of online job postings of middle-income countries in 2022 that mention low-carbon technologies (LCTs) as defined by the classification of patents related to “climate change mitigation technologies” adopted by the European Patent Office. It also displays the total number of low-carbon technology postings in 2022. See Classification of Patents: Climate Change Mitigation Technologies (dashboard), European Patent Office, Munich, https://www.epo.org/en​ /news-events/in-focus/classification/climate-change.",
+    "crop": "data/crops/p180-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p182:region0",
+    "page": 182,
+    "label": "Map 6.2",
+    "caption": "Map 6.2 Limited or outdated electricity transmission networks serve as barriers to the entry of renewable sources",
+    "bbox": [
+      63.5,
+      416.5,
+      541.0,
+      703.79
+    ],
+    "kind": "visual",
+    "native_text": "Map 6.2 Limited or outdated electricity transmission networks serve as barriers to the entry of renewable sources Source: Arkolakis and Walsh 2023. Note: The map displays electricity transmission networks in 2023. The two insets focus on areas of particular interest due to the geographic disparities in coverage of transmission networks in these regions.",
+    "crop": "data/crops/p182-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p185:region0",
+    "page": 185,
+    "label": "Figure 6.7",
+    "caption": "Figure 6.7 Most of the countries currently “locked in” to declining brown industries are middle-income countries",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      712.04
+    ],
+    "kind": "visual",
+    "native_text": "Figure 6.7 Most of the countries currently “locked in” to declining brown industries are middle-income countries a. Brown Lock-in Index for top 10 highest-risk middle-income countries 3.5 3.0 Index 2.5 2.0 Lock-in 1.5 1.0Brown 0.5 0 Iraq Libya Angola Guinea Azerbaijan Nigeria AlgeriaTurkmenistanTimor-Leste Gabon Equatorial b. Brown Lock-in Index versus Transition Outlook for middle-income countries 2.5 2.0 KHM VUT 1.5 1.0 LCA 0.5 VCTOutlook MDV 0 BLR TKM SWZ UZB EGY IRQ –0.5 NAM BRA IDN MMR TUV CIV RUS IRN AZE ARG MNG ECU –1.0 Transition GHA COL KAZ DZA –1.5 CMR NGA PNG AGO MRT GNQ –2.0 TLS BOL COG LBY –2.5 NIC GAB –3.0 –1.0 –0.5 0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 Brown Lock-in Index Lower-middle-income Upper-middle-income Source: WDR 2024 team analysis based on Andres et al. (2023). Note: Panel a displays the Brown Lock-in Index for the 10 middle-income countries with the highest index values. See BLI (Brown Lock-in Index) (dashboard), Green Transition Navigator, London School of Economics and Political Science, London, https://green-transition-navigator.org/. Panel b displays the correlation between the Brown Lock-in Index and the Transition Outlook for all middle-income countries. The Brown Lock-in Index measures the risk that a country will be locked in to carbon-intensive industries. A higher index value indicates greater risk. The Transition Outlook measures a country’s ease of transitioning from brown to green products. A higher value indicates greater ease of transitioning. See Green Transition Navigator (dashboard), London School of Economics and Political Science, London, https://green-transition-navigator.org/. For country abbreviations, see International Organization for Standardization (ISO), https://www.iso.org/obp/ui/#search.",
+    "crop": "data/crops/p185-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p186:region0",
+    "page": 186,
+    "label": "Map 6.3",
+    "caption": "Map 6.3 Low-carbon technology jobs in China are growing in manufacturing hubs on the southeast coast, whereas fossil fuel jobs are close to coal mines",
+    "bbox": [
+      62.5,
+      260.96,
+      541.0,
+      703.67
+    ],
+    "kind": "visual",
+    "native_text": "Map 6.3 Low-carbon technology jobs in China are growing in manufacturing hubs on the southeast coast, whereas fossil fuel jobs are close to coal mines Source: Park et al. 2023. Note: In panel b, the share of fossil fuel jobs in 2019 is based on data from China Statistical Database, National Bureau of Statistics of China, Beijing, https://www.stats.gov.cn/english/.",
+    "crop": "data/crops/p186-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p194:region0",
+    "page": 194,
+    "label": "Figure 7.1",
+    "caption": "Figure 7.1 In Italy, market leaders increase their political connections while reducing innovation",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      469.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.1 In Italy, market leaders increase their political connections while reducing innovation 60 Market leader 2.7 50workers 100 2.6 politiciansworkers per 100 40 local per 2.5 ofpatents of 30 employed 2.4 NumberNumber Market leader 20 2.3 0 5 10 15 20 Firm’s market rank Patents Politicians (right axis) Source: Akcigit, Baslandze, and Lotti 2023. Note: The x-axis shows the top 20 firms in a market ranked by employment share, with the rank of 1 indicating the highest employment share (“market leader”). The assessment covers markets defined at the six-digit industry level for 20 regions in Italy from 1993 to 2014. The dark blue line is the line of best fit for patents per 100 workers. The orange line is the line of best fit for the number of local politicians employed per 100 workers. “Six-digit” refers to ATECO (Classification of Economic Activity) (database), Italian National Institute of Statistics, Rome, https://www.istat.it/en/classification​ /­ateco-classification-of-economic-activity-2007/.",
+    "crop": "data/crops/p194-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p195:region0",
+    "page": 195,
+    "label": "Figure 7.2",
+    "caption": "Figure 7.2 Promoting contestability through institutions, incentives, and interventions",
+    "bbox": [
+      62.5,
+      479.41,
+      298.0,
+      703.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.2 Promoting contestability through I institutions, incentives, and interventions p p Disciplining l incumbency a a m Contestability p f a o k c Institutions Incentives Interventions d s Source: WDR 2024 team.",
+    "crop": "data/crops/p195-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p196:region0",
+    "page": 196,
+    "label": "Figure 7.3",
+    "caption": "Figure 7.3 In many middle-income countries, markets are dominated by a few business groups, as a survey suggests",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      409.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.3 In many middle-income countries, markets are dominated by a few business groups, as a survey suggests 7 (0–7) 6 5 4dominance responses) market 3 2 (surveyof Extent 1 0 Japan averageStatesGermanyMalaysiaKingdomPolandIndia Viet 5 RicaAfricaFederationBrazilBulgaria ChinaaverageCzechiaSloveniaPortugalIndonesiaCosta NamRepublicKazakhstanTürkiyeChileColombiaMexicoKorea,Rep.RomaniaArgentina South United OECD Top United Slovak Russian Middle-income High-income Source: WDR 2024 team based on Schwab (2019). Note: The survey question: “In your country, how do you characterize corporate activity?” [1 = dominated by a few business groups; 7 = spread among many firms]. OECD = Organisation for Economic Co-operation and Development.",
+    "crop": "data/crops/p196-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p197:region0",
+    "page": 197,
+    "label": "Figure 7.4",
+    "caption": "Figure 7.4 In middle-income countries, restrictive product market regulations are pervasive",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      455.72
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.4 In middle-income countries, restrictive product market regulations are pervasive 3.5 3.0 (0–6) 2.5 score PMR 2.0 1.5 1.0 0.5 Economywide 0 ChileaverageJapanPolandRepublicMexico Viet RicaAfricaMalaysiaBrazilArgentinaIndonesiaChina Kingdom5averageGermanySloveniaCzechiaPortugal FederationNamTürkiyeCosta Korea, Rep.StatesRomaniaBulgariaColombiaKazakhstan South United OECD TopUnited Slovak Russian Middle-income High-income Source: WDR 2024 team based on 2018 data from PMR Database (OECD-WBG Product Market Regulation Database) (dashboard), Data Catalogue, World Bank, Washington, DC, https://prosperitydata360.worldbank.org/en/dataset​ /­OECDWBG+PMR; PMR Indicators (Indicators of Product Market Regulation) (dashboard), Organisation for Economic Co-operation and Development, Paris, https://www.oecd.org/en/topics/sub-issues/product-market-regulation.html#:~:text​ =The%20PMR%20economy%2Dwide%20indicators,existing%20regulations%2C%20and%20foreign%20trade. Note: The economywide Product Market Regulation (PMR) indicators measure the regulatory barriers to firm entry and competition in a broad range of cross-sector policy areas, as well as in specific services and network sectors. The PMR indicators range from 0 to 6. A lower value indicates that a regulatory regime is friendlier to competition. OECD = Organisation for Economic Co-operation and Development.",
+    "crop": "data/crops/p197-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p198:region0",
+    "page": 198,
+    "label": "Figure 7.5",
+    "caption": "Figure 7.5 In middle-income countries, both economywide and sectoral input and product market regulations are more restrictive than in high-income countries",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      505.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.5 In middle-income countries, both economywide and sectoral input and product market regulations are more restrictive than in high-income countries Distortions induced by state involvement Barriers to domestic andEconomywide foreign entry Network sectors Professional servicesSector Retail trade 0 0.5 1.0 1.5 2.0 2.5 3.0 PMR score (0–6) Middle-income High-income Source: WDR 2024 team based on data from PMR Database (OECD-WBG Product Market Regulation Database) (dashboard), Data Catalogue, World Bank, Washington, DC, https://prosperitydata360.worldbank.org/en/dataset/OECDWBG+PMR; PMR Indicators (Indicators of Product Market Regulation) (dashboard), Organisation for Economic Co-operation and Development, Paris, https://www.oecd.org/en/topics/sub-issues/product-market-regulation.html#:~:text=The%20PMR​ %20economy%2Dwide%20indicators,existing%20regulations%2C%20and%20foreign%20trade. Note: The economywide Product Market Regulation (PMR) indicators measure the regulatory barriers to firm entry and competition in a broad range of cross-sector policy areas, as well as in specific services and network sectors. The sector PMR indicators measure the regulatory barriers to firm entry and competition at the level of individual sectors, with a focus on network industries, professional services, and retail distribution. The PMR indicators range from 0 to 6. A lower value indicates that a regulatory regime is friendlier to competition. The figure includes data for 38 high-income countries and 22 middle-income countries.",
+    "crop": "data/crops/p198-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p199:region0",
+    "page": 199,
+    "label": "Figure 7.6",
+    "caption": "Figure 7.6 The BRICS and large middle-income countries have a significant presence of publicly owned enterprises and governance frameworks that stifle competition",
+    "bbox": [
+      62.57,
+      85.41,
+      541.0,
+      479.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.6 The BRICS and large middle-income countries have a significant presence of publicly owned enterprises and governance frameworks that stifle competition 5 4 (0–6)public score 3 2Economywide ownership 1 0 Chile StatesJapanSlovenia Rep.BrazilBulgariaTürkiyePolandRomania GermanyaverageMexicoRepublic Kingdom Viet averagePortugalCzechiaColombia ArgentinaRica NamChinaIndonesia 5 Costa Korea, AfricaMalaysiaFederationKazakhstan South United OECD TopUnited Slovak Russian Middle-income High-income Source: WDR 2024 team based on 2018 data from PMR Database (OECD-WBG Product Market Regulation Database) (dashboard), Data Catalogue, World Bank, Washington, DC, https://prosperitydata360.worldbank.org/en/dataset/OECDWBG​ +PMR; PMR Indicators (Indicators of Product Market Regulation) (dashboard), Organisation for Economic Co-operation and Development, Paris, https://www.oecd.org/en/topics/sub-issues/product-market-regulation.html#:~:text=The%20PMR​ %20economy%2Dwide%20indicators,existing%20regulations%2C%20and%20foreign%20trade. Note: The BRICS nations are Brazil, the Russian Federation, India, China, and South Africa. The public ownership indicator shows the extent of the presence of state-owned enterprises (SOEs) in the economy and their governance. A higher score indicates higher presence of SOEs with weaker governance of SOEs. OECD = Organisation for Economic Co-operation and Development.",
+    "crop": "data/crops/p199-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p200:region0",
+    "page": 200,
+    "label": "Figure 7.7",
+    "caption": "Figure 7.7 A state presence has important effects on firm entry, market concentration, and preferential treatment",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      508.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.7 A state presence has important effects on firm entry, market concentration, and preferential treatment a. Effects of doubling state presence b. Direct (explicit) and indirect (implicit) on firm entry and market concentration advantages for businesses of the state 30 35 20 30 10 25 20 0 countries ofPercent –10 15 –20 10 Number –30 5 –40 0 Entry Market concentration Explicit Implicit Explicit Implicit (HHI) LMICs UMICs Brazil Ecuador Romania Advantage identified Türkiye Viet Nam No advantage identified Source: World Bank 2023a. Note: Panel a: Entry is based on the rate of entry of new firms in Romania and Türkiye and on the share of revenue accounted for by young firms (less than five years old) in Brazil, Ecuador, and Viet Nam. Market concentration is captured by the Herfindahl- Hirschman Index (HHI) (Herfindahl 1950; Hirschman 1964). For the World Bank Global Businesses of the State Database, see Dall’Olio et al. (2022). Panel b: Direct (explicit) advantages are legal provisions that explicitly favor a group of market players such as state-owned enterprises. These typically involve taxes, public debt, public procurement conditions, state support, and exemptions to legal frameworks. Indirect (implicit) advantages are regulations and enforcement conditions that exist at the product, sector, or economywide level but that, in practice, unlevel the playing field in favor of a group of players. These typically involve import restrictions, bans on licenses, price or quota regulation, and poor antitrust enforcement. Businesses of the state are enterprises with majority or minority state shareholdings. The figure is based on a sample of 58 World Bank Country Private Sector Diagnostics, including 33 for lower-middle-income countries (LMICs) and 16 for upper-middle- income countries (UMICs).",
+    "crop": "data/crops/p200-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p201:region0",
+    "page": 201,
+    "label": "Figure 7.8",
+    "caption": "Figure 7.8 State-owned enterprises dominate coal power generation, while the private sector leads in modern renewable energy",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      382.03
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.8 State-owned enterprises F dominate coal power generation, while the c private sector leads in modern renewable t energy g a. Coal b. Renewable energy (%) 3% 7% 13% 13% SOE b t t 84% 80% I China SOEs Private sector Source: Vagliasindi (2023) based on analysis of power plant data for countries, including Pakistan, Poland, South Africa, and Türkiye. Note: The figures for the private sector and state-owned S enterprise (SOE) shares of coal and renewable energy are N the average shares of total installed capacity across the set b of countries included in the analysis, excluding ownership r by China which is shown separately in dark blue",
+    "crop": "data/crops/p201-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p201:region1",
+    "page": 201,
+    "label": "Figure 7.9",
+    "caption": "Figure 7.9 In low- and middle-income countries, state-owned enterprises are the largest investors in fossil fuel energy generation",
+    "bbox": [
+      278.0,
+      85.11,
+      491.5,
+      382.03
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.9 In low- and middle-income countries, state-owned enterprises are the largest investors in fossil fuel energy generation 100 (%) 80 SOEs 60 by 40 20 Investment 0 Low- and High-income middle-income t Oil and gas Fossil fuel generation , RE&EE Electricity networks Averag d Source: Vagliasindi (2023) based on IEA (2020). e Note: The figure shows the percentage share of investm t by state-owned enterprises (SOEs) by fuel type. RE& p renewable energy and energy efficiency.",
+    "crop": "data/crops/p201-region1.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p205:region0",
+    "page": 205,
+    "label": "Figure 7.10",
+    "caption": "Figure 7.10 Foreign technology licensing is limited among middle-income country firms",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      438.72
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.10 Foreign technology licensing is limited among middle-income country firms (%) KSV 30 AZE SVK licensing MNG MDA TUR 20 ARM MAR BIH ROM LTU HRVtechnology TJK SVN GEO POL MKD CZE SRB ESTforeign KGZ BGR LVA BGD PAK ALB MNE 10 LBN BLR JORusing UKR GHA KAZ RUS ZMB YEM TUN HUNﬁrms UGA KEN ISR of UZB IND EGY COD SSD NGA NAM NPL TZA SDNShare 0 6 7 8 9 10 11 GDP per capita (log scale) Low-income Middle-income High-income Source: Cirera and Maloney (2017) based on data from WBES (World Bank Enterprise Surveys) (dashboard), World Bank, Washington, DC, https://www.enterprisesurveys.org/en/enterprisesurveys. Note: For country abbreviations (except KSV, here representing Kosovo), see International Organization for Standardization (ISO), https://www.iso.org/obp/ui/#search. GDP = gross domestic product.",
+    "crop": "data/crops/p205-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p210:region0",
+    "page": 210,
+    "label": "Figure B7.4",
+    "caption": "Figure B7.4.1 Some countries are strongly positioned to benefit from knowledge spillovers from their diaspora",
+    "bbox": [
+      109.5,
+      143.91,
+      298.0,
+      603.85
+    ],
+    "kind": "visual",
+    "native_text": "Figure B7.4.1 Some countries are stron knowledge spillovers from their diaspor (%) 70 LSO 60 PNG MWI BHS VUT M ISL occupations 50 SLB SWZ BWANAM BRNBHR LUXBEN QAT ARE MOZ TGO F BLZ VCT TJK BFA “good” L NER RWA DJI CPV COG CAF TCDin 40 WSM LCA MDV GAB BDI SVN MRT OMN GMB YEM AGO KGZ AZ 30 MLI PRY TKM FSM migrants COM PSE GIN EST TON STP GNB GNQ G 20 skilled BTN highly 10 TMP MNG of 0 Share 5 1 Number of migrants to Western Eu Low-income Middle-income Sources: WDR 2024 team calculations; DIOC (Data Countries), reference years 2010/11, Organisation Paris, https://www.oecd.org/els/mig/dioc.htm. Note: DIOC 2010/11 provides data on migration flo migration flows from 200 origins to 34 OECD co figure represents an origin (or birth) country. For ea of tertiary-educated migrants who now live in dest America (log scale). The y-axis shows the share of a manager, professional, or technician in their desti “good.” They represent the top three one-digit Intern (ISCO) codes. The sample is restricted to person defined as a completed tertiary education. The an Western European and North American countries (Belgium), CAN (Canada), DNK (Denmark), FRA (Fra NLD (Netherlands), NOR (Norway), ESP (Spain), SW Kingdom), and USA (United States). For country ab Standardization (ISO), https://www.iso.org/obp/ui/ Co-operation and Development.",
+    "crop": "data/crops/p210-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p212:region0",
+    "page": 212,
+    "label": "Figure B7.5",
+    "caption": "Figure B7.5.1 In Colombia, after a cartel is sanctioned, market outcomes improve through the entry and growth of previously lagging firms",
+    "bbox": [
+      96.38,
+      153.44,
+      298.0,
+      465.38
+    ],
+    "kind": "visual",
+    "native_text": "Figure B7.5.1 In Colombia, after a Fi cartel is sanctioned, market outcomes ab improve through the entry and growth m of previously lagging firms im 0.4 0.2 0 –0.2Percent –0.4 Percent –0.6 –0.8 Laggards Leaders Sales Value added TFPR Markups Source: Sampi, Urrutia Arrieta, and Vostroknutova 2022. Note: The figure shows the changes in various market outcome variables after a cartel is So sanctioned for previously lagging firms and leading 20 firms in the unaffected market. TFPR = total factor No productivity ratio. m do",
+    "crop": "data/crops/p212-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p212:region1",
+    "page": 212,
+    "label": "Figure B7.5",
+    "caption": "Figure B7.5.2 In Colombia, after an abuse of dominance case, positive market outcomes are driven by improvements in leading firms",
+    "bbox": [
+      278.0,
+      153.44,
+      466.39,
+      465.38
+    ],
+    "kind": "visual",
+    "native_text": "Figure B7.5.2 In Colombia, after an s abuse of dominance case, positive market outcomes are driven by improvements in leading firms 1.6 1.4 1.2 1.0 0.8 0.6 Percent 0.4 0.2 0 –0.2 –0.4 Laggards Leaders a Sales Value added TFPR Markups s s Source: Sampi, Urrutia Arrieta, and Vostroknutov g 2022. or Note: The figure shows the changes in variou market outcome variables after an abuse o dominance case for previously lagging firms an",
+    "crop": "data/crops/p212-region1.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p213:region0",
+    "page": 213,
+    "label": "Figure 7.11",
+    "caption": "Figure 7.11 Competition authorities in middle-income countries need more capacity to deal with sophisticated policy problems",
+    "bbox": [
+      62.5,
+      270.85,
+      541.0,
+      653.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 7.11 Competition authorities in middle-income countries need more capacity to deal with sophisticated policy problems 250 25 200 20 authority competition per 150 15 2022staff competition millions) of euros, 100 10 authority, (real competition budget of 50 5 AverageNumber 0 0 Americas Asia-Pacific Europe Middle East and Africa Number of competition staff per competition authority Average budget of competition authority (right axis) Source: OECD Competition Statistics Survey data (OECD 2024). Note: OECD Competition Trends cover 77 OECD and non-OECD jurisdictions. For a list of countries included in each region shown in the figure, see OECD Competition Statistics (OECD CompStats) Survey 2024 (web page), Organisation for Economic Co-operation and Development, Paris, https://survey.oecd.org/index.php?r=survey/index&sid=371986&lang=en; OECD Competition Trends (portal), Organisation for Economic Co-operation and Development, Paris, https://www.oecd.org/fr​ /­corruption/oecd-competition-trends.htm.",
+    "crop": "data/crops/p213-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p223:region0",
+    "page": 223,
+    "label": "Figure 8.1",
+    "caption": "Figure 8.1 Middle-income countries that transitioned to high-income status first focused on foundational skills",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      454.0
+    ],
+    "kind": "visual",
+    "native_text": "Figure 8.1 Middle-income countries that transitioned to high-income status first focused on foundational skills a. Enrollment rate b. Completion rate 100 100 (%) (%) 80 80 60 60population population 40 40 of of 20 20Share Share 0 0 –15 –10 –5 0 5 –15 –10 –5 0 5 Years since transition Years since transition Higher education, MICs to HICs Upper-secondary, MICs to HICs Higher education, MICs’ current average Upper-secondary, MICs’ current average Source: WDR 2024 team calculations based on data of UIS.Stat (dashboard), Institute for Statistics, United Nations Educational, Scientific, and Cultural Organization, Montreal, http://data.uis.unesco.org/. Note: Solid lines show averages for countries that were middle-income countries in the early 1990s and transitioned to high-income status any time before 2019 (23 countries for enrollment rates and 15 countries for completion rates). Dashed lines indicate the current average for middle-income countries that have not yet transitioned. Gross enrollment rate is the ratio of total enrollment, regardless of age, to the population of the official age group for the education level. Completion rate is the percentage of individuals three to five years older than the theoretical age of completion of the level’s last grade who have completed the level’s last grade. For countries that have transitioned, data are for 1981–2022 for enrollment rates and 1990–2021 for completion rates. The number of years since graduation is computed as the calendar year minus transition year. For countries not yet transitioned, data are for the most recent year available. HICs = high-income countries; MICs = middle-income countries.",
+    "crop": "data/crops/p223-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p232:region0",
+    "page": 232,
+    "label": "Figure 8.2",
+    "caption": "Figure 8.2 Countries at lower levels of development have more opportunities for potentially productivity-enhancing job reallocation",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      718.21
+    ],
+    "kind": "visual",
+    "native_text": "Figure 8.2 Countries at lower levels of development have more opportunities for potentially productivity-enhancing job reallocation a. Job reallocation rate and GDP per capita 90,000 CHE 80,000 2022 70,000 DNKUS$), 60,000 SWE NLD 50,000 FIN(2015 GBR DEU 40,000 ITA FRA MLTcapita 30,000 SVN per ESP CZE 20,000 PRT SVK LTU LVA HUN HRV ROMGDP 10,000 POL 0 14 15 16 17 18 19 20 21 22 23 24 Job reallocation rate (%) b. Job reallocation rate and GDP per capita growth rate 45 LTU 40 LVA 35 MLT ROM capita 30 POL per2010–17 25 GDP(%), 20 HUN SVK CZE rate 15 DEU GBR SVN HRV 10 ESP SWE DNK growth NLD Cumulative 5 FRA PRT CHE FIN 0 ITA –5 14 15 16 17 18 19 20 21 22 23 24 Job reallocation rate (%) Source: WDR 2024 team using the 9th Vintage CompNet Dataset (dashboard), Competitiveness Research Network, Halle Institute for Economic Research, Halle, Germany, https://www.comp-net.org/data/9th-vintage/. Note: Small firms with fewer than 20 employees are excluded to allow consistency across countries and sectors. The unit of analysis is the legal unit (firm). Entrants and exiters are excluded from the analysis. Data on gross domestic product (GDP) per capita are from National Accounts (dashboard), Organisation for Economic Co-operation and Development, Paris, https://www.oecd.org/sdd/na/; WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https:// datacatalog.worldbank.org/search/dataset/0037712. GDP per capita growth is computed as the growth rate between 2010 and 2017 because the job reallocation rate is computed over 2010–17. Twenty-one European countries are included. The diagonal line indicates linear fitted values. For country abbreviations, see International Organization for Standardization (ISO), https://www.iso.org/obp/ui/#search.",
+    "crop": "data/crops/p232-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p233:region0",
+    "page": 233,
+    "label": "Figure 8.3",
+    "caption": "Figure 8.3 The number of countries creating special enforcement units for large taxpayers has increased",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      368.25
+    ],
+    "kind": "visual",
+    "native_text": "Figure 8.3 The number of countries creating L special enforcement units for large taxpayers L has increased f 120 L w 100 o t 80 tcountries o 60of c 40 fNumber c 20 R 0 d 1960 1970 1980 1990 2000 20102014 f n Source: Bachas, Fattal Jaef, and Jensen 2019. a Note: The figure includes data collected by Bachas, Fattal Jaef, and Jensen (2019) for all 113 countries with more than a 1 million inhabitants. p",
+    "crop": "data/crops/p233-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p234:region0",
+    "page": 234,
+    "label": "Figure 8.4",
+    "caption": "Figure 8.4 Improvements in allocative efficiency in Chile, China, and India have been driven by reducing productivity-dependent distortions",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      453.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 8.4 Improvements in allocative efficiency in Chile, China, and India have been driven by reducing productivity-dependent distortions 1.3 1.2acceleration growth of 1.1 year ﬁrst to 1.0 Relative 0.9 0 5 10 15 20 Number of years since ﬁrst year of growth acceleration Chile China India Source: WDR 2024 team based on the methodology in Hsieh and Klenow (2009). Note: The first year in each country’s growth acceleration covered by the firm-level data is 1980 in Chile, 1998 in China, and 2000 in India. Each line in the figure illustrates the evolution of the gap between observed total factor productivity (TFP) in a country relative to the potential TFP if resources had been allocated efficiently across firms, normalized by the gap observed at the beginning of the sample in 1998.",
+    "crop": "data/crops/p234-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p238:region0",
+    "page": 238,
+    "label": "Figure 8.5",
+    "caption": "Figure 8.5 In emerging market and developing economies, few companies are funded through venture capital or private equity",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      697.78
+    ],
+    "kind": "visual",
+    "native_text": "Figure 8.5 In emerging market and developing economies, few companies are funded through venture capital or private equity a. Venture capital 90 SGP ISL ISR 80 EST IRLfunded 70 SWE persons 60 GBR CHE LUX FIN DNK 50 MLT USAcompanies million 40 BEL NORof 1 CAN per 30 NZL NLD BMU HKG AUS FRA ESP AUT 20 ASM LTU CYPNumber PRT HUN LVA KOR DEU 10 LBN SVN BHS ARE QAT CZE ITA JPN SAU KWT 0 20,000 40,000 60,000 80,000 100,000 120,000 GDP per capita (US$), 2020 b. Private equity 35 30 CAN funded 25 FRO LUX ISL persons 20 SWE AUS NORcompanies million 15 AND FIN CYM of1 DNK SGP IRL per 10 BHR ESP FRAGBR NLD SAU EST NZL USANumber 5 LCA CYPMLT ISR DEUBEL CHE MUS BRB PRT HKG CZE ITA ARE AUT SVN KOR JPN QAT 0 20,000 40,000 60,000 80,000 100,000 120,000 GDP per capita (US$), 2020 EMDEs High-income economies Source: Didier and Chelva 2023. Note: The figure displays the number of companies funded through venture capital (panel a) and private equity (panel b) investments from deals concluded during 2018–19. Economies are classified according to the World Bank’s income classification as of June 2020 (Serajuddin and Hamadeh 2020). For country abbreviations, see International Organization for Standardization (ISO), https://www.iso.org/obp/ui/#search. EMDEs = emerging market and developing economies; GDP = gross domestic product.",
+    "crop": "data/crops/p238-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p240:region0",
+    "page": 240,
+    "label": "Figure B8.5",
+    "caption": "Figure B8.5.1 Amazon deforestation falls when Brazilian productivity rises",
+    "bbox": [
+      107.68,
+      155.16,
+      541.0,
+      415.92
+    ],
+    "kind": "visual",
+    "native_text": "Figure B8.5.1 Amazon deforestation falls when Brazilian productivity rises 130 0 125 –5100) 120 cover= 115 km2) –10 110 of forest(1996 105 –15 in 100 –20index 95 change(thousands TFP 90 –25 85 Net 80 –30 199619971998199920002001200220032004200520062007200820092010201120122013201420152016201720182019202020212022 Total factor productivity Net change in forest cover, Legal Amazon (right axis) Source: WDR 2024 team extending Ferreira Filho, De Souza, and Hanusch (2022). Note: Legal Amazon is the largest sociogeographic division in Brazil, containing all nine states in the Amazon basin. km2 = square kilometer; TFP = total factor productivity.",
+    "crop": "data/crops/p240-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p241:region0",
+    "page": 241,
+    "label": "Figure 8.6",
+    "caption": "Figure 8.6 Indirect carbon pricing such as energy taxes is the strongest price signal",
+    "bbox": [
+      63.5,
+      379.58,
+      541.0,
+      703.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 8.6 Indirect carbon pricing such as energy taxes is the strongest price signal 50 40 30 US$/tCO2 2010 0 –10 –20 1991 1993 1995 1997 1999 2001 2003 2005 2007 2009 2011 2013 2015 2017 2019 2021 ETSs Carbon taxes Energy taxes Energy subsidies VAT deviations Source: Agnolucci, Gencer, and Heine 2024. Note: The figure presents illustrative calculations for the global aggregate total carbon price using the best available global data. The figure covers 142 countries. ETSs = emissions trading systems; tCO2 = metric tons of carbon dioxide; VAT = value added tax.",
+    "crop": "data/crops/p241-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p243:region0",
+    "page": 243,
+    "label": "Figure 8.7",
+    "caption": "Figure 8.7 In some middle-income countries, the prices of renewable energy through competitive auctions have reached record lows",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      365.43
+    ],
+    "kind": "visual",
+    "native_text": "Figure 8.7 In some middle-income countries, the prices of renewable energy through competitive auctions have reached record lows 9 on 8 Serbia, 8.2 kWh) 7based per 6 Poland,Poland, 5.25.2 Philippines, 4.5 5 Kazakhstan, 4.0 Zambia, 3.9 4 Chile, 3.7estimates(US$0.01 Uzbekistan, 2.7 India, 2.7 India, 3.0 3 Ethiopia, 2.6 India, 2.8tariff Qatar,Qatar, 1.61.6 2 Colombia, 1.8 Tunisia, 2.4 Saudi Arabia, 1.0 auctionsPPA 1 Dubai, 1.7 Abu Dhabi, 1.4 0 2018 2019 2020 2021 2022 2023 Asia (South and East) Europe and Central Asia Latin America Middle East and North Africa Sub-Saharan Africa Source: WDR 2024 team based on results of auctions reported in PV magazine, http://www.pv-magazine.com. Note: The emirates of Abu Dhabi and Dubai are shown separately. kWh = kilowatt-hour; PPA = power purchase agreement.",
+    "crop": "data/crops/p243-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p255:region0",
+    "page": 255,
+    "label": "Figure 9.1",
+    "caption": "Figure 9.1 Use of globalized value chains for solar panels results in faster learning and lower global prices",
+    "bbox": [
+      62.5,
+      85.41,
+      541.0,
+      435.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.1 Use of globalized value chains for solar panels results in faster learning and lower global prices a. China b. Germany c. United States 6,000 6,000 6,000 Learning rate: 32.3% Learning rate: 20.2% Learning rate: 26.4% 5,000 5,000 5,000 US$) US$) US$) 4,000 4,000 4,000 (2020 (2020 (2020 3,000 3,000 3,000 kW kW kW per per per Price 2,000 Price 2,000 Price 2,000 1,000 1,000 1,000 0 0 0 20062008201020122014201620182020 20062008201020122014201620182020 20062008201020122014201620182020 Modeled price, global market scenario Modeled price, national market scenario Historical module price Source: Helveston, He, and Davidson 2022. Note: The figure displays the estimated module prices for global versus national market scenarios for 2006–20. The dots represent historical module prices, and the two solid lines reflect the modeled prices using global (blue) versus national (orange) market scenarios. In each modeled curve, the learning rates are held constant by country, and the prices of silicon follow historical global trends. The global market scenario uses global capacities, and the national market scenario uses a weighted sum of national and global capacities that reflects a gradual transition to fully domestically supplied markets over a 10-year period. The shaded uncertainty bands represent 95 percent confidence intervals from the estimated learning models, which were computed using a simulation. kW = kilowatt.",
+    "crop": "data/crops/p255-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p256:region0",
+    "page": 256,
+    "label": "Figure 9.2",
+    "caption": "Figure 9.2 Middle-income countries can support global decarbonization by becoming global suppliers of “granular” (type 1 and type 2) energy technologies",
+    "bbox": [
+      63.15,
+      85.41,
+      541.0,
+      512.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.2 Middle-income countries can support global decarbonization by becoming global suppliers of “granular” (type 1 and type 2) energy technologies Standardized Mass-customized Customized Platform-based complex Standardized complex product systems Complex product product systems (for example, small systems Complex (for example, CCGT modular reactor nuclear (for example, nuclear power plants) power plants, carbon power plants, BECCS) capture and storage) complexity Platform-based Complex-customized Mass-produced complex complex products products products (for example, wind (for example, biomass Design-intensivedesign (for example, electric turbines concentrating power plants,of vehicles) solar power) geothermal power) Degree Mass-produced products Mass-customized products Small-batch products (for example, solar (for example, rooftop (for example, building Simple PV modules, LEDs) solar PV) envelope retroﬁts) Need for customization Technology type: Type 1 Type 2 Type 3 Source: Malhotra and Schmidt 2020. Note: Type 1 technologies, such as solar photovoltaic (PV) modules and efficient light emitting diode (LED) lighting, are simple to assemble and distribute at scale (although individual components may exhibit complexity) and have rapid learning rates and scale economies. Type 2 technologies, such as wind turbines and electric vehicles, involve relatively more complex designs and move toward scalability more slowly, although they include standardized components, have the potential for scale economies and increasing replication, and have learning cycles of a few years. Type 3 technologies, such as nuclear power, require extensive customization and involve a high degree of complexity. They are susceptible to cost overruns and have limited scope for rapid learning by doing. BECCS = bioenergy with carbon capture and storage; CCGT = combined-cycle gas turbine.",
+    "crop": "data/crops/p256-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p257:region0",
+    "page": 257,
+    "label": "Figure 9.3",
+    "caption": "Figure 9.3 Extraction and processing of critical minerals for the clean energy transition remain highly concentrated in certain countries",
+    "bbox": [
+      63.18,
+      85.41,
+      541.0,
+      582.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.3 Extraction and processing of critical minerals for the clean energy transition remain highly concentrated in certain countries a. Extraction Congo, Copper Chile Peru Dem. Rep. Russian Federation Nickel Indonesia Philippines Indonesia Cobalt Congo, Dem. Rep. AustraliaMinerals Lithium Australia Chile China United Rare earths China Australia States 0 10 20 30 40 50 60 70 80 90 100 Share of global extraction (%) Top three share, 2019 b. Processing Copper Chile Japan Russian Nickel Indonesia China Federation Cobalt China Finland CanadaMinerals Lithium China Chile Argentina Rare earths China Malaysia Estonia 0 10 20 30 40 50 60 70 80 90 100 Share of global processing (%) Top three share, 2019 Source: IEA 2023a.",
+    "crop": "data/crops/p257-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p258:region0",
+    "page": 258,
+    "label": "Figure 9.4",
+    "caption": "Figure 9.4 Many middle-income countries have untapped potential to manufacture green products",
+    "bbox": [
+      63.17,
+      85.41,
+      541.0,
+      463.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.4 Many middle-income countries have untapped potential to manufacture green products a. Middle-income countries with b. Middle-income countries with highest green complexity index highest green complexity potential index 3.5 4.5 4.0 3.0 index 3.5index 2.5 3.0 2.0 potential 2.5 1.5 2.0complexity 1.5 1.0 complexity 1.0Green 0.5 0.5 Green 0 0 Arab Rep.IndonesiaBelarusVietNam ChinaBulgariaIndiaMexicoTürkiyeSerbiaBelarusThailandHerzegovinaTunisia ChinaTürkiyeIndiaBulgariaThailandSerbia and Egypt, Bosnia Source: WDR 2024 team based on Mealy and Teytelboym (2022). Note: Panel a shows the green complexity index (GCI), which is aimed at capturing the extent to which countries are able to competitively export green, technologically sophisticated products. A country is considered to be competitive in a product if its revealed comparative advantage for this product is greater than 1. Panel b shows the green complexity potential (GCP) index. This index aggregates the information contained in each country’s green adjacent possible (GAP)—which is aimed at identifying the green diversification opportunities for each country—into a single, comparable metric. The GCP index measures each country’s average relatedness to green complex products in which the country is not yet competitive.",
+    "crop": "data/crops/p258-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p259:region0",
+    "page": 259,
+    "label": "Figure 9.5",
+    "caption": "Figure 9.5 All industrial policy implementation and green industrial policy implementation are correlated with GDP per capita",
+    "bbox": [
+      63.18,
+      326.85,
+      541.0,
+      698.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.5 All industrial policy implementation and green industrial policy implementation are correlated with GDP per capita a. All industrial policies b. Green industrial policies 6 5 USA USA (log) 5 CAN (log) CAN BRA ITA ITA IND DEU AUS JPN AUS KOR BRA DEU GBR2023 2023 4 IND CHN GBR CHN RUS KOR 4 JPN ESP FRA ARG TUR 3 ESP FRA CHE ARG CHE RUS NLD 3 MEX POL NLDAUT TUR measures,measures, IDN PRT SAU DNK AUT THAof BEL of 2 PAK MEX ZAF GRC CZE SWE IDN POL 2 FIN ZAF GRC HUN BEL VNM MYS HUN NZL MYS DNK CZE UKR THA NPL HRV SWE SGPNumber Number 1 EGY PRT SAU 1 BOL HRV SVN IRL SGP BGD EGY HKG VNM UKR SVN FIN IRL 8 9 10 11 12 8 9 10 11 12 GDP per capita, 2021 (log) GDP per capita, 2021 (log) High-income EMDEs Fitted values Sources: Panel a: Barattieri, Mattoo, and Taglioni 2024. Panel b: WDR 2024 team analysis replicating Barattieri, Mattoo, and Taglioni (2024) for green technologies only. Note: The vertical axis in both panels is the log of numbers of all potentially trade distortive measures from the New Industrial Policy Observer (NIPO). The horizontal axis in both panels is gross domestic product (GDP) per capita in 2021 based on WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank​ .org/search​/­dataset/. Panel b includes all NIPO policies classified as targeting low-carbon technologies, hydrogen, or critical minerals, according to NIPO definitions. EMDEs = emerging market and developing economies. For country abbreviations, see International Organization for Standardization (ISO), https://www.iso.org/obp/ui/#search.",
+    "crop": "data/crops/p259-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p261:region0",
+    "page": 261,
+    "label": "Figure 9.6",
+    "caption": "Figure 9.6 Countries must clear hurdles for both efficient domestic investment and foreign investment in renewable energy",
+    "bbox": [
+      62.5,
+      279.85,
+      541.0,
+      696.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.6 Countries must clear hurdles for both efficient domestic investment and foreign investment in renewable energy • Governments should • It is economically stop expropriating efficient for foreign savings and let Quadrant IV Quadrant I capital to move to foreign savings middle-income finance Fails domestic Clears both countries. infrastructure. hurdles. domestic and foreign hurdles. Clears foreign hurdles. Quadrant III Quadrant II Fails both Clears domestic • Either domestic and hurdles. • There may be a infrastructure foreign hurdles. need for is already over- Fails foreign concessional provided or hurdles. finance. • The investment climate is too poor. Source: Gardner and Henry 2023. Note: For a middle-income country, the dual-hurdle framework sorts each country-infrastructure observation into one of four quadrants according to whether it clears the hurdle for both efficient domestic investment and foreign investment. The framework allows to evaluate whether investing in the infrastructure of a given developing country would be an efficient use of developing country (domestic) and developed country (foreign) savings.",
+    "crop": "data/crops/p261-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p262:region0",
+    "page": 262,
+    "label": "Figure 9.7",
+    "caption": "Figure 9.7 In many middle-income countries, it is economically efficient to expand renewable energy",
+    "bbox": [
+      62.5,
+      355.85,
+      298.0,
+      703.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.7 In many middle-income countries, it is economically efficient to expand renewable energy 50 set) 45 total 40 datacountries of in 35 % (as 30 25 countries 20 middle-income quadrant 15 of each 10 in 5Share middle-income A 0 Quadrant I Quadrant II Quadrant III c (5 of 31 (12 of 31 (14 of 31 F countries) countries) countries) t Source: Lall and Vagliasindi 2024. w Note: The sample includes 31 middle-income countries. o In quadrant I countries, the return on infrastructure clears both the domestic and the foreign hurdles. In quadrant II e countries, the economic rate of return on infrastructure a clears the domestic hurdle but falls below the foreign a hurdle. In quadrant III countries, the economic rate of return won renewable energy clears neither the domestic nor the foreign hurdle. i",
+    "crop": "data/crops/p262-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p263:region0",
+    "page": 263,
+    "label": "Figure 9.8",
+    "caption": "Figure 9.8 In low- and middle-income countries, the cost of capital for renewables is high",
+    "bbox": [
+      278.0,
+      85.41,
+      507.56,
+      380.22
+    ],
+    "kind": "visual",
+    "native_text": "­ Figure 9.8 In low- and middle-income d countries, the cost of capital for renewables a is high y ­ 9 ­ 8 d 7 y (%) 6 s 5n capital 4 of , Cost 3 , 2 l 1 ­ 0 s ­ Low-income High-income ­ Lower-middle-incomeUpper-middle-incomea r Source: IRENA 2023. f Note: Data are for 2021 and 2022. t",
+    "crop": "data/crops/p263-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p264:region0",
+    "page": 264,
+    "label": "Figure 9.9",
+    "caption": "Figure 9.9 Today’s upper-middle-income countries are more energy efficient than upper-middle-income countries in the past",
+    "bbox": [
+      278.0,
+      85.41,
+      499.08,
+      575.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.9 Today’s upper-middle-income countries are more energy efficient than upper-middle-income countries in the past r o 1.2 c d 1.0 f , intensity 0.8 s e energy 0.6 y of d 0.4 - t Elasticity 0.2 t - 0e s ee Low-income (1960–2016)y Lower-middle-incomeUpper-middle-incomeUpper-middle-income p e Source: WDR 2024 team calculations based on data fro Fetter (2022). ­ Note: Elasticity of energy intensity refers to the ener d used per unit of gross domestic product (GDP). Estimat n of the elasticity of energy intensity in the long run a d based on a fixed effect dynamic response lag mod covering 136 countries over the period 1960–2017 (34,8 ­ observations), including log price index, two lags of en n user energy consumption, dummies for structural brea 8 in data series, and country-sector fixed effects. Valu of the elasticity of energy intensity can be interpreted y follows: if GDP increases by 1 percent, energy consumpti s increases only by 0.75 percent in upper-middle-incom ­ countries that achieved upper-middle-income status as 2017, compared with 1.1 percent in upper-middle-incom -​ countries that achieved upper-middle-income stat e within the period 1960–2016.",
+    "crop": "data/crops/p264-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p265:region0",
+    "page": 265,
+    "label": "Figure 9.10",
+    "caption": "Figure 9.10 Carbon emissions per unit of GDP have been declining worldwide",
+    "bbox": [
+      62.5,
+      85.41,
+      298.0,
+      416.22
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.10 Carbon emissions per unit of A GDP have been declining worldwide c v of 3.5 s GDP) ttons 3.0 of t US$ 2.5 m(million 2015 2.0 s 1.5 t m 1.0emissions billion r 0 uCarbon perCO2 0.5 o 1980 1986 1992 1998 2004 2010 2016 2022 W i China Europe India United States World H Source: WDR 2024 team analysis based on adapting from and updating Pindyck (2021). Carbon emissions data r are from Energy Institute (2023). GDP data are from WDI I(World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org​ r /­search/dataset/0037712. t Note: Carbon emissions, the product of energy intensity and t energy efficiency, are measured in million metric tons of icarbon dioxide (CO2) emissions per billion 2015 US dollars of GDP. GDP = gross domestic product. o t",
+    "crop": "data/crops/p265-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p266:region0",
+    "page": 266,
+    "label": "Figure 9.11",
+    "caption": "Figure 9.11 High-income countries have succeeded in reducing overall emissions by curbing energy intensity",
+    "bbox": [
+      63.15,
+      85.41,
+      541.0,
+      416.98
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.11 High-income countries have succeeded in reducing overall emissions by curbing energy intensity a. Middle-income countries b. High-income countries 15 15 10 10(MtCO2) (MtCO2) 5 5 0 0emissions emissions –5 –5 in in Change –10–15 Change –10–15 1965–751976–851986–951996–052006–152016–21 1965–751976–851986–951996–052006–152016–21 Population effect Economic growth effect Energy intensity effect Carbon intensity effect Overall change in emissions Source: WDR 2024 team analysis based on data from GCB (Global Carbon Budget) (data hub), Future Earth, Fort Collins, CO; University of Exeter, Exeter, UK, https://globalcarbonbudgetdata.org/#. Note: Decomposition according to the Kaya identity, which states that the overall change in emissions (blue line) is the sum of four factors: population; gross domestic product (GDP) per capita (economic growth); energy intensity (energy used per unit of GDP); and carbon intensity (emissions per unit of energy consumed). The analysis is based on a global sample of 182 middle- and high-income countries and a time horizon since 1965, which allows the analysis to incorporate major crises, including the oil price shocks in the 1970s. MtCO2 = million tonnes of carbon dioxide. One tonne is equal to 1,000 kilograms.",
+    "crop": "data/crops/p266-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  },
+  {
+    "id": "wdr2024:p267:region0",
+    "page": 267,
+    "label": "Figure 9.12",
+    "caption": "Figure 9.12 The world is slowly transitioning away from fossil fuels",
+    "bbox": [
+      63.15,
+      346.85,
+      298.0,
+      703.67
+    ],
+    "kind": "visual",
+    "native_text": "Figure 9.12 The world is slowly transitioning awa 180,000 (TWh) 160,000 140,000source by 120,000 100,000consumption, 80,000 60,000energy 40,000primary Global 20,000 0 1800 1850 1900 Source: WDR 2024 team analysis of data from Our World in Data Program on Global Development, University of Oxford, Oxford, U Energy (dashboard), BP, London, https://www.bp.com/en/globa energy.html. Note: TWh = terawatt-hour. One terawatt-hour is equal to 1 tri 1-terawatt generator running for one hour.",
+    "crop": "data/crops/p267-region0.png",
+    "crop_method": "PyMuPDF 1.6x matrix and original page bbox; local reference, not separately redistributed",
+    "limitations": "Automatic approximate region; verify original whole page for boundaries and visual claims."
+  }
+]

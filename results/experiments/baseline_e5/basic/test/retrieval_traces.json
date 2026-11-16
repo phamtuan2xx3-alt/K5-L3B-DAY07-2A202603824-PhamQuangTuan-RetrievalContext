@@ -1,0 +1,720 @@
+[
+  {
+    "query_id": "basic_test_01",
+    "original_query": "Tầm nhìn của Thủ tướng Ấn Độ được báo cáo dẫn lại muốn đưa nước này thành nền kinh tế phát triển vào năm nào?",
+    "results": [
+      {
+        "id": "wdr2024:p66:g3:c0",
+        "text": "It is understandable why middle-income countries are not satisfied with the status quo and why most have plans for faster growth in living standards. China’s 14th Five-Year Plan outlines a vision of achieving the median GDP per capita of developed nations by 2035, with a large increase in the middle class. The vision document also highlights that China’s growth will be driven by major breakthroughs in key technologies, making it one of the most inno- vative nations in the world, buttressed by a modern economic system with digitalization, thriving cities, and modern agriculture. In India, the prime minister’s vision is to transform\n34 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 66,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            512.96,
+            510.82,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "34",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 673,
+          "e5_input_tokens": 164
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.825491499215567,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p34:g3:c0",
+        "text": "If your country is China, your 14th Five-Year Plan envisions reaching the median gross domes­ tic product (GDP) per capita of developed nations by 2035, thereby greatly expanding your middle class. If it is India, your prime minister’s vision is to turn the nation into a developed economy by 2047, the centennial of independence. If it is Viet Nam, your Socio-Economic Development Strategy 2021–2030 outlines a strategy for sus­ tained GDP per capita growth of 7 percent through this decade, with a transition to high-­ income status by 2045. And if it is South Africa, your 2030 National Development Plan sets a goal of raising the income per capita from US$2,800 in\nWDR 2024 is premised on the conjecture that, relative to the complexity of their economic struc­ tures, middle-income countries have more serious information deficits than either low-income coun­ tries or advanced economies. As a result, they suffer more than the others the consequences of policies predicated on superficial measures of economic effi­ ciency, making them especially prone to premature slowdowns in development. This pathology was nicknamed the “middle-income trap” by World Bank economists, and strategies to avoid it are the subject of this Report.\n2 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 34,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            507.33,
+            510.85,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "2",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1270,
+          "e5_input_tokens": 319
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.811215750456853,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p20:g3:c0",
+        "text": "The team gratefully received suggestions and guidance from a High-Level Advisory Panel: Masood Ahmed, President, Center for Global Development; Ann Bernstein, Executive Director, Centre for Development and Enterprise (South Africa); Poonam Gupta, Director General, National Council of Applied Economic Research, and mem­ ber of the Economic Advisory Council to the Prime Minister of India; Homi Kharas, Senior Fellow–Global Economy and Development, Center for Sustainable Development, Brookings Institution; Mario Marcel Cullell, Minister of Finance, Chile; Mustapha Kamel Nabli, former Minister of Economic Development and Minister of Planning and Regional Development and former Central Bank Governor, Tunisia; Njuguna Ndung’u, Minister of Finance, Kenya; José Antonio Ocampo, former Minister of Finance, Colombia; Normunds Popens, Acting Director General, Directorate-General for Regional and Urban Policy (DG REGIO), European Commission (through January 2024); and Omar Razzaz, former Minister of Education and former Prime Minister, Jordan.\nxviii | Acknowledgments",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 20,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            520.91,
+            510.84,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": null,
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1069,
+          "e5_input_tokens": 236
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8110222906756173,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p66:g3:c0",
+      "wdr2024:p34:g3:c0",
+      "wdr2024:p20:g3:c0"
+    ],
+    "context": "[wdr2024:p66:g3:c0] PDF page 66; bbox=[67.56, 512.96, 510.82, 731.23]; kind=native_text\nIt is understandable why middle-income countries are not satisfied with the status quo and why most have plans for faster growth in living standards. China’s 14th Five-Year Plan outlines a vision of achieving the median GDP per capita of developed nations by 2035, with a large increase in the middle class. The vision document also highlights that China’s growth will be driven by major breakthroughs in key technologies, making it one of the most inno- vative nations in the world, buttressed by a modern economic system with digitalization, thriving cities, and modern agriculture. In India, the prime minister’s vision is to transform\n34 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p34:g3:c0] PDF page 34; bbox=[67.5, 507.33, 510.85, 731.23]; kind=native_text\nIf your country is China, your 14th Five-Year Plan envisions reaching the median gross domes­ tic product (GDP) per capita of developed nations by 2035, thereby greatly expanding your middle class. If it is India, your prime minister’s vision is to turn the nation into a developed economy by 2047, the centennial of independence. If it is Viet Nam, your Socio-Economic Development Strategy 2021–2030 outlines a strategy for sus­ tained GDP per capita growth of 7 percent through this decade, with a transition to high-­ income status by 2045. And if it is South Africa, your 2030 National Development Plan sets a goal of raising the income per capita from US$2,800 in\nWDR 2024 is premised on the conjecture that, relative to the complexity of their economic struc­ tures, middle-income countries have more serious information deficits than either low-income coun­ tries or advanced economies. As a result, they suffer more than the others the consequences of policies predicated on superficial measures of economic effi­ ciency, making them especially prone to premature slowdowns in development. This pathology was nicknamed the “middle-income trap” by World Bank economists, and strategies to avoid it are the subject of this Report.\n2 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p20:g3:c0] PDF page 20; bbox=[67.5, 520.91, 510.84, 731.23]; kind=native_text\nThe team gratefully received suggestions and guidance from a High-Level Advisory Panel: Masood Ahmed, President, Center for Global Development; Ann Bernstein, Executive Director, Centre for Development and Enterprise (South Africa); Poonam Gupta, Director General, National Council of Applied Economic Research, and mem­ ber of the Economic Advisory Council to the Prime Minister of India; Homi Kharas, Senior Fellow–Global Economy and Development, Center for Sustainable Development, Brookings Institution; Mario Marcel Cullell, Minister of Finance, Chile; Mustapha Kamel Nabli, former Minister of Economic Development and Minister of Planning and Regional Development and former Central Bank Governor, Tunisia; Njuguna Ndung’u, Minister of Finance, Kenya; José Antonio Ocampo, former Minister of Finance, Colombia; Normunds Popens, Acting Director General, Directorate-General for Regional and Urban Policy (DG REGIO), European Commission (through January 2024); and Omar Razzaz, former Minister of Education and former Prime Minister, Jordan.\nxviii | Acknowledgments\n",
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "seconds": 0.029349999967962503
+  },
+  {
+    "query_id": "basic_test_02",
+    "original_query": "Các chaebol Hàn Quốc chủ yếu sao chép công nghệ từ nước nào trong ví dụ về infusion?",
+    "results": [
+      {
+        "id": "wdr2024:p90:g1:c0",
+        "text": "the science, technology, engineering, and math­ ematics (STEM) fields play a central role in gen­ erating and spreading ideas and technologies. Encouragingly, three-quarters of STEM graduates are now in middle-income countries, and Chinese and Indian STEM graduates make up about half of global STEM graduates (figure 2.4).\nThe example of Korea, the only country ever to sustain economic growth that averaged more than 5 percent for more than 50 years, is espe­ cially illustrative. How did Korean industry do it? Domestic firms such as Samsung embarked on a journey that began with infusion. By licens­ ing technologies from Sanyo and NEC in Japan, Samsung transitioned from making noodles",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 90,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            297.0,
+            501.86,
+            510.84,
+            699.61
+          ],
+          "kind": "native_text",
+          "printed_page": "58",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 690,
+          "e5_input_tokens": 166
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8176695905164033,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p42:g0:c0",
+        "text": "Innovation next\npatent office, but the patents turned out to be of low quality and lacked any relevance to global markets. Moreover, as the share of firms that applied for patents within the economy increased, the wage premium for skilled workers declined, as did the value added.10\nOnce a middle-income country has begun to exhaust the potential of infusion in the most promising parts of its economy—running out of technologies to learn and adopt—it should expand its efforts to become an innovation economy. But this transition is as or more daunting than the preceding one.8 Infusion is powered mainly by the technology transfers embodied in flows of physi­ cal and financial capital.\nWhile Brazil was stumbling at home, Korea was racing around the world, making the infusion of foreign technology the cornerstone of domes­ tic innovation. In 1980, the average productivity of a worker in Korea was just 20 percent that of the average US worker. By 2019, it had tripled to more than 60 percent (figure O.7). By contrast, Brazilian workers, who had been 40 percent as productive as their US counterparts in 1980, were just 25 percent as productive by 2018.",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 42,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            82.57,
+            510.83,
+            294.54
+          ],
+          "kind": "native_text",
+          "printed_page": "10",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1159,
+          "e5_input_tokens": 271
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8168084719637778,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p22:g0:c0",
+        "text": "for International Economic Exchanges, China Center for Macroeconomic Research, China International Capital Corporation, China Pacific Insurance Company, Chinese Academy of Social Sciences, Chinese University of Hong Kong, Economic Commission for Latin America and the Caribbean, Einaudi Institute for Economics and Finance, Empresas Copec, Enel, Essence Securities Company, Fudan University, Fundación Chile, Haitong International Securities Group Limited, Harvard Growth Lab, Huatai Securities, Inria, Institute for World Economy Studies Shanghai, Institute of Comparative Politics and Public Policy of Shanghai University, Institute of Economy Pontificia Universidad Católica de Chile, Institute of Quantitative and Technical Economics, Institute of Statistics and Applied Economics, International Centre for China Development Studies, Inversiones SB, Lal Bahadur Shastri National Academy of Administration, National Council of Applied Economic Research, National Evaluation and Productivity Commission, NTT Data Chile, Pan American Association of Student Loan Institutions, Peking University, Renmin University of China, Shanghai Artificial Intelligence Laboratory, Shanghai Institutes for International Studies, Shanghai Jiao Tong University, Sky Airlines, Sonda S.A., Songhe Chuangzhi Venture",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 22,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            124.5,
+            83.55,
+            510.87,
+            347.57
+          ],
+          "kind": "native_text",
+          "printed_page": null,
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1297,
+          "e5_input_tokens": 255
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8164555468392769,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p90:g1:c0",
+      "wdr2024:p42:g0:c0",
+      "wdr2024:p22:g0:c0"
+    ],
+    "context": "[wdr2024:p90:g1:c0] PDF page 90; bbox=[297.0, 501.86, 510.84, 699.61]; kind=native_text\nthe science, technology, engineering, and math­ ematics (STEM) fields play a central role in gen­ erating and spreading ideas and technologies. Encouragingly, three-quarters of STEM graduates are now in middle-income countries, and Chinese and Indian STEM graduates make up about half of global STEM graduates (figure 2.4).\nThe example of Korea, the only country ever to sustain economic growth that averaged more than 5 percent for more than 50 years, is espe­ cially illustrative. How did Korean industry do it? Domestic firms such as Samsung embarked on a journey that began with infusion. By licens­ ing technologies from Sanyo and NEC in Japan, Samsung transitioned from making noodles\n\n[wdr2024:p42:g0:c0] PDF page 42; bbox=[67.5, 82.57, 510.83, 294.54]; kind=native_text\nInnovation next\npatent office, but the patents turned out to be of low quality and lacked any relevance to global markets. Moreover, as the share of firms that applied for patents within the economy increased, the wage premium for skilled workers declined, as did the value added.10\nOnce a middle-income country has begun to exhaust the potential of infusion in the most promising parts of its economy—running out of technologies to learn and adopt—it should expand its efforts to become an innovation economy. But this transition is as or more daunting than the preceding one.8 Infusion is powered mainly by the technology transfers embodied in flows of physi­ cal and financial capital.\nWhile Brazil was stumbling at home, Korea was racing around the world, making the infusion of foreign technology the cornerstone of domes­ tic innovation. In 1980, the average productivity of a worker in Korea was just 20 percent that of the average US worker. By 2019, it had tripled to more than 60 percent (figure O.7). By contrast, Brazilian workers, who had been 40 percent as productive as their US counterparts in 1980, were just 25 percent as productive by 2018.\n\n[wdr2024:p22:g0:c0] PDF page 22; bbox=[124.5, 83.55, 510.87, 347.57]; kind=native_text\nfor International Economic Exchanges, China Center for Macroeconomic Research, China International Capital Corporation, China Pacific Insurance Company, Chinese Academy of Social Sciences, Chinese University of Hong Kong, Economic Commission for Latin America and the Caribbean, Einaudi Institute for Economics and Finance, Empresas Copec, Enel, Essence Securities Company, Fudan University, Fundación Chile, Haitong International Securities Group Limited, Harvard Growth Lab, Huatai Securities, Inria, Institute for World Economy Studies Shanghai, Institute of Comparative Politics and Public Policy of Shanghai University, Institute of Economy Pontificia Universidad Católica de Chile, Institute of Quantitative and Technical Economics, Institute of Statistics and Applied Economics, International Centre for China Development Studies, Inversiones SB, Lal Bahadur Shastri National Academy of Administration, National Council of Applied Economic Research, National Evaluation and Productivity Commission, NTT Data Chile, Pan American Association of Student Loan Institutions, Peking University, Renmin University of China, Shanghai Artificial Intelligence Laboratory, Shanghai Institutes for International Studies, Shanghai Jiao Tong University, Sky Airlines, Sonda S.A., Songhe Chuangzhi Venture\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.029830000014044344
+  },
+  {
+    "query_id": "basic_test_03",
+    "original_query": "Theo bảng thuật ngữ, cường độ năng lượng được tính như thế nào?",
+    "results": [
+      {
+        "id": "wdr2024:p267:vision:c1",
+        "text": "hen declines slightly.\n- The chart visually supports the text’s claim that fossil fuels still account for >75% of global energy consumption, despite growth in renewables.\n\nUnits: TWh (terawatt-hour). Note: 1 TWh = 1 trillion watt-hours = power of 1 terawatt for 1 hour.\n\nSource: WDR 2024 team analysis of data from Our World in Data and BP Statistical Review of World Energy.",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 267,
+        "metadata": {
+          "version": "2024",
+          "kind": "vision_description",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "printed_page": "235",
+          "generated_by": "Qwen/Qwen3-VL-8B-Instruct",
+          "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+          "verification": "AI generated; original PDF is authoritative",
+          "truncated_description": false,
+          "original_page": "data/source/world-development-report-2024.pdf#page=267"
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8187763654557776,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p267:g2:c0",
+        "text": "Source: WDR 2024 team analysis of data from Our World in Data (dashboard), Global Change Data Lab and Oxford Martin Program on Global Development, University of Oxford, Oxford, UK, https://ourworldindata.org/; Statistical Review of World Energy (dashboard), BP, London, https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world- energy.html. Note: TWh = terawatt-hour. One terawatt-hour is equal to 1 trillion watt-hours, or the amount of power generated by a 1-terawatt generator running for one hour.\nCapitalizing on Crises | 235",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 267,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            68.15,
+            637.05,
+            510.52,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "235",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 557,
+          "e5_input_tokens": 162
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8164742002058536,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p47:g1:c0",
+        "text": "Sources: Panel a: Chepeliev and Corong 2022; Energy Institute 2023; Statistics Data (portal), International Renewable Energy Agency, Abu Dhabi, United Arab Emirates, https://www.irena.org/Data; WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712. Panel b: WDR 2024 team estimates based on GDIM (Global Database on Intergenerational Mobility) (dashboard), Data Catalog, World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0050771/global-database-on-intergenerational​ -mobility. Panel c: India, Mexico, and the United States: Hsieh and Klenow 2014; Peru: World Bank 2015. Note: Panel a displays for middle-income countries compared with an index of 1, representing the high-income country (HIC) frontier, the greenhouse gas (GHG) emissions intensity of the gross domestic product (GDP), the energy intensity of GDP, the share of solar and wind energy in total electricity generation, as well as the battery electric vehicles per million population. Panel b plots regression coefficients of intergenerational mobility (which is equal to 1 minus the intergenerational relative mobility) for different country groups at the 95 percent confidence interval. The dependent variable in the",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 47,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            340.25,
+            510.6,
+            522.87
+          ],
+          "kind": "native_text",
+          "printed_page": "15",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1290,
+          "e5_input_tokens": 322
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8114589004886257,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p267:vision:c1",
+      "wdr2024:p267:g2:c0",
+      "wdr2024:p47:g1:c0"
+    ],
+    "context": "[wdr2024:p267:vision:c1] PDF page 267; bbox=[0.0, 0.0, 576.0, 756.0]; kind=vision_description\nhen declines slightly.\n- The chart visually supports the text’s claim that fossil fuels still account for >75% of global energy consumption, despite growth in renewables.\n\nUnits: TWh (terawatt-hour). Note: 1 TWh = 1 trillion watt-hours = power of 1 terawatt for 1 hour.\n\nSource: WDR 2024 team analysis of data from Our World in Data and BP Statistical Review of World Energy.\n\n[wdr2024:p267:g2:c0] PDF page 267; bbox=[68.15, 637.05, 510.52, 731.23]; kind=native_text\nSource: WDR 2024 team analysis of data from Our World in Data (dashboard), Global Change Data Lab and Oxford Martin Program on Global Development, University of Oxford, Oxford, UK, https://ourworldindata.org/; Statistical Review of World Energy (dashboard), BP, London, https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world- energy.html. Note: TWh = terawatt-hour. One terawatt-hour is equal to 1 trillion watt-hours, or the amount of power generated by a 1-terawatt generator running for one hour.\nCapitalizing on Crises | 235\n\n[wdr2024:p47:g1:c0] PDF page 47; bbox=[67.5, 340.25, 510.6, 522.87]; kind=native_text\nSources: Panel a: Chepeliev and Corong 2022; Energy Institute 2023; Statistics Data (portal), International Renewable Energy Agency, Abu Dhabi, United Arab Emirates, https://www.irena.org/Data; WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712. Panel b: WDR 2024 team estimates based on GDIM (Global Database on Intergenerational Mobility) (dashboard), Data Catalog, World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0050771/global-database-on-intergenerational​ -mobility. Panel c: India, Mexico, and the United States: Hsieh and Klenow 2014; Peru: World Bank 2015. Note: Panel a displays for middle-income countries compared with an index of 1, representing the high-income country (HIC) frontier, the greenhouse gas (GHG) emissions intensity of the gross domestic product (GDP), the energy intensity of GDP, the share of solar and wind energy in total electricity generation, as well as the battery electric vehicles per million population. Panel b plots regression coefficients of intergenerational mobility (which is equal to 1 minus the intergenerational relative mobility) for different country groups at the 95 percent confidence interval. The dependent variable in the\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.03924469999037683
+  },
+  {
+    "query_id": "basic_test_04",
+    "original_query": "Theo bảng thuật ngữ, net zero cân bằng hai đại lượng nào?",
+    "results": [
+      {
+        "id": "wdr2024:p246:g3:c0",
+        "text": "(2024). TCP components labeled as “energy taxes” and “energy subsidies” are based on “net” computed val­ ues, as proxies for actual values of energy taxes and subsidies, due to data limitations. Energy taxes and subsidies are estimated based on the “price gap” between retail prices and supply costs for a particular energy carrier, used in a specific sector in a jurisdiction in a given year. The net energy taxes and subsidies are then aggregated across sectors, fuels, and countries to yield a global value, as illustrated in figure 8.6. More details on this methodology are discussed in Agnolucci, Gencer, and Heine (2024). 100. Agnolucci, Gencer, and Heine (2024). 101. IEA (2023). 102. Gentilini et al. (2022). 103. Lin and Li (2012). 104. Shahmoradi, Haqiqi, and Zahedi (2011). 105. Becker and Fischer (2013); Cozzi (2012); Eberhard and\nWoodruff (2017). 67. Bloom, Sadun, and Van Reenen (2016). 68. McKenzie and Woodruff (2017). 69. Queiró (2022). 70. McKenzie et al. (2023). 71. Back, Parboteeah, and Nam (2014); Bloom et al. (2013,\n2020); Bruhn, Karlan, and Schoar (2018); Giorcelli\nKåberger (2016). 106. Acemoglu, Kakhbod, and Ozdaglar (2017).\nReferences\nAbebe, Girum, Stefano Caria, Marcel Fafchamps, Paolo",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 246,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            425.43,
+            510.51,
+            669.55
+          ],
+          "kind": "native_text",
+          "printed_page": "214",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1217,
+          "e5_input_tokens": 363
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7998468783189112,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p246:g2:c0",
+        "text": "Connelly (2016). For more on the highly successful accelerator program of Y Combinator, widely regarded as the first, see Hathaway (2016). 89. Hathaway (2016). 90. See https://www.ycombinator.com/about. 91. Hathaway (2016). 92. Gonzalez-Uribe and Hmaddi (2022). 93. Roberts et al. (2017). 94. Roberts et al. (2017). 95. Stern (2022). 96. See Acemoglu et al. (2012, 2016). 97. World Bank (2023b). 98. World Bank (2023b). 99. Agnolucci et al. (2023); Agnolucci, Gencer, and Heine\n(2017). 53. Aivazian and Santor (2008); Vu and Tran (2021). 54. López and Torres (2020). 55. Tsuruta (2020). 56. Bachas, Fattal Jaef, and Jensen (2019); see discussion\nin chapter 4. 57. Akcigit et al. (2023). 58. Bachas, Fattal Jaef, and Jensen (2019). 59. Bachas, Fattal Jaef, and Jensen (2019). 60. López and Torres (2020). 61. Melitz (2003). 62. Didier and Cusolito (2024). 63. McGowan and Andrews (2016). 64. Schumpeter (1942). 65. McKenzie et al. (2023); Scur et al. (2021). 66. Bloom and Van Reenen (2010); McKenzie and",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 246,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            285.43,
+            510.48,
+            556.05
+          ],
+          "kind": "native_text",
+          "printed_page": "214",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1003,
+          "e5_input_tokens": 329
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7996526387287255,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p144:g4:c0",
+        "text": "112 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 144,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            243.49,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "112",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7986553524639266,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p246:g3:c0",
+      "wdr2024:p246:g2:c0",
+      "wdr2024:p144:g4:c0"
+    ],
+    "context": "[wdr2024:p246:g3:c0] PDF page 246; bbox=[67.5, 425.43, 510.51, 669.55]; kind=native_text\n(2024). TCP components labeled as “energy taxes” and “energy subsidies” are based on “net” computed val­ ues, as proxies for actual values of energy taxes and subsidies, due to data limitations. Energy taxes and subsidies are estimated based on the “price gap” between retail prices and supply costs for a particular energy carrier, used in a specific sector in a jurisdiction in a given year. The net energy taxes and subsidies are then aggregated across sectors, fuels, and countries to yield a global value, as illustrated in figure 8.6. More details on this methodology are discussed in Agnolucci, Gencer, and Heine (2024). 100. Agnolucci, Gencer, and Heine (2024). 101. IEA (2023). 102. Gentilini et al. (2022). 103. Lin and Li (2012). 104. Shahmoradi, Haqiqi, and Zahedi (2011). 105. Becker and Fischer (2013); Cozzi (2012); Eberhard and\nWoodruff (2017). 67. Bloom, Sadun, and Van Reenen (2016). 68. McKenzie and Woodruff (2017). 69. Queiró (2022). 70. McKenzie et al. (2023). 71. Back, Parboteeah, and Nam (2014); Bloom et al. (2013,\n2020); Bruhn, Karlan, and Schoar (2018); Giorcelli\nKåberger (2016). 106. Acemoglu, Kakhbod, and Ozdaglar (2017).\nReferences\nAbebe, Girum, Stefano Caria, Marcel Fafchamps, Paolo\n\n[wdr2024:p246:g2:c0] PDF page 246; bbox=[67.5, 285.43, 510.48, 556.05]; kind=native_text\nConnelly (2016). For more on the highly successful accelerator program of Y Combinator, widely regarded as the first, see Hathaway (2016). 89. Hathaway (2016). 90. See https://www.ycombinator.com/about. 91. Hathaway (2016). 92. Gonzalez-Uribe and Hmaddi (2022). 93. Roberts et al. (2017). 94. Roberts et al. (2017). 95. Stern (2022). 96. See Acemoglu et al. (2012, 2016). 97. World Bank (2023b). 98. World Bank (2023b). 99. Agnolucci et al. (2023); Agnolucci, Gencer, and Heine\n(2017). 53. Aivazian and Santor (2008); Vu and Tran (2021). 54. López and Torres (2020). 55. Tsuruta (2020). 56. Bachas, Fattal Jaef, and Jensen (2019); see discussion\nin chapter 4. 57. Akcigit et al. (2023). 58. Bachas, Fattal Jaef, and Jensen (2019). 59. Bachas, Fattal Jaef, and Jensen (2019). 60. López and Torres (2020). 61. Melitz (2003). 62. Didier and Cusolito (2024). 63. McGowan and Andrews (2016). 64. Schumpeter (1942). 65. McKenzie et al. (2023); Scur et al. (2021). 66. Bloom and Van Reenen (2010); McKenzie and\n\n[wdr2024:p144:g4:c0] PDF page 144; bbox=[67.56, 721.61, 243.49, 731.23]; kind=native_text\n112 | WORLD DEVELOPMENT REPORT 2024\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.030896199983544648
+  },
+  {
+    "query_id": "basic_test_05",
+    "original_query": "Vườn ươm và chương trình tăng tốc có thể hỗ trợ startup bằng những gì theo phần Deepen capital markets?",
+    "results": [
+      {
+        "id": "wdr2024:p251:g1:c0",
+        "text": "Capital Policy.” NBER Working Paper 28713 (April), National Bureau of Economic Research, Cambridge, MA. Vegas, Emiliana. 2018. “5 Lessons from Recent Educational\nEdward Thomas, Cindy Chao, Kerri Heidkamp, and Jo-Hannah Yeo. 2017. “Accelerating Startups in Emerging Markets: Insights from 43 Programs.” May, Aspen Network of Development Entrepreneurs, Washington, DC; Social Enterprise at Goizueta, Goizueta Business School, Emory University, Atlanta; Deloitte, London. Rutigliano, Alexandre, and Nikita Quarshie. 2021. “Policy\nReforms in Chile.” Brookings Research (blog), March 20, 2018. https://www.brookings.edu/articles/5-lessons​ -from-recent-educational-reforms-in-chile/. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. Wall Street Journal. 2019. “Economists’ Statement on\nCarbon Dividends: Bipartisan Agreement on How to Combat Climate Change.” Opinion (blog), January 16, 2019. https://www.wsj.com/articles/economists​ -­statement​-on-carbon-dividends-11547682910. World Bank. 2018. World Development Report 2018:",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 251,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            195.43,
+            510.49,
+            366.05
+          ],
+          "kind": "native_text",
+          "printed_page": "219",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1121,
+          "e5_input_tokens": 306
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8219839577069548,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p52:g2:c0",
+        "text": "Deepen capital markets Switching from a 2i to a 3i strategy also has implications for how firms access finance. Equity markets can be instrumental in supporting inno­ vative activities, especially in private firms, which typically face larger financing gaps than publicly listed firms. However, private markets for equity financing lack depth and access in emerging economies (figure O.11). Start-up incubators and accelerators can be particularly helpful, providing mentorship, resources, networking opportunities, and sometimes funding to help start-ups grow and compete.\nEducation, social mobility, and entrepreneurship\nInvest in talent and reward merit People who are not only talented, but also— crucially—educated and have access to labor markets, enterprise opportunities, and business financing are key to the 2i and 3i strategies. Policy makers should especially consider initiatives to educate women, along with other excluded and marginalized groups, and to let families become more socially and economically mobile with each succeeding generation.\nFrom the successes of former middle-income countries that have attained high income, three simple lessons emerge for education reform:",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 52,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            334.65,
+            510.83,
+            633.3
+          ],
+          "kind": "native_text",
+          "printed_page": "20",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1194,
+          "e5_input_tokens": 257
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8176053657413072,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p238:g0:c0",
+        "text": "Figure 8.5 In emerging market and developing economies, few companies are funded through venture capital or private equity\na. Venture capital\n90\nSGP\nISL ISR\nIRL\nEST\n80\n70\nSWE\n60\nGBR\nCHE\nLUX\nFIN\nDNK\n50\nMLT\nUSA\nNOR\n40\nBEL\nNZL\n30\nNLD\nBMU CAN\nper 1 million persons\nHKG\nFRA\nLTU\n20\nESP\nAUS AUT\nASM\nCYP\nNumber of companies funded\nPRT\nDEU\nHUN\nKOR\nLVA\nSVN\nARE\nLBN\n10\nBHS\nCZE\nITA JPN\nQAT SAU\nKWT\n0\n20,000 40,000 60,000 80,000 100,000 120,000\nGDP per capita (US$), 2020\nb. Private equity\n35\nCAN\n30\n25\nFRO\nLUX\nISL\n20\nSWE\nAUS\nNOR\nCYM\n15\nAND\nFIN\nDNK\nGBR\nNLD\nIRL\nSGP\nESP\n10\nper 1 million persons\nFRA\nBHR\nUSA\nNZL\nEST\nSAU\nBEL\nMLT\nCHE\nLCA\nNumber of companies funded\nDEU\nCYP\n5\nMUS\nHKG\nPRT\nBRB\nISR ITA\nCZE\nAUT\nARE\nQAT\nJPN KOR\nSVN\n0\n20,000 40,000 60,000 80,000 100,000 120,000\nGDP per capita (US$), 2020\nHigh-income economies EMDEs",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 238,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            65.49,
+            85.41,
+            509.98,
+            622.23
+          ],
+          "kind": "native_text",
+          "printed_page": "206",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 810,
+          "e5_input_tokens": 275
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.809952012414886,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p251:g1:c0",
+      "wdr2024:p52:g2:c0",
+      "wdr2024:p238:g0:c0"
+    ],
+    "context": "[wdr2024:p251:g1:c0] PDF page 251; bbox=[67.5, 195.43, 510.49, 366.05]; kind=native_text\nCapital Policy.” NBER Working Paper 28713 (April), National Bureau of Economic Research, Cambridge, MA. Vegas, Emiliana. 2018. “5 Lessons from Recent Educational\nEdward Thomas, Cindy Chao, Kerri Heidkamp, and Jo-Hannah Yeo. 2017. “Accelerating Startups in Emerging Markets: Insights from 43 Programs.” May, Aspen Network of Development Entrepreneurs, Washington, DC; Social Enterprise at Goizueta, Goizueta Business School, Emory University, Atlanta; Deloitte, London. Rutigliano, Alexandre, and Nikita Quarshie. 2021. “Policy\nReforms in Chile.” Brookings Research (blog), March 20, 2018. https://www.brookings.edu/articles/5-lessons​ -from-recent-educational-reforms-in-chile/. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. Wall Street Journal. 2019. “Economists’ Statement on\nCarbon Dividends: Bipartisan Agreement on How to Combat Climate Change.” Opinion (blog), January 16, 2019. https://www.wsj.com/articles/economists​ -­statement​-on-carbon-dividends-11547682910. World Bank. 2018. World Development Report 2018:\n\n[wdr2024:p52:g2:c0] PDF page 52; bbox=[67.5, 334.65, 510.83, 633.3]; kind=native_text\nDeepen capital markets Switching from a 2i to a 3i strategy also has implications for how firms access finance. Equity markets can be instrumental in supporting inno­ vative activities, especially in private firms, which typically face larger financing gaps than publicly listed firms. However, private markets for equity financing lack depth and access in emerging economies (figure O.11). Start-up incubators and accelerators can be particularly helpful, providing mentorship, resources, networking opportunities, and sometimes funding to help start-ups grow and compete.\nEducation, social mobility, and entrepreneurship\nInvest in talent and reward merit People who are not only talented, but also— crucially—educated and have access to labor markets, enterprise opportunities, and business financing are key to the 2i and 3i strategies. Policy makers should especially consider initiatives to educate women, along with other excluded and marginalized groups, and to let families become more socially and economically mobile with each succeeding generation.\nFrom the successes of former middle-income countries that have attained high income, three simple lessons emerge for education reform:\n\n[wdr2024:p238:g0:c0] PDF page 238; bbox=[65.49, 85.41, 509.98, 622.23]; kind=native_text\nFigure 8.5 In emerging market and developing economies, few companies are funded through venture capital or private equity\na. Venture capital\n90\nSGP\nISL ISR\nIRL\nEST\n80\n70\nSWE\n60\nGBR\nCHE\nLUX\nFIN\nDNK\n50\nMLT\nUSA\nNOR\n40\nBEL\nNZL\n30\nNLD\nBMU CAN\nper 1 million persons\nHKG\nFRA\nLTU\n20\nESP\nAUS AUT\nASM\nCYP\nNumber of companies funded\nPRT\nDEU\nHUN\nKOR\nLVA\nSVN\nARE\nLBN\n10\nBHS\nCZE\nITA JPN\nQAT SAU\nKWT\n0\n20,000 40,000 60,000 80,000 100,000 120,000\nGDP per capita (US$), 2020\nb. Private equity\n35\nCAN\n30\n25\nFRO\nLUX\nISL\n20\nSWE\nAUS\nNOR\nCYM\n15\nAND\nFIN\nDNK\nGBR\nNLD\nIRL\nSGP\nESP\n10\nper 1 million persons\nFRA\nBHR\nUSA\nNZL\nEST\nSAU\nBEL\nMLT\nCHE\nLCA\nNumber of companies funded\nDEU\nCYP\n5\nMUS\nHKG\nPRT\nBRB\nISR ITA\nCZE\nAUT\nARE\nQAT\nJPN KOR\nSVN\n0\n20,000 40,000 60,000 80,000 100,000 120,000\nGDP per capita (US$), 2020\nHigh-income economies EMDEs\n",
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "seconds": 0.04328809992875904
+  },
+  {
+    "query_id": "basic_test_06",
+    "original_query": "Theo báo cáo, tỷ lệ người học bậc đại học của Ba Lan đo thực tế trong năm 2026 là bao nhiêu?",
+    "results": [
+      {
+        "id": "wdr2024:p58:g3:c0",
+        "text": "26 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 58,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            241.68,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "26",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 34,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8306984156052959,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p258:g3:c0",
+        "text": "226 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 258,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            244.56,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "226",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8277324321986483,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p210:g2:c0",
+        "text": "178 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 210,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            243.47,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "178",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8237631893435613,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p58:g3:c0",
+      "wdr2024:p258:g3:c0",
+      "wdr2024:p210:g2:c0"
+    ],
+    "context": "[wdr2024:p58:g3:c0] PDF page 58; bbox=[67.56, 721.61, 241.68, 731.23]; kind=native_text\n26 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p258:g3:c0] PDF page 258; bbox=[67.56, 721.61, 244.56, 731.23]; kind=native_text\n226 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p210:g2:c0] PDF page 210; bbox=[67.56, 721.61, 243.47, 731.23]; kind=native_text\n178 | WORLD DEVELOPMENT REPORT 2024\n",
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "seconds": 0.038252800004556775
+  },
+  {
+    "query_id": "basic_test_07",
+    "original_query": "Theo báo cáo, giá trị xuất khẩu cá hồi thực tế của Chile trong năm 2025 là bao nhiêu USD?",
+    "results": [
+      {
+        "id": "wdr2024:p210:g2:c0",
+        "text": "178 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 210,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            243.47,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "178",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.832093615776761,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p230:g4:c0",
+        "text": "198 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 230,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            243.9,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "198",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8290724378115054,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p58:g3:c0",
+        "text": "26 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 58,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            241.68,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "26",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 34,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8272238885162798,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p210:g2:c0",
+      "wdr2024:p230:g4:c0",
+      "wdr2024:p58:g3:c0"
+    ],
+    "context": "[wdr2024:p210:g2:c0] PDF page 210; bbox=[67.56, 721.61, 243.47, 731.23]; kind=native_text\n178 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p230:g4:c0] PDF page 230; bbox=[67.56, 721.61, 243.9, 731.23]; kind=native_text\n198 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p58:g3:c0] PDF page 58; bbox=[67.56, 721.61, 241.68, 731.23]; kind=native_text\n26 | WORLD DEVELOPMENT REPORT 2024\n",
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "seconds": 0.03839480003807694
+  }
+]

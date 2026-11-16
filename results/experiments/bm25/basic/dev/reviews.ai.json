@@ -1,0 +1,323 @@
+[
+  {
+    "query_id": "basic_dev_01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo nội dung báo cáo (mức trung bình 4%), trích dẫn đúng ngữ cảnh hỗ trợ.",
+    "source_pages": [
+      17
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8537,
+        "completion_tokens": 265,
+        "total_tokens": 9778
+      },
+      "seconds": 33.215931899962015,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời nêu đúng số lượng 108 quốc gia theo phân loại của Ngân hàng Thế giới và trích dẫn đoạn văn bản hoàn toàn khớp.",
+    "source_pages": [
+      63
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8537,
+        "completion_tokens": 265,
+        "total_tokens": 9778
+      },
+      "seconds": 33.215931899962015,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_03",
+    "pass": false,
+    "error": "AgentRunError: RuntimeError: Model transport failed after bounded retries",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "basic_dev_04",
+    "pass": false,
+    "error": "AgentRunError: Model transport failed after bounded retries",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "basic_dev_05",
+    "pass": false,
+    "error": "AgentRunError: Model transport failed after bounded retries",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "basic_dev_06",
+    "pass": false,
+    "error": "AgentRunError: Model transport failed after bounded retries",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "basic_dev_07",
+    "pass": false,
+    "error": "AgentRunError: Model transport failed after bounded retries",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "basic_dev_08",
+    "pass": false,
+    "error": "AgentRunError: Model transport failed after bounded retries",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "basic_dev_09",
+    "pass": false,
+    "error": "AgentRunError: Model transport failed after bounded retries",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "basic_dev_10",
+    "pass": false,
+    "error": "AgentRunError: Model transport failed after bounded retries",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "basic_dev_11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác, sát với thông tin trong báo cáo và cả hai trích dẫn đều hỗ trợ đầy đủ.",
+    "source_pages": [
+      52,
+      214
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6255,
+        "completion_tokens": 271,
+        "total_tokens": 7323
+      },
+      "seconds": 16.176343200029805,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo dữ liệu trong báo cáo (11 nền kinh tế đang phát triển) và trích dẫn chính xác.",
+    "source_pages": [
+      137
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6255,
+        "completion_tokens": 271,
+        "total_tokens": 7323
+      },
+      "seconds": 16.176343200029805,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo ngữ cảnh được trích dẫn (Estonia đạt 80% mức thu nhập Tây Âu vào năm 2021).",
+    "source_pages": [
+      91,
+      93
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6264,
+        "completion_tokens": 276,
+        "total_tokens": 7436
+      },
+      "seconds": 24.816182299982756,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác và trích dẫn chuẩn xác từ ngữ cảnh (khoảng 88% lượng phát thải toàn cầu).",
+    "source_pages": [
+      254
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6264,
+        "completion_tokens": 276,
+        "total_tokens": 7436
+      },
+      "seconds": 24.816182299982756,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_15",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (80%) và trích dẫn nguồn đầy đủ, hợp lệ.",
+    "source_pages": [
+      254
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7921,
+        "completion_tokens": 230,
+        "total_tokens": 9128
+      },
+      "seconds": 31.442149300011806,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_16",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu hỏi không có dữ liệu trong báo cáo; mô hình đã từ chối trả lời chính xác mà không suy đoán.",
+    "source_pages": [],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7921,
+        "completion_tokens": 230,
+        "total_tokens": 9128
+      },
+      "seconds": 31.442149300011806,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_17",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Báo cáo không có dữ liệu về tỷ lệ lạm phát thực tế năm 2026 của Hàn Quốc; mô hình đã từ chối trả lời một cách chính xác.",
+    "source_pages": [],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4057,
+        "completion_tokens": 135,
+        "total_tokens": 4618
+      },
+      "seconds": 8.527000100002624,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  }
+]

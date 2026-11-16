@@ -1,0 +1,547 @@
+[
+  {
+    "query_id": "advanced_test_01",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "B?ng O.1 trang36: Low-income / SHARE OF GLOBAL GDP (%) =0.6 n?m2022; citation ch?a ??ng h?ng/c?t.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_02",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "B?ng O.1 trang36: Lower-middle-income / extreme poverty globally (%) =55.4. ??ng n?m, ??n v? v? citation.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_03",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "B?ng O.1 trang36: Upper-middle-income / CO2 emissions (%) =48.6. ??ng h?ng/c?t v? citation.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_04",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "B?ng O.1 trang36: High-income / global population (%) =15.7. Citation h? tr?.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_05",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "B?ng S.1 trang82: Japan / GNI Atlas current US$,2023 =39,030. C?u tr? l?i gi? ??ng n?m v? ??n v?.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      82
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_06",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "B?ng S.1 trang82: Korea,Rep. / Researchers per million inhabitants =8,483.2. C?u tr? l?i v? citation ??ng.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      82
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_07",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "System error; kh?ng c? c?u tr? l?i ho?c citation n?n b?t bu?c fail. ?? xem ?nh g?c115: Preservation nh? ?i, Destruction l?n l?n.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      115
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_08",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "?? xem s? ??4.2 g?c119: panelc cho incumbents v? entrants c?ng t?o gi? tr?. V?n b?n ???c cite tr?c ti?p x?c nh?n panelc v? m? r?ng n?ng l?c c?ng ngh?.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      119
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_09",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "?? xem thang4.3 g?c120: IN ch? v?o Firm5, OUT ?i t? Firm4. C? native/vision citation ch?a ??ng nh?n. M?t s? suy di?n kh?c trong vision chunk kh?ng ???c agent l?p l?i v? kh?ng ?nh h??ng hai nh?n n?y.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      120
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_10",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "?? xem h?nh4.4 g?c121: internal R&D n?ng ch?t l??ng tr?n d?ng hi?n h?u; external R&D chuy?n sang d?ng kh?c. Native paragraph x?c nh?n existing products/new markets v? figure labels h? tr?. C? hai citation ??ng.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      121
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_11",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "?? xem s? ??7.2 g?c195: ba ? Institutions/Incentives/Interventions h?i t? v?o Contestability r?i ?i l?n Disciplining incumbency. Native labels v? vision citation h? tr?.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      195
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_12",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "citation_support": [
+      false,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "FAIL: ?nh g?c3.1 trang104 cho ???ng Helpful m?u xanh ??m kho?ng95 ngh?n n?m2018, cao h?n Harmful m?u cam kho?ng70 ngh?n. Agent n?i ng??c cho2018; so s?nh2022 ??ng. Vision chunk p104:vision:c0 ??o nh?m ??nh2018, n?n citation n?y kh?ng ???c x?c nh?n b?i b?n g?c. Native chunk h? tr? ph?n2022 nh?ng kh?ng c?u ph?n2018. Kh?ng s?a pipeline/gold sau test.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      104
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_13",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "?? xem h?nh3.2 g?c105: n?m2023 t?ng harmful kho?ng325, cao h?n nhi?u helpful d??i100; legend ?en=8541,cam=8542. C? nh?n native,note HS v? vision ???c cite h? tr? nh?ng kh?ng ??nh n?y. S? x?p x? kh?ng ???c x? l? nh? s? li?u ch?nh x?c.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      105
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_14",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "?? xem h?nh3.3 g?c106: tr?c tung %GDP; ph?n private m?u cam n?m2022 l?n h?n public m?u xanh. Native citation h? tr? ??n v?; vision h? tr? so s?nh. Nh?ng suy di?n kh?c c?a vision kh?ng ???c l?p l?i.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      106
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_15",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "?? xem h?nh3.5a g?c108: LMIC12.1,HIC5.1 exajoules/trillion US$. Hi?u7.0 v? t? l?12.1/5.1?2.37 ??ng; citation native c? nh?n/gi? tr?/??n v?.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      108
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_16",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "False abstention. Rendered original Figure 3.6 shows right axis weighted average cost of capital (%) and low-income mean near9% above high-income mean near4%. Actual context has native right-axis label but generated description wrongly places low-income average around3-6%, losing original visual relation. Answer does not supply either required component. Context partial1.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      109
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_17",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original36 gives108 countries and annual US$1,136-13,845. Actual alternative cited original33/63 support count/exact range, and original276 supports explicitly qualified rounded US$1,100-14,000 range. Annual period implicit in classification rather than restated; complete substantive answer.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      33,
+      36,
+      63,
+      276
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_18",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original39 and actual cited chunk support less thanUS$1,200 in1960, aboutUS$33,000 in2023, least-developed early1960s and five-decade growth description. Both years/inequality/units correct.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      39
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_19",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original119 directly states50-70 percent productivity growth from successful reallocation among firms, incumbents or entrants. Full actual answer and citation verified.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      119
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_20",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original108 native text states weighted average cost of capital can account for20-50 percent of levelized electricity cost for utility-scale solarPV. Actual citation preserves scope and all numeric units.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      108
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_21",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Both required hops independently checked: rendered original36 TableO.1 high-income CO2-emissions column35.2% for2022; original39 Korea income aboutUS$33,000 in2023. Actual two citations support correct row/column and year/unit.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      36,
+      39
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_22",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "False abstention. Rendered original82 TableS.1 Japan energy intensity4.22 and original108 Figure3.5a HIC5.1 exajoules/trillionUS$;5.1-4.22=0.88. Actual context contains Japan table but noPDF108 Figure3.5a; second hop missing, contextpartial1. No calculation or answer delivered.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      82,
+      108
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_23",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "citation_support": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Partial answer despite lengthy supported material: correctly explains size distortions and gives genuinely sourced25% employment and1%/2.3%TFP estimates. Required Part3 alternative dimensions jobs,exports,technology infusion,innovation from original191 are not supplied; actual context pages127-130,231,233 omit that passage. Replaces requested criterion with firm age and generic productivity/value creation; misses essential second-hop specifics. Original231 supports practical SME subsidy and small firms not aspiring to grow, but does not explicitly support attributed motive of avoiding legal/tax constraints; that citation markedfalse for the full associated assertion. Rendered129 supports young-versus-small jobs headline, although generated description has inaccurate individual bars not repeated as values in answer.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      117,
+      191,
+      127,
+      128,
+      129,
+      130,
+      231,
+      233
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_24",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "System error: read_page must use a page discovered by retrieval. Original106 says expensive borrowing puts new investment on hold; original108 says clean-energy assets need considerable upfront capital despite low operating expenses. Printed74/76 correspond PDF106/108. Both required facts exist; missing answer fails and remains in denominator.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      106,
+      108
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_25",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention without invented code. Whole-document native scan has no Python, def-space or def simulate. Report discusses models and references rather than a complete source-code program. Final context cannot prove exhaustive absence;context0.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_26",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention without invented private phone. Whole-document telephone match only original6 publisher institutional phone, independently read; no personal telephone match. Publisher contact is not Ufuk Akcigit personal number. Finalcontext cannot establish documentwide absence.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      6
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_27",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention plus correct contextual explanation. Rendered original182 Map6.2 displays global transmission networks with insets, not GPS inventory of Vietnam coal plants. Whole-document GPS/coordinates zero. Extra map-description claim supported; no fabricated coordinates.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      182
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_28",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention and supported extra explanation. Rendered original146 Figure5.2 is aggregate country-level schooling inequality/immobility scatter using GDIM2018; no respondent-name list. Whole-document respondent names zero; finalcontext alone not exhaustiveabsence proof.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [
+      146
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_29",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention without fabricated medical statistics. Whole-document lung cancer zero; no Vietnam hospital-level case table present. Explicit documentwide check supplies absence basis; no invented page anchor.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_test_30",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention without invented credentials. Whole-document password zero; report has Global Trade Alert references and public source links rather than access credentials. No invented page anchor.",
+    "source_audit_path": "results/source_audit_test_advanced.json",
+    "source_pages_checked": [],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  }
+]

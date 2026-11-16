@@ -1,0 +1,709 @@
+[
+  {
+    "id": "basic_dev_01",
+    "split": "dev",
+    "question": "Tăng trưởng kinh tế trung bình của các nước thu nhập trung bình trong thập niên 2020 được dự kiến ở mức nào?",
+    "answerable": true,
+    "expected_answer": "Khoảng 4%.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 17,
+        "evidence": "expected to average just 4 percent in the 2020s",
+        "bbox": [
+          221.0,
+          669.49,
+          422.22,
+          681.7
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_02",
+    "split": "dev",
+    "question": "Ngân hàng Thế giới phân loại bao nhiêu quốc gia là thu nhập trung bình trong báo cáo?",
+    "answerable": true,
+    "expected_answer": "108 quốc gia.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": "The World Bank presently classifies 108 countries",
+        "bbox": [
+          67.5,
+          215.8,
+          278.95,
+          228.01
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_03",
+    "split": "dev",
+    "question": "Tăng trưởng thu nhập bình quân thường chững lại ở mức khoảng bao nhiêu phần trăm GDP bình quân đầu người của Mỹ?",
+    "answerable": true,
+    "expected_answer": "Khoảng 11%.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": "typically at about \n11 percent of US GDP per capita",
+        "bbox": [
+          67.5,
+          414.58,
+          281.26,
+          440.04
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_04",
+    "split": "dev",
+    "question": "Việt Nam đặt mục tiêu chuyển sang thu nhập cao vào năm nào theo chiến lược được báo cáo dẫn lại?",
+    "answerable": true,
+    "expected_answer": "Năm 2045.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 34,
+        "evidence": "Strategy 2021–2030 outlines a strategy for sus­\ntained GDP per capita growth of 7 percent \nthrough this decade, with a transition to high-­\nincome status by 2045.",
+        "bbox": [
+          297.0,
+          613.35,
+          510.8,
+          665.26
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_05",
+    "split": "dev",
+    "question": "Thu nhập bình quân đầu người của Hàn Quốc năm 2023 khoảng bao nhiêu USD?",
+    "answerable": true,
+    "expected_answer": "Khoảng 33.000 USD.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 39,
+        "evidence": "By 2023, after an unparalleled five-decade \nrun of high output growth, Korea’s income per \ncapita had risen to about US$33,000.",
+        "bbox": [
+          297.0,
+          660.58,
+          510.83,
+          699.29
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_06",
+    "split": "dev",
+    "question": "Tỷ lệ giáo dục bậc đại học của Ba Lan tăng từ mức nào năm 2000 lên mức nào năm 2012?",
+    "answerable": true,
+    "expected_answer": "Từ 15% lên 42%.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 41,
+        "evidence": "from  15 percent in 2000 to 42  percent in 2012.",
+        "bbox": [
+          67.5,
+          621.92,
+          278.94,
+          634.13
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_07",
+    "split": "dev",
+    "question": "Chile trở thành nước Mỹ Latinh đầu tiên đạt thu nhập cao năm nào?",
+    "answerable": true,
+    "expected_answer": "Năm 2012.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 41,
+        "evidence": "In 2012, \nChile became the first Latin American country \nto reach high-income status",
+        "bbox": [
+          297.0,
+          409.93,
+          510.79,
+          448.64
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_08",
+    "split": "dev",
+    "question": "Công nghệ nuôi cá hồi được thích nghi tại Chile trong ví dụ của báo cáo xuất phát từ nước nào?",
+    "answerable": true,
+    "expected_answer": "Na Uy.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 41,
+        "evidence": "the adaptation of Norwegian salmon \nfarming technologies to local conditions",
+        "bbox": [
+          297.0,
+          648.4,
+          510.75,
+          673.86
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_09",
+    "split": "dev",
+    "question": "Cường độ khí nhà kính trên GDP của nhóm thu nhập trung bình cao gấp mấy lần nhóm thu nhập cao?",
+    "answerable": true,
+    "expected_answer": "3,5 lần.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 45,
+        "evidence": "intensity of GDP that is 3.5 times higher than that \nof high-income countries.",
+        "bbox": [
+          296.99,
+          435.29,
+          510.77,
+          460.75
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_10",
+    "split": "dev",
+    "question": "Cường độ năng lượng trên GDP của nhóm thu nhập trung bình cao gấp mấy lần nhóm thu nhập cao?",
+    "answerable": true,
+    "expected_answer": "2,5 lần.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 45,
+        "evidence": "the energy intensity of GDP also 2.5 times higher \nthan in high-income countries",
+        "bbox": [
+          296.99,
+          475.05,
+          510.79,
+          500.51
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_11",
+    "split": "dev",
+    "question": "“Killer acquisitions” trong báo cáo nhằm triệt tiêu điều gì?",
+    "answerable": true,
+    "expected_answer": "Sản phẩm và công nghệ có thể cạnh tranh trong tương lai.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 52,
+        "evidence": "incumbents acquire innovative firms specifically \nto kill future competing products and technolo­\ngies",
+        "bbox": [
+          67.51,
+          229.33,
+          281.29,
+          268.05
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_12",
+    "split": "dev",
+    "question": "Khảo sát FAT được mô tả thu thập thông tin tại bao nhiêu nền kinh tế đang phát triển?",
+    "answerable": true,
+    "expected_answer": "11 nền kinh tế đang phát triển.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 137,
+        "evidence": "survey, collect­\ning information on the adoption of general \nbusiness functions and sector-specific technol­\nogies in 11  developing economies.",
+        "bbox": [
+          67.5,
+          295.6,
+          281.27,
+          347.57
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_13",
+    "split": "dev",
+    "question": "Estonia đạt bao nhiêu phần trăm mức thu nhập Tây Âu vào năm 2021?",
+    "answerable": true,
+    "expected_answer": "80%.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 91,
+        "evidence": "Estonia reached 80 percent of Western \nEuropean income by 2021",
+        "bbox": [
+          297.0,
+          507.6,
+          510.75,
+          533.06
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_14",
+    "split": "dev",
+    "question": "Các mục tiêu net zero của hơn 140 nước bao phủ khoảng bao nhiêu phần trăm phát thải toàn cầu?",
+    "answerable": true,
+    "expected_answer": "Khoảng 88%.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 254,
+        "evidence": "more than 140 countries have set a net zero tar­\nget, covering about 88 percent of global emis­\nsions.",
+        "bbox": [
+          67.5,
+          123.31,
+          279.0,
+          162.02
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_15",
+    "split": "dev",
+    "question": "Trong ví dụ chuỗi giá trị điện gió ở Izmir, bao nhiêu phần trăm sản lượng được xuất khẩu?",
+    "answerable": true,
+    "expected_answer": "80%.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 254,
+        "evidence": "80 percent of the production from this value \nchain is exported",
+        "bbox": [
+          297.0,
+          427.83,
+          510.75,
+          453.29
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_dev_16",
+    "split": "dev",
+    "question": "Theo báo cáo, tăng trưởng GDP thực tế của Việt Nam trong quý IV năm 2025 là bao nhiêu phần trăm?",
+    "answerable": false,
+    "expected_answer": null,
+    "gold": [],
+    "group": "text",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "2025 chỉ xuất hiện tại trang PDF 107 (dự báo nợ) và 171 (mục tiêu năng lượng Trung Quốc); không có số liệu GDP Việt Nam quý IV/2025. Các cụm quarter iv và fourth quarter không xuất hiện trên cả 276 trang.",
+    "absence_checks": {
+      "method": "Case-insensitive substring on whitespace-normalized native text of all 276 PDF pages; then inspect every year-hit page.",
+      "keyword_pages": {
+        "2025": [
+          107,
+          171
+        ],
+        "viet nam": [
+          34,
+          51,
+          58,
+          67,
+          81,
+          109,
+          126,
+          127,
+          145,
+          196,
+          197,
+          199,
+          200,
+          203,
+          231,
+          258
+        ],
+        "vietnam": [
+          62,
+          251
+        ],
+        "quarter iv": [],
+        "fourth quarter": []
+      }
+    }
+  },
+  {
+    "id": "basic_dev_17",
+    "split": "dev",
+    "question": "Theo báo cáo, tỷ lệ lạm phát thực tế cả năm 2026 của Hàn Quốc là bao nhiêu?",
+    "answerable": false,
+    "expected_answer": null,
+    "gold": [],
+    "group": "text",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "2026 chỉ xuất hiện tại trang PDF 57 (dự báo nhu cầu điện trung tâm dữ liệu) và 107 (dự báo nợ), không phải thống kê lạm phát Hàn Quốc. Không suy diễn số thực tế từ dự báo.",
+    "absence_checks": {
+      "method": "Case-insensitive substring on whitespace-normalized native text of all 276 PDF pages; then inspect every year-hit page.",
+      "keyword_pages": {
+        "2026": [
+          57,
+          107
+        ],
+        "korea": [
+          9,
+          10,
+          11,
+          19,
+          35,
+          39,
+          40,
+          41,
+          42,
+          43,
+          58,
+          62,
+          66,
+          72,
+          73,
+          77,
+          78,
+          82,
+          85,
+          86,
+          89,
+          90,
+          91,
+          92,
+          96,
+          97,
+          98,
+          99,
+          102,
+          104,
+          131,
+          139,
+          156,
+          157,
+          167,
+          168,
+          178,
+          179,
+          189,
+          192,
+          196,
+          197,
+          199,
+          202,
+          205,
+          223,
+          224,
+          235,
+          250,
+          259
+        ],
+        "inflation": [
+          31,
+          50,
+          56,
+          68,
+          70,
+          169,
+          171,
+          188,
+          259
+        ]
+      }
+    }
+  },
+  {
+    "id": "basic_test_01",
+    "split": "test",
+    "question": "Tầm nhìn của Thủ tướng Ấn Độ được báo cáo dẫn lại muốn đưa nước này thành nền kinh tế phát triển vào năm nào?",
+    "answerable": true,
+    "expected_answer": "Năm 2047.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 34,
+        "evidence": "turn the nation into a developed economy \nby 2047",
+        "bbox": [
+          297.0,
+          573.59,
+          510.83,
+          599.06
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_test_02",
+    "split": "test",
+    "question": "Các chaebol Hàn Quốc chủ yếu sao chép công nghệ từ nước nào trong ví dụ về infusion?",
+    "answerable": true,
+    "expected_answer": "Nhật Bản.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 40,
+        "evidence": "or chaebols, took the lead in copying \ntechnologies from abroad—primarily Japan.",
+        "bbox": [
+          67.5,
+          541.96,
+          281.31,
+          567.43
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_test_03",
+    "split": "test",
+    "question": "Theo bảng thuật ngữ, cường độ năng lượng được tính như thế nào?",
+    "answerable": true,
+    "expected_answer": "Đơn vị năng lượng trên đơn vị GDP hoặc một thước đo sản lượng kinh tế khác.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 28,
+        "evidence": "calculated as units of \nenergy per unit of gross domestic product \n(GDP) or another measure of economic \noutput.",
+        "bbox": [
+          124.5,
+          129.31,
+          309.81,
+          181.27
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_test_04",
+    "split": "test",
+    "question": "Theo bảng thuật ngữ, net zero cân bằng hai đại lượng nào?",
+    "answerable": true,
+    "expected_answer": "Lượng khí nhà kính được tạo ra và lượng được loại bỏ khỏi khí quyển.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 29,
+        "evidence": "The balance between the amount \nof greenhouse gas produced and the \namount removed from the atmosphere.",
+        "bbox": [
+          67.5,
+          247.55,
+          252.8,
+          286.27
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_test_05",
+    "split": "test",
+    "question": "Vườn ươm và chương trình tăng tốc có thể hỗ trợ startup bằng những gì theo phần Deepen capital markets?",
+    "answerable": true,
+    "expected_answer": "Cố vấn, nguồn lực, cơ hội kết nối và đôi khi tài trợ để tăng trưởng và cạnh tranh.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 52,
+        "evidence": "providing \nmentorship, resources, networking opportunities, \nand sometimes funding to help start-ups grow \nand compete.",
+        "bbox": [
+          67.5,
+          455.33,
+          281.3,
+          507.3
+        ]
+      }
+    ],
+    "group": "text"
+  },
+  {
+    "id": "basic_test_06",
+    "split": "test",
+    "question": "Theo báo cáo, tỷ lệ người học bậc đại học của Ba Lan đo thực tế trong năm 2026 là bao nhiêu?",
+    "answerable": false,
+    "expected_answer": null,
+    "gold": [],
+    "group": "text",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Đã rà mọi trang chứa 2026: PDF 57 và 107 chỉ bàn dự báo điện và nợ; không cung cấp số đo giáo dục Ba Lan năm 2026. Số liệu lịch sử 2000/2012 không trả lời năm được hỏi.",
+    "absence_checks": {
+      "method": "Case-insensitive substring on whitespace-normalized native text of all 276 PDF pages; then inspect every year-hit page.",
+      "keyword_pages": {
+        "2026": [
+          57,
+          107
+        ],
+        "poland": [
+          9,
+          10,
+          19,
+          35,
+          39,
+          40,
+          41,
+          45,
+          58,
+          62,
+          76,
+          77,
+          91,
+          93,
+          94,
+          95,
+          99,
+          100,
+          109,
+          132,
+          196,
+          197,
+          199,
+          200,
+          201,
+          206,
+          224,
+          243,
+          249
+        ],
+        "tertiary": [
+          41,
+          53,
+          55,
+          91,
+          95,
+          153,
+          154,
+          209,
+          210,
+          222,
+          223,
+          225,
+          226
+        ]
+      }
+    }
+  },
+  {
+    "id": "basic_test_07",
+    "split": "test",
+    "question": "Theo báo cáo, giá trị xuất khẩu cá hồi thực tế của Chile trong năm 2025 là bao nhiêu USD?",
+    "answerable": false,
+    "expected_answer": null,
+    "gold": [],
+    "group": "text",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mọi trang chứa 2025 (PDF 107 và 171) lần lượt là dự báo nợ và mục tiêu năng lượng Trung Quốc; không có số liệu xuất khẩu cá hồi Chile thực tế năm 2025. Ví dụ chuyển giao công nghệ không đủ để suy ra kim ngạch.",
+    "absence_checks": {
+      "method": "Case-insensitive substring on whitespace-normalized native text of all 276 PDF pages; then inspect every year-hit page.",
+      "keyword_pages": {
+        "2025": [
+          107,
+          171
+        ],
+        "chile": [
+          10,
+          14,
+          20,
+          21,
+          22,
+          35,
+          38,
+          40,
+          41,
+          50,
+          51,
+          58,
+          61,
+          62,
+          66,
+          69,
+          71,
+          76,
+          77,
+          81,
+          109,
+          133,
+          134,
+          143,
+          153,
+          154,
+          157,
+          159,
+          184,
+          196,
+          197,
+          199,
+          206,
+          207,
+          208,
+          211,
+          216,
+          217,
+          224,
+          227,
+          233,
+          234,
+          243,
+          248,
+          250,
+          251,
+          256,
+          257,
+          265
+        ],
+        "salmon": [
+          41,
+          206,
+          217
+        ],
+        "exports": [
+          38,
+          41,
+          61,
+          71,
+          73,
+          74,
+          173,
+          178,
+          184,
+          191,
+          207,
+          208,
+          216,
+          219,
+          221,
+          222
+        ]
+      }
+    }
+  }
+]

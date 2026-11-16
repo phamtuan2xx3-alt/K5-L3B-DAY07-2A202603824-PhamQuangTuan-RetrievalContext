@@ -1,0 +1,17 @@
+{
+  "connection": "Existing Day 6 Qdrant opened and queried with its original Python environment; no upsert/delete, no source text sent to API",
+  "collections": [
+    {
+      "collection": "hp_11a8ec10234f_a",
+      "points": 8613,
+      "dimensions": 384,
+      "self_vector_similarity": 1.0
+    },
+    {
+      "collection": "hp_11a8ec10234f_b",
+      "points": 8487,
+      "dimensions": 384,
+      "self_vector_similarity": 0.9999999999999996
+    }
+  ]
+}

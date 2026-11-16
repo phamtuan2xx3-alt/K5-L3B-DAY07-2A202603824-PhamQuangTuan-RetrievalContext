@@ -1,0 +1,203 @@
+{
+  "pages": 276,
+  "chunks": 1108,
+  "chunk_kinds": {
+    "native_text": 911,
+    "vision_description": 197
+  },
+  "vision_pages": 111,
+  "vision_errors": 0,
+  "vision_output_limit_pages": [
+    107,
+    177,
+    205
+  ],
+  "unprocessed_pages": [
+    {
+      "page": 2,
+      "printed_page": null,
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 4,
+      "printed_page": null,
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 16,
+      "printed_page": null,
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 26,
+      "printed_page": null,
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 30,
+      "printed_page": null,
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 84,
+      "printed_page": "52",
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 112,
+      "printed_page": "80",
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 116,
+      "printed_page": "84",
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 166,
+      "printed_page": "134",
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 220,
+      "printed_page": "188",
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 252,
+      "printed_page": "220",
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 274,
+      "printed_page": "242",
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    },
+    {
+      "page": 275,
+      "printed_page": "243",
+      "status": "blank",
+      "native_characters": 0,
+      "native_blocks": 0,
+      "visual_regions": 0,
+      "raster_images": 0,
+      "vector_paths": 0,
+      "issues": [
+        "No native text; inspect blank/decorative/scanned page."
+      ],
+      "vision_status": "not_applicable_or_no_caption"
+    }
+  ],
+  "limitations": [
+    "Native text + generated visual descriptions are indexed; original crop remains evidence authority.",
+    "AI vision descriptions may omit or misread details; source-page audit required for final labels."
+  ]
+}

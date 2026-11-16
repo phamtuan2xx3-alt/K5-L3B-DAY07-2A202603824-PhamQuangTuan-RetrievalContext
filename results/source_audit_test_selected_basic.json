@@ -1,0 +1,226 @@
+{
+  "auditor": "Codex AI source audit; not human review",
+  "scope": "hybrid_qwen/basic/test; all7 held-outcases after selection lock; no API/model/retrieval or pipeline/gold mutation",
+  "created_at_utc": "2026-11-16T05:21:31.160796+00:00",
+  "method": "Read every actual answer and actual citation text against originalPDF native text. Full additional claims checked. Documentwide year checks establish absence independently of final retrieved context. Judge comparison null where initial judge unavailable. Answerable abstention flags not applicable.",
+  "input_sha256": {
+    "results\\experiments\\hybrid_qwen\\basic\\test\\agent_traces.json": "2dd0bae01bb4e030ec8d5a038bc1f2b9021ca2deffb0f470d5172623796d5176",
+    "data\\benchmark\\basic_questions.json": "2036f614f945f5a826ead344a87312bbee86125e60b4d437f52922b89688e7db",
+    "data\\source\\world-development-report-2024.pdf": "7f545194763ef2ffd1347c14bcf5a270c622b9c3a29e1c8c8b081aaee6c00df5",
+    "results\\selection_lock.json": "a61a00fb05677a1a0cf4707de5c634a37c54b1148b4bcbbb066a6d54003ee912",
+    "results\\experiments\\hybrid_qwen\\basic\\test\\reviews.ai.json": "71b43d0e3fcc3a424d24d0257306c48efafe6c8d2557e38eaf557c13cb6130d8"
+  },
+  "summary": {
+    "cases": 7,
+    "pass_count": 5,
+    "fail_count": 2,
+    "system_errors": 1,
+    "initial_reviews_available": 7
+  },
+  "reviews": [
+    {
+      "query_id": "basic_test_01",
+      "agrees_with_ai_label": false,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Systemerror: read_page attempted undiscovered page. Original34 states India developed-economy target2047. Missing result mustfail.",
+      "original_pages_checked": [
+        34
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {
+        "answer_grade": {
+          "ai": null,
+          "recommended": 0
+        },
+        "context_grade": {
+          "ai": null,
+          "recommended": 0
+        },
+        "citation_support": {
+          "ai": null,
+          "recommended": []
+        }
+      },
+      "system_error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval"
+    },
+    {
+      "query_id": "basic_test_02",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original40 confirms1970s/1980s infusion and chaebols copying primarilyJapan; original90 independently supports Samsung licensing Sanyo/NEC. Actual two citations support all full answer claims.",
+      "original_pages_checked": [
+        40,
+        90
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p40:g1:c0",
+        "wdr2024:p90:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {},
+      "system_error": null
+    },
+    {
+      "query_id": "basic_test_03",
+      "agrees_with_ai_label": false,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 1,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Falseabstention on answerable glossary question. Original28 defines energy units perGDP or another economic-output measure. Actual context omits glossary28 but DOES include p264:g1 energy used perGDP and p264:g2 energy consumed per dollarGDP, giving partial equivalent evidence. Thus contextgrade1 rather than0; answer's absolute no-information claim is False.",
+      "original_pages_checked": [
+        28,
+        264
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {
+        "context_grade": {
+          "ai": 0,
+          "recommended": 1
+        }
+      },
+      "system_error": null
+    },
+    {
+      "query_id": "basic_test_04",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original29 glossary defines netzero balance between greenhouse gas produced and amount removed from atmosphere. Actual cited chunk contains both terms; correct full answer.",
+      "original_pages_checked": [
+        29
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p29:g0:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {},
+      "system_error": null
+    },
+    {
+      "query_id": "basic_test_05",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original52 Deepen capital markets supports all four listed benefits: mentorship,resources,networking,sometimesfunding. Qualifier and intended growth/competition preserved. Single deduplicated citation supports all repeated uses.",
+      "original_pages_checked": [
+        52
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p52:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {},
+      "system_error": null
+    },
+    {
+      "query_id": "basic_test_06",
+      "agrees_with_ai_label": false,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "abstention_correct_applicable": true,
+      "reason": "Correctabstention: no observed2026 Poland tertiary rate. Whole-document year hits are unrelated electricity/debt forecasts. Finalcontext cannot establish documentwide absence, contextgrade0.",
+      "original_pages_checked": [
+        57,
+        107
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {
+        "context_grade": {
+          "ai": 2,
+          "recommended": 0
+        }
+      },
+      "system_error": null,
+      "documentwide_absence_check": {
+        "method": "Case-insensitive year search over all276 original native PDF pages, followed by contextual inspection of every year-hit page",
+        "keyword": "2026",
+        "matching_pages": [
+          57,
+          107
+        ],
+        "finding": "Year hits concern electricity forecasts and debt projections, not observed Poland education"
+      }
+    },
+    {
+      "query_id": "basic_test_07",
+      "agrees_with_ai_label": false,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "abstention_correct_applicable": true,
+      "reason": "Correctabstention without revenue fabrication. Whole-document2025 hits concern projecteddebt and China renewabletarget, not observed Chile salmonexports. Finalcontext does not prove whole-document absence.",
+      "original_pages_checked": [
+        107,
+        171
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {
+        "context_grade": {
+          "ai": 2,
+          "recommended": 0
+        }
+      },
+      "system_error": null,
+      "documentwide_absence_check": {
+        "method": "Case-insensitive year search over all276 original native PDF pages, followed by contextual inspection of every year-hit page",
+        "keyword": "2025",
+        "matching_pages": [
+          107,
+          171
+        ],
+        "finding": "Year hits concern debt projections and China renewable target, not Chile salmon export revenue"
+      }
+    }
+  ]
+}

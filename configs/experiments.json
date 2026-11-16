@@ -1,0 +1,9 @@
+{
+  "selection_rule": "Choose on pooled dev only: highest mean answer_grade/2, then citation support rate, then lower mean agent latency. Benchmark labels are AI-assisted and require source audit; do not tune on test.",
+  "configs": [
+    {"id": "baseline_e5", "method": "dense_e5", "top_k": 3, "context_budget": 6000, "max_rounds": 2, "page_expansion": false, "model": "gemini-3.8-flash-high", "hypothesis": "Day 6 E5 dense baseline with a compact context."},
+    {"id": "bm25", "method": "bm25", "top_k": 6, "context_budget": 10000, "max_rounds": 2, "page_expansion": false, "model": "gemini-3.8-flash-high", "hypothesis": "Lexical matching helps figure identifiers and rare terms; original Vietnamese queries may miss English terms."},
+    {"id": "dense_qwen", "method": "dense_qwen", "top_k": 6, "context_budget": 10000, "max_rounds": 2, "page_expansion": false, "model": "gemini-3.8-flash-high", "hypothesis": "Larger multilingual embedding and more candidates improve evidence coverage."},
+    {"id": "hybrid_qwen", "method": "hybrid_qwen", "top_k": 8, "context_budget": 16000, "max_rounds": 3, "page_expansion": true, "model": "gemini-3.8-flash-high", "hypothesis": "RRF plus page expansion preserves table labels, chart conditions and adjacent evidence."}
+  ]
+}

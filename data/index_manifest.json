@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "chunks_path": "data/chunks.json",
+  "chunks_sha256": "8d7462d640ee0979b4e94e4bf169e112607a04827fd1c34f59ec972545a2a88a",
+  "chunks": 1108,
+  "backend": "Qdrant local; same backend as Day 6",
+  "spaces": {
+    "e5": {
+      "path": "data/qdrant/e5-8d7462d640ee",
+      "dimensions": 384,
+      "namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+      "model": "intfloat/multilingual-e5-small",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "points": 1108,
+      "vectors_sha256": "92ddfa057391880ef8806d98f7aea30e6837b70c0256858ec6386feed52c51f8",
+      "build_seconds": 18.80934439995326
+    },
+    "qwen": {
+      "path": "data/qdrant/qwen-8d7462d640ee",
+      "dimensions": 4096,
+      "namespace": "{\"dimensions\": 4096, \"model\": \"Qwen/Qwen3-Embedding-8B\", \"normalization\": \"L2\", \"precision\": \"bfloat16\", \"query_instruction\": \"Given a question in Vietnamese or English, retrieve relevant passages from reports that answer the question.\", \"revision\": \"1d8ad4ca9b3dd8059ad90a75d4983776a23d44af\"}",
+      "model": "Qwen/Qwen3-Embedding-8B",
+      "revision": "1d8ad4ca9b3dd8059ad90a75d4983776a23d44af",
+      "points": 1108,
+      "vectors_sha256": "3e8599d662360112bd8297e60a759283db06a887ecc87e2090524818f4aa5a0b",
+      "build_seconds": 50.55867739999667
+    }
+  }
+}

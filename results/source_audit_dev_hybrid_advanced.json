@@ -1,0 +1,466 @@
+{
+  "auditor": "Codex AI source audit; not human review",
+  "scope": "hybrid_qwen/advanced/dev; all18 publisheddev cases; no test inspected, no model/API/retrieval",
+  "created_at_utc": "2026-11-16T05:13:27.444114+00:00",
+  "method": "Read actual answers/cited context and originalPDF native text; rendered/viewed originalPDF36,39,59,104,106,115,119,120 in this audit. Original108 visually checked in prior sourceaudit. All276 pages scanned for absentcase keywords. Errors counted as failures; no initial labels altered. Judge may be partial at snapshot; agreements null where no judge record.",
+  "input_sha256": {
+    "results\\experiments\\hybrid_qwen\\advanced\\dev\\agent_traces.json": "0f514c4282603b986911d9fe95a61e6a5388fab2d0057bc38e3faae6fa568054",
+    "data\\benchmark\\advanced_questions.json": "b1c5a9f3e8d205df3cf7fa413ff3ed2e3a38485bb1acd5b1a8de0feb4276d40d",
+    "data\\source\\world-development-report-2024.pdf": "7f545194763ef2ffd1347c14bcf5a270c622b9c3a29e1c8c8b081aaee6c00df5",
+    "results\\experiments\\hybrid_qwen\\advanced\\dev\\reviews.ai.json": "0c7facb8db5385e019eb89178591e049ea06e4a6cb993315b430565842222f4f"
+  },
+  "summary": {
+    "cases": 18,
+    "pass_count": 13,
+    "fail_count": 5,
+    "system_errors": 3,
+    "initial_reviews_available": 8,
+    "material_issues": [
+      "04/05/15 read_page guard system failures",
+      "09 correct peak choice but false continuous-growth added claim from vision description",
+      "14 false abstention; partial firsthop only; printed/PDF numbering mismatch requires care"
+    ]
+  },
+  "reviews": [
+    {
+      "query_id": "advanced_dev_01",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Rendered original TableO.1 inspected: Low-income population column8.9%; cited row and unit correct.",
+      "original_pages_checked": [
+        36
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p36:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {},
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_02",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Rendered original TableO.1 inspected: High-income GDP column60.8%; cited row/year/unit correct.",
+      "original_pages_checked": [
+        36
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p36:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {},
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_03",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Rendered original TableO.1 inspected: Upper-middle-income extreme-poverty column7.1%; full answer supported.",
+      "original_pages_checked": [
+        36
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p36:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {},
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_04",
+      "agrees_with_ai_label": false,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "System error: read_page must use a page discovered by retrieval. Rendered original115 inspected: Preservation left circle largest, so answer exists. Missing result counts as failure.",
+      "original_pages_checked": [
+        115
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {
+        "answer_grade": {
+          "ai": null,
+          "recommended": 0
+        },
+        "context_grade": {
+          "ai": null,
+          "recommended": 0
+        },
+        "citation_support": {
+          "ai": null,
+          "recommended": []
+        }
+      },
+      "system_error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval"
+    },
+    {
+      "query_id": "advanced_dev_05",
+      "agrees_with_ai_label": false,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "System error: undiscovered-page read guard. Rendered119 Figure4.2a inspected: incumbent figures block entrant crossing technology frontier; answer exists but system returned no result.",
+      "original_pages_checked": [
+        119
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {
+        "answer_grade": {
+          "ai": null,
+          "recommended": 0
+        },
+        "context_grade": {
+          "ai": null,
+          "recommended": 0
+        },
+        "citation_support": {
+          "ai": null,
+          "recommended": []
+        }
+      },
+      "system_error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval"
+    },
+    {
+      "query_id": "advanced_dev_06",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Rendered original120 Figure4.3 inspected: vertical ladder label Productivity or quality of production. Actual citation contains exact label; correct answer.",
+      "original_pages_checked": [
+        120
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p120:g0:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {},
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_07",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original108 Figure3.5b visually inspected during prior source audit: middle UMIC bar0.086 with GtCO2 equivalent/exajoule axis. Value/group/unit all correct in actual citation.",
+      "original_pages_checked": [
+        108
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p108:g0:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {},
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_08",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Rendered104 Figure3.1 inspected: horizontal years2010 through2022. Actual cited chunk contains endpoints and figure identity.",
+      "original_pages_checked": [
+        104
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p104:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {},
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_09",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 1,
+        "context_grade": 2,
+        "citation_support": [
+          false,
+          false
+        ],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Rendered original106 independently inspected: total debt peaks near2020 around200% GDP, then declines through2022. Requested peak choice2020 is correct. Added claim continuously increasing is false (post2020 decline and earlier nonmonotonic sections). Native cited chunk lacks numeric trajectories; generated vision citation falsely describes continuous rise to2022 and overstates private debt dominance. Both citation labels are false for full compound claims as used, although original page supports the main peak assertion. Strict advanced all-claims pass must fail.",
+      "original_pages_checked": [
+        106
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p106:g0:c0",
+        "wdr2024:p106:vision:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": null,
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_10",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original36 native text directly says over last34 years only34 economies broke out. Timeframe/count correctly preserved.",
+      "original_pages_checked": [
+        36
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p36:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": null,
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_11",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original117/119 native paragraphs explicitly say majority start businesses driven by necessity, not opportunity. Both actual citations support answer.",
+      "original_pages_checked": [
+        117,
+        119
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p117:g0:c0",
+        "wdr2024:p119:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": null,
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_12",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original105 native paragraph estimates technological fragmentation costs as high as5% GDP for many economies; answer preserves estimate qualifier.",
+      "original_pages_checked": [
+        105
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p105:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": null,
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_13",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Rendered original39 TableO.2: Lower-middle-income infusion Higher priority. Rendered59 TableO.3 lower-middle Enterprise cell: diffuse global technologies with fluid factor/product markets. Two required hops and correctly named row/column present in actual cited chunks.",
+      "original_pages_checked": [
+        39,
+        59
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p39:g0:c0",
+        "wdr2024:p59:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": null,
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_14",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 1,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "False abstention. Original117 defines state-owned enterprises(SOEs); original195 states outsize market share, grid control and regulatory influence block renewables. Question cites printed85/163, corresponding PDF117/195. Actual context has SOE definition onPDF32 but lacks second-hop block-entry mechanism; partialcontext1, answergrade0. Page numbering confusion is a plausible failure mechanism, not a demonstrated internal cause.",
+      "original_pages_checked": [
+        117,
+        195
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": null,
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_15",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "System error: undiscovered-page read guard. Original38 native text requires many technical workers/engineers/scientists/managers; rendered120/native text includes firm entry/exit rates. Gold exists at printed6/88=PDF38/120; missing result fails.",
+      "original_pages_checked": [
+        38,
+        120
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": null,
+      "system_error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval"
+    },
+    {
+      "query_id": "advanced_dev_16",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "abstention_correct_applicable": true,
+      "reason": "Correct abstention without guessed GDP. Documentwide2031 scan has zero hits; no observedVietnamQ4 GDP2031. Final retrieved context cannot prove documentwide absence, hence contextgrade0.",
+      "original_pages_checked": [
+        57,
+        107
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": null,
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_17",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "abstention_correct_applicable": true,
+      "reason": "Correct abstention. Documentwide exactdate15/11/2026 zero;2026 onlyPDF57 forecast data-center electricity and107 projected debt, inspected in prior audit, neither observedVietnam central-bank rate.",
+      "original_pages_checked": [
+        57,
+        107
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": null,
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_dev_18",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "abstention_correct_applicable": true,
+      "reason": "Correct abstention without fabricated audited revenue. Documentwide case-insensitiveVinFast scan across276 pages zero. Original source audit is documentwide here, so no specific relevant page exists; final context absence not documentwide proof.",
+      "original_pages_checked": [],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": null,
+      "system_error": null
+    }
+  ]
+}

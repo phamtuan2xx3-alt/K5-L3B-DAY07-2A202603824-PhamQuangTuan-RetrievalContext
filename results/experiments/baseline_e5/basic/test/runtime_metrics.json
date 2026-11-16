@@ -1,0 +1,99 @@
+{
+  "final_context_evidence_rate": {
+    "n": 2,
+    "N": 5,
+    "rate": 0.4
+  },
+  "definition": "Actual final context sent to answering model; strict native gold quote+source/page, all multihop groups required; errors scored0. Visual semantic evidence separately source-audited.",
+  "answer_citation_coverage": {
+    "n": 3,
+    "N": 3,
+    "rate": 1.0
+  },
+  "retrieval_tool_call_distribution_successful_queries": {
+    "2": 6
+  },
+  "context_grade_distribution_answerable_successful": {
+    "2": 3,
+    "0": 1
+  },
+  "per_query_context_review": [
+    {
+      "query_id": "basic_test_01",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Systemerror: read_page attempted undiscovered page. Original34 explicitly states India developed-economy target2047. No actual answer; mustfail.",
+      "context_ids": [
+        "wdr2024:p66:g3:c0",
+        "wdr2024:p34:g3:c0",
+        "wdr2024:p20:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_test_02",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Original40 says chaebols copied primarilyJapan. Alternate cited original90 supports Samsung licensing Sanyo/NEC inJapan. Country answer and extra company details verified.",
+      "context_ids": [
+        "wdr2024:p90:g0:c0",
+        "wdr2024:p90:g1:c0",
+        "wdr2024:p90:g2:c0",
+        "wdr2024:p90:vision:c0",
+        "wdr2024:p90:vision:c1",
+        "wdr2024:p42:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_test_03",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original28 glossary and cited chunk define energy units perGDP unit or other economic output. Full answer correct.",
+      "context_ids": [
+        "wdr2024:p28:g0:c0",
+        "wdr2024:p27:g0:c0",
+        "wdr2024:p264:g1:c0",
+        "wdr2024:p267:vision:c1",
+        "wdr2024:p267:g2:c0",
+        "wdr2024:p47:g1:c0"
+      ]
+    },
+    {
+      "query_id": "basic_test_04",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Falseabstention. Original29 glossary defines balance between greenhouse gas produced and removed from atmosphere. Final context has different glossarypage27 and abbreviations/reference/footer fragments, no definition.",
+      "context_ids": [
+        "wdr2024:p21:g3:c0",
+        "wdr2024:p31:g0:c0",
+        "wdr2024:p27:g0:c0",
+        "wdr2024:p246:g3:c0",
+        "wdr2024:p246:g2:c0",
+        "wdr2024:p144:g4:c0"
+      ]
+    },
+    {
+      "query_id": "basic_test_05",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original52 Deepen capital markets supports mentorship,resources,networking,and sometimesfunding to grow/compete. All items and qualifier retained in actual cited chunk.",
+      "context_ids": [
+        "wdr2024:p3:g0:c0",
+        "wdr2024:p141:g0:c0",
+        "wdr2024:p269:g3:c0",
+        "wdr2024:p52:g2:c0",
+        "wdr2024:p237:g0:c0",
+        "wdr2024:p237:g3:c0"
+      ]
+    }
+  ],
+  "model_calls": 20,
+  "model_http_attempts_recorded": 20,
+  "usage": {
+    "prompt_tokens": 20250,
+    "completion_tokens": 838,
+    "total_tokens": 26840
+  },
+  "usd_cost": null,
+  "cost_limitations": "No verified USD tariff; usage available only for recorded model responses, failures/setup may not supply token usage.",
+  "errors": 1
+}

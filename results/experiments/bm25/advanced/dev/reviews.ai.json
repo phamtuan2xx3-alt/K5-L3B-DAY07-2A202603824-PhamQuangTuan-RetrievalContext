@@ -1,0 +1,516 @@
+[
+  {
+    "query_id": "advanced_dev_01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (8,9%) và trích dẫn chuẩn xác từ Bảng O.1 ở trang 36.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8108,
+        "completion_tokens": 264,
+        "total_tokens": 9601
+      },
+      "seconds": 16.707298499997705,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (60,8%) và trích dẫn chuẩn xác từ Bảng O.1 ở trang 36.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8108,
+        "completion_tokens": 264,
+        "total_tokens": 9601
+      },
+      "seconds": 16.707298499997705,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo Bảng O.1 trên trang 36 và trích dẫn đầy đủ, đúng ngữ cảnh.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6594,
+        "completion_tokens": 263,
+        "total_tokens": 7682
+      },
+      "seconds": 21.988100999966264,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo Hình P2.1 trên trang 115 và trích dẫn chuẩn xác ngữ cảnh thị giác.",
+    "source_pages": [
+      115
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6594,
+        "completion_tokens": 263,
+        "total_tokens": 7682
+      },
+      "seconds": 21.988100999966264,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo hình minh họa và nội dung của Panel a (Hình 4.2), nêu rõ hành vi bắt tay nhau cản trở/đẩy lùi doanh nghiệp mới. Các trích dẫn đều chính xác và hỗ trợ đầy đủ.",
+    "source_pages": [
+      119
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7429,
+        "completion_tokens": 307,
+        "total_tokens": 9426
+      },
+      "seconds": 23.210205799899995,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác, nêu đúng đại lượng trên trục thẳng đứng là \"Năng suất hoặc chất lượng sản xuất\" (Productivity or quality of production) và trích dẫn chuẩn xác.",
+    "source_pages": [
+      120
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7429,
+        "completion_tokens": 307,
+        "total_tokens": 9426
+      },
+      "seconds": 23.210205799899995,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác về giá trị (0,086) và đơn vị (GtCO2 tương đương/exajoule) dựa trên Hình 3.5b, trích dẫn chuẩn xác.",
+    "source_pages": [
+      108
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8967,
+        "completion_tokens": 289,
+        "total_tokens": 10234
+      },
+      "seconds": 11.043011299916543,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác khoảng năm trên trục ngang của Hình 3.1 (2010–2022) và trích dẫn đúng đoạn dữ liệu.",
+    "source_pages": [
+      104
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8967,
+        "completion_tokens": 289,
+        "total_tokens": 10234
+      },
+      "seconds": 11.043011299916543,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_09",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác khi xác định tổng nợ đạt đỉnh vào khoảng năm 2020 thay vì 1950 dựa trên Hình 3.3. Các trích dẫn đều tồn tại và hỗ trợ nội dung.",
+    "source_pages": [
+      105,
+      106
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7117,
+        "completion_tokens": 312,
+        "total_tokens": 8651
+      },
+      "seconds": 11.934397300006822,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo văn bản báo cáo (34 nền kinh tế). Cả hai trích dẫn đều chính xác và hỗ trợ đầy đủ cho câu trả lời.",
+    "source_pages": [
+      36,
+      68
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7117,
+        "completion_tokens": 312,
+        "total_tokens": 8651
+      },
+      "seconds": 11.934397300006822,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác so với thông tin trong văn bản gốc và câu trả lời mẫu, các trích dẫn đều hợp lệ và hỗ trợ đầy đủ luận điểm.",
+    "source_pages": [
+      117,
+      119
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7975,
+        "completion_tokens": 282,
+        "total_tokens": 9133
+      },
+      "seconds": 17.019346500048414,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo dữ liệu trong báo cáo (lên tới 5% GDP), trích dẫn chính xác và đầy đủ.",
+    "source_pages": [
+      105
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7975,
+        "completion_tokens": 282,
+        "total_tokens": 9133
+      },
+      "seconds": 17.019346500048414,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo Bảng O.2 (mức ưu tiên cao / Higher priority) và Bảng O.3 (thị trường yếu tố và sản phẩm linh hoạt, thông suốt / fluid factor and product markets), kèm trích dẫn đối chiếu đầy đủ.",
+    "source_pages": [
+      39,
+      59
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4803,
+        "completion_tokens": 125,
+        "total_tokens": 5769
+      },
+      "seconds": 11.404254599940032,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_14",
+    "pass": false,
+    "error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "advanced_dev_15",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 6 và 88 của báo cáo, tương ứng trang PDF 38 và 120), nhưng mô hình đã từ chối trả lời do ngữ cảnh được cung cấp thiếu thông tin.",
+    "source_pages": [
+      38,
+      120
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8952,
+        "completion_tokens": 278,
+        "total_tokens": 11352
+      },
+      "seconds": 33.6825229000533,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_16",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Dữ liệu GDP thực tế quý IV/2031 không có trong tài liệu. Mô hình đã xác định chính xác và từ chối trả lời một cách rõ ràng.",
+    "source_pages": [],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8952,
+        "completion_tokens": 278,
+        "total_tokens": 11352
+      },
+      "seconds": 33.6825229000533,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_17",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu hỏi không có trong tài liệu (ngày trong tương lai 15/11/2026); mô hình đã từ chối trả lời chính xác và không suy diễn.",
+    "source_pages": [],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6682,
+        "completion_tokens": 248,
+        "total_tokens": 7676
+      },
+      "seconds": 11.931952900020406,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_18",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Tài liệu không chứa thông tin về VinFast hay số liệu tài chính năm 2030; mô hình đã từ chối trả lời chính xác.",
+    "source_pages": [],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6682,
+        "completion_tokens": 248,
+        "total_tokens": 7676
+      },
+      "seconds": 11.931952900020406,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  }
+]

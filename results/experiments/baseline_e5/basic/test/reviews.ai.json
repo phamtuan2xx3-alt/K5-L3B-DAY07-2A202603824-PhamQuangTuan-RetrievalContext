@@ -1,0 +1,125 @@
+[
+  {
+    "query_id": "basic_test_01",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Systemerror: read_page attempted undiscovered page. Original34 explicitly states India developed-economy target2047. No actual answer; mustfail.",
+    "source_audit_path": "results/source_audit_test_baseline_basic.json",
+    "source_pages_checked": [
+      34
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "basic_test_02",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original40 says chaebols copied primarilyJapan. Alternate cited original90 supports Samsung licensing Sanyo/NEC inJapan. Country answer and extra company details verified.",
+    "source_audit_path": "results/source_audit_test_baseline_basic.json",
+    "source_pages_checked": [
+      40,
+      90
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "basic_test_03",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original28 glossary and cited chunk define energy units perGDP unit or other economic output. Full answer correct.",
+    "source_audit_path": "results/source_audit_test_baseline_basic.json",
+    "source_pages_checked": [
+      28
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "basic_test_04",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Falseabstention. Original29 glossary defines balance between greenhouse gas produced and removed from atmosphere. Final context has different glossarypage27 and abbreviations/reference/footer fragments, no definition.",
+    "source_audit_path": "results/source_audit_test_baseline_basic.json",
+    "source_pages_checked": [
+      29
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "basic_test_05",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original52 Deepen capital markets supports mentorship,resources,networking,and sometimesfunding to grow/compete. All items and qualifier retained in actual cited chunk.",
+    "source_audit_path": "results/source_audit_test_baseline_basic.json",
+    "source_pages_checked": [
+      52
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "basic_test_06",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correctabstention: no observed2026 Poland tertiary rate. Additional historical2000/2012 discussion supported original41/95, though uncited. Final retrieved historical observations cannot establish documentwide absence; contextgrade0.",
+    "source_audit_path": "results/source_audit_test_baseline_basic.json",
+    "source_pages_checked": [
+      41,
+      95,
+      57,
+      107
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "basic_test_07",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correctabstention without guessed revenue. Whole-document2025 matches only debtprojection107 and China renewabletarget171, not observedChile salmonexports. Contextgrade0 for absence not demonstrated by finalcontext.",
+    "source_audit_path": "results/source_audit_test_baseline_basic.json",
+    "source_pages_checked": [
+      107,
+      171
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  }
+]

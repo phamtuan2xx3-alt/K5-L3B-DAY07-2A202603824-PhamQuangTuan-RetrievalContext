@@ -1,0 +1,54 @@
+{
+  "validated_at_utc": "2026-11-16T05:41:33.740886+00:00",
+  "status": "structurally_valid",
+  "errors": [],
+  "pending": [],
+  "checks": {
+    "corpus_coverage": {
+      "native_nonblank_pages": 263,
+      "indexed_pages": 263,
+      "chunks": 1108
+    },
+    "basic_counts": {
+      "('dev', True)": 15,
+      "('dev', False)": 2,
+      "('test', True)": 5,
+      "('test', False)": 2
+    },
+    "advanced_counts": {
+      "('test', True)": 24,
+      "('dev', True)": 15,
+      "('dev', False)": 3,
+      "('test', False)": 6
+    },
+    "test_scores_all_published_cases": {
+      "hybrid_qwen/basic": {
+        "n": 5,
+        "N": 7,
+        "threshold_met": false
+      },
+      "hybrid_qwen/advanced": {
+        "n": 24,
+        "N": 30,
+        "threshold_met": false
+      },
+      "baseline_e5/basic": {
+        "n": 5,
+        "N": 7,
+        "threshold_met": false
+      }
+    },
+    "bonus": {
+      "threshold_met": false,
+      "eligibility": "Not certified: original-page final review and all advanced requirements still required",
+      "structural_basic_requires_90_percent": false
+    },
+    "review_status": "AI-assisted reviews; validator does not certify human approval or semantic correctness",
+    "secret_scan": {
+      "files_scanned": 187,
+      "flagged_paths": [],
+      "values_redacted": true
+    }
+  },
+  "semantic_correctness_certified": false
+}

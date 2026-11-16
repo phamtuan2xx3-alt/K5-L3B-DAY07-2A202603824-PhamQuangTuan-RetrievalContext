@@ -1,0 +1,1838 @@
+[
+  {
+    "query_id": "advanced_dev_01",
+    "original_query": "Theo bảng O.1 năm 2022, nhóm Low-income chiếm bao nhiêu phần trăm dân số toàn cầu?",
+    "results": [
+      {
+        "id": "wdr2024:p36:g3:c0",
+        "text": "Sources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n4 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 36,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            607.05,
+            510.26,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "4",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 958,
+          "e5_input_tokens": 286
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8572333059117917,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p63:g2:c0",
+        "text": "Sources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n﻿ | 31\n﻿ 31",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 63,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.45,
+            607.05,
+            511.1,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "31",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 936,
+          "e5_input_tokens": 278
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8534874714454059,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p215:g3:c0",
+        "text": "Bank (2011, 2018, 2024). 21. Dhar, Jain, and Jayachandran (2019). 22. World Bank (2022a, 2022b). 23. Dhar, Jain, and Jayachandran (2022). 24. Andrew et al. (2022). 25. For more information, see https://www.unesco.org/en​/\na much broader time period and 75 countries, complete data for middle-income countries are available only for 34 countries between 2017 and 2022. For more infor­ mation on the database, see World Bank (2021). 69. World Bank (2021). 70. These data are based on a sample of 43 high-income\narticles/unesco-laureate-china-children-and-­teenagers​ -fund-helps-disadvantaged-girls-thrive-through​ -education. 26. Garcia-Brazales (2021). 27. Bursztyn et al. (2023). 28. Bursztyn, González, and Yanagizawa-Drott (2020). 29. Beaman et al. (2012); Priyanka (2020). 30. Chiplunkar and Goldberg (2021). 31. Fernández (2013). 32. Cameron, Contreras Suarez, and Tseng (2023). 33. Halim, Perova, and Reynolds (2021). 34. World Bank (2024). 35. Aghion et al. (2001, 2005); Akcigit, Alp, and Peters\n(2021). 36. Commission on Growth and Development (2008).",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 215,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            472.26,
+            510.49,
+            682.88
+          ],
+          "kind": "native_text",
+          "printed_page": "183",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1060,
+          "e5_input_tokens": 315
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8508054305234257,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p36:g3:c0",
+      "wdr2024:p63:g2:c0",
+      "wdr2024:p215:g3:c0"
+    ],
+    "context": "[wdr2024:p36:g3:c0] PDF page 36; bbox=[67.56, 607.05, 510.26, 731.23]; kind=native_text\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n4 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p63:g2:c0] PDF page 63; bbox=[67.45, 607.05, 511.1, 731.23]; kind=native_text\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n﻿ | 31\n﻿ 31\n\n[wdr2024:p215:g3:c0] PDF page 215; bbox=[67.5, 472.26, 510.49, 682.88]; kind=native_text\nBank (2011, 2018, 2024). 21. Dhar, Jain, and Jayachandran (2019). 22. World Bank (2022a, 2022b). 23. Dhar, Jain, and Jayachandran (2022). 24. Andrew et al. (2022). 25. For more information, see https://www.unesco.org/en​/\na much broader time period and 75 countries, complete data for middle-income countries are available only for 34 countries between 2017 and 2022. For more infor­ mation on the database, see World Bank (2021). 69. World Bank (2021). 70. These data are based on a sample of 43 high-income\narticles/unesco-laureate-china-children-and-­teenagers​ -fund-helps-disadvantaged-girls-thrive-through​ -education. 26. Garcia-Brazales (2021). 27. Bursztyn et al. (2023). 28. Bursztyn, González, and Yanagizawa-Drott (2020). 29. Beaman et al. (2012); Priyanka (2020). 30. Chiplunkar and Goldberg (2021). 31. Fernández (2013). 32. Cameron, Contreras Suarez, and Tseng (2023). 33. Halim, Perova, and Reynolds (2021). 34. World Bank (2024). 35. Aghion et al. (2001, 2005); Akcigit, Alp, and Peters\n(2021). 36. Commission on Growth and Development (2008).\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.039312300039455295
+  },
+  {
+    "query_id": "advanced_dev_02",
+    "original_query": "Theo bảng O.1 năm 2022, nhóm High-income chiếm bao nhiêu phần trăm GDP toàn cầu?",
+    "results": [
+      {
+        "id": "wdr2024:p36:g3:c0",
+        "text": "Sources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n4 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 36,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            607.05,
+            510.26,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "4",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 958,
+          "e5_input_tokens": 286
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8604592987377548,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p63:g2:c0",
+        "text": "Sources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n﻿ | 31\n﻿ 31",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 63,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.45,
+            607.05,
+            511.1,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "31",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 936,
+          "e5_input_tokens": 278
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8580386278992946,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p63:vision:c0",
+        "text": "Table P1.1 presents World Bank country classifications and selected global indicators for 2022, organized by income classification into four rows: Low-income, Lower-middle-income, Upper-middle-income, and High-income. Each row contains four columns with percentage values:\n\n1. SHARE OF GLOBAL POPULATION (%): Low-income (8.9%), Lower-middle-income (40.3%), Upper-middle-income (35.1%), High-income (15.7%).\n2. SHARE OF GLOBAL GDP (%): Low-income (0.6%), Lower-middle-income (8.3%), Upper-middle-income (30.3%), High-income (60.8%).\n3. SHARE OF PEOPLE IN EXTREME POVERTY GLOBALLY (%): Low-income (36.5%), Lower-middle-income (55.4%), Upper-middle-income (7.1%), High-income (1.0%).\n4. SHARE OF GLOBAL CARBON DIOXIDE (CO₂) EMISSIONS (%): Low-income (0.5%), Lower-middle-income (15.7%), Upper-middle-income (48.6%), High-income (35.2%).\n\nThe table visually shows that lower-middle-income countries hold the largest share of global population (40.3%) and extreme poverty (55.4%), while high-income countries dominate global GDP (60.8%) and CO₂ emissions (35.2%). Upper-middle-income countries contribute significantly to emissions (48.6%) but have the lowest poverty share (7.1%). Low-income countries have the smallest GDP share (0.6%) and the highest poverty share (36.5%) among the categories. The",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 63,
+        "metadata": {
+          "version": "2024",
+          "kind": "vision_description",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "printed_page": "31",
+          "generated_by": "Qwen/Qwen3-VL-8B-Instruct",
+          "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+          "verification": "AI generated; original PDF is authoritative",
+          "truncated_description": false,
+          "original_page": "data/source/world-development-report-2024.pdf#page=63"
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8556158476165018,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p36:g3:c0",
+      "wdr2024:p63:g2:c0",
+      "wdr2024:p63:vision:c0"
+    ],
+    "context": "[wdr2024:p36:g3:c0] PDF page 36; bbox=[67.56, 607.05, 510.26, 731.23]; kind=native_text\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n4 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p63:g2:c0] PDF page 63; bbox=[67.45, 607.05, 511.1, 731.23]; kind=native_text\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n﻿ | 31\n﻿ 31\n\n[wdr2024:p63:vision:c0] PDF page 63; bbox=[0.0, 0.0, 576.0, 756.0]; kind=vision_description\nTable P1.1 presents World Bank country classifications and selected global indicators for 2022, organized by income classification into four rows: Low-income, Lower-middle-income, Upper-middle-income, and High-income. Each row contains four columns with percentage values:\n\n1. SHARE OF GLOBAL POPULATION (%): Low-income (8.9%), Lower-middle-income (40.3%), Upper-middle-income (35.1%), High-income (15.7%).\n2. SHARE OF GLOBAL GDP (%): Low-income (0.6%), Lower-middle-income (8.3%), Upper-middle-income (30.3%), High-income (60.8%).\n3. SHARE OF PEOPLE IN EXTREME POVERTY GLOBALLY (%): Low-income (36.5%), Lower-middle-income (55.4%), Upper-middle-income (7.1%), High-income (1.0%).\n4. SHARE OF GLOBAL CARBON DIOXIDE (CO₂) EMISSIONS (%): Low-income (0.5%), Lower-middle-income (15.7%), Upper-middle-income (48.6%), High-income (35.2%).\n\nThe table visually shows that lower-middle-income countries hold the largest share of global population (40.3%) and extreme poverty (55.4%), while high-income countries dominate global GDP (60.8%) and CO₂ emissions (35.2%). Upper-middle-income countries contribute significantly to emissions (48.6%) but have the lowest poverty share (7.1%). Low-income countries have the smallest GDP share (0.6%) and the highest poverty share (36.5%) among the categories. The\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.04643739992752671
+  },
+  {
+    "query_id": "advanced_dev_03",
+    "original_query": "Theo bảng O.1 năm 2022, nhóm Upper-middle-income chiếm bao nhiêu phần trăm người nghèo cùng cực toàn cầu?",
+    "results": [
+      {
+        "id": "wdr2024:p215:g3:c0",
+        "text": "Bank (2011, 2018, 2024). 21. Dhar, Jain, and Jayachandran (2019). 22. World Bank (2022a, 2022b). 23. Dhar, Jain, and Jayachandran (2022). 24. Andrew et al. (2022). 25. For more information, see https://www.unesco.org/en​/\na much broader time period and 75 countries, complete data for middle-income countries are available only for 34 countries between 2017 and 2022. For more infor­ mation on the database, see World Bank (2021). 69. World Bank (2021). 70. These data are based on a sample of 43 high-income\narticles/unesco-laureate-china-children-and-­teenagers​ -fund-helps-disadvantaged-girls-thrive-through​ -education. 26. Garcia-Brazales (2021). 27. Bursztyn et al. (2023). 28. Bursztyn, González, and Yanagizawa-Drott (2020). 29. Beaman et al. (2012); Priyanka (2020). 30. Chiplunkar and Goldberg (2021). 31. Fernández (2013). 32. Cameron, Contreras Suarez, and Tseng (2023). 33. Halim, Perova, and Reynolds (2021). 34. World Bank (2024). 35. Aghion et al. (2001, 2005); Akcigit, Alp, and Peters\n(2021). 36. Commission on Growth and Development (2008).",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 215,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            472.26,
+            510.49,
+            682.88
+          ],
+          "kind": "native_text",
+          "printed_page": "183",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1060,
+          "e5_input_tokens": 315
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8527535099003212,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p63:vision:c0",
+        "text": "Table P1.1 presents World Bank country classifications and selected global indicators for 2022, organized by income classification into four rows: Low-income, Lower-middle-income, Upper-middle-income, and High-income. Each row contains four columns with percentage values:\n\n1. SHARE OF GLOBAL POPULATION (%): Low-income (8.9%), Lower-middle-income (40.3%), Upper-middle-income (35.1%), High-income (15.7%).\n2. SHARE OF GLOBAL GDP (%): Low-income (0.6%), Lower-middle-income (8.3%), Upper-middle-income (30.3%), High-income (60.8%).\n3. SHARE OF PEOPLE IN EXTREME POVERTY GLOBALLY (%): Low-income (36.5%), Lower-middle-income (55.4%), Upper-middle-income (7.1%), High-income (1.0%).\n4. SHARE OF GLOBAL CARBON DIOXIDE (CO₂) EMISSIONS (%): Low-income (0.5%), Lower-middle-income (15.7%), Upper-middle-income (48.6%), High-income (35.2%).\n\nThe table visually shows that lower-middle-income countries hold the largest share of global population (40.3%) and extreme poverty (55.4%), while high-income countries dominate global GDP (60.8%) and CO₂ emissions (35.2%). Upper-middle-income countries contribute significantly to emissions (48.6%) but have the lowest poverty share (7.1%). Low-income countries have the smallest GDP share (0.6%) and the highest poverty share (36.5%) among the categories. The",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 63,
+        "metadata": {
+          "version": "2024",
+          "kind": "vision_description",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "printed_page": "31",
+          "generated_by": "Qwen/Qwen3-VL-8B-Instruct",
+          "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+          "verification": "AI generated; original PDF is authoritative",
+          "truncated_description": false,
+          "original_page": "data/source/world-development-report-2024.pdf#page=63"
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8519607906314127,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p36:g3:c0",
+        "text": "Sources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n4 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 36,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            607.05,
+            510.26,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "4",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 958,
+          "e5_input_tokens": 286
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8503583666997233,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p215:g3:c0",
+      "wdr2024:p63:vision:c0",
+      "wdr2024:p36:g3:c0"
+    ],
+    "context": "[wdr2024:p215:g3:c0] PDF page 215; bbox=[67.5, 472.26, 510.49, 682.88]; kind=native_text\nBank (2011, 2018, 2024). 21. Dhar, Jain, and Jayachandran (2019). 22. World Bank (2022a, 2022b). 23. Dhar, Jain, and Jayachandran (2022). 24. Andrew et al. (2022). 25. For more information, see https://www.unesco.org/en​/\na much broader time period and 75 countries, complete data for middle-income countries are available only for 34 countries between 2017 and 2022. For more infor­ mation on the database, see World Bank (2021). 69. World Bank (2021). 70. These data are based on a sample of 43 high-income\narticles/unesco-laureate-china-children-and-­teenagers​ -fund-helps-disadvantaged-girls-thrive-through​ -education. 26. Garcia-Brazales (2021). 27. Bursztyn et al. (2023). 28. Bursztyn, González, and Yanagizawa-Drott (2020). 29. Beaman et al. (2012); Priyanka (2020). 30. Chiplunkar and Goldberg (2021). 31. Fernández (2013). 32. Cameron, Contreras Suarez, and Tseng (2023). 33. Halim, Perova, and Reynolds (2021). 34. World Bank (2024). 35. Aghion et al. (2001, 2005); Akcigit, Alp, and Peters\n(2021). 36. Commission on Growth and Development (2008).\n\n[wdr2024:p63:vision:c0] PDF page 63; bbox=[0.0, 0.0, 576.0, 756.0]; kind=vision_description\nTable P1.1 presents World Bank country classifications and selected global indicators for 2022, organized by income classification into four rows: Low-income, Lower-middle-income, Upper-middle-income, and High-income. Each row contains four columns with percentage values:\n\n1. SHARE OF GLOBAL POPULATION (%): Low-income (8.9%), Lower-middle-income (40.3%), Upper-middle-income (35.1%), High-income (15.7%).\n2. SHARE OF GLOBAL GDP (%): Low-income (0.6%), Lower-middle-income (8.3%), Upper-middle-income (30.3%), High-income (60.8%).\n3. SHARE OF PEOPLE IN EXTREME POVERTY GLOBALLY (%): Low-income (36.5%), Lower-middle-income (55.4%), Upper-middle-income (7.1%), High-income (1.0%).\n4. SHARE OF GLOBAL CARBON DIOXIDE (CO₂) EMISSIONS (%): Low-income (0.5%), Lower-middle-income (15.7%), Upper-middle-income (48.6%), High-income (35.2%).\n\nThe table visually shows that lower-middle-income countries hold the largest share of global population (40.3%) and extreme poverty (55.4%), while high-income countries dominate global GDP (60.8%) and CO₂ emissions (35.2%). Upper-middle-income countries contribute significantly to emissions (48.6%) but have the lowest poverty share (7.1%). Low-income countries have the smallest GDP share (0.6%) and the highest poverty share (36.5%) among the categories. The\n\n[wdr2024:p36:g3:c0] PDF page 36; bbox=[67.56, 607.05, 510.26, 731.23]; kind=native_text\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www​ .climatewatchdata.org/. Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.\n4 | WORLD DEVELOPMENT REPORT 2024\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.034900200087577105
+  },
+  {
+    "query_id": "advanced_dev_04",
+    "original_query": "Trong hình P2.1 bên trái, lực nào có vòng tròn lớn nhất?",
+    "results": [
+      {
+        "id": "wdr2024:p161:g2:c0",
+        "text": "(1989); Evans and Leighton (1989). 21. Bloom et al. (2010). 22. Akcigit, Alp, and Peters (2021). 23. Chetty et al. (2014); Chyn and Katz (2021). 24. Chyn and Katz (2021). 25. Lall et al. (2023). 26. Neidhöfer, Ciaschi, and Gasparini (2021). 27. Britto et al. (2022). 28. Emran, Jiang, and Shilpi (2021); Emran and Shilpi (2015). 29. Lall, Henderson, and Venables (2017). 30. Rothstein (2017). 31. Acevedo-Garcia et al. (2003); Alexander and Currie\n(2017); Baum-Snow and Lutz (2011); Chetty, Hendren, and Katz (2016); Chetty et al. (2022); Granovetter (1973). 32. Chetty and Hendren (2018); Chetty, Hendren, and Katz\n(2016); Chyn (2018); Deutscher (2020); Laliberté (2021); Nakamura, Sigurdsson, and Steinsson (2022). 33. Alesina et al. (2021). 34. Britto et al. (2022); Chetty et al. (2014). 35. Jackson (2021). 36. Bayer, Ross, and Topa (2008); Hellerstein, Kutzbach,\nand Neumark (2019); Hellerstein, McInerney, and Neumark (2011); Topa and Zenou (2015). 37. Chetty et al. (2022). 38. Chyn and Katz (2021). 39. Monteiro and Rocha (2017). 40. Chetty, Hendren, and Katz (2016), looking at the Moving",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 161,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            297.0,
+            363.49,
+            510.5,
+            654.11
+          ],
+          "kind": "native_text",
+          "printed_page": "129",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1098,
+          "e5_input_tokens": 356
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7950042562029919,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p60:g1:c0",
+        "text": "capita are as of July 1, 2023. 2. Gill and Kharas (2007). 3. Kose and Ohnsorge (2024). 4. Melitz and Redding (2021). 5. Soh, Koh, and Aridi (2023). 6. Pinto (2014). 7. Marcel and Vivanco (2021). 8. Lucas (1988); Romer (1990). 9. de Souza (2022). 10. de Souza (2022, 2023). 11. Schumpeter (1942). 12. Vagliasindi (2023). 13. Aghion and Howitt (1992). 14. Hsieh et al. (2019). 15. van der Weide et al. (2021). 16. Gottlieb, Poschke, and Tueting (2024). 17. Akcigit, Grigsby, and Nicholas (2017). 18. Akcigit and Kerr (2018). 19. Cusolito, Garcia-Marin, and Maloney (2023). 20. Bustos (2011). 21. Bloom, Draca, and Van Reenen (2016). 22. Arráiz, Henríquez, and Stucchi (2011). 23. Cirera and Maloney (2017). 24. Eslava and Haltiwanger (2020); Hsieh and Olken\n(2014). 25. Akcigit, Alp, and Peters (2021). 26. Bertoni, Colombo, and Quas (2023); Kersten et al. (2017). 27. Aivazian and Santor (2008); López and Torres (2020);",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 60,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            112.32,
+            280.99,
+            392.94
+          ],
+          "kind": "native_text",
+          "printed_page": "28",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 919,
+          "e5_input_tokens": 291
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7914288260279165,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p144:g4:c0",
+        "text": "112 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 144,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            243.49,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "112",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7894901115889621,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p161:g2:c0",
+      "wdr2024:p60:g1:c0",
+      "wdr2024:p144:g4:c0"
+    ],
+    "context": "[wdr2024:p161:g2:c0] PDF page 161; bbox=[297.0, 363.49, 510.5, 654.11]; kind=native_text\n(1989); Evans and Leighton (1989). 21. Bloom et al. (2010). 22. Akcigit, Alp, and Peters (2021). 23. Chetty et al. (2014); Chyn and Katz (2021). 24. Chyn and Katz (2021). 25. Lall et al. (2023). 26. Neidhöfer, Ciaschi, and Gasparini (2021). 27. Britto et al. (2022). 28. Emran, Jiang, and Shilpi (2021); Emran and Shilpi (2015). 29. Lall, Henderson, and Venables (2017). 30. Rothstein (2017). 31. Acevedo-Garcia et al. (2003); Alexander and Currie\n(2017); Baum-Snow and Lutz (2011); Chetty, Hendren, and Katz (2016); Chetty et al. (2022); Granovetter (1973). 32. Chetty and Hendren (2018); Chetty, Hendren, and Katz\n(2016); Chyn (2018); Deutscher (2020); Laliberté (2021); Nakamura, Sigurdsson, and Steinsson (2022). 33. Alesina et al. (2021). 34. Britto et al. (2022); Chetty et al. (2014). 35. Jackson (2021). 36. Bayer, Ross, and Topa (2008); Hellerstein, Kutzbach,\nand Neumark (2019); Hellerstein, McInerney, and Neumark (2011); Topa and Zenou (2015). 37. Chetty et al. (2022). 38. Chyn and Katz (2021). 39. Monteiro and Rocha (2017). 40. Chetty, Hendren, and Katz (2016), looking at the Moving\n\n[wdr2024:p60:g1:c0] PDF page 60; bbox=[67.5, 112.32, 280.99, 392.94]; kind=native_text\ncapita are as of July 1, 2023. 2. Gill and Kharas (2007). 3. Kose and Ohnsorge (2024). 4. Melitz and Redding (2021). 5. Soh, Koh, and Aridi (2023). 6. Pinto (2014). 7. Marcel and Vivanco (2021). 8. Lucas (1988); Romer (1990). 9. de Souza (2022). 10. de Souza (2022, 2023). 11. Schumpeter (1942). 12. Vagliasindi (2023). 13. Aghion and Howitt (1992). 14. Hsieh et al. (2019). 15. van der Weide et al. (2021). 16. Gottlieb, Poschke, and Tueting (2024). 17. Akcigit, Grigsby, and Nicholas (2017). 18. Akcigit and Kerr (2018). 19. Cusolito, Garcia-Marin, and Maloney (2023). 20. Bustos (2011). 21. Bloom, Draca, and Van Reenen (2016). 22. Arráiz, Henríquez, and Stucchi (2011). 23. Cirera and Maloney (2017). 24. Eslava and Haltiwanger (2020); Hsieh and Olken\n(2014). 25. Akcigit, Alp, and Peters (2021). 26. Bertoni, Colombo, and Quas (2023); Kersten et al. (2017). 27. Aivazian and Santor (2008); López and Torres (2020);\n\n[wdr2024:p144:g4:c0] PDF page 144; bbox=[67.56, 721.61, 243.49, 731.23]; kind=native_text\n112 | WORLD DEVELOPMENT REPORT 2024\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.026264899992384017
+  },
+  {
+    "query_id": "advanced_dev_05",
+    "original_query": "Trong hình 4.2 panel a, doanh nghiệp hiện hữu được minh họa đang làm gì với doanh nghiệp mới?",
+    "results": [
+      {
+        "id": "wdr2024:p46:g3:c0",
+        "text": "generation)\n(Figure continues next page)\n14 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 46,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            675.39,
+            508.49,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "14",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 75,
+          "e5_input_tokens": 26
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8275555453598378,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p114:g2:c0",
+        "text": "Chapter 4 focuses on enterprise dynamics to illustrate the forces of creation, chapter 5 on talent\nto illustrate the forces of preservation, and chap­ ter 6 on energy to highlight how new technolo­ gies and climate crises generate both the need and the potential to destroy current arrangements in energy markets. Firms, talent, and energy are closely connected, and their interactions shape the forces of creative destruction.\n82 | WORLD DEVELOPMENT REPORT 2024 82 | WORLD DEVELOPMENT REPORT 2024 82 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 114,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.49,
+            571.67,
+            510.8,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "82",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 532,
+          "e5_input_tokens": 129
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8196259266265983,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p250:g0:c0",
+        "text": "“Training Entrepreneurs.” VoxDevLit 1 (3). https:// voxdev.org/sites/default/files/2023-11​/­Training​ _­Entrepreneurs_Issue_3.pdf. Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry\nsistema educativo” [There’s a disconnect between what enterprises need and what the education system pro­ vides]. País, November 29, 2022. https://www.lahora​ .com.ec/pais/hay-una-desconexion-entre-lo-que-las​ -empresas-necesitan-y-lo-que-se-esta-formando-en​ -el-sistema-educativo/. Lall, Saurabh A., Li-Wei Chen, and Peter W. Roberts. 2020.\nReallocations and Aggregate Industry Productivity.” Econometrica 71 (6): 1695–725. Mendes, Philip. 2015. “Integrating Intellectual Property\n“Are We Accelerating Equity Investment into Impact- Oriented Ventures?” World Development 131 (July): 104952. La Porta, Rafael, Florencio López‐de‐Silanes, Andrei Shleifer,\ninto Innovation Policy Formulation in Sri Lanka.” January, World Intellectual Property Organization, Geneva. Miller, Amisha, Saurabh A. Lall, Markus P. Goldstein, and\nand Robert W. Vishny. 1997. “Legal Determinants of External Finance.” Journal of Finance 52 (3): 1131–50. La Porta, Rafael, Florencio López‐de‐Silanes, Andrei",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 250,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            85.43,
+            510.49,
+            226.05
+          ],
+          "kind": "native_text",
+          "printed_page": "218",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1174,
+          "e5_input_tokens": 360
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8151329216221854,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p46:g3:c0",
+      "wdr2024:p114:g2:c0",
+      "wdr2024:p250:g0:c0"
+    ],
+    "context": "[wdr2024:p46:g3:c0] PDF page 46; bbox=[67.56, 675.39, 508.49, 731.23]; kind=native_text\ngeneration)\n(Figure continues next page)\n14 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p114:g2:c0] PDF page 114; bbox=[67.49, 571.67, 510.8, 731.23]; kind=native_text\nChapter 4 focuses on enterprise dynamics to illustrate the forces of creation, chapter 5 on talent\nto illustrate the forces of preservation, and chap­ ter 6 on energy to highlight how new technolo­ gies and climate crises generate both the need and the potential to destroy current arrangements in energy markets. Firms, talent, and energy are closely connected, and their interactions shape the forces of creative destruction.\n82 | WORLD DEVELOPMENT REPORT 2024 82 | WORLD DEVELOPMENT REPORT 2024 82 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p250:g0:c0] PDF page 250; bbox=[67.5, 85.43, 510.49, 226.05]; kind=native_text\n“Training Entrepreneurs.” VoxDevLit 1 (3). https:// voxdev.org/sites/default/files/2023-11​/­Training​ _­Entrepreneurs_Issue_3.pdf. Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry\nsistema educativo” [There’s a disconnect between what enterprises need and what the education system pro­ vides]. País, November 29, 2022. https://www.lahora​ .com.ec/pais/hay-una-desconexion-entre-lo-que-las​ -empresas-necesitan-y-lo-que-se-esta-formando-en​ -el-sistema-educativo/. Lall, Saurabh A., Li-Wei Chen, and Peter W. Roberts. 2020.\nReallocations and Aggregate Industry Productivity.” Econometrica 71 (6): 1695–725. Mendes, Philip. 2015. “Integrating Intellectual Property\n“Are We Accelerating Equity Investment into Impact- Oriented Ventures?” World Development 131 (July): 104952. La Porta, Rafael, Florencio López‐de‐Silanes, Andrei Shleifer,\ninto Innovation Policy Formulation in Sri Lanka.” January, World Intellectual Property Organization, Geneva. Miller, Amisha, Saurabh A. Lall, Markus P. Goldstein, and\nand Robert W. Vishny. 1997. “Legal Determinants of External Finance.” Journal of Finance 52 (3): 1131–50. La Porta, Rafael, Florencio López‐de‐Silanes, Andrei\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.0320990999462083
+  },
+  {
+    "query_id": "advanced_dev_06",
+    "original_query": "Trục thẳng đứng của thang hình 4.3 thể hiện đại lượng gì?",
+    "results": [
+      {
+        "id": "wdr2024:p95:g3:c0",
+        "text": "https://www.wipo.int​/­global_innovation_index/en/. e. Pinto, Belka, and Krajewski (1993). f. Kolasa (2008). g. Gradzewicz et al. (2018). h. Bukowski et al. (2006).\nStructural Stasis | 63",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 95,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            103.5,
+            618.29,
+            508.43,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "63",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 187,
+          "e5_input_tokens": 69
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7933090917592065,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p230:g4:c0",
+        "text": "198 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 230,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            243.9,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "198",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7909027589514585,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p144:g4:c0",
+        "text": "112 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 144,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            243.49,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "112",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7908568195869519,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p95:g3:c0",
+      "wdr2024:p230:g4:c0",
+      "wdr2024:p144:g4:c0"
+    ],
+    "context": "[wdr2024:p95:g3:c0] PDF page 95; bbox=[103.5, 618.29, 508.43, 731.23]; kind=native_text\nhttps://www.wipo.int​/­global_innovation_index/en/. e. Pinto, Belka, and Krajewski (1993). f. Kolasa (2008). g. Gradzewicz et al. (2018). h. Bukowski et al. (2006).\nStructural Stasis | 63\n\n[wdr2024:p230:g4:c0] PDF page 230; bbox=[67.56, 721.61, 243.9, 731.23]; kind=native_text\n198 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p144:g4:c0] PDF page 144; bbox=[67.56, 721.61, 243.49, 731.23]; kind=native_text\n112 | WORLD DEVELOPMENT REPORT 2024\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.031315800035372376
+  },
+  {
+    "query_id": "advanced_dev_07",
+    "original_query": "Hình 3.5b cho cường độ carbon của UMIC bằng bao nhiêu và đơn vị gì?",
+    "results": [
+      {
+        "id": "wdr2024:p81:g0:c0",
+        "text": "of energy\nGt/exajoules)\nconsumption,\nCarbon intensity\nemissions/energy\nconsumption (CO2\n(Table continues next page)\nEnergy\nconsumption/\nGDP, exajoules\nper trillion US$)\nintensity (energy\nmajor\nidentifying\n(% of firms\nconstraint)\nelectricity as a\nEnergy stability\nper million\ninhabitants\nResearchers\nmobility\nUpper-\nrelevant\nrate (% of\nsecondary\nage group) Social\ncompletion\nindex\ndistortions Technology\nconstraining\nProductivity-\nIndex\nEconomic\nComplexity\nGNI per\nmethod\n(current\nUS$, 2023)\ncapita, Atlas\nIncome per capita Enterprise Talent Energy\ngroup\nIncome\nCountry\nHungary HIC 19,820 1.5 0.25 0.5 85.60 0.36 4,156.8 12.40 5.35 0.06\nPortugal HIC 26,270 0.7 0.50 0.4 83.20 0.38 5,177.3 43.80 3.68 0.06\nKazakhstan UMIC 10,940 –0.5 — 0.0 98.00 0.65 658.2 21.90 14.15 0.09\nPakistan LMIC 1,500 –0.6 0.47 0.0 23.25 0.23 394.9 24.20 9.57 0.12\nIndia LMIC 2,540 0.5 0.36 1.0 54.40 0.23 255.7 12.60 10.77 0.09\nTürkiye UMIC 11,650 0.6 — 0.2 63.00 0.38 1,736.7 17.00 7.74 0.07\nViet Nam LMIC 4,180 0.0 — 0.0 63.40 0.45 772.4 3.70 11.23 0.10\nMalaysia UMIC 11,970 0.9 0.25 0.4 — 0.69 1,433.0 22.20 11.90 0.06\nIndonesia UMIC 4,870 –0.1 — 0.0 65.25 0.53 336.2 11.40 7.41 0.10\nMexico UMIC 12,100 1.1 — 0.2 58.25 0.55 348.7 46.70 6.17 0.07\nArgentina UMIC 12,520 –0.2 — 0.1 63.50 — 1,249.7 47.20 5.69 0.10",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 81,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            87.21,
+            89.88,
+            494.07,
+            693.41
+          ],
+          "kind": "native_text",
+          "printed_page": "49",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1288,
+          "e5_input_tokens": 413
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.805927409746021,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p108:vision:c0",
+        "text": "Figure 3.5 presents two bar charts comparing energy and carbon intensities across three income groups: LMICs (Lower-Middle-Income Countries), UMICs (Upper-Middle-Income Countries), and HICs (High-Income Countries). Data for low-income countries are not available.\n\nChart a. “Energy intensity” (y-axis: exajoules/trillion US$) shows:\n- LMICs: 12.1\n- UMICs: 9.0\n- HICs: 5.1\nThe bars decrease from left to right, indicating that high-income countries have the lowest energy intensity, followed by upper-middle-income, and then lower-middle-income countries.\n\nChart b. “Carbon intensity of energy consumption” (y-axis: GtCO₂ equivalent/exajoule) shows:\n- LMICs: 0.098\n- UMICs: 0.086\n- HICs: 0.056\nAgain, bars decrease from left to right, showing that high-income countries have the lowest carbon intensity, followed by upper-middle-income, and then lower-middle-income countries.\n\nBoth charts visually demonstrate that middle-income countries (LMICs and UMICs) have significantly higher energy and carbon intensities than high-income countries. The y-axes are scaled differently, with energy intensity in larger units (trillion US$) and carbon intensity in smaller units (GtCO₂/exajoule). The source is the WDR 2024 team using data from the Energy Institute (2023) and WDI (World Bank).",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 108,
+        "metadata": {
+          "version": "2024",
+          "kind": "vision_description",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "printed_page": "76",
+          "generated_by": "Qwen/Qwen3-VL-8B-Instruct",
+          "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+          "verification": "AI generated; original PDF is authoritative",
+          "truncated_description": false,
+          "original_page": "data/source/world-development-report-2024.pdf#page=108"
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.805311342738483,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p81:g1:c0",
+        "text": "South Africa UMIC 6,750 –0.1 — 0.2 53.20 0.77 491.7 19.40 11.87 0.10\nChina UMIC 13,400 1.3 — 13.1 73.50 0.44 1,523.5 1.80 8.87 0.08\nCosta Rica UMIC 13,850 0.4 — 0.1 62.20 — 369.6 63.20 — —\nRussian\nFederation UMIC 14,250 0.2 — 4.6 90.40 0.58 2,727.0 7.70 12.90 0.08\nColombia UMIC 6,870 –0.1 0.37 0.0 72.80 0.45 — 50.10 6.38 0.09\nBulgaria UMIC 14,460 0.6 0.31 0.2 86.00 0.35 2,354.6 12.70 9.37 0.06\nRomania HIC 16,670 1.2 0.30 0.2 83.60 0.28 922.2 36.10 4.31 0.07\nBrazil UMIC 9,070 –0.2 — 0.3 69.00 0.57 — 46.00 6.98 0.08\nChile HIC 15,820 –0.3 0.31 0.1 84.50 0.60 520.1 30.10 5.94 0.06\nTable S.1 Suggested indicators provide a clear picture of the underlying structure of an economy\nSpotlight | 49",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 81,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.66,
+            112.26,
+            508.44,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "49",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 695,
+          "e5_input_tokens": 248
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8020990256180471,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p81:g0:c0",
+      "wdr2024:p108:vision:c0",
+      "wdr2024:p81:g1:c0"
+    ],
+    "context": "[wdr2024:p81:g0:c0] PDF page 81; bbox=[87.21, 89.88, 494.07, 693.41]; kind=native_text\nof energy\nGt/exajoules)\nconsumption,\nCarbon intensity\nemissions/energy\nconsumption (CO2\n(Table continues next page)\nEnergy\nconsumption/\nGDP, exajoules\nper trillion US$)\nintensity (energy\nmajor\nidentifying\n(% of firms\nconstraint)\nelectricity as a\nEnergy stability\nper million\ninhabitants\nResearchers\nmobility\nUpper-\nrelevant\nrate (% of\nsecondary\nage group) Social\ncompletion\nindex\ndistortions Technology\nconstraining\nProductivity-\nIndex\nEconomic\nComplexity\nGNI per\nmethod\n(current\nUS$, 2023)\ncapita, Atlas\nIncome per capita Enterprise Talent Energy\ngroup\nIncome\nCountry\nHungary HIC 19,820 1.5 0.25 0.5 85.60 0.36 4,156.8 12.40 5.35 0.06\nPortugal HIC 26,270 0.7 0.50 0.4 83.20 0.38 5,177.3 43.80 3.68 0.06\nKazakhstan UMIC 10,940 –0.5 — 0.0 98.00 0.65 658.2 21.90 14.15 0.09\nPakistan LMIC 1,500 –0.6 0.47 0.0 23.25 0.23 394.9 24.20 9.57 0.12\nIndia LMIC 2,540 0.5 0.36 1.0 54.40 0.23 255.7 12.60 10.77 0.09\nTürkiye UMIC 11,650 0.6 — 0.2 63.00 0.38 1,736.7 17.00 7.74 0.07\nViet Nam LMIC 4,180 0.0 — 0.0 63.40 0.45 772.4 3.70 11.23 0.10\nMalaysia UMIC 11,970 0.9 0.25 0.4 — 0.69 1,433.0 22.20 11.90 0.06\nIndonesia UMIC 4,870 –0.1 — 0.0 65.25 0.53 336.2 11.40 7.41 0.10\nMexico UMIC 12,100 1.1 — 0.2 58.25 0.55 348.7 46.70 6.17 0.07\nArgentina UMIC 12,520 –0.2 — 0.1 63.50 — 1,249.7 47.20 5.69 0.10\n\n[wdr2024:p108:vision:c0] PDF page 108; bbox=[0.0, 0.0, 576.0, 756.0]; kind=vision_description\nFigure 3.5 presents two bar charts comparing energy and carbon intensities across three income groups: LMICs (Lower-Middle-Income Countries), UMICs (Upper-Middle-Income Countries), and HICs (High-Income Countries). Data for low-income countries are not available.\n\nChart a. “Energy intensity” (y-axis: exajoules/trillion US$) shows:\n- LMICs: 12.1\n- UMICs: 9.0\n- HICs: 5.1\nThe bars decrease from left to right, indicating that high-income countries have the lowest energy intensity, followed by upper-middle-income, and then lower-middle-income countries.\n\nChart b. “Carbon intensity of energy consumption” (y-axis: GtCO₂ equivalent/exajoule) shows:\n- LMICs: 0.098\n- UMICs: 0.086\n- HICs: 0.056\nAgain, bars decrease from left to right, showing that high-income countries have the lowest carbon intensity, followed by upper-middle-income, and then lower-middle-income countries.\n\nBoth charts visually demonstrate that middle-income countries (LMICs and UMICs) have significantly higher energy and carbon intensities than high-income countries. The y-axes are scaled differently, with energy intensity in larger units (trillion US$) and carbon intensity in smaller units (GtCO₂/exajoule). The source is the WDR 2024 team using data from the Energy Institute (2023) and WDI (World Bank).\n\n[wdr2024:p81:g1:c0] PDF page 81; bbox=[67.66, 112.26, 508.44, 731.23]; kind=native_text\nSouth Africa UMIC 6,750 –0.1 — 0.2 53.20 0.77 491.7 19.40 11.87 0.10\nChina UMIC 13,400 1.3 — 13.1 73.50 0.44 1,523.5 1.80 8.87 0.08\nCosta Rica UMIC 13,850 0.4 — 0.1 62.20 — 369.6 63.20 — —\nRussian\nFederation UMIC 14,250 0.2 — 4.6 90.40 0.58 2,727.0 7.70 12.90 0.08\nColombia UMIC 6,870 –0.1 0.37 0.0 72.80 0.45 — 50.10 6.38 0.09\nBulgaria UMIC 14,460 0.6 0.31 0.2 86.00 0.35 2,354.6 12.70 9.37 0.06\nRomania HIC 16,670 1.2 0.30 0.2 83.60 0.28 922.2 36.10 4.31 0.07\nBrazil UMIC 9,070 –0.2 — 0.3 69.00 0.57 — 46.00 6.98 0.08\nChile HIC 15,820 –0.3 0.31 0.1 84.50 0.60 520.1 30.10 5.94 0.06\nTable S.1 Suggested indicators provide a clear picture of the underlying structure of an economy\nSpotlight | 49\n",
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "seconds": 0.03651389991864562
+  },
+  {
+    "query_id": "advanced_dev_08",
+    "original_query": "Hình 3.1 có khoảng năm nào trên trục ngang?",
+    "results": [
+      {
+        "id": "wdr2024:p169:g3:c0",
+        "text": "Destruction | 137",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 169,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            420.96,
+            721.61,
+            508.43,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "137",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 17,
+          "e5_input_tokens": 10
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7878447806810722,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p95:g3:c0",
+        "text": "https://www.wipo.int​/­global_innovation_index/en/. e. Pinto, Belka, and Krajewski (1993). f. Kolasa (2008). g. Gradzewicz et al. (2018). h. Bukowski et al. (2006).\nStructural Stasis | 63",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 95,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            103.5,
+            618.29,
+            508.43,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "63",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 187,
+          "e5_input_tokens": 69
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7829040279991594,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p161:g2:c0",
+        "text": "(1989); Evans and Leighton (1989). 21. Bloom et al. (2010). 22. Akcigit, Alp, and Peters (2021). 23. Chetty et al. (2014); Chyn and Katz (2021). 24. Chyn and Katz (2021). 25. Lall et al. (2023). 26. Neidhöfer, Ciaschi, and Gasparini (2021). 27. Britto et al. (2022). 28. Emran, Jiang, and Shilpi (2021); Emran and Shilpi (2015). 29. Lall, Henderson, and Venables (2017). 30. Rothstein (2017). 31. Acevedo-Garcia et al. (2003); Alexander and Currie\n(2017); Baum-Snow and Lutz (2011); Chetty, Hendren, and Katz (2016); Chetty et al. (2022); Granovetter (1973). 32. Chetty and Hendren (2018); Chetty, Hendren, and Katz\n(2016); Chyn (2018); Deutscher (2020); Laliberté (2021); Nakamura, Sigurdsson, and Steinsson (2022). 33. Alesina et al. (2021). 34. Britto et al. (2022); Chetty et al. (2014). 35. Jackson (2021). 36. Bayer, Ross, and Topa (2008); Hellerstein, Kutzbach,\nand Neumark (2019); Hellerstein, McInerney, and Neumark (2011); Topa and Zenou (2015). 37. Chetty et al. (2022). 38. Chyn and Katz (2021). 39. Monteiro and Rocha (2017). 40. Chetty, Hendren, and Katz (2016), looking at the Moving",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 161,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            297.0,
+            363.49,
+            510.5,
+            654.11
+          ],
+          "kind": "native_text",
+          "printed_page": "129",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1098,
+          "e5_input_tokens": 356
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.7807116447843915,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p169:g3:c0",
+      "wdr2024:p95:g3:c0",
+      "wdr2024:p161:g2:c0"
+    ],
+    "context": "[wdr2024:p169:g3:c0] PDF page 169; bbox=[420.96, 721.61, 508.43, 731.23]; kind=native_text\nDestruction | 137\n\n[wdr2024:p95:g3:c0] PDF page 95; bbox=[103.5, 618.29, 508.43, 731.23]; kind=native_text\nhttps://www.wipo.int​/­global_innovation_index/en/. e. Pinto, Belka, and Krajewski (1993). f. Kolasa (2008). g. Gradzewicz et al. (2018). h. Bukowski et al. (2006).\nStructural Stasis | 63\n\n[wdr2024:p161:g2:c0] PDF page 161; bbox=[297.0, 363.49, 510.5, 654.11]; kind=native_text\n(1989); Evans and Leighton (1989). 21. Bloom et al. (2010). 22. Akcigit, Alp, and Peters (2021). 23. Chetty et al. (2014); Chyn and Katz (2021). 24. Chyn and Katz (2021). 25. Lall et al. (2023). 26. Neidhöfer, Ciaschi, and Gasparini (2021). 27. Britto et al. (2022). 28. Emran, Jiang, and Shilpi (2021); Emran and Shilpi (2015). 29. Lall, Henderson, and Venables (2017). 30. Rothstein (2017). 31. Acevedo-Garcia et al. (2003); Alexander and Currie\n(2017); Baum-Snow and Lutz (2011); Chetty, Hendren, and Katz (2016); Chetty et al. (2022); Granovetter (1973). 32. Chetty and Hendren (2018); Chetty, Hendren, and Katz\n(2016); Chyn (2018); Deutscher (2020); Laliberté (2021); Nakamura, Sigurdsson, and Steinsson (2022). 33. Alesina et al. (2021). 34. Britto et al. (2022); Chetty et al. (2014). 35. Jackson (2021). 36. Bayer, Ross, and Topa (2008); Hellerstein, Kutzbach,\nand Neumark (2019); Hellerstein, McInerney, and Neumark (2011); Topa and Zenou (2015). 37. Chetty et al. (2022). 38. Chyn and Katz (2021). 39. Monteiro and Rocha (2017). 40. Chetty, Hendren, and Katz (2016), looking at the Moving\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.03820269997231662
+  },
+  {
+    "query_id": "advanced_dev_09",
+    "original_query": "Hình 3.3 tổng nợ đạt đỉnh khoảng năm 2020 hay 1950?",
+    "results": [
+      {
+        "id": "wdr2024:p78:g4:c0",
+        "text": "“Beyond Low- and Middle-Income Countries: What If There Were Five Clusters of Developing Countries?” IDS Working Paper 404, Institute of Development Studies, Brighton, UK. World Bank. 1978. World Development Report 1978.\nWashington, DC: World Bank. World Bank. 1983. World Development Report 1983.\nWashington, DC: World Bank; New York: Oxford University Press. World Bank. 1989. “Per Capita Income.” Board document\nSecM89-73 (January 17), World Bank, Washington, DC. World Bank. 2015. The World Bank Group: A to Z, 2015.\nCrisis: Causes, Policy Response, and Lessons.” Paper presented at the International Monetary Fund and Singapore government’s High-Level Seminar on Crisis Prevention in Emerging Markets, Singapore, July 10–11, 2006. https://www.imf.org/external/np/seminars/eng​ /2006/cpem/pdf/kihwan.pdf. Kose, M. Ayhan, and Franziska Ohnsorge, eds. 2024. Falling\nWashington, DC: World Bank. World Bank. 2020. Purchasing Power Parities and the Size\nLong-Term Growth Prospects: Trends, Expectations, and Policies. Washington, DC: World Bank. Lucas, Robert E. B., Jr. 1993. “Making a Miracle.”\nof World Economies: Results from the 2017 International Comparison Program. Washington, DC: World Bank.\nEconometrica 61 (2): 251–72.\n46 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 78,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            550.93,
+            510.52,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "46",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1263,
+          "e5_input_tokens": 352
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8188937610216483,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p77:g3:c0",
+        "text": "David Rigby. 2022. “The New Paradigm of Economic Complexity.” Research Policy 51 (3): 104450. Ceriani, Lidia, and Paolo Verme. 2014. “The Income Lever\nBlundell, and David Hémous. 2019. “Innovation and Top Income Inequality.” Review of Economic Studies 86 (1): 1–45. Aghion, Philippe, and Peter Howitt. 1992. “A Model of\nand the Allocation of Aid.” Journal of Development Studies 50 (11): 1510–22. Chikis, Craig. 2024. “The Developmental Trinity: Institutions,\nGrowth through Creative Destruction.” Econometrica 60 (2): 323–51. Aiyar, Shekhar S., Romain A. Duval, Damien Puy, Yiqun\nInfrastructure, and Technology.” Background paper pre­ pared for World Development Report 2024, World Bank, Washington, DC. Dolan, Lindsay. 2016. “What’s in a World Bank Income\nWu, and Longmei Zhang. 2013. “Growth Slowdowns and the Middle-Income Trap.” IMF Working Paper WP/13/71 (March), International Monetary Fund, Washington, DC. Almås, Ingvild. 2012. “International Income Inequality:\nClassification?” CGD Blog Post (blog), July 11, 2016. https://www.cgdev.org/blog/whats-world-bank-income​ -classification. Easterly, William Russell, Michael R. Kremer, Lant H. Pritchett,",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 77,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            531.74,
+            510.48,
+            672.36
+          ],
+          "kind": "native_text",
+          "printed_page": "45",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1158,
+          "e5_input_tokens": 341
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8179313871266671,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p251:g1:c0",
+        "text": "Capital Policy.” NBER Working Paper 28713 (April), National Bureau of Economic Research, Cambridge, MA. Vegas, Emiliana. 2018. “5 Lessons from Recent Educational\nEdward Thomas, Cindy Chao, Kerri Heidkamp, and Jo-Hannah Yeo. 2017. “Accelerating Startups in Emerging Markets: Insights from 43 Programs.” May, Aspen Network of Development Entrepreneurs, Washington, DC; Social Enterprise at Goizueta, Goizueta Business School, Emory University, Atlanta; Deloitte, London. Rutigliano, Alexandre, and Nikita Quarshie. 2021. “Policy\nReforms in Chile.” Brookings Research (blog), March 20, 2018. https://www.brookings.edu/articles/5-lessons​ -from-recent-educational-reforms-in-chile/. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. Wall Street Journal. 2019. “Economists’ Statement on\nCarbon Dividends: Bipartisan Agreement on How to Combat Climate Change.” Opinion (blog), January 16, 2019. https://www.wsj.com/articles/economists​ -­statement​-on-carbon-dividends-11547682910. World Bank. 2018. World Development Report 2018:",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 251,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            195.43,
+            510.49,
+            366.05
+          ],
+          "kind": "native_text",
+          "printed_page": "219",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1121,
+          "e5_input_tokens": 306
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8151265777075567,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p78:g4:c0",
+      "wdr2024:p77:g3:c0",
+      "wdr2024:p251:g1:c0"
+    ],
+    "context": "[wdr2024:p78:g4:c0] PDF page 78; bbox=[67.5, 550.93, 510.52, 731.23]; kind=native_text\n“Beyond Low- and Middle-Income Countries: What If There Were Five Clusters of Developing Countries?” IDS Working Paper 404, Institute of Development Studies, Brighton, UK. World Bank. 1978. World Development Report 1978.\nWashington, DC: World Bank. World Bank. 1983. World Development Report 1983.\nWashington, DC: World Bank; New York: Oxford University Press. World Bank. 1989. “Per Capita Income.” Board document\nSecM89-73 (January 17), World Bank, Washington, DC. World Bank. 2015. The World Bank Group: A to Z, 2015.\nCrisis: Causes, Policy Response, and Lessons.” Paper presented at the International Monetary Fund and Singapore government’s High-Level Seminar on Crisis Prevention in Emerging Markets, Singapore, July 10–11, 2006. https://www.imf.org/external/np/seminars/eng​ /2006/cpem/pdf/kihwan.pdf. Kose, M. Ayhan, and Franziska Ohnsorge, eds. 2024. Falling\nWashington, DC: World Bank. World Bank. 2020. Purchasing Power Parities and the Size\nLong-Term Growth Prospects: Trends, Expectations, and Policies. Washington, DC: World Bank. Lucas, Robert E. B., Jr. 1993. “Making a Miracle.”\nof World Economies: Results from the 2017 International Comparison Program. Washington, DC: World Bank.\nEconometrica 61 (2): 251–72.\n46 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p77:g3:c0] PDF page 77; bbox=[67.5, 531.74, 510.48, 672.36]; kind=native_text\nDavid Rigby. 2022. “The New Paradigm of Economic Complexity.” Research Policy 51 (3): 104450. Ceriani, Lidia, and Paolo Verme. 2014. “The Income Lever\nBlundell, and David Hémous. 2019. “Innovation and Top Income Inequality.” Review of Economic Studies 86 (1): 1–45. Aghion, Philippe, and Peter Howitt. 1992. “A Model of\nand the Allocation of Aid.” Journal of Development Studies 50 (11): 1510–22. Chikis, Craig. 2024. “The Developmental Trinity: Institutions,\nGrowth through Creative Destruction.” Econometrica 60 (2): 323–51. Aiyar, Shekhar S., Romain A. Duval, Damien Puy, Yiqun\nInfrastructure, and Technology.” Background paper pre­ pared for World Development Report 2024, World Bank, Washington, DC. Dolan, Lindsay. 2016. “What’s in a World Bank Income\nWu, and Longmei Zhang. 2013. “Growth Slowdowns and the Middle-Income Trap.” IMF Working Paper WP/13/71 (March), International Monetary Fund, Washington, DC. Almås, Ingvild. 2012. “International Income Inequality:\nClassification?” CGD Blog Post (blog), July 11, 2016. https://www.cgdev.org/blog/whats-world-bank-income​ -classification. Easterly, William Russell, Michael R. Kremer, Lant H. Pritchett,\n\n[wdr2024:p251:g1:c0] PDF page 251; bbox=[67.5, 195.43, 510.49, 366.05]; kind=native_text\nCapital Policy.” NBER Working Paper 28713 (April), National Bureau of Economic Research, Cambridge, MA. Vegas, Emiliana. 2018. “5 Lessons from Recent Educational\nEdward Thomas, Cindy Chao, Kerri Heidkamp, and Jo-Hannah Yeo. 2017. “Accelerating Startups in Emerging Markets: Insights from 43 Programs.” May, Aspen Network of Development Entrepreneurs, Washington, DC; Social Enterprise at Goizueta, Goizueta Business School, Emory University, Atlanta; Deloitte, London. Rutigliano, Alexandre, and Nikita Quarshie. 2021. “Policy\nReforms in Chile.” Brookings Research (blog), March 20, 2018. https://www.brookings.edu/articles/5-lessons​ -from-recent-educational-reforms-in-chile/. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. Wall Street Journal. 2019. “Economists’ Statement on\nCarbon Dividends: Bipartisan Agreement on How to Combat Climate Change.” Opinion (blog), January 16, 2019. https://www.wsj.com/articles/economists​ -­statement​-on-carbon-dividends-11547682910. World Bank. 2018. World Development Report 2018:\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.03366549999918789
+  },
+  {
+    "query_id": "advanced_dev_10",
+    "original_query": "Trong 34 năm qua, bao nhiêu nền kinh tế thoát bẫy thu nhập trung bình theo báo cáo?",
+    "results": [
+      {
+        "id": "wdr2024:p77:g3:c0",
+        "text": "David Rigby. 2022. “The New Paradigm of Economic Complexity.” Research Policy 51 (3): 104450. Ceriani, Lidia, and Paolo Verme. 2014. “The Income Lever\nBlundell, and David Hémous. 2019. “Innovation and Top Income Inequality.” Review of Economic Studies 86 (1): 1–45. Aghion, Philippe, and Peter Howitt. 1992. “A Model of\nand the Allocation of Aid.” Journal of Development Studies 50 (11): 1510–22. Chikis, Craig. 2024. “The Developmental Trinity: Institutions,\nGrowth through Creative Destruction.” Econometrica 60 (2): 323–51. Aiyar, Shekhar S., Romain A. Duval, Damien Puy, Yiqun\nInfrastructure, and Technology.” Background paper pre­ pared for World Development Report 2024, World Bank, Washington, DC. Dolan, Lindsay. 2016. “What’s in a World Bank Income\nWu, and Longmei Zhang. 2013. “Growth Slowdowns and the Middle-Income Trap.” IMF Working Paper WP/13/71 (March), International Monetary Fund, Washington, DC. Almås, Ingvild. 2012. “International Income Inequality:\nClassification?” CGD Blog Post (blog), July 11, 2016. https://www.cgdev.org/blog/whats-world-bank-income​ -classification. Easterly, William Russell, Michael R. Kremer, Lant H. Pritchett,",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 77,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            531.74,
+            510.48,
+            672.36
+          ],
+          "kind": "native_text",
+          "printed_page": "45",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1158,
+          "e5_input_tokens": 341
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8232470842897859,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p3:g0:c0",
+        "text": "The Income\nTrap Middle",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 3,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            47.7,
+            304.84,
+            528.25,
+            470.44
+          ],
+          "kind": "native_text",
+          "printed_page": null,
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 22,
+          "e5_input_tokens": 10
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8141116244277413,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p62:g3:c0",
+        "text": "“The Global Financial Crisis and Its Impact on Renewable Energy Finance.” Division of Technology, Industry, and Economics, UNEP, Nairobi, Kenya. Vagliasindi, Maria. 2023. “The Role of SOEs in Climate\nChange.” Background paper prepared for The Business of the State, World Bank, Washington, DC. van der Weide, Roy, Christoph Lakner, Daniel Gerszon\nDependent Policies, Talent Misallocation, and the Return to Skill.” Review of Economic Dynamics 38 (October): 59–93. Lucas, Robert B., Jr. 1988. “On the Mechanics of Economic\nDevelopment.” Journal of Monetary Economics 22 (1): 3–42. Marcel, Mario, and Diego Vivanco. 2021. “Measuring Small\nMahler, Ambar Narayan, and Rakesh Ramasubbaiah. 2021. “Intergenerational Mobility around the World.” Policy Research Working Paper 9707, World Bank, Washington, DC. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. World Bank. 1978. World Development Report 1978.\nand Medium-Size Enterprises’ Contribution to Trade in Value Added: The Case of Chile 2013–2016.” Working Paper of the Central Bank of Chile 914 (April), Central Bank of Chile, Santiago. Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 62,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.48,
+            425.43,
+            510.48,
+            586.05
+          ],
+          "kind": "native_text",
+          "printed_page": "30",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1244,
+          "e5_input_tokens": 325
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8132027354854955,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p77:g3:c0",
+      "wdr2024:p3:g0:c0",
+      "wdr2024:p62:g3:c0"
+    ],
+    "context": "[wdr2024:p77:g3:c0] PDF page 77; bbox=[67.5, 531.74, 510.48, 672.36]; kind=native_text\nDavid Rigby. 2022. “The New Paradigm of Economic Complexity.” Research Policy 51 (3): 104450. Ceriani, Lidia, and Paolo Verme. 2014. “The Income Lever\nBlundell, and David Hémous. 2019. “Innovation and Top Income Inequality.” Review of Economic Studies 86 (1): 1–45. Aghion, Philippe, and Peter Howitt. 1992. “A Model of\nand the Allocation of Aid.” Journal of Development Studies 50 (11): 1510–22. Chikis, Craig. 2024. “The Developmental Trinity: Institutions,\nGrowth through Creative Destruction.” Econometrica 60 (2): 323–51. Aiyar, Shekhar S., Romain A. Duval, Damien Puy, Yiqun\nInfrastructure, and Technology.” Background paper pre­ pared for World Development Report 2024, World Bank, Washington, DC. Dolan, Lindsay. 2016. “What’s in a World Bank Income\nWu, and Longmei Zhang. 2013. “Growth Slowdowns and the Middle-Income Trap.” IMF Working Paper WP/13/71 (March), International Monetary Fund, Washington, DC. Almås, Ingvild. 2012. “International Income Inequality:\nClassification?” CGD Blog Post (blog), July 11, 2016. https://www.cgdev.org/blog/whats-world-bank-income​ -classification. Easterly, William Russell, Michael R. Kremer, Lant H. Pritchett,\n\n[wdr2024:p3:g0:c0] PDF page 3; bbox=[47.7, 304.84, 528.25, 470.44]; kind=native_text\nThe Income\nTrap Middle\n\n[wdr2024:p62:g3:c0] PDF page 62; bbox=[67.48, 425.43, 510.48, 586.05]; kind=native_text\n“The Global Financial Crisis and Its Impact on Renewable Energy Finance.” Division of Technology, Industry, and Economics, UNEP, Nairobi, Kenya. Vagliasindi, Maria. 2023. “The Role of SOEs in Climate\nChange.” Background paper prepared for The Business of the State, World Bank, Washington, DC. van der Weide, Roy, Christoph Lakner, Daniel Gerszon\nDependent Policies, Talent Misallocation, and the Return to Skill.” Review of Economic Dynamics 38 (October): 59–93. Lucas, Robert B., Jr. 1988. “On the Mechanics of Economic\nDevelopment.” Journal of Monetary Economics 22 (1): 3–42. Marcel, Mario, and Diego Vivanco. 2021. “Measuring Small\nMahler, Ambar Narayan, and Rakesh Ramasubbaiah. 2021. “Intergenerational Mobility around the World.” Policy Research Working Paper 9707, World Bank, Washington, DC. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. World Bank. 1978. World Development Report 1978.\nand Medium-Size Enterprises’ Contribution to Trade in Value Added: The Case of Chile 2013–2016.” Working Paper of the Central Bank of Chile 914 (April), Central Bank of Chile, Santiago. Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.03628260002005845
+  },
+  {
+    "query_id": "advanced_dev_11",
+    "original_query": "Vì sao phần lớn doanh nhân ở nước thu nhập trung bình lập doanh nghiệp?",
+    "results": [
+      {
+        "id": "wdr2024:p62:g3:c0",
+        "text": "“The Global Financial Crisis and Its Impact on Renewable Energy Finance.” Division of Technology, Industry, and Economics, UNEP, Nairobi, Kenya. Vagliasindi, Maria. 2023. “The Role of SOEs in Climate\nChange.” Background paper prepared for The Business of the State, World Bank, Washington, DC. van der Weide, Roy, Christoph Lakner, Daniel Gerszon\nDependent Policies, Talent Misallocation, and the Return to Skill.” Review of Economic Dynamics 38 (October): 59–93. Lucas, Robert B., Jr. 1988. “On the Mechanics of Economic\nDevelopment.” Journal of Monetary Economics 22 (1): 3–42. Marcel, Mario, and Diego Vivanco. 2021. “Measuring Small\nMahler, Ambar Narayan, and Rakesh Ramasubbaiah. 2021. “Intergenerational Mobility around the World.” Policy Research Working Paper 9707, World Bank, Washington, DC. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. World Bank. 1978. World Development Report 1978.\nand Medium-Size Enterprises’ Contribution to Trade in Value Added: The Case of Chile 2013–2016.” Working Paper of the Central Bank of Chile 914 (April), Central Bank of Chile, Santiago. Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 62,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.48,
+            425.43,
+            510.48,
+            586.05
+          ],
+          "kind": "native_text",
+          "printed_page": "30",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1244,
+          "e5_input_tokens": 325
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8141795432998202,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p205:vision:c1",
+        "text": "OM, RUS, SRB, SVK, SVN, TJK, TUR, UKR, UZB, EGY, ISR, JOR, LBN, MAR, TUN, YEM).\n- Red dots: Middle-income countries (e.g., KSV, SVK, SVN, POL, EST, HRV, LVA, LTU, ROM, BIH, MNE, MDA, MNG, ARM, AZE, TUR, MAR, UKR, TUN, RUS, KAZ, SRB, BGR, ALB, BLR, JOR, LBN, EST, CZE, HUN, EGY, NAM).\n- Dark blue dots: High-income countries (e.g., SVK, SVN, POL, EST, HRV, LVA, LTU, ROM, BIH, MNE, MDA, MNG, ARM, AZE, TUR, MAR, UKR, TUN, RUS, KAZ, SRB, BGR, ALB, BLR, JOR, LBN, EST, CZE, HUN, EGY, NAM).\n\nObservations:\n- Most low-income countries (orange) have licensing shares below 10%.\n- Middle-income countries (red) show a wide range: some (e.g., SVK, SVN, POL) exceed 20%, while others (e.g., EGY, NAM, TUN, RUS, KAZ) are below 10%.\n- High-income countries (blue) are mostly clustered above 15%, with SVK at ~30% and others around 15–20%.\n- The trend line suggests that as GDP per capita increases, the share of firms using foreign technology licensing also increases",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 205,
+        "metadata": {
+          "version": "2024",
+          "kind": "vision_description",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "printed_page": "173",
+          "generated_by": "Qwen/Qwen3-VL-8B-Instruct",
+          "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+          "verification": "AI generated; original PDF is authoritative",
+          "truncated_description": true,
+          "original_page": "data/source/world-development-report-2024.pdf#page=205"
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.812602789079427,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p99:g2:c0",
+        "text": "Income Trap Turns Ten.” Policy Research Working Paper 7403, World Bank, Washington, DC. Giorcelli, Michela. 2019. “The Long-Term Effects of\nManagement and Technology Transfers.” American Economic Review 109 (1): 121–52. Gradzewicz, Michał, Jakub Growiec, Marcin Kolasa,\nAdoption and Late Industrialization.” STEG Working Paper WP033 rev. (September), Structural Transformation and Economic Growth, Centre for Economic Policy Research, London. Choi, Jaedo, and Younghun Shim. 2024. “From Adoption\nŁukasz Postek, and Paweł Strzelecki. 2018. “Poland’s Uninterrupted Growth Performance: New Growth Accounting Evidence.” Post-Communist Economies 30 (2): 238–72. Kolasa, Marcin. 2008. “How Does FDI Inflow Affect\nto Innovation: State-Dependent Technology Policy in Developing Countries.” STEG Working Paper WP091 (March), Structural Transformation and Economic Growth, Centre for Economic Policy Research, London. Chuah, Lay Lian, Norman V. Loayza, and Ha Nguyen.\nProductivity of Domestic Firms? The Role of Horizontal and Vertical Spillovers, Absorptive Capacity and Competition.” Journal of International Trade and Economic Development 17 (1): 155–73. König, Michael, Kjetil Storesletten, Zheng Song, and",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 99,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.51,
+            405.76,
+            510.52,
+            566.38
+          ],
+          "kind": "native_text",
+          "printed_page": "67",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1200,
+          "e5_input_tokens": 319
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.812349898850627,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p62:g3:c0",
+      "wdr2024:p205:vision:c1",
+      "wdr2024:p99:g2:c0"
+    ],
+    "context": "[wdr2024:p62:g3:c0] PDF page 62; bbox=[67.48, 425.43, 510.48, 586.05]; kind=native_text\n“The Global Financial Crisis and Its Impact on Renewable Energy Finance.” Division of Technology, Industry, and Economics, UNEP, Nairobi, Kenya. Vagliasindi, Maria. 2023. “The Role of SOEs in Climate\nChange.” Background paper prepared for The Business of the State, World Bank, Washington, DC. van der Weide, Roy, Christoph Lakner, Daniel Gerszon\nDependent Policies, Talent Misallocation, and the Return to Skill.” Review of Economic Dynamics 38 (October): 59–93. Lucas, Robert B., Jr. 1988. “On the Mechanics of Economic\nDevelopment.” Journal of Monetary Economics 22 (1): 3–42. Marcel, Mario, and Diego Vivanco. 2021. “Measuring Small\nMahler, Ambar Narayan, and Rakesh Ramasubbaiah. 2021. “Intergenerational Mobility around the World.” Policy Research Working Paper 9707, World Bank, Washington, DC. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. World Bank. 1978. World Development Report 1978.\nand Medium-Size Enterprises’ Contribution to Trade in Value Added: The Case of Chile 2013–2016.” Working Paper of the Central Bank of Chile 914 (April), Central Bank of Chile, Santiago. Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry\n\n[wdr2024:p205:vision:c1] PDF page 205; bbox=[0.0, 0.0, 576.0, 756.0]; kind=vision_description\nOM, RUS, SRB, SVK, SVN, TJK, TUR, UKR, UZB, EGY, ISR, JOR, LBN, MAR, TUN, YEM).\n- Red dots: Middle-income countries (e.g., KSV, SVK, SVN, POL, EST, HRV, LVA, LTU, ROM, BIH, MNE, MDA, MNG, ARM, AZE, TUR, MAR, UKR, TUN, RUS, KAZ, SRB, BGR, ALB, BLR, JOR, LBN, EST, CZE, HUN, EGY, NAM).\n- Dark blue dots: High-income countries (e.g., SVK, SVN, POL, EST, HRV, LVA, LTU, ROM, BIH, MNE, MDA, MNG, ARM, AZE, TUR, MAR, UKR, TUN, RUS, KAZ, SRB, BGR, ALB, BLR, JOR, LBN, EST, CZE, HUN, EGY, NAM).\n\nObservations:\n- Most low-income countries (orange) have licensing shares below 10%.\n- Middle-income countries (red) show a wide range: some (e.g., SVK, SVN, POL) exceed 20%, while others (e.g., EGY, NAM, TUN, RUS, KAZ) are below 10%.\n- High-income countries (blue) are mostly clustered above 15%, with SVK at ~30% and others around 15–20%.\n- The trend line suggests that as GDP per capita increases, the share of firms using foreign technology licensing also increases\n\n[wdr2024:p99:g2:c0] PDF page 99; bbox=[67.51, 405.76, 510.52, 566.38]; kind=native_text\nIncome Trap Turns Ten.” Policy Research Working Paper 7403, World Bank, Washington, DC. Giorcelli, Michela. 2019. “The Long-Term Effects of\nManagement and Technology Transfers.” American Economic Review 109 (1): 121–52. Gradzewicz, Michał, Jakub Growiec, Marcin Kolasa,\nAdoption and Late Industrialization.” STEG Working Paper WP033 rev. (September), Structural Transformation and Economic Growth, Centre for Economic Policy Research, London. Choi, Jaedo, and Younghun Shim. 2024. “From Adoption\nŁukasz Postek, and Paweł Strzelecki. 2018. “Poland’s Uninterrupted Growth Performance: New Growth Accounting Evidence.” Post-Communist Economies 30 (2): 238–72. Kolasa, Marcin. 2008. “How Does FDI Inflow Affect\nto Innovation: State-Dependent Technology Policy in Developing Countries.” STEG Working Paper WP091 (March), Structural Transformation and Economic Growth, Centre for Economic Policy Research, London. Chuah, Lay Lian, Norman V. Loayza, and Ha Nguyen.\nProductivity of Domestic Firms? The Role of Horizontal and Vertical Spillovers, Absorptive Capacity and Competition.” Journal of International Trade and Economic Development 17 (1): 155–73. König, Michael, Kjetil Storesletten, Zheng Song, and\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.03498100000433624
+  },
+  {
+    "query_id": "advanced_dev_12",
+    "original_query": "Chi phí phân mảnh công nghệ được ước tính cao đến mức nào cho nhiều nền kinh tế?",
+    "results": [
+      {
+        "id": "wdr2024:p62:g3:c0",
+        "text": "“The Global Financial Crisis and Its Impact on Renewable Energy Finance.” Division of Technology, Industry, and Economics, UNEP, Nairobi, Kenya. Vagliasindi, Maria. 2023. “The Role of SOEs in Climate\nChange.” Background paper prepared for The Business of the State, World Bank, Washington, DC. van der Weide, Roy, Christoph Lakner, Daniel Gerszon\nDependent Policies, Talent Misallocation, and the Return to Skill.” Review of Economic Dynamics 38 (October): 59–93. Lucas, Robert B., Jr. 1988. “On the Mechanics of Economic\nDevelopment.” Journal of Monetary Economics 22 (1): 3–42. Marcel, Mario, and Diego Vivanco. 2021. “Measuring Small\nMahler, Ambar Narayan, and Rakesh Ramasubbaiah. 2021. “Intergenerational Mobility around the World.” Policy Research Working Paper 9707, World Bank, Washington, DC. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. World Bank. 1978. World Development Report 1978.\nand Medium-Size Enterprises’ Contribution to Trade in Value Added: The Case of Chile 2013–2016.” Working Paper of the Central Bank of Chile 914 (April), Central Bank of Chile, Santiago. Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 62,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.48,
+            425.43,
+            510.48,
+            586.05
+          ],
+          "kind": "native_text",
+          "printed_page": "30",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1244,
+          "e5_input_tokens": 325
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8143133742760535,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p177:vision:c1",
+        "text": " at ~100% in 2010, then declines). \n- MICs’ adoption level is lower than HICs’, but growth rates are higher in the early 2010s.\n\nPanel c (Electric vehicles): \n- Left Y-axis: Number of electric vehicles per million inhabitants. \n- Right Y-axis: Growth rate (%). \n- X-axis: Years from 2010 to 2021. \n- Black line: HICs’ number (starts near 0.0000, rises to ~0.0012 by 2021). \n- Dark gray bars: HICs’ growth rate (peaks at ~200% in 2014, then declines). \n- Orange line: MICs’ number (starts near 0.0000, rises to ~0.0020 by 2021). \n- Orange bars: MICs’ growth rate (peaks at ~200% in 2014, then declines). \n- MICs’ adoption level is lower than HICs’, but growth rates are higher in the early 2010s.\n\n",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 177,
+        "metadata": {
+          "version": "2024",
+          "kind": "vision_description",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "printed_page": "145",
+          "generated_by": "Qwen/Qwen3-VL-8B-Instruct",
+          "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+          "verification": "AI generated; original PDF is authoritative",
+          "truncated_description": true,
+          "original_page": "data/source/world-development-report-2024.pdf#page=177"
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8039033266080267,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p61:g1:c0",
+        "text": "to Innovation: State-Dependent Technology Policy in Developing Countries.” STEG Working Paper WP091 (March), Structural Transformation and Economic Growth, Centre for Economic Policy Research, London. Cirera, Xavier, and William F. Maloney. 2017. The Innovation\nJensen. 2019. “Size-Dependent Tax Enforcement and Compliance: Global Evidence and Aggregate Implications.” Journal of Development Economics 140 (September): 203–22. Bahar, Dany, Sebastian Bustos, and Muhammed A. Yıldırım.\nParadox: Developing-Country Capabilities and the Unrealized Promise of Technological Catch-Up. Washington, DC: World Bank. Cunningham, Colleen, Florian Ederer, and Song Ma. 2021.\n2024. “Stages of Diversification Revisited.” Background paper prepared for World Development Report 2024, World Bank, Washington, DC. Baqaee, David Rezza, and Emmanuel Farhi. 2023.\n“Killer Acquisitions.” Journal of Political Economy 129 (3): 649–702. Cusolito, Ana Paula, Alvaro Garcia-Marin, and William F.\n“Networks, Barriers, and Trade.” NBER Working Paper 26108 rev. (February), National Bureau of Economic Research, Cambridge, MA. Bashmakov, Igor. 2007. “Three Laws of Energy Transitions.”",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 61,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            185.43,
+            510.5,
+            336.05
+          ],
+          "kind": "native_text",
+          "printed_page": "29",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1157,
+          "e5_input_tokens": 311
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8031743689810331,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p62:g3:c0",
+      "wdr2024:p177:vision:c1",
+      "wdr2024:p61:g1:c0"
+    ],
+    "context": "[wdr2024:p62:g3:c0] PDF page 62; bbox=[67.48, 425.43, 510.48, 586.05]; kind=native_text\n“The Global Financial Crisis and Its Impact on Renewable Energy Finance.” Division of Technology, Industry, and Economics, UNEP, Nairobi, Kenya. Vagliasindi, Maria. 2023. “The Role of SOEs in Climate\nChange.” Background paper prepared for The Business of the State, World Bank, Washington, DC. van der Weide, Roy, Christoph Lakner, Daniel Gerszon\nDependent Policies, Talent Misallocation, and the Return to Skill.” Review of Economic Dynamics 38 (October): 59–93. Lucas, Robert B., Jr. 1988. “On the Mechanics of Economic\nDevelopment.” Journal of Monetary Economics 22 (1): 3–42. Marcel, Mario, and Diego Vivanco. 2021. “Measuring Small\nMahler, Ambar Narayan, and Rakesh Ramasubbaiah. 2021. “Intergenerational Mobility around the World.” Policy Research Working Paper 9707, World Bank, Washington, DC. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. World Bank. 1978. World Development Report 1978.\nand Medium-Size Enterprises’ Contribution to Trade in Value Added: The Case of Chile 2013–2016.” Working Paper of the Central Bank of Chile 914 (April), Central Bank of Chile, Santiago. Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry\n\n[wdr2024:p177:vision:c1] PDF page 177; bbox=[0.0, 0.0, 576.0, 756.0]; kind=vision_description\n at ~100% in 2010, then declines). \n- MICs’ adoption level is lower than HICs’, but growth rates are higher in the early 2010s.\n\nPanel c (Electric vehicles): \n- Left Y-axis: Number of electric vehicles per million inhabitants. \n- Right Y-axis: Growth rate (%). \n- X-axis: Years from 2010 to 2021. \n- Black line: HICs’ number (starts near 0.0000, rises to ~0.0012 by 2021). \n- Dark gray bars: HICs’ growth rate (peaks at ~200% in 2014, then declines). \n- Orange line: MICs’ number (starts near 0.0000, rises to ~0.0020 by 2021). \n- Orange bars: MICs’ growth rate (peaks at ~200% in 2014, then declines). \n- MICs’ adoption level is lower than HICs’, but growth rates are higher in the early 2010s.\n\n\n\n[wdr2024:p61:g1:c0] PDF page 61; bbox=[67.5, 185.43, 510.5, 336.05]; kind=native_text\nto Innovation: State-Dependent Technology Policy in Developing Countries.” STEG Working Paper WP091 (March), Structural Transformation and Economic Growth, Centre for Economic Policy Research, London. Cirera, Xavier, and William F. Maloney. 2017. The Innovation\nJensen. 2019. “Size-Dependent Tax Enforcement and Compliance: Global Evidence and Aggregate Implications.” Journal of Development Economics 140 (September): 203–22. Bahar, Dany, Sebastian Bustos, and Muhammed A. Yıldırım.\nParadox: Developing-Country Capabilities and the Unrealized Promise of Technological Catch-Up. Washington, DC: World Bank. Cunningham, Colleen, Florian Ederer, and Song Ma. 2021.\n2024. “Stages of Diversification Revisited.” Background paper prepared for World Development Report 2024, World Bank, Washington, DC. Baqaee, David Rezza, and Emmanuel Farhi. 2023.\n“Killer Acquisitions.” Journal of Political Economy 129 (3): 649–702. Cusolito, Ana Paula, Alvaro Garcia-Marin, and William F.\n“Networks, Barriers, and Trade.” NBER Working Paper 26108 rev. (February), National Bureau of Economic Research, Cambridge, MA. Bashmakov, Igor. 2007. “Three Laws of Energy Transitions.”\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.031998799997381866
+  },
+  {
+    "query_id": "advanced_dev_13",
+    "original_query": "Kết hợp bảng O.2 và O.3: nhóm thu nhập trung bình thấp ưu tiên infusion ở mức nào và cần làm gì để lan tỏa công nghệ toàn cầu?",
+    "results": [
+      {
+        "id": "wdr2024:p59:vision:c0",
+        "text": "Table O.3 presents the “3i strategy” for economic development, segmented by income level: Low-Income (1i: Investment), Lower-Middle-Income (2i: Investment + Infusion), and Upper-Middle-Income (3i: Investment + Infusion + Innovation). The table is structured with three main columns (corresponding to income tiers) and three rows (Enterprise, Talent, Energy). Each cell lists policy actions tailored to the stage.\n\nUnder “Enterprise,” Low-Income countries are advised to improve investment climate. Lower-Middle-Income countries should discipline market leaders, diffuse technologies, and reward value-adding firms. Upper-Middle-Income countries must deepen capital markets, strengthen antitrust, and protect IP rights.\n\nFor “Talent,” Low-Income nations should invest in human capital and foundational skills. Lower-Middle-Income countries must ensure equal opportunity, improve talent allocation, and link universities. Upper-Middle-Income countries should strengthen industry-academia links, expand diaspora programs, and enhance freedoms.\n\nIn “Energy,” Low-Income countries need to expand infrastructure and reform regulations. Lower-Middle-Income countries should discipline SOEs, encourage international coalitions, and promote energy efficiency. Upper-Middle-Income countries must lower capital",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 59,
+        "metadata": {
+          "version": "2024",
+          "kind": "vision_description",
+          "bbox": [
+            0.0,
+            0.0,
+            576.0,
+            756.0
+          ],
+          "printed_page": "27",
+          "generated_by": "Qwen/Qwen3-VL-8B-Instruct",
+          "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+          "verification": "AI generated; original PDF is authoritative",
+          "truncated_description": false,
+          "original_page": "data/source/world-development-report-2024.pdf#page=59"
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8555951466879613,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p59:g0:c0",
+        "text": "resources on innovation (3i). Put another way, they will have to become more efficient in their use of capital—both financial and human—and labor and energy.\nTo do this, they will have to shed long-held prejudices about enterprise, talent, and energy. They will have to appreciate the importance of reliable information to shape and quicken the structural transformations that must accompany any durable increase in incomes and living standards. Depending on their special circumstance and the stage of development they have reached, they will need to adopt a sequenced and progressively\nmore sophisticated mix of policies (table O.3). Low-income countries can focus solely on policies designed to increase investment—the 1i approach. Once they attain lower-middle-income status, they will need to shift gears and expand the policy mix to 2i, investment + infusion. At the upper-middle- income level, countries will have to shift gears again to 3i: investment + infusion + innovation. Middle-income countries will need progressively greater economic freedom, more open and informed debates, and—frequently—the political courage to change stubborn institutions and long-standing arrangements.\nTable O.3 The 3i strategy: What countries should do at different stages of development\nUPPER-MIDDLE-INCOME",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 59,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.25,
+            83.54,
+            510.82,
+            351.46
+          ],
+          "kind": "native_text",
+          "printed_page": "27",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1298,
+          "e5_input_tokens": 298
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8538975012334249,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p37:g1:c0",
+        "text": "To achieve more sophisticated economies, middle-income countries need two successive transitions, not one. In the first, investment is complemented with infusion, so that countries (primarily lower-middle-income countries) focus on imitating and diffusing modern technologies. In the second, innovation is added to the investment and infusion mix, so that countries (primarily upper-middle-income countries) focus on building domestic capabilities to add value to global technologies, ultimately becoming innovators themselves. In general, middle-income countries need to recalibrate the mix of the three drivers of economic growth—investment, infusion, and innovation—as they move through middle- income status (table O.2).\nSource: WDR 2024 team using data from PWT (Penn World Table) (database version 10.1), Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc/productivity/pwt/. Note: The bars show the simple average for middle-income countries in 2019. The data are calculated using the methodology outlined in Jones (2016). Following Jones (2016), the figure is based on Hicks-neutral and a constant labor share of two-thirds. GDP = gross domestic product.",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 37,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.4,
+            250.55,
+            510.83,
+            466.9
+          ],
+          "kind": "native_text",
+          "printed_page": "5",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1263,
+          "e5_input_tokens": 301
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8435922036370473,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p59:vision:c0",
+      "wdr2024:p59:g0:c0",
+      "wdr2024:p37:g1:c0"
+    ],
+    "context": "[wdr2024:p59:vision:c0] PDF page 59; bbox=[0.0, 0.0, 576.0, 756.0]; kind=vision_description\nTable O.3 presents the “3i strategy” for economic development, segmented by income level: Low-Income (1i: Investment), Lower-Middle-Income (2i: Investment + Infusion), and Upper-Middle-Income (3i: Investment + Infusion + Innovation). The table is structured with three main columns (corresponding to income tiers) and three rows (Enterprise, Talent, Energy). Each cell lists policy actions tailored to the stage.\n\nUnder “Enterprise,” Low-Income countries are advised to improve investment climate. Lower-Middle-Income countries should discipline market leaders, diffuse technologies, and reward value-adding firms. Upper-Middle-Income countries must deepen capital markets, strengthen antitrust, and protect IP rights.\n\nFor “Talent,” Low-Income nations should invest in human capital and foundational skills. Lower-Middle-Income countries must ensure equal opportunity, improve talent allocation, and link universities. Upper-Middle-Income countries should strengthen industry-academia links, expand diaspora programs, and enhance freedoms.\n\nIn “Energy,” Low-Income countries need to expand infrastructure and reform regulations. Lower-Middle-Income countries should discipline SOEs, encourage international coalitions, and promote energy efficiency. Upper-Middle-Income countries must lower capital\n\n[wdr2024:p59:g0:c0] PDF page 59; bbox=[67.25, 83.54, 510.82, 351.46]; kind=native_text\nresources on innovation (3i). Put another way, they will have to become more efficient in their use of capital—both financial and human—and labor and energy.\nTo do this, they will have to shed long-held prejudices about enterprise, talent, and energy. They will have to appreciate the importance of reliable information to shape and quicken the structural transformations that must accompany any durable increase in incomes and living standards. Depending on their special circumstance and the stage of development they have reached, they will need to adopt a sequenced and progressively\nmore sophisticated mix of policies (table O.3). Low-income countries can focus solely on policies designed to increase investment—the 1i approach. Once they attain lower-middle-income status, they will need to shift gears and expand the policy mix to 2i, investment + infusion. At the upper-middle- income level, countries will have to shift gears again to 3i: investment + infusion + innovation. Middle-income countries will need progressively greater economic freedom, more open and informed debates, and—frequently—the political courage to change stubborn institutions and long-standing arrangements.\nTable O.3 The 3i strategy: What countries should do at different stages of development\nUPPER-MIDDLE-INCOME\n\n[wdr2024:p37:g1:c0] PDF page 37; bbox=[67.4, 250.55, 510.83, 466.9]; kind=native_text\nTo achieve more sophisticated economies, middle-income countries need two successive transitions, not one. In the first, investment is complemented with infusion, so that countries (primarily lower-middle-income countries) focus on imitating and diffusing modern technologies. In the second, innovation is added to the investment and infusion mix, so that countries (primarily upper-middle-income countries) focus on building domestic capabilities to add value to global technologies, ultimately becoming innovators themselves. In general, middle-income countries need to recalibrate the mix of the three drivers of economic growth—investment, infusion, and innovation—as they move through middle- income status (table O.2).\nSource: WDR 2024 team using data from PWT (Penn World Table) (database version 10.1), Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc/productivity/pwt/. Note: The bars show the simple average for middle-income countries in 2019. The data are calculated using the methodology outlined in Jones (2016). Following Jones (2016), the figure is based on Hicks-neutral and a constant labor share of two-thirds. GDP = gross domestic product.\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.03404399997089058
+  },
+  {
+    "query_id": "advanced_dev_14",
+    "original_query": "Kết hợp trang 85 và 163: SOE có nghĩa là gì và họ ngăn doanh nghiệp năng lượng tái tạo mới bằng những nguồn lực nào?",
+    "results": [
+      {
+        "id": "wdr2024:p199:g1:c0",
+        "text": "Source: WDR 2024 team based on 2018 data from PMR Database (OECD-WBG Product Market Regulation Database) (dashboard), Data Catalogue, World Bank, Washington, DC, https://prosperitydata360.worldbank.org/en/dataset/OECDWBG​ +PMR; PMR Indicators (Indicators of Product Market Regulation) (dashboard), Organisation for Economic Co-operation and Development, Paris, https://www.oecd.org/en/topics/sub-issues/product-market-regulation.html#:~:text=The%20PMR​ %20economy%2Dwide%20indicators,existing%20regulations%2C%20and%20foreign%20trade. Note: The BRICS nations are Brazil, the Russian Federation, India, China, and South Africa. The public ownership indicator shows the extent of the presence of state-owned enterprises (SOEs) in the economy and their governance. A higher score indicates higher presence of SOEs with weaker governance of SOEs. OECD = Organisation for Economic Co-operation and Development.\nenergy is declining rapidly, private providers in many countries face major barriers to entry. SOEs dominate fossil fuel power generation, mainly in coal-fueled power plants, where they account for 84 percent of total installed capacity (figure 7.8). By contrast, the private sector owns about an equal share (80 percent) of the installed capacity of renewable energy.",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 199,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            382.61,
+            510.49,
+            607.27
+          ],
+          "kind": "native_text",
+          "printed_page": "167",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1274,
+          "e5_input_tokens": 341
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8393156967613888,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p200:g2:c0",
+        "text": "SOEs are the largest providers of energy finance— accounting for 60 percent of energy investment (figure 7.9). A concern is that SOEs account for 50 percent of fossil fuel power investment glob­ ally, notably due to expanding coal plants in India and South Africa and gas plants in the Middle East and North Africa.\nmarket with a 90 percent market share. In Poland, four companies—Polska Grupa Energetyczna (PGE), Tauron Polska Energia, Energa, and Enea—­control nearly three-fourths of the mar­ ket share in electricity production, with PGE ­holding 40 percent. Poland’s transmission grid is owned and operated by state-owned Polskie Sieci Elektroenergetyczne.14 SOEs use their dominant position to thwart entrants and protect their markets by blocking technological change.\nSOEs are also significant investors in energy, contributing 36 percent of global energy invest­ ment. In low- and middle-income countries,\nSOEs can block entry of new market players using their outsize market share and control of the grid. To compete for customers, rival firms need access to the grid controlled by a large incumbent. Thus access pricing becomes import­ ant. Access prices are set by the sectoral regulator.\n168 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 200,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            528.55,
+            510.82,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "168",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1236,
+          "e5_input_tokens": 301
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8380067454891387,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p134:g1:c0",
+        "text": "suggested that one of the critical transforma­ tions in the US economy between the mid-1880s and World War I was the replacement of the ­traditional family enterprise with the modern multiunit enterprise managed by a complex layer of top- and middle-management structures.16\nventures in the market. However, these prefer­ ences hurt private enterprise. Although SOEs benefit from lower costs of labor and capital, this benefit increases the cost of production for their private counterparts, which are often more pro­ ductive. Benefits extended to SOEs not only mis­ allocate resources away from more productive firms but also discourage the private sector from investing in costly initiatives (such as R&D) to become more innovative or produce more inno­ vative goods or services.19 SOEs in manufacturing and contestable service industries have become a source of resource misallocation.20",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 134,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            408.85,
+            510.81,
+            580.06
+          ],
+          "kind": "native_text",
+          "printed_page": "102",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 890,
+          "e5_input_tokens": 201
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8332791202303725,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p199:g1:c0",
+      "wdr2024:p200:g2:c0",
+      "wdr2024:p134:g1:c0"
+    ],
+    "context": "[wdr2024:p199:g1:c0] PDF page 199; bbox=[67.5, 382.61, 510.49, 607.27]; kind=native_text\nSource: WDR 2024 team based on 2018 data from PMR Database (OECD-WBG Product Market Regulation Database) (dashboard), Data Catalogue, World Bank, Washington, DC, https://prosperitydata360.worldbank.org/en/dataset/OECDWBG​ +PMR; PMR Indicators (Indicators of Product Market Regulation) (dashboard), Organisation for Economic Co-operation and Development, Paris, https://www.oecd.org/en/topics/sub-issues/product-market-regulation.html#:~:text=The%20PMR​ %20economy%2Dwide%20indicators,existing%20regulations%2C%20and%20foreign%20trade. Note: The BRICS nations are Brazil, the Russian Federation, India, China, and South Africa. The public ownership indicator shows the extent of the presence of state-owned enterprises (SOEs) in the economy and their governance. A higher score indicates higher presence of SOEs with weaker governance of SOEs. OECD = Organisation for Economic Co-operation and Development.\nenergy is declining rapidly, private providers in many countries face major barriers to entry. SOEs dominate fossil fuel power generation, mainly in coal-fueled power plants, where they account for 84 percent of total installed capacity (figure 7.8). By contrast, the private sector owns about an equal share (80 percent) of the installed capacity of renewable energy.\n\n[wdr2024:p200:g2:c0] PDF page 200; bbox=[67.5, 528.55, 510.82, 731.23]; kind=native_text\nSOEs are the largest providers of energy finance— accounting for 60 percent of energy investment (figure 7.9). A concern is that SOEs account for 50 percent of fossil fuel power investment glob­ ally, notably due to expanding coal plants in India and South Africa and gas plants in the Middle East and North Africa.\nmarket with a 90 percent market share. In Poland, four companies—Polska Grupa Energetyczna (PGE), Tauron Polska Energia, Energa, and Enea—­control nearly three-fourths of the mar­ ket share in electricity production, with PGE ­holding 40 percent. Poland’s transmission grid is owned and operated by state-owned Polskie Sieci Elektroenergetyczne.14 SOEs use their dominant position to thwart entrants and protect their markets by blocking technological change.\nSOEs are also significant investors in energy, contributing 36 percent of global energy invest­ ment. In low- and middle-income countries,\nSOEs can block entry of new market players using their outsize market share and control of the grid. To compete for customers, rival firms need access to the grid controlled by a large incumbent. Thus access pricing becomes import­ ant. Access prices are set by the sectoral regulator.\n168 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p134:g1:c0] PDF page 134; bbox=[67.5, 408.85, 510.81, 580.06]; kind=native_text\nsuggested that one of the critical transforma­ tions in the US economy between the mid-1880s and World War I was the replacement of the ­traditional family enterprise with the modern multiunit enterprise managed by a complex layer of top- and middle-management structures.16\nventures in the market. However, these prefer­ ences hurt private enterprise. Although SOEs benefit from lower costs of labor and capital, this benefit increases the cost of production for their private counterparts, which are often more pro­ ductive. Benefits extended to SOEs not only mis­ allocate resources away from more productive firms but also discourage the private sector from investing in costly initiatives (such as R&D) to become more innovative or produce more inno­ vative goods or services.19 SOEs in manufacturing and contestable service industries have become a source of resource misallocation.20\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.031759200035594404
+  },
+  {
+    "query_id": "advanced_dev_15",
+    "original_query": "Kết hợp trang 6 và 88: nước áp dụng công nghệ mới cần loại lao động nào, và bộ đo động lực doanh nghiệp hiện đại có xem xét gia nhập/rút lui không?",
+    "results": [
+      {
+        "id": "wdr2024:p210:g2:c0",
+        "text": "178 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 210,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            243.47,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "178",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8289260634172131,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p58:g3:c0",
+        "text": "26 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 58,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            241.68,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "26",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 34,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8287588832664652,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p40:g2:c0",
+        "text": "8 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 40,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            236.88,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "8",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 33,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8269810099867085,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p210:g2:c0",
+      "wdr2024:p58:g3:c0",
+      "wdr2024:p40:g2:c0"
+    ],
+    "context": "[wdr2024:p210:g2:c0] PDF page 210; bbox=[67.56, 721.61, 243.47, 731.23]; kind=native_text\n178 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p58:g3:c0] PDF page 58; bbox=[67.56, 721.61, 241.68, 731.23]; kind=native_text\n26 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p40:g2:c0] PDF page 40; bbox=[67.56, 721.61, 236.88, 731.23]; kind=native_text\n8 | WORLD DEVELOPMENT REPORT 2024\n",
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "seconds": 0.03504119999706745
+  },
+  {
+    "query_id": "advanced_dev_16",
+    "original_query": "GDP thực tế Việt Nam quý IV năm 2031 là bao nhiêu?",
+    "results": [
+      {
+        "id": "wdr2024:p67:g2:c0",
+        "text": "But the growth prospects of middle-income countries are not improving. Over the last decade, the global economy has gone from healthy to ­hobbling and from largely integrated to increas­ ingly fragmented.7 Foreign trade and investment channels are also becoming more constricted—or at least encumbered—by geopolitical tensions.\nthe nation into a developed economy by 2047— the hundredth year of independence. In Viet Nam, its Socio-Economic Development Strategy 2021–2030 outlines a plan to sustain GDP per capita growth of 7 percent through this decade, with a transition to high-income status by 2045. In South Africa, the 2030 National Development Plan has prioritized raising its income per cap­ ita from US$2,800 in 2010 to US$7,000 by 2030.\nSlowing Growth | 35",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 67,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            581.45,
+            510.8,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "35",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 766,
+          "e5_input_tokens": 193
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.831507964640473,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p66:g3:c0",
+        "text": "It is understandable why middle-income countries are not satisfied with the status quo and why most have plans for faster growth in living standards. China’s 14th Five-Year Plan outlines a vision of achieving the median GDP per capita of developed nations by 2035, with a large increase in the middle class. The vision document also highlights that China’s growth will be driven by major breakthroughs in key technologies, making it one of the most inno- vative nations in the world, buttressed by a modern economic system with digitalization, thriving cities, and modern agriculture. In India, the prime minister’s vision is to transform\n34 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 66,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            512.96,
+            510.82,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "34",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 673,
+          "e5_input_tokens": 164
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8192931765217186,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p34:g3:c0",
+        "text": "If your country is China, your 14th Five-Year Plan envisions reaching the median gross domes­ tic product (GDP) per capita of developed nations by 2035, thereby greatly expanding your middle class. If it is India, your prime minister’s vision is to turn the nation into a developed economy by 2047, the centennial of independence. If it is Viet Nam, your Socio-Economic Development Strategy 2021–2030 outlines a strategy for sus­ tained GDP per capita growth of 7 percent through this decade, with a transition to high-­ income status by 2045. And if it is South Africa, your 2030 National Development Plan sets a goal of raising the income per capita from US$2,800 in\nWDR 2024 is premised on the conjecture that, relative to the complexity of their economic struc­ tures, middle-income countries have more serious information deficits than either low-income coun­ tries or advanced economies. As a result, they suffer more than the others the consequences of policies predicated on superficial measures of economic effi­ ciency, making them especially prone to premature slowdowns in development. This pathology was nicknamed the “middle-income trap” by World Bank economists, and strategies to avoid it are the subject of this Report.\n2 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 34,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.5,
+            507.33,
+            510.85,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "2",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1270,
+          "e5_input_tokens": 319
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8185878632809633,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p67:g2:c0",
+      "wdr2024:p66:g3:c0",
+      "wdr2024:p34:g3:c0"
+    ],
+    "context": "[wdr2024:p67:g2:c0] PDF page 67; bbox=[67.5, 581.45, 510.8, 731.23]; kind=native_text\nBut the growth prospects of middle-income countries are not improving. Over the last decade, the global economy has gone from healthy to ­hobbling and from largely integrated to increas­ ingly fragmented.7 Foreign trade and investment channels are also becoming more constricted—or at least encumbered—by geopolitical tensions.\nthe nation into a developed economy by 2047— the hundredth year of independence. In Viet Nam, its Socio-Economic Development Strategy 2021–2030 outlines a plan to sustain GDP per capita growth of 7 percent through this decade, with a transition to high-income status by 2045. In South Africa, the 2030 National Development Plan has prioritized raising its income per cap­ ita from US$2,800 in 2010 to US$7,000 by 2030.\nSlowing Growth | 35\n\n[wdr2024:p66:g3:c0] PDF page 66; bbox=[67.56, 512.96, 510.82, 731.23]; kind=native_text\nIt is understandable why middle-income countries are not satisfied with the status quo and why most have plans for faster growth in living standards. China’s 14th Five-Year Plan outlines a vision of achieving the median GDP per capita of developed nations by 2035, with a large increase in the middle class. The vision document also highlights that China’s growth will be driven by major breakthroughs in key technologies, making it one of the most inno- vative nations in the world, buttressed by a modern economic system with digitalization, thriving cities, and modern agriculture. In India, the prime minister’s vision is to transform\n34 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p34:g3:c0] PDF page 34; bbox=[67.5, 507.33, 510.85, 731.23]; kind=native_text\nIf your country is China, your 14th Five-Year Plan envisions reaching the median gross domes­ tic product (GDP) per capita of developed nations by 2035, thereby greatly expanding your middle class. If it is India, your prime minister’s vision is to turn the nation into a developed economy by 2047, the centennial of independence. If it is Viet Nam, your Socio-Economic Development Strategy 2021–2030 outlines a strategy for sus­ tained GDP per capita growth of 7 percent through this decade, with a transition to high-­ income status by 2045. And if it is South Africa, your 2030 National Development Plan sets a goal of raising the income per capita from US$2,800 in\nWDR 2024 is premised on the conjecture that, relative to the complexity of their economic struc­ tures, middle-income countries have more serious information deficits than either low-income coun­ tries or advanced economies. As a result, they suffer more than the others the consequences of policies predicated on superficial measures of economic effi­ ciency, making them especially prone to premature slowdowns in development. This pathology was nicknamed the “middle-income trap” by World Bank economists, and strategies to avoid it are the subject of this Report.\n2 | WORLD DEVELOPMENT REPORT 2024\n",
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "seconds": 0.03575819998513907
+  },
+  {
+    "query_id": "advanced_dev_17",
+    "original_query": "Lãi suất điều hành thực tế của Ngân hàng Nhà nước Việt Nam ngày 15/11/2026 là bao nhiêu?",
+    "results": [
+      {
+        "id": "wdr2024:p258:g3:c0",
+        "text": "226 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 258,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            244.56,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "226",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8156599471102055,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p58:g3:c0",
+        "text": "26 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 58,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            241.68,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "26",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 34,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8122561714282084,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p144:g4:c0",
+        "text": "112 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 144,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            243.49,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "112",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8077386534621565,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p258:g3:c0",
+      "wdr2024:p58:g3:c0",
+      "wdr2024:p144:g4:c0"
+    ],
+    "context": "[wdr2024:p258:g3:c0] PDF page 258; bbox=[67.56, 721.61, 244.56, 731.23]; kind=native_text\n226 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p58:g3:c0] PDF page 58; bbox=[67.56, 721.61, 241.68, 731.23]; kind=native_text\n26 | WORLD DEVELOPMENT REPORT 2024\n\n[wdr2024:p144:g4:c0] PDF page 144; bbox=[67.56, 721.61, 243.49, 731.23]; kind=native_text\n112 | WORLD DEVELOPMENT REPORT 2024\n",
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "seconds": 0.0347184999845922
+  },
+  {
+    "query_id": "advanced_dev_18",
+    "original_query": "Doanh thu kiểm toán của VinFast năm tài chính 2030 là bao nhiêu?",
+    "results": [
+      {
+        "id": "wdr2024:p62:g3:c0",
+        "text": "“The Global Financial Crisis and Its Impact on Renewable Energy Finance.” Division of Technology, Industry, and Economics, UNEP, Nairobi, Kenya. Vagliasindi, Maria. 2023. “The Role of SOEs in Climate\nChange.” Background paper prepared for The Business of the State, World Bank, Washington, DC. van der Weide, Roy, Christoph Lakner, Daniel Gerszon\nDependent Policies, Talent Misallocation, and the Return to Skill.” Review of Economic Dynamics 38 (October): 59–93. Lucas, Robert B., Jr. 1988. “On the Mechanics of Economic\nDevelopment.” Journal of Monetary Economics 22 (1): 3–42. Marcel, Mario, and Diego Vivanco. 2021. “Measuring Small\nMahler, Ambar Narayan, and Rakesh Ramasubbaiah. 2021. “Intergenerational Mobility around the World.” Policy Research Working Paper 9707, World Bank, Washington, DC. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. World Bank. 1978. World Development Report 1978.\nand Medium-Size Enterprises’ Contribution to Trade in Value Added: The Case of Chile 2013–2016.” Working Paper of the Central Bank of Chile 914 (April), Central Bank of Chile, Santiago. Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 62,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.48,
+            425.43,
+            510.48,
+            586.05
+          ],
+          "kind": "native_text",
+          "printed_page": "30",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1244,
+          "e5_input_tokens": 325
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8198937537158216,
+        "rank": 1
+      },
+      {
+        "id": "wdr2024:p19:g0:c0",
+        "text": "Acknowledgments\nWorld Development Report 2024 was prepared by a World Bank team led by Somik V. Lall. Ufuk Akcigit served as the Academic Lead, and Joyce Antone Ibrahim was the Report ­Manager. Overall guidance was provided by Indermit Gill, Senior Vice President and Chief Economist. The Report was sponsored by the Development Economics Vice Presidency.\nThe core team comprised Roberto Fattal Jaef, Maria Marta Ferreyra, Kenan Karakülah, Tatjana Kleineberg, Mathilde Lebrand, Martha Martinez Licetti, Dino Merotto, Forhad Shilpi, Katherine Stapleton, Maria Vagliasindi, and Ekaterina Vostroknutova.\nVictor Ajayi, Deniz Aycan, Narcisse Cha’ngom, Dong Phuong Dao, Matteo Gasparini, Juan Holguín Posada, Karry Jiao, Yonatan Litwin, Theodore Naff, Juan Porras Lopez, Mariana Santi, Zeki Berkay Saygin, Karthik Sridhar, Gabriel Suárez Obando, Adesola Sunmoni, Facundo Ulivarri, and Natalia Valdebenito Contreras were research analysts.\nSelome Missael Paulos provided the team with administrative support through May 2023, and Sandi Soe Lwin provided administrative support to the team beginning in May 2023.",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 19,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.49,
+            123.68,
+            453.8,
+            403.37
+          ],
+          "kind": "native_text",
+          "printed_page": null,
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 1104,
+          "e5_input_tokens": 297
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.815576736205242,
+        "rank": 2
+      },
+      {
+        "id": "wdr2024:p210:g2:c0",
+        "text": "178 | WORLD DEVELOPMENT REPORT 2024",
+        "source_id": "wdr2024",
+        "source": "https://www.worldbank.org/en/publication/wdr2024",
+        "page": 210,
+        "metadata": {
+          "version": "2024",
+          "bbox": [
+            67.56,
+            721.61,
+            243.47,
+            731.23
+          ],
+          "kind": "native_text",
+          "printed_page": "178",
+          "page_size": [
+            576.0,
+            756.0
+          ],
+          "extraction": "PyMuPDF native text blocks; NFC and whitespace normalization",
+          "offset_start": 0,
+          "offset_end": 35,
+          "e5_input_tokens": 16
+        },
+        "embedding_namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+        "score": 0.8098997218580544,
+        "rank": 3
+      }
+    ],
+    "context_ids": [
+      "wdr2024:p62:g3:c0",
+      "wdr2024:p19:g0:c0",
+      "wdr2024:p210:g2:c0"
+    ],
+    "context": "[wdr2024:p62:g3:c0] PDF page 62; bbox=[67.48, 425.43, 510.48, 586.05]; kind=native_text\n“The Global Financial Crisis and Its Impact on Renewable Energy Finance.” Division of Technology, Industry, and Economics, UNEP, Nairobi, Kenya. Vagliasindi, Maria. 2023. “The Role of SOEs in Climate\nChange.” Background paper prepared for The Business of the State, World Bank, Washington, DC. van der Weide, Roy, Christoph Lakner, Daniel Gerszon\nDependent Policies, Talent Misallocation, and the Return to Skill.” Review of Economic Dynamics 38 (October): 59–93. Lucas, Robert B., Jr. 1988. “On the Mechanics of Economic\nDevelopment.” Journal of Monetary Economics 22 (1): 3–42. Marcel, Mario, and Diego Vivanco. 2021. “Measuring Small\nMahler, Ambar Narayan, and Rakesh Ramasubbaiah. 2021. “Intergenerational Mobility around the World.” Policy Research Working Paper 9707, World Bank, Washington, DC. Vu, Quang, and Tuyen Quang Tran. 2021. “Government\nFinancial Support and Firm Productivity in Vietnam.” Finance Research Letters 40 (May): 101667. World Bank. 1978. World Development Report 1978.\nand Medium-Size Enterprises’ Contribution to Trade in Value Added: The Case of Chile 2013–2016.” Working Paper of the Central Bank of Chile 914 (April), Central Bank of Chile, Santiago. Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry\n\n[wdr2024:p19:g0:c0] PDF page 19; bbox=[67.49, 123.68, 453.8, 403.37]; kind=native_text\nAcknowledgments\nWorld Development Report 2024 was prepared by a World Bank team led by Somik V. Lall. Ufuk Akcigit served as the Academic Lead, and Joyce Antone Ibrahim was the Report ­Manager. Overall guidance was provided by Indermit Gill, Senior Vice President and Chief Economist. The Report was sponsored by the Development Economics Vice Presidency.\nThe core team comprised Roberto Fattal Jaef, Maria Marta Ferreyra, Kenan Karakülah, Tatjana Kleineberg, Mathilde Lebrand, Martha Martinez Licetti, Dino Merotto, Forhad Shilpi, Katherine Stapleton, Maria Vagliasindi, and Ekaterina Vostroknutova.\nVictor Ajayi, Deniz Aycan, Narcisse Cha’ngom, Dong Phuong Dao, Matteo Gasparini, Juan Holguín Posada, Karry Jiao, Yonatan Litwin, Theodore Naff, Juan Porras Lopez, Mariana Santi, Zeki Berkay Saygin, Karthik Sridhar, Gabriel Suárez Obando, Adesola Sunmoni, Facundo Ulivarri, and Natalia Valdebenito Contreras were research analysts.\nSelome Missael Paulos provided the team with administrative support through May 2023, and Sandi Soe Lwin provided administrative support to the team beginning in May 2023.\n\n[wdr2024:p210:g2:c0] PDF page 210; bbox=[67.56, 721.61, 243.47, 731.23]; kind=native_text\n178 | WORLD DEVELOPMENT REPORT 2024\n",
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "seconds": 0.029059799970127642
+  }
+]

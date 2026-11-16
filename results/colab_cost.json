@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-11-16T05:29:19.133720+00:00",
+  "initial_balance_cu": 404.78,
+  "final_balance_cu": 387.47,
+  "account_balance_delta_cu": 17.31,
+  "final_usage_rate_cu_per_hour": 0,
+  "active_assignments": 0,
+  "runtime_released": true,
+  "observed_a100_rate_cu_per_hour": 8.88,
+  "scope": "Account balance delta includes setup, diagnostics, embedding, vision, evaluation and idle allocation; not a per-query cost. USD tariff unverified.",
+  "usd_cost": null
+}

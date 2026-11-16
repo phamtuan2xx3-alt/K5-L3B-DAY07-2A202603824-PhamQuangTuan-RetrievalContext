@@ -1,0 +1,313 @@
+{
+  "auditor": "Codex original-source AI audit; NOT human-reviewed",
+  "scope": "Fixed hybrid_qwen ADVANCED test part1, advanced_test_01..15 only. No model/API/retrieval calls or pipeline tuning. Original native tables/text and reopened native figure images checked.",
+  "input_sha256": {
+    "agent_traces_snapshot": "ceea39204fa452d413cb6f7ebb0dc6b087c90ee821558d4095da75d6050c691b",
+    "selection_lock": "a61a00fb05677a1a0cf4707de5c634a37c54b1148b4bcbbb066a6d54003ee912"
+  },
+  "model": {
+    "id": "hybrid_qwen",
+    "method": "hybrid_qwen",
+    "top_k": 8,
+    "context_budget": 16000,
+    "max_rounds": 3,
+    "page_expansion": true,
+    "model": "gemini-3.8-flash-high",
+    "hypothesis": "RRF plus page expansion preserves table labels, chart conditions and adjacent evidence."
+  },
+  "summary": {
+    "reviewed": 15,
+    "pass": 13,
+    "fail": 2,
+    "system_errors": 1,
+    "partial_correct": 1,
+    "visual_pages_opened": [
+      115,
+      119,
+      120,
+      121,
+      195,
+      104,
+      105,
+      106,
+      108
+    ]
+  },
+  "reviews": [
+    {
+      "query_id": "advanced_test_01",
+      "actual_trace_sha256": "3b975971fc0736bb221c9da22a363a40c061bac2aa9beaa26fe790a112b73e94",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "B?ng O.1 trang36: Low-income / SHARE OF GLOBAL GDP (%) =0.6 n?m2022; citation ch?a ??ng h?ng/c?t.",
+      "original_pages_checked": [
+        36
+      ]
+    },
+    {
+      "query_id": "advanced_test_02",
+      "actual_trace_sha256": "00fe0e24313a628390d5cc522b0c9aff4d5b89ee173dff69c121bee1cb0cb140",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "B?ng O.1 trang36: Lower-middle-income / extreme poverty globally (%) =55.4. ??ng n?m, ??n v? v? citation.",
+      "original_pages_checked": [
+        36
+      ]
+    },
+    {
+      "query_id": "advanced_test_03",
+      "actual_trace_sha256": "84457664bb80d0c8e100b184600a10527bc97dec46b51c46e7af803d9cd2a318",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "B?ng O.1 trang36: Upper-middle-income / CO2 emissions (%) =48.6. ??ng h?ng/c?t v? citation.",
+      "original_pages_checked": [
+        36
+      ]
+    },
+    {
+      "query_id": "advanced_test_04",
+      "actual_trace_sha256": "d0c0a898a216ea939ce6262daae18f0e2f1b3fb4b259abaa3ec0152a6a1ad265",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "B?ng O.1 trang36: High-income / global population (%) =15.7. Citation h? tr?.",
+      "original_pages_checked": [
+        36
+      ]
+    },
+    {
+      "query_id": "advanced_test_05",
+      "actual_trace_sha256": "fb992bd424794207729943fe699fb745924452240bf79298edd9e450adc5cbb9",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "B?ng S.1 trang82: Japan / GNI Atlas current US$,2023 =39,030. C?u tr? l?i gi? ??ng n?m v? ??n v?.",
+      "original_pages_checked": [
+        82
+      ]
+    },
+    {
+      "query_id": "advanced_test_06",
+      "actual_trace_sha256": "e7a03aab97d258c15f27d0de64f765986988745429725df1473ae4fcc1033e6e",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "B?ng S.1 trang82: Korea,Rep. / Researchers per million inhabitants =8,483.2. C?u tr? l?i v? citation ??ng.",
+      "original_pages_checked": [
+        82
+      ]
+    },
+    {
+      "query_id": "advanced_test_07",
+      "actual_trace_sha256": "60fcb1913b4571d709984c60b38600feec1ba561abd18ff50f760e1c02744443",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "System error; kh?ng c? c?u tr? l?i ho?c citation n?n b?t bu?c fail. ?? xem ?nh g?c115: Preservation nh? ?i, Destruction l?n l?n.",
+      "original_pages_checked": [
+        115
+      ]
+    },
+    {
+      "query_id": "advanced_test_08",
+      "actual_trace_sha256": "06a6b2f2039ff8ed4c52ab1c53c3787ed9da20970292ce05f2e169d321628f6d",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "?? xem s? ??4.2 g?c119: panelc cho incumbents v? entrants c?ng t?o gi? tr?. V?n b?n ???c cite tr?c ti?p x?c nh?n panelc v? m? r?ng n?ng l?c c?ng ngh?.",
+      "original_pages_checked": [
+        119
+      ]
+    },
+    {
+      "query_id": "advanced_test_09",
+      "actual_trace_sha256": "bba1e101a4e29b737f9a07e0420a57f20cc18b2d14cbbe678764394791bc7179",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "?? xem thang4.3 g?c120: IN ch? v?o Firm5, OUT ?i t? Firm4. C? native/vision citation ch?a ??ng nh?n. M?t s? suy di?n kh?c trong vision chunk kh?ng ???c agent l?p l?i v? kh?ng ?nh h??ng hai nh?n n?y.",
+      "original_pages_checked": [
+        120
+      ]
+    },
+    {
+      "query_id": "advanced_test_10",
+      "actual_trace_sha256": "a6d956deb0588dd89c211e9c317fa75ffa2e282f7e3d1087ededd00eb91e78d4",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "?? xem h?nh4.4 g?c121: internal R&D n?ng ch?t l??ng tr?n d?ng hi?n h?u; external R&D chuy?n sang d?ng kh?c. Native paragraph x?c nh?n existing products/new markets v? figure labels h? tr?. C? hai citation ??ng.",
+      "original_pages_checked": [
+        121
+      ]
+    },
+    {
+      "query_id": "advanced_test_11",
+      "actual_trace_sha256": "c0f5a8c63808d44b1d906982976004201289590983f1f5e49e355e9badda2d5b",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "?? xem s? ??7.2 g?c195: ba ? Institutions/Incentives/Interventions h?i t? v?o Contestability r?i ?i l?n Disciplining incumbency. Native labels v? vision citation h? tr?.",
+      "original_pages_checked": [
+        195
+      ]
+    },
+    {
+      "query_id": "advanced_test_12",
+      "actual_trace_sha256": "7aceeeb7eaf5cb122448f16591c36ef4bab3adac6b6b9eb4717eca3939a7f524",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 1,
+        "context_grade": 1,
+        "citation_support": [
+          false,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "FAIL: ?nh g?c3.1 trang104 cho ???ng Helpful m?u xanh ??m kho?ng95 ngh?n n?m2018, cao h?n Harmful m?u cam kho?ng70 ngh?n. Agent n?i ng??c cho2018; so s?nh2022 ??ng. Vision chunk p104:vision:c0 ??o nh?m ??nh2018, n?n citation n?y kh?ng ???c x?c nh?n b?i b?n g?c. Native chunk h? tr? ph?n2022 nh?ng kh?ng c?u ph?n2018. Kh?ng s?a pipeline/gold sau test.",
+      "original_pages_checked": [
+        104
+      ]
+    },
+    {
+      "query_id": "advanced_test_13",
+      "actual_trace_sha256": "a0da3b8efb141881fc024712b8dcb623cb7cf5ed942435a4b0e112554046331a",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "?? xem h?nh3.2 g?c105: n?m2023 t?ng harmful kho?ng325, cao h?n nhi?u helpful d??i100; legend ?en=8541,cam=8542. C? nh?n native,note HS v? vision ???c cite h? tr? nh?ng kh?ng ??nh n?y. S? x?p x? kh?ng ???c x? l? nh? s? li?u ch?nh x?c.",
+      "original_pages_checked": [
+        105
+      ]
+    },
+    {
+      "query_id": "advanced_test_14",
+      "actual_trace_sha256": "fbb87aff2a1d64cb5e01dc13d0ddc797e0ab2a6d69663195194c92d85399eb5d",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "?? xem h?nh3.3 g?c106: tr?c tung %GDP; ph?n private m?u cam n?m2022 l?n h?n public m?u xanh. Native citation h? tr? ??n v?; vision h? tr? so s?nh. Nh?ng suy di?n kh?c c?a vision kh?ng ???c l?p l?i.",
+      "original_pages_checked": [
+        106
+      ]
+    },
+    {
+      "query_id": "advanced_test_15",
+      "actual_trace_sha256": "4d94f585e6e9812ff0a71c4dcf31b3fea1823f458203d0e59cfa95508c7f74df",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "?? xem h?nh3.5a g?c108: LMIC12.1,HIC5.1 exajoules/trillion US$. Hi?u7.0 v? t? l?12.1/5.1?2.37 ??ng; citation native c? nh?n/gi? tr?/??n v?.",
+      "original_pages_checked": [
+        108
+      ]
+    }
+  ]
+}

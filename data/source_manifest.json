@@ -1,0 +1,30 @@
+{
+  "source_id": "wdr2024",
+  "title": "World Development Report 2024: The Middle-Income Trap",
+  "source": "https://www.worldbank.org/en/publication/wdr2024",
+  "pdf_path": "data\\source\\world-development-report-2024.pdf",
+  "sha256": "7f545194763ef2ffd1347c14bcf5a270c622b9c3a29e1c8c8b081aaee6c00df5",
+  "pdf_pages": 276,
+  "native_chunks": 911,
+  "visual_regions": 122,
+  "visual_pages": 111,
+  "page_status_counts": {
+    "native_text": 263,
+    "blank": 13
+  },
+  "license": "CC BY 3.0 IGO; PDF page 6. Third-party components may require separate permission.",
+  "page_numbering": "page is original PDF page, 1-based; printed arabic page = PDF page - 32 after front matter",
+  "chunking": {
+    "native_max_characters": 1300,
+    "long_block_overlap_characters": 180,
+    "e5_max_input_tokens": 480
+  },
+  "limitations": [
+    "Native text from all 263 nonblank pages and AI visual descriptions from 111 pages are indexed.",
+    "13 native-blank/front-matter pages remain recorded in page coverage.",
+    "Visual output limit pages: 107, 177, 205. Descriptions may omit or misread visual details.",
+    "Automatic regions are approximate; original PDF is authoritative."
+  ],
+  "final_chunks": 1108,
+  "final_visual_pages": 111
+}

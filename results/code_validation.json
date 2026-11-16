@@ -1,0 +1,32 @@
+{
+  "validated_at_utc": "2026-11-16T05:41:28.719942+00:00",
+  "command": "py scripts/verify_code.py",
+  "tests_run": 39,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "scope": "Code/unit/isolated real Qdrant integration only; not benchmark accuracy",
+  "source_sha256": {
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/agent.py": "677ab39d8a55a20c7e59f19b87c60c3f989d00471e2caa84a35ae68f4d96126d",
+    "src/colab_bridge.py": "5c891034f0e0ac4dc1acf1ac9011de5c0f6c1499effb3331bc8b9f2abb3a15c5",
+    "src/colab_embeddings.py": "0a6f5eb2890bfd7d7e0d8112894b78ab664099eb1ab0731281208f0b61388039",
+    "src/experiments.py": "faa174fd613352cdd1b9ed3eb6ac8d4a187eeb8d83d269f26f7e3fb1cbb9bf25",
+    "src/indexing.py": "43348dec83aea36bdca3217b34389772d9f8d86709d0ec43598a21a998457b76",
+    "src/ingest.py": "a848e3c664d9aacbcf84b75927ca66da8341ddf54a948546ccd13b278c4da255",
+    "src/pipeline.py": "4f563b94c19b24dfc5a4b5ec15f256c8dd3e6e5abfc51154e76f6edbf395e95b",
+    "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646",
+    "src/run.py": "74d4a3a15f8a90d5f219958f70545e3ec3afad0c0310f7404ecfd96de5166544",
+    "tests/test_agent_metrics.py": "097709e130fd8e8cc99fe55a3d58e12fc1a8e92ebb55c869bc1c37720a8960ff",
+    "tests/test_agentic.py": "cce1e6f29690de8cdbc6501e463afdbc514d07fd45e87f6437af5aea63d5bad9",
+    "tests/test_baseline.py": "f149d2eec9b67b8c473391fc611906b7ca544641a289e700a05c7d6e86f7f2c8",
+    "tests/test_colab_bridge.py": "238fc7ce00a7eb6d0023daf01c2c86ab06f71aaed8716e679c55d2d2dc64fc15",
+    "tests/test_experiments.py": "89910e137fa2a8711e37c7c057d389dace60332bff29201135be7bae1724c0de",
+    "tests/test_fixture.py": "45aa489e4e0a46f950ea8d58f41086ee031ae5c08269a2a28b9ea7e154cad2c1",
+    "tests/test_ingest.py": "e68038c8c9ca26fe67adb84083e4426bd1b9b26c24b79ae20aff239c69c750a2",
+    "tests/test_lab_agent.py": "8779a2a4c4dfdcef7ffab3010f6caed608b682f9f4ae7c60771d6efeff15ba89",
+    "tests/test_pipeline.py": "d45829e10cd59db891f4d0422e9c4166e1bdfe7d660c993cea60650c1d901831",
+    "tests/test_retrieval.py": "fa36a331abde246aa7000df1dd6e035eabb85a3bc39ae4a85c822f86589a8c3d",
+    "tests/test_submission_validation.py": "05c9bec50049b810c34f9d84d39753692b372041ef2329b7ca8a6d013cb9093b"
+  }
+}

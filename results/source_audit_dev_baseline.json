@@ -1,0 +1,427 @@
+{
+  "auditor": "Codex source audit; AI-authored, not human review",
+  "scope": "baseline_e5/basic/dev only; all17 cases; no test inspection or model/API/retrieval execution",
+  "created_at_utc": "2026-11-16T04:30:53.044047+00:00",
+  "method": "Read original native PDF text with PyMuPDF and actual answer/context/citations. No visual crops inspected; native labels used for chart numeric cross-check. Comparison includes full claims, citation membership/content, and documentwide year checks for absence. Answerable abstention_correct flags are not compared because that metric applies to unanswerable cases. original_pages_checked lists original source pages examined directly; other pages mentioned may refer only to actual cited/retrieved context.",
+  "input_sha256": {
+    "results\\experiments\\baseline_e5\\basic\\dev\\agent_traces.json": "daa4ebbd82dfedd73263c90004041956ea780cf7cca812b79c89f8758a7749a5",
+    "results\\experiments\\baseline_e5\\basic\\dev\\reviews.ai.json": "62bcb8f3aa2d64246ac7104e206bddb66542ec721670246ea7eafa2095a7f91e",
+    "data\\benchmark\\basic_questions.json": "2036f614f945f5a826ead344a87312bbee86125e60b4d437f52922b89688e7db",
+    "data\\source\\world-development-report-2024.pdf": "7f545194763ef2ffd1347c14bcf5a270c622b9c3a29e1c8c8b081aaee6c00df5"
+  },
+  "summary": {
+    "cases": 17,
+    "pass_count": 10,
+    "fail_count": 7,
+    "disagreements": [
+      "basic_dev_10",
+      "basic_dev_17"
+    ],
+    "concrete_errors": [
+      "basic_dev_02 misses108-country count and falsely abstains",
+      "basic_dev_03 replaces11% typical plateau with25% frequency interval",
+      "basic_dev_12 retrieves FAT function description but misses11-country count",
+      "basic_dev_14 context consists of footer fragments and misses88% coverage"
+    ],
+    "label_caution": "basic_dev_10 is under-specified across report passages; do not tune gold after results without versioning. AI labels remain unmodified."
+  },
+  "reviews": [
+    {
+      "query_id": "basic_dev_01",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original p17 explicitly forecasts 4% in 2020s, 5% in 2010s and more than 6% in 2000s. All answer claims supported by cited context.",
+      "original_pages_checked": [
+        17
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p17:g3:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_02",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "False abstention: original p36 states 108 countries. Context has classification discussion and front matter, but no count. Failure is retrieval/context omission, not absence in document.",
+      "original_pages_checked": [
+        36
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_03",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [
+          true,
+          true,
+          false
+        ],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Answer substitutes frequency interval below 25% and a literature definition 8-36% for requested typical 11% plateau. P75 native paragraph itself also gives median slowdown at 11%, but cited p75:g0 lacks that paragraph. First two cited contextual claims are supported; claimed long-run 10% is not established by cited p35:g1 numeric axes. P34 would be a clearer source for below one-tenth.",
+      "original_pages_checked": [
+        36,
+        74,
+        75,
+        35
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p75:g0:c0",
+        "wdr2024:p74:g2:c0",
+        "wdr2024:p35:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_04",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Both cited chunks and original p34/p67 explicitly connect Vietnam strategy 2021-2030 with high-income target 2045.",
+      "original_pages_checked": [
+        34,
+        67
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p34:g3:c0",
+        "wdr2024:p67:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_05",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original p39 and actual cited chunk state about US$33,000 in 2023; date, country and unit match.",
+      "original_pages_checked": [
+        39
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p39:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_06",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original p41 and cited context state tertiary education rates 15% in 2000 and 42% in 2012.",
+      "original_pages_checked": [
+        41
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p41:g3:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_07",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original p41 and cited Chile paragraph state first Latin American country to reach high-income status in 2012.",
+      "original_pages_checked": [
+        41
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p41:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_08",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original p41 explicitly says adaptation of Norwegian salmon farming technologies to local conditions. Norway answer supported.",
+      "original_pages_checked": [
+        41
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p41:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_09",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "False abstention: p45 explicitly states middle-income GHG/GDP intensity 3.5 times high-income. Retrieved p265 supports a different 2.5-times ENERGY statistic, which the answer mentions without citation. It does not answer GHG intensity. Missing p45 is material.",
+      "original_pages_checked": [
+        45
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_10",
+      "agrees_with_ai_label": false,
+      "recommended": {
+        "answer_grade": 1,
+        "context_grade": 1,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "AI grade 0/context 0 is too absolute: p107 genuinely says energy intensity about double, and p108 Figure3.5 native labels give UMIC9.0/HIC5.1, supporting 1.76 for that subgroup. Answer distinguishes these populations and has supported citations. However it misses intended p45 2.5-times statistic. Question has no date/section and Vietnamese wording can be read as upper-middle-income; report has alternate quantitative statements. Recommend partial credit and explicit ambiguity review, not a fabricated unsupported-answer error.",
+      "original_pages_checked": [
+        45,
+        47,
+        107,
+        108
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p107:g0:c0",
+        "wdr2024:p108:g0:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {
+        "answer_grade": {
+          "ai": 0,
+          "recommended": 1
+        },
+        "context_grade": {
+          "ai": 0,
+          "recommended": 1
+        }
+      }
+    },
+    {
+      "query_id": "basic_dev_11",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "False abstention: p52 defines killer acquisitions as buying innovative firms to kill future competing products and technologies. Context retrieves bibliography p139 and headings/footers instead; statement about only bibliography is valid for retrieved excerpts but not whole report.",
+      "original_pages_checked": [
+        52
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_12",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "False abstention: original p137 says FAT covers 11 developing economies. Retrieved p145 describes 300 technologies/50 functions without country count. Correct related survey hit is insufficient evidence for requested quantity.",
+      "original_pages_checked": [
+        137
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_13",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Cited p93 is a legitimate alternative to gold p91: original says Estonia reached80% of Western European income by2021. Full country/year/comparator supported.",
+      "original_pages_checked": [
+        91,
+        93
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p93:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_14",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "False abstention: original p254 says more than140 countries targets cover about88% global emissions. Actual final context is footer/continued-figure fragments on46,144,169,230,239, so content retrieval fails completely.",
+      "original_pages_checked": [
+        254
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_15",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original p254 and cited Izmir paragraph support both80% exported and primarily Europe. Extra geographic claims in answer also supported.",
+      "original_pages_checked": [
+        254
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p254:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_16",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "abstention_correct_applicable": true,
+      "reason": "Correct clean abstention without speculative GDP number. Documentwide year scan finds2025 only on107(projected debt) and171(China renewable target); neither gives observed Vietnam Q4 GDP. Context plans7% growth are not quarterly actuals.",
+      "original_pages_checked": [
+        107,
+        171,
+        34,
+        67
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_17",
+      "agrees_with_ai_label": false,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "abstention_correct_applicable": true,
+      "reason": "Correct clean abstention without speculative inflation number. Documentwide2026 hits only57(global data-center electricity forecast) and107(projected debt), not Korea inflation. AI context_grade2 is unsupported: retrieved references/chart/footers do not establish absence; set0. Absence established by separate whole-document audit.",
+      "original_pages_checked": [
+        57,
+        107
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {
+        "context_grade": {
+          "ai": 2,
+          "recommended": 0
+        }
+      }
+    }
+  ]
+}

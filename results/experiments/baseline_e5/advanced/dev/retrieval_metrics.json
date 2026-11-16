@@ -1,0 +1,19 @@
+{
+  "Hit@1": {
+    "n": 0,
+    "N": 15,
+    "rate": 0.0
+  },
+  "Evidence Hit@3": {
+    "n": 1,
+    "N": 15,
+    "rate": 0.06666666666666667
+  },
+  "Context Evidence Rate": {
+    "n": 1,
+    "N": 15,
+    "rate": 0.06666666666666667
+  },
+  "errors": 0,
+  "definition": "Strict normalized full gold quote within a source/page chunk; all multi-hop groups required. Visual/semantic sufficiency audited separately. This context rate is the original-query retrieval packing diagnostic; actual final agent context rate is in runtime_metrics.json."
+}

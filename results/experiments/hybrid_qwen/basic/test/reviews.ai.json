@@ -1,0 +1,306 @@
+[
+  {
+    "query_id": "basic_test_01",
+    "pass": false,
+    "error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval",
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "reason": "Systemerror: read_page attempted undiscovered page. Original34 states India developed-economy target2047. Missing result mustfail.",
+    "initial_ai_label": {
+      "query_id": "basic_test_01",
+      "pass": false,
+      "error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval",
+      "reviewer": "system",
+      "reason": "System error counts as advanced failure"
+    },
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "source_audit_path": "results/source_audit_test_selected_basic.json",
+    "source_pages_checked": [
+      34
+    ]
+  },
+  {
+    "query_id": "basic_test_02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original40 confirms1970s/1980s infusion and chaebols copying primarilyJapan; original90 independently supports Samsung licensing Sanyo/NEC. Actual two citations support all full answer claims.",
+    "source_pages": [
+      40,
+      90
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4148,
+        "completion_tokens": 105,
+        "total_tokens": 4754
+      },
+      "seconds": 5.410408399999142,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_test_02",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo tài liệu, nêu rõ Nhật Bản và trích dẫn đầy đủ nguồn ngữ cảnh hỗ trợ.",
+      "source_pages": [
+        40,
+        90
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_test_selected_basic.json",
+    "source_pages_checked": [
+      40,
+      90
+    ]
+  },
+  {
+    "query_id": "basic_test_03",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Falseabstention on answerable glossary question. Original28 defines energy units perGDP or another economic-output measure. Actual context omits glossary28 but DOES include p264:g1 energy used perGDP and p264:g2 energy consumed per dollarGDP, giving partial equivalent evidence. Thus contextgrade1 rather than0; answer's absolute no-information claim is False.",
+    "source_pages": [
+      28
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7844,
+        "completion_tokens": 256,
+        "total_tokens": 9417
+      },
+      "seconds": 13.55054339999333,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_test_03",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "citation_support": [],
+      "abstention_correct": false,
+      "pass": false,
+      "reason": "Câu hỏi có thể trả lời được dựa trên tài liệu gốc (trang 28), nhưng ngữ cảnh truy xuất thiếu trang này dẫn đến việc mô hình từ chối trả lời.",
+      "source_pages": [
+        28
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_test_selected_basic.json",
+    "source_pages_checked": [
+      28,
+      264
+    ]
+  },
+  {
+    "query_id": "basic_test_04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original29 glossary defines netzero balance between greenhouse gas produced and amount removed from atmosphere. Actual cited chunk contains both terms; correct full answer.",
+    "source_pages": [
+      29
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7844,
+        "completion_tokens": 256,
+        "total_tokens": 9417
+      },
+      "seconds": 13.55054339999333,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_test_04",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo định nghĩa trong bảng thuật ngữ, trích dẫn đầy đủ và đúng ngữ cảnh trang 29.",
+      "source_pages": [
+        29
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_test_selected_basic.json",
+    "source_pages_checked": [
+      29
+    ]
+  },
+  {
+    "query_id": "basic_test_05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original52 Deepen capital markets supports all four listed benefits: mentorship,resources,networking,sometimesfunding. Qualifier and intended growth/competition preserved. Single deduplicated citation supports all repeated uses.",
+    "source_pages": [
+      52
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8118,
+        "completion_tokens": 260,
+        "total_tokens": 9373
+      },
+      "seconds": 12.235154699999839,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_test_05",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời đầy đủ, hoàn toàn chính xác theo nội dung phần 'Deepen capital markets' ở trang 52 và trích dẫn chuẩn xác.",
+      "source_pages": [
+        52
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_test_selected_basic.json",
+    "source_pages_checked": [
+      52
+    ]
+  },
+  {
+    "query_id": "basic_test_06",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correctabstention: no observed2026 Poland tertiary rate. Whole-document year hits are unrelated electricity/debt forecasts. Finalcontext cannot establish documentwide absence, contextgrade0.",
+    "source_pages": [],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8118,
+        "completion_tokens": 260,
+        "total_tokens": 9373
+      },
+      "seconds": 12.235154699999839,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_test_06",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Báo cáo không có số liệu đo thực tế về giáo dục đại học của Ba Lan năm 2026; mô hình đã từ chối trả lời một cách chính xác.",
+      "source_pages": [],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_test_selected_basic.json",
+    "source_pages_checked": [
+      57,
+      107
+    ]
+  },
+  {
+    "query_id": "basic_test_07",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correctabstention without revenue fabrication. Whole-document2025 hits concern projecteddebt and China renewabletarget, not observed Chile salmonexports. Finalcontext does not prove whole-document absence.",
+    "source_pages": [],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 3880,
+        "completion_tokens": 140,
+        "total_tokens": 4501
+      },
+      "seconds": 9.294443299993873,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "basic_test_07",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu hỏi không thể trả lời dựa trên tài liệu vì không có số liệu xuất khẩu cá hồi thực tế của Chile năm 2025. Mô hình đã từ chối trả lời chính xác và không suy đoán.",
+      "source_pages": [],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_test_selected_basic.json",
+    "source_pages_checked": [
+      107,
+      171
+    ]
+  }
+]

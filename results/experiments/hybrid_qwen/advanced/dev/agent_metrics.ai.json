@@ -1,0 +1,71 @@
+{
+  "cases": 18,
+  "errors": 3,
+  "tool_use": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+  },
+  "grounded_answer": {
+    "counts": {
+      "0": 1,
+      "1": 1,
+      "2": 10
+    },
+    "mean_normalized": 0.875
+  },
+  "citation_validity": {
+    "n": 12,
+    "N": 14,
+    "rate": 0.8571428571428571
+  },
+  "abstention": {
+    "n": 3,
+    "N": 3,
+    "rate": 1.0
+  },
+  "false_abstention": {
+    "n": 1,
+    "N": 12,
+    "rate": 0.08333333333333333
+  },
+  "mean_seconds": 32.58721108891122,
+  "advanced_pass": {
+    "n": 13,
+    "N": 18,
+    "rate": 0.7222222222222222
+  },
+  "groups": {
+    "absent": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "chart": {
+      "n": 2,
+      "N": 3,
+      "rate": 0.6666666666666666
+    },
+    "diagram_image": {
+      "n": 1,
+      "N": 3,
+      "rate": 0.3333333333333333
+    },
+    "multi_hop": {
+      "n": 1,
+      "N": 3,
+      "rate": 0.3333333333333333
+    },
+    "table": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "text": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    }
+  },
+  "review_status": "AI assistance; original-page audit and limitations must accompany score"
+}

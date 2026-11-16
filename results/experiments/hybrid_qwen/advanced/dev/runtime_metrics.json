@@ -1,0 +1,373 @@
+{
+  "final_context_evidence_rate": {
+    "n": 6,
+    "N": 15,
+    "rate": 0.4
+  },
+  "definition": "Actual final context sent to answering model; strict native gold quote+source/page, all multihop groups required; errors scored0. Visual semantic evidence separately source-audited.",
+  "answer_citation_coverage": {
+    "n": 11,
+    "N": 11,
+    "rate": 1.0
+  },
+  "retrieval_tool_call_distribution_successful_queries": {
+    "1": 5,
+    "2": 5,
+    "3": 5
+  },
+  "context_grade_distribution_answerable_successful": {
+    "2": 11,
+    "1": 1
+  },
+  "per_query_context_review": [
+    {
+      "query_id": "advanced_dev_01",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Rendered original TableO.1 inspected: Low-income population column8.9%; cited row and unit correct.",
+      "context_ids": [
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p63:vision:c0",
+        "wdr2024:p63:vision:c1",
+        "wdr2024:p86:vision:c0",
+        "wdr2024:p36:vision:c1",
+        "wdr2024:p263:vision:c0",
+        "wdr2024:p39:vision:c0",
+        "wdr2024:p36:g0:c0",
+        "wdr2024:p36:g1:c0",
+        "wdr2024:p36:g3:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_02",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Rendered original TableO.1 inspected: High-income GDP column60.8%; cited row/year/unit correct.",
+      "context_ids": [
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p63:vision:c0",
+        "wdr2024:p36:vision:c1",
+        "wdr2024:p63:g2:c0",
+        "wdr2024:p36:g3:c0",
+        "wdr2024:p67:vision:c0",
+        "wdr2024:p63:g1:c0",
+        "wdr2024:p36:g0:c0",
+        "wdr2024:p36:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_03",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Rendered original TableO.1 inspected: Upper-middle-income extreme-poverty column7.1%; full answer supported.",
+      "context_ids": [
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p63:vision:c0",
+        "wdr2024:p36:vision:c1",
+        "wdr2024:p36:g3:c0",
+        "wdr2024:p63:g2:c0",
+        "wdr2024:p67:g0:c0",
+        "wdr2024:p67:g1:c0",
+        "wdr2024:p36:g0:c0",
+        "wdr2024:p36:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_04",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error: read_page must use a page discovered by retrieval. Rendered original115 inspected: Preservation left circle largest, so answer exists. Missing result counts as failure.",
+      "context_ids": [
+        "wdr2024:p115:vision:c0",
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p96:vision:c0",
+        "wdr2024:p200:g1:c1",
+        "wdr2024:p171:vision:c0",
+        "wdr2024:p113:g2:c0",
+        "wdr2024:p115:g0:c0",
+        "wdr2024:p262:vision:c1",
+        "wdr2024:p46:g0:c0",
+        "wdr2024:p46:g1:c0",
+        "wdr2024:p46:g2:c0",
+        "wdr2024:p46:vision:c0",
+        "wdr2024:p46:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_05",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error: undiscovered-page read guard. Rendered119 Figure4.2a inspected: incumbent figures block entrant crossing technology frontier; answer exists but system returned no result.",
+      "context_ids": [
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p96:vision:c0",
+        "wdr2024:p200:g1:c1",
+        "wdr2024:p119:g0:c0",
+        "wdr2024:p129:g0:c0",
+        "wdr2024:p258:g3:c0",
+        "wdr2024:p88:vision:c1",
+        "wdr2024:p9:g1:c0",
+        "wdr2024:p46:g0:c0",
+        "wdr2024:p46:g1:c0",
+        "wdr2024:p46:g2:c0",
+        "wdr2024:p46:vision:c0",
+        "wdr2024:p46:vision:c1",
+        "wdr2024:p96:g0:c0",
+        "wdr2024:p96:g1:c0",
+        "wdr2024:p96:g2:c0",
+        "wdr2024:p96:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_06",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Rendered original120 Figure4.3 inspected: vertical ladder label Productivity or quality of production. Actual citation contains exact label; correct answer.",
+      "context_ids": [
+        "wdr2024:p120:g0:c0",
+        "wdr2024:p120:g1:c0",
+        "wdr2024:p120:g2:c0",
+        "wdr2024:p120:g3:c0",
+        "wdr2024:p120:vision:c0",
+        "wdr2024:p120:vision:c1",
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p200:g1:c1",
+        "wdr2024:p241:g2:c0",
+        "wdr2024:p96:vision:c0",
+        "wdr2024:p133:g0:c0",
+        "wdr2024:p262:vision:c1",
+        "wdr2024:p132:g0:c0",
+        "wdr2024:p46:g0:c0",
+        "wdr2024:p46:g1:c0",
+        "wdr2024:p46:g2:c0",
+        "wdr2024:p46:vision:c0",
+        "wdr2024:p46:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_07",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original108 Figure3.5b visually inspected during prior source audit: middle UMIC bar0.086 with GtCO2 equivalent/exajoule axis. Value/group/unit all correct in actual citation.",
+      "context_ids": [
+        "wdr2024:p108:vision:c0",
+        "wdr2024:p81:g0:c0",
+        "wdr2024:p108:g0:c0",
+        "wdr2024:p46:vision:c0",
+        "wdr2024:p264:g2:c0",
+        "wdr2024:p82:vision:c1",
+        "wdr2024:p265:g0:c0",
+        "wdr2024:p81:g1:c0",
+        "wdr2024:p108:g1:c0",
+        "wdr2024:p108:g2:c0",
+        "wdr2024:p81:vision:c0",
+        "wdr2024:p81:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_08",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Rendered104 Figure3.1 inspected: horizontal years2010 through2022. Actual cited chunk contains endpoints and figure identity.",
+      "context_ids": [
+        "wdr2024:p104:g0:c0",
+        "wdr2024:p104:g1:c0",
+        "wdr2024:p104:g2:c0",
+        "wdr2024:p104:vision:c0",
+        "wdr2024:p104:vision:c1",
+        "wdr2024:p185:vision:c0",
+        "wdr2024:p6:g2:c0",
+        "wdr2024:p6:g3:c0",
+        "wdr2024:p49:vision:c0",
+        "wdr2024:p103:g0:c0",
+        "wdr2024:p262:vision:c1",
+        "wdr2024:p101:g2:c0",
+        "wdr2024:p185:g0:c0",
+        "wdr2024:p185:g1:c0",
+        "wdr2024:p185:vision:c1",
+        "wdr2024:p6:g0:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_09",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Rendered original106 independently inspected: total debt peaks near2020 around200% GDP, then declines through2022. Requested peak choice2020 is correct. Added claim continuously increasing is false (post2020 decline and earlier nonmonotonic sections). Native cited chunk lacks numeric trajectories; generated vision citation falsely describes continuous rise to2022 and overstates private debt dominance. Both citation labels are false for full compound claims as used, although original page supports the main peak assertion. Strict advanced all-claims pass must fail.",
+      "context_ids": [
+        "wdr2024:p106:g0:c0",
+        "wdr2024:p106:g1:c0",
+        "wdr2024:p106:g2:c0",
+        "wdr2024:p106:vision:c0",
+        "wdr2024:p11:g2:c0",
+        "wdr2024:p6:g0:c0",
+        "wdr2024:p6:g3:c0",
+        "wdr2024:p6:g2:c0",
+        "wdr2024:p185:vision:c0",
+        "wdr2024:p107:vision:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_10",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Original36 native text directly says over last34 years only34 economies broke out. Timeframe/count correctly preserved.",
+      "context_ids": [
+        "wdr2024:p36:g1:c0",
+        "wdr2024:p63:g0:c0",
+        "wdr2024:p33:g0:c0",
+        "wdr2024:p66:g2:c0",
+        "wdr2024:p17:g0:c0",
+        "wdr2024:p215:g3:c0",
+        "wdr2024:p276:g0:c0",
+        "wdr2024:p68:g3:c0",
+        "wdr2024:p36:g0:c0",
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p36:g3:c0",
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p36:vision:c1",
+        "wdr2024:p63:g1:c0",
+        "wdr2024:p63:g2:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_11",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original117/119 native paragraphs explicitly say majority start businesses driven by necessity, not opportunity. Both actual citations support answer.",
+      "context_ids": [
+        "wdr2024:p117:g0:c0",
+        "wdr2024:p253:g1:c0",
+        "wdr2024:p113:g2:c0",
+        "wdr2024:p119:g1:c0",
+        "wdr2024:p113:g1:c0",
+        "wdr2024:p73:g1:c0",
+        "wdr2024:p114:g2:c0",
+        "wdr2024:p42:g3:c0",
+        "wdr2024:p117:g1:c0",
+        "wdr2024:p253:g0:c0",
+        "wdr2024:p236:g2:c0",
+        "wdr2024:p126:g2:c0",
+        "wdr2024:p174:g1:c0",
+        "wdr2024:p25:g1:c0",
+        "wdr2024:p236:g4:c0",
+        "wdr2024:p236:g0:c0",
+        "wdr2024:p1:g0:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_12",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original105 native paragraph estimates technological fragmentation costs as high as5% GDP for many economies; answer preserves estimate qualifier.",
+      "context_ids": [
+        "wdr2024:p105:g2:c0",
+        "wdr2024:p111:g0:c0",
+        "wdr2024:p178:g3:c1",
+        "wdr2024:p255:g1:c0",
+        "wdr2024:p242:g2:c0",
+        "wdr2024:p266:g2:c0",
+        "wdr2024:p255:g2:c0",
+        "wdr2024:p108:g1:c0",
+        "wdr2024:p105:g0:c0",
+        "wdr2024:p105:g1:c0",
+        "wdr2024:p105:vision:c0",
+        "wdr2024:p111:g1:c0",
+        "wdr2024:p111:g2:c0",
+        "wdr2024:p111:g3:c0",
+        "wdr2024:p111:g4:c0",
+        "wdr2024:p196:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_13",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Rendered original39 TableO.2: Lower-middle-income infusion Higher priority. Rendered59 TableO.3 lower-middle Enterprise cell: diffuse global technologies with fluid factor/product markets. Two required hops and correctly named row/column present in actual cited chunks.",
+      "context_ids": [
+        "wdr2024:p59:g0:c0",
+        "wdr2024:p59:g1:c0",
+        "wdr2024:p59:g2:c0",
+        "wdr2024:p59:vision:c0",
+        "wdr2024:p59:vision:c1",
+        "wdr2024:p113:g0:c0",
+        "wdr2024:p86:vision:c0",
+        "wdr2024:p85:g1:c0",
+        "wdr2024:p86:g0:c0",
+        "wdr2024:p86:g3:c0",
+        "wdr2024:p39:vision:c0",
+        "wdr2024:p88:g1:c0",
+        "wdr2024:p39:g0:c0",
+        "wdr2024:p89:g3:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_14",
+      "context_grade": 1,
+      "strict_complete_evidence": false,
+      "reason": "False abstention. Original117 defines state-owned enterprises(SOEs); original195 states outsize market share, grid control and regulatory influence block renewables. Question cites printed85/163, corresponding PDF117/195. Actual context has SOE definition onPDF32 but lacks second-hop block-entry mechanism; partialcontext1, answergrade0. Page numbering confusion is a plausible failure mechanism, not a demonstrated internal cause.",
+      "context_ids": [
+        "wdr2024:p118:g2:c0",
+        "wdr2024:p115:g0:c0",
+        "wdr2024:p114:g2:c0",
+        "wdr2024:p113:g1:c0",
+        "wdr2024:p8:g0:c0",
+        "wdr2024:p129:vision:c0",
+        "wdr2024:p40:g2:c0",
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p118:g0:c0",
+        "wdr2024:p118:g1:c0",
+        "wdr2024:p118:vision:c0",
+        "wdr2024:p115:vision:c0",
+        "wdr2024:p32:g0:c0",
+        "wdr2024:p199:vision:c1",
+        "wdr2024:p201:vision:c0",
+        "wdr2024:p198:g2:c0",
+        "wdr2024:p6:g3:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_15",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error: undiscovered-page read guard. Original38 native text requires many technical workers/engineers/scientists/managers; rendered120/native text includes firm entry/exit rates. Gold exists at printed6/88=PDF38/120; missing result fails.",
+      "context_ids": [
+        "wdr2024:p58:g3:c0",
+        "wdr2024:p62:g4:c0",
+        "wdr2024:p40:g2:c0",
+        "wdr2024:p258:g3:c0",
+        "wdr2024:p210:g2:c0",
+        "wdr2024:p144:g4:c0",
+        "wdr2024:p230:g4:c0",
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p58:g0:c0",
+        "wdr2024:p58:g1:c0",
+        "wdr2024:p58:g2:c0",
+        "wdr2024:p58:g2:c1",
+        "wdr2024:p58:vision:c0",
+        "wdr2024:p62:g0:c0",
+        "wdr2024:p62:g1:c0",
+        "wdr2024:p62:g2:c0",
+        "wdr2024:p62:g3:c0",
+        "wdr2024:p100:g2:c0",
+        "wdr2024:p79:g2:c0",
+        "wdr2024:p120:g3:c0",
+        "wdr2024:p90:g2:c0",
+        "wdr2024:p114:g2:c0",
+        "wdr2024:p222:g3:c0"
+      ]
+    }
+  ],
+  "model_calls": 54,
+  "model_http_attempts_recorded": 54,
+  "usage": {
+    "prompt_tokens": 166148,
+    "completion_tokens": 2814,
+    "total_tokens": 189500
+  },
+  "usd_cost": null,
+  "cost_limitations": "No verified USD tariff; usage available only for recorded model responses, failures/setup may not supply token usage.",
+  "errors": 3
+}

@@ -1,0 +1,128 @@
+{
+  "selected": {
+    "id": "hybrid_qwen",
+    "method": "hybrid_qwen",
+    "top_k": 8,
+    "context_budget": 16000,
+    "max_rounds": 3,
+    "page_expansion": true,
+    "model": "gemini-3.8-flash-high",
+    "hypothesis": "RRF plus page expansion preserves table labels, chart conditions and adjacent evidence."
+  },
+  "ranking": [
+    {
+      "config": {
+        "id": "hybrid_qwen",
+        "method": "hybrid_qwen",
+        "top_k": 8,
+        "context_budget": 16000,
+        "max_rounds": 3,
+        "page_expansion": true,
+        "model": "gemini-3.8-flash-high",
+        "hypothesis": "RRF plus page expansion preserves table labels, chart conditions and adjacent evidence."
+      },
+      "quality": 0.8166666666666667,
+      "citation_rate": 0.9487179487179487,
+      "mean_seconds": 43.01922259143487
+    },
+    {
+      "config": {
+        "id": "dense_qwen",
+        "method": "dense_qwen",
+        "top_k": 6,
+        "context_budget": 10000,
+        "max_rounds": 2,
+        "page_expansion": false,
+        "model": "gemini-3.8-flash-high",
+        "hypothesis": "Larger multilingual embedding and more candidates improve evidence coverage."
+      },
+      "quality": 0.8,
+      "citation_rate": 1.0,
+      "mean_seconds": 39.547644134288255
+    },
+    {
+      "config": {
+        "id": "bm25",
+        "method": "bm25",
+        "top_k": 6,
+        "context_budget": 10000,
+        "max_rounds": 2,
+        "page_expansion": false,
+        "model": "gemini-3.8-flash-high",
+        "hypothesis": "Lexical matching helps figure identifiers and rare terms; original Vietnamese queries may miss English terms."
+      },
+      "quality": 0.6666666666666666,
+      "citation_rate": 1.0,
+      "mean_seconds": 30.22294058571237
+    },
+    {
+      "config": {
+        "id": "baseline_e5",
+        "method": "dense_e5",
+        "top_k": 3,
+        "context_budget": 6000,
+        "max_rounds": 2,
+        "page_expansion": false,
+        "model": "gemini-3.8-flash-high",
+        "hypothesis": "Day 6 E5 dense baseline with a compact context."
+      },
+      "quality": 0.38333333333333336,
+      "citation_rate": 0.9411764705882353,
+      "mean_seconds": 49.50002545999097
+    }
+  ],
+  "selection_rule": "Choose on pooled dev only: highest mean answer_grade/2, then citation support rate, then lower mean agent latency. Benchmark labels are AI-assisted and require source audit; do not tune on test.",
+  "locked_at_utc": "2026-11-16T05:15:55.280812+00:00",
+  "index_manifest_sha256": "03f73b1bc1a3d7b288ac621bf04f86337c58a74ac556522b32b5248059678869",
+  "config_sha256": "4d6b6cd55a1e72868de9727ab5aed8eb6d89eae68e7000128957e1e834500f7a",
+  "implementation_sha256": {
+    "src/agent.py": "677ab39d8a55a20c7e59f19b87c60c3f989d00471e2caa84a35ae68f4d96126d",
+    "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+  },
+  "dev_implementation_sha256": {
+    "baseline_e5/basic": {
+      "src/agent.py": "3b6568e9ff7e282e13ea986f9b4f82e35e172d7bac83e98d36b11a47f53d429c",
+      "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+    },
+    "baseline_e5/advanced": {
+      "src/agent.py": "3b6568e9ff7e282e13ea986f9b4f82e35e172d7bac83e98d36b11a47f53d429c",
+      "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+    },
+    "bm25/basic": {
+      "src/agent.py": "3b6568e9ff7e282e13ea986f9b4f82e35e172d7bac83e98d36b11a47f53d429c",
+      "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+    },
+    "bm25/advanced": {
+      "src/agent.py": "3b6568e9ff7e282e13ea986f9b4f82e35e172d7bac83e98d36b11a47f53d429c",
+      "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+    },
+    "dense_qwen/basic": {
+      "src/agent.py": "3b6568e9ff7e282e13ea986f9b4f82e35e172d7bac83e98d36b11a47f53d429c",
+      "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+    },
+    "dense_qwen/advanced": {
+      "src/agent.py": "3b6568e9ff7e282e13ea986f9b4f82e35e172d7bac83e98d36b11a47f53d429c",
+      "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+    },
+    "hybrid_qwen/basic": {
+      "src/agent.py": "3b6568e9ff7e282e13ea986f9b4f82e35e172d7bac83e98d36b11a47f53d429c",
+      "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+    },
+    "hybrid_qwen/advanced": {
+      "src/agent.py": "3b6568e9ff7e282e13ea986f9b4f82e35e172d7bac83e98d36b11a47f53d429c",
+      "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+    }
+  },
+  "benchmark_sha256": {
+    "basic": "2036f614f945f5a826ead344a87312bbee86125e60b4d437f52922b89688e7db",
+    "advanced": "b1c5a9f3e8d205df3cf7fa413ff3ed2e3a38485bb1acd5b1a8de0feb4276d40d"
+  },
+  "review_note": "AI-assisted dev labels plus explicit original-page source audits; no held-out test was run before this lock.",
+  "pretest_trace_only_patch": "Record actual requested tool arguments before execution, including failures. Prompts, retrieval, config and answer policy unchanged;39tests passed. Dev source hashes retained separately.",
+  "source_audit_files": [
+    "results/source_audit_dev_baseline.json",
+    "results/source_audit_dev_dense_advanced.json",
+    "results/source_audit_dev_dense_qwen.json",
+    "results/source_audit_dev_hybrid_advanced.json"
+  ]
+}

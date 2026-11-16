@@ -1,0 +1,149 @@
+{
+  "final_context_evidence_rate": {
+    "n": 3,
+    "N": 5,
+    "rate": 0.6
+  },
+  "definition": "Actual final context sent to answering model; strict native gold quote+source/page, all multihop groups required; errors scored0. Visual semantic evidence separately source-audited.",
+  "answer_citation_coverage": {
+    "n": 3,
+    "N": 3,
+    "rate": 1.0
+  },
+  "retrieval_tool_call_distribution_successful_queries": {
+    "1": 2,
+    "2": 1,
+    "3": 3
+  },
+  "context_grade_distribution_answerable_successful": {
+    "2": 3,
+    "1": 1
+  },
+  "per_query_context_review": [
+    {
+      "query_id": "basic_test_01",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Systemerror: read_page attempted undiscovered page. Original34 states India developed-economy target2047. Missing result mustfail.",
+      "context_ids": [
+        "wdr2024:p7:g0:c0",
+        "wdr2024:p17:g2:c0",
+        "wdr2024:p17:g1:c0",
+        "wdr2024:p18:g0:c0",
+        "wdr2024:p15:g0:c0",
+        "wdr2024:p17:g0:c0",
+        "wdr2024:p1:g0:c0",
+        "wdr2024:p66:g3:c0",
+        "wdr2024:p17:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_test_02",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original40 confirms1970s/1980s infusion and chaebols copying primarilyJapan; original90 independently supports Samsung licensing Sanyo/NEC. Actual two citations support all full answer claims.",
+      "context_ids": [
+        "wdr2024:p85:g1:c1",
+        "wdr2024:p88:g1:c0",
+        "wdr2024:p42:g0:c0",
+        "wdr2024:p189:g1:c0",
+        "wdr2024:p90:g1:c0",
+        "wdr2024:p40:g1:c0",
+        "wdr2024:p89:g3:c0",
+        "wdr2024:p39:vision:c0",
+        "wdr2024:p85:g0:c0",
+        "wdr2024:p85:g1:c0",
+        "wdr2024:p85:g2:c0",
+        "wdr2024:p85:g3:c0",
+        "wdr2024:p88:g0:c0",
+        "wdr2024:p88:g2:c0",
+        "wdr2024:p88:vision:c0",
+        "wdr2024:p88:vision:c1"
+      ]
+    },
+    {
+      "query_id": "basic_test_03",
+      "context_grade": 1,
+      "strict_complete_evidence": false,
+      "reason": "Falseabstention on answerable glossary question. Original28 defines energy units perGDP or another economic-output measure. Actual context omits glossary28 but DOES include p264:g1 energy used perGDP and p264:g2 energy consumed per dollarGDP, giving partial equivalent evidence. Thus contextgrade1 rather than0; answer's absolute no-information claim is False.",
+      "context_ids": [
+        "wdr2024:p69:g3:c0",
+        "wdr2024:p209:g4:c0",
+        "wdr2024:p27:g0:c0",
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p269:g3:c0",
+        "wdr2024:p239:g3:c0",
+        "wdr2024:p21:g3:c0",
+        "wdr2024:p31:g0:c0",
+        "wdr2024:p69:g0:c0",
+        "wdr2024:p69:g1:c0",
+        "wdr2024:p69:g2:c0",
+        "wdr2024:p209:g0:c0",
+        "wdr2024:p209:g1:c0",
+        "wdr2024:p209:g2:c0",
+        "wdr2024:p209:g3:c0",
+        "wdr2024:p108:g0:c0",
+        "wdr2024:p82:vision:c1",
+        "wdr2024:p108:vision:c0",
+        "wdr2024:p264:g1:c0",
+        "wdr2024:p264:g2:c0",
+        "wdr2024:p3:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_test_04",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original29 glossary defines netzero balance between greenhouse gas produced and amount removed from atmosphere. Actual cited chunk contains both terms; correct full answer.",
+      "context_ids": [
+        "wdr2024:p271:g0:c0",
+        "wdr2024:p265:g2:c0",
+        "wdr2024:p254:g0:c0",
+        "wdr2024:p111:g3:c0",
+        "wdr2024:p268:g3:c0",
+        "wdr2024:p107:g1:c0",
+        "wdr2024:p29:g0:c0",
+        "wdr2024:p273:g4:c0",
+        "wdr2024:p271:g1:c0",
+        "wdr2024:p271:g2:c0",
+        "wdr2024:p271:g3:c0",
+        "wdr2024:p265:g0:c0",
+        "wdr2024:p265:g1:c0",
+        "wdr2024:p265:vision:c1"
+      ]
+    },
+    {
+      "query_id": "basic_test_05",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original52 Deepen capital markets supports all four listed benefits: mentorship,resources,networking,sometimesfunding. Qualifier and intended growth/competition preserved. Single deduplicated citation supports all repeated uses.",
+      "context_ids": [
+        "wdr2024:p52:g2:c0",
+        "wdr2024:p59:g1:c0",
+        "wdr2024:p132:g0:c0",
+        "wdr2024:p59:g2:c0",
+        "wdr2024:p25:g1:c0",
+        "wdr2024:p237:g4:c0",
+        "wdr2024:p133:g0:c0",
+        "wdr2024:p237:g1:c0",
+        "wdr2024:p52:g0:c0",
+        "wdr2024:p52:g1:c0",
+        "wdr2024:p52:g3:c0",
+        "wdr2024:p59:g0:c0",
+        "wdr2024:p59:vision:c0",
+        "wdr2024:p59:vision:c1",
+        "wdr2024:p249:g3:c0"
+      ]
+    }
+  ],
+  "model_calls": 21,
+  "model_http_attempts_recorded": 21,
+  "usage": {
+    "prompt_tokens": 66945,
+    "completion_tokens": 1000,
+    "total_tokens": 76708
+  },
+  "usd_cost": null,
+  "cost_limitations": "No verified USD tariff; usage available only for recorded model responses, failures/setup may not supply token usage.",
+  "errors": 1
+}

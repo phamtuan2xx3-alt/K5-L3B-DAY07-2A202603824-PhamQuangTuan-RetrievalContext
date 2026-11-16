@@ -9,3 +9,46 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+data/embedding_cache/
+data/qdrant/
+data/processed/source_pages.txt
+data/crops/
+.runtime/
+# Rebuildable heavy intermediates; manifests and final evidence stay shareable.
+data/source/*.pdf
+data/embeddings/*_native.npz
+data/native_index_manifest.json
+results/native_agent_smoke.json
+results/*.log
+results/vision_descriptions_attempt*.log
+results/colab_bridge_replay.json
+docs/PROGRESS.md
+report/evidence.local.html
+results/diagnostics/
+PLAN.md
+# One-off setup diagnostics; reproducibility and scored evidence remain included.
+results/preflight.json
+results/colab_reload_check.json
+scripts/build_native_preview.py
+submission-package/
+submission-package.zip
+# Local machine setup and operational diagnostics, outside the lab submission.
+docs/COLAB_CLI.md
+scripts/configure_colab_keyring.py
+scripts/configure_colab_network.py
+scripts/keep_lab_budget_active.py
+scripts/preflight.py
+scripts/probe_colab_bridge.py
+results/colab_bridge_smoke.json
+results/colab_bridge_settings_check.json
+results/execution_schedule.json
+results/test_execution_schedule.json
+results/gateway_tool_roundtrip_failure.json
+results/local_runtime_versions.json
+results/git_hash_stability.json
+scripts/check_git_hashes.py
+# Optional authoring notes and duplicate example-compatibility outputs.
+docs/BASIC_BENCHMARK_AUDIT.md
+docs/ADVANCED_BENCHMARK_AUDIT.md
+docs/RUBRIC_CHECKLIST.md
+results/compatibility/

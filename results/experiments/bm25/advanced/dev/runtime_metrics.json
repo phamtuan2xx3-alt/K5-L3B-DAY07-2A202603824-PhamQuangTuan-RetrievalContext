@@ -1,0 +1,273 @@
+{
+  "final_context_evidence_rate": {
+    "n": 8,
+    "N": 15,
+    "rate": 0.5333333333333333
+  },
+  "definition": "Actual final context sent to answering model; strict native gold quote+source/page, all multihop groups required; errors scored0. Visual semantic evidence separately source-audited.",
+  "answer_citation_coverage": {
+    "n": 13,
+    "N": 13,
+    "rate": 1.0
+  },
+  "retrieval_tool_call_distribution_successful_queries": {
+    "1": 4,
+    "2": 13
+  },
+  "context_grade_distribution_answerable_successful": {
+    "2": 13,
+    "0": 1
+  },
+  "per_query_context_review": [
+    {
+      "query_id": "advanced_dev_01",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Câu trả lời hoàn toàn chính xác (8,9%) và trích dẫn chuẩn xác từ Bảng O.1 ở trang 36.",
+      "context_ids": [
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p15:g0:c0",
+        "wdr2024:p35:vision:c0",
+        "wdr2024:p35:g1:c0",
+        "wdr2024:p67:vision:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_02",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Câu trả lời hoàn toàn chính xác (60,8%) và trích dẫn chuẩn xác từ Bảng O.1 ở trang 36.",
+      "context_ids": [
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p15:g0:c0",
+        "wdr2024:p36:vision:c1",
+        "wdr2024:p63:vision:c0",
+        "wdr2024:p35:vision:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_03",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Câu trả lời hoàn toàn chính xác theo Bảng O.1 trên trang 36 và trích dẫn đầy đủ, đúng ngữ cảnh.",
+      "context_ids": [
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p264:vision:c0",
+        "wdr2024:p63:vision:c0",
+        "wdr2024:p67:vision:c0",
+        "wdr2024:p36:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_04",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo Hình P2.1 trên trang 115 và trích dẫn chuẩn xác ngữ cảnh thị giác.",
+      "context_ids": [
+        "wdr2024:p115:g0:c0",
+        "wdr2024:p115:vision:c0",
+        "wdr2024:p113:g2:c0",
+        "wdr2024:p9:g0:c0",
+        "wdr2024:p12:g1:c0",
+        "wdr2024:p114:g0:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_05",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo hình minh họa và nội dung của Panel a (Hình 4.2), nêu rõ hành vi bắt tay nhau cản trở/đẩy lùi doanh nghiệp mới. Các trích dẫn đều chính xác và hỗ trợ đầy đủ.",
+      "context_ids": [
+        "wdr2024:p119:g0:c0",
+        "wdr2024:p119:g1:c0",
+        "wdr2024:p119:g2:c0",
+        "wdr2024:p119:vision:c0",
+        "wdr2024:p119:vision:c1",
+        "wdr2024:p129:g0:c0",
+        "wdr2024:p9:g1:c0",
+        "wdr2024:p199:vision:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_06",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác, nêu đúng đại lượng trên trục thẳng đứng là \"Năng suất hoặc chất lượng sản xuất\" (Productivity or quality of production) và trích dẫn chuẩn xác.",
+      "context_ids": [
+        "wdr2024:p120:g0:c0",
+        "wdr2024:p120:g1:c0",
+        "wdr2024:p120:g2:c0",
+        "wdr2024:p120:g3:c0",
+        "wdr2024:p120:vision:c0",
+        "wdr2024:p120:vision:c1",
+        "wdr2024:p133:g0:c0",
+        "wdr2024:p132:g0:c0",
+        "wdr2024:p9:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_07",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác về giá trị (0,086) và đơn vị (GtCO2 tương đương/exajoule) dựa trên Hình 3.5b, trích dẫn chuẩn xác.",
+      "context_ids": [
+        "wdr2024:p108:g0:c0",
+        "wdr2024:p108:g1:c0",
+        "wdr2024:p108:g2:c0",
+        "wdr2024:p108:vision:c0",
+        "wdr2024:p81:g0:c0",
+        "wdr2024:p81:g1:c0",
+        "wdr2024:p258:g0:c0",
+        "wdr2024:p46:g2:c0",
+        "wdr2024:p46:vision:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_08",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác khoảng năm trên trục ngang của Hình 3.1 (2010–2022) và trích dẫn đúng đoạn dữ liệu.",
+      "context_ids": [
+        "wdr2024:p104:g0:c0",
+        "wdr2024:p104:g1:c0",
+        "wdr2024:p104:g2:c0",
+        "wdr2024:p104:vision:c0",
+        "wdr2024:p104:vision:c1",
+        "wdr2024:p103:g0:c0",
+        "wdr2024:p98:g0:c0",
+        "wdr2024:p101:g2:c0",
+        "wdr2024:p102:g0:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_09",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác khi xác định tổng nợ đạt đỉnh vào khoảng năm 2020 thay vì 1950 dựa trên Hình 3.3. Các trích dẫn đều tồn tại và hỗ trợ nội dung.",
+      "context_ids": [
+        "wdr2024:p106:g0:c0",
+        "wdr2024:p106:g1:c0",
+        "wdr2024:p106:g2:c0",
+        "wdr2024:p106:vision:c0",
+        "wdr2024:p185:vision:c0",
+        "wdr2024:p174:g0:c0",
+        "wdr2024:p11:g2:c0",
+        "wdr2024:p105:g2:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_10",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Câu trả lời hoàn toàn chính xác theo văn bản báo cáo (34 nền kinh tế). Cả hai trích dẫn đều chính xác và hỗ trợ đầy đủ cho câu trả lời.",
+      "context_ids": [
+        "wdr2024:p215:g3:c0",
+        "wdr2024:p36:g1:c0",
+        "wdr2024:p68:g3:c0",
+        "wdr2024:p66:g3:c0",
+        "wdr2024:p229:g1:c0",
+        "wdr2024:p47:g0:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_11",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác so với thông tin trong văn bản gốc và câu trả lời mẫu, các trích dẫn đều hợp lệ và hỗ trợ đầy đủ luận điểm.",
+      "context_ids": [
+        "wdr2024:p117:g0:c0",
+        "wdr2024:p119:g1:c0",
+        "wdr2024:p237:g4:c0",
+        "wdr2024:p174:vision:c0",
+        "wdr2024:p48:g0:c0",
+        "wdr2024:p237:g3:c0",
+        "wdr2024:p1:g0:c0",
+        "wdr2024:p3:g0:c0",
+        "wdr2024:p5:g0:c0",
+        "wdr2024:p6:g0:c0",
+        "wdr2024:p6:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_12",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo dữ liệu trong báo cáo (lên tới 5% GDP), trích dẫn chính xác và đầy đủ.",
+      "context_ids": [
+        "wdr2024:p111:g0:c0",
+        "wdr2024:p105:g2:c0",
+        "wdr2024:p113:g2:c0",
+        "wdr2024:p74:g3:c0",
+        "wdr2024:p100:g0:c0",
+        "wdr2024:p46:vision:c1",
+        "wdr2024:p216:g0:c0",
+        "wdr2024:p1:g0:c0",
+        "wdr2024:p3:g0:c0",
+        "wdr2024:p5:g0:c0",
+        "wdr2024:p6:g0:c0",
+        "wdr2024:p6:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_13",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Câu trả lời hoàn toàn chính xác theo Bảng O.2 (mức ưu tiên cao / Higher priority) và Bảng O.3 (thị trường yếu tố và sản phẩm linh hoạt, thông suốt / fluid factor and product markets), kèm trích dẫn đối chiếu đầy đủ.",
+      "context_ids": [
+        "wdr2024:p59:g0:c0",
+        "wdr2024:p59:g1:c0",
+        "wdr2024:p59:g2:c0",
+        "wdr2024:p59:vision:c0",
+        "wdr2024:p59:vision:c1",
+        "wdr2024:p15:g0:c0",
+        "wdr2024:p10:g1:c0",
+        "wdr2024:p39:vision:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_14",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": [
+        "wdr2024:p8:g0:c0",
+        "wdr2024:p195:g2:c0",
+        "wdr2024:p199:vision:c1",
+        "wdr2024:p9:g0:c0",
+        "wdr2024:p32:g0:c0",
+        "wdr2024:p266:g0:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_15",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 6 và 88 của báo cáo, tương ứng trang PDF 38 và 120), nhưng mô hình đã từ chối trả lời do ngữ cảnh được cung cấp thiếu thông tin.",
+      "context_ids": [
+        "wdr2024:p114:g2:c0",
+        "wdr2024:p62:g4:c0",
+        "wdr2024:p164:g4:c0",
+        "wdr2024:p118:g2:c0",
+        "wdr2024:p100:g1:c0",
+        "wdr2024:p273:g3:c0",
+        "wdr2024:p100:g2:c0",
+        "wdr2024:p120:g3:c0",
+        "wdr2024:p55:g1:c0",
+        "wdr2024:p71:g3:c0"
+      ]
+    }
+  ],
+  "model_calls": 49,
+  "model_http_attempts_recorded": 50,
+  "usage": {
+    "prompt_tokens": 88414,
+    "completion_tokens": 2876,
+    "total_tokens": 108995
+  },
+  "usd_cost": null,
+  "cost_limitations": "No verified USD tariff; usage available only for recorded model responses, failures/setup may not supply token usage.",
+  "errors": 1
+}

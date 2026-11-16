@@ -1,0 +1,9 @@
+# Python 3.12. Embedding E5 uses the existing Day 6 venv; Colab model dependencies
+# are pinned separately in scripts/colab_setup.py and colab_vision_setup.py.
+numpy==2.2.6
+PyMuPDF==1.27.2.3
+qdrant-client==1.16.2
+rank-bm25==0.2.2
+requests==2.34.2
+python-dotenv==1.2.1
+tokenizers==0.22.2

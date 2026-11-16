@@ -1,0 +1,503 @@
+[
+  {
+    "query_id": "advanced_dev_01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Bảng O.1 gốc: Low-income / dân số toàn cầu = 8,9%; cited chunk có đúng hàng, cột, năm, đơn vị.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7794,
+        "completion_tokens": 268,
+        "total_tokens": 9205
+      },
+      "seconds": 11.430734500056133,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_01",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (8,9%) và trích dẫn đúng nguồn dữ liệu từ Bảng O.1 trên trang 36.",
+      "source_pages": [
+        36
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      36
+    ]
+  },
+  {
+    "query_id": "advanced_dev_02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Bảng O.1 gốc: High-income / GDP toàn cầu = 60,8%; citation hỗ trợ.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7794,
+        "completion_tokens": 268,
+        "total_tokens": 9205
+      },
+      "seconds": 11.430734500056133,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_02",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (60,8%) và trích dẫn đúng nguồn dữ liệu từ Bảng O.1 trên trang 36.",
+      "source_pages": [
+        36
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      36
+    ]
+  },
+  {
+    "query_id": "advanced_dev_03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Bảng O.1 gốc: Upper-middle-income / nghèo cùng cực toàn cầu = 7,1%; citation hỗ trợ.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5922,
+        "completion_tokens": 276,
+        "total_tokens": 6827
+      },
+      "seconds": 9.400589199969545,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_03",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo Bảng O.1 trên trang 36 (7,1%) và trích dẫn đúng đoạn dữ liệu.",
+      "source_pages": [
+        36
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      36
+    ]
+  },
+  {
+    "query_id": "advanced_dev_04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Mở ảnh trang 115: vòng tròn Preservation bên trái lớn nhất. Vision chunk được trích dẫn hỗ trợ đúng quan hệ này, dù một số mô tả vị trí khác của chunk chưa chính xác.",
+    "source_pages": [
+      115
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5922,
+        "completion_tokens": 276,
+        "total_tokens": 6827
+      },
+      "seconds": 9.400589199969545,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_04",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo Hình P2.1 ở trang 115 (Preservation có vòng tròn lớn nhất ở sơ đồ bên trái) và trích dẫn chuẩn xác.",
+      "source_pages": [
+        115
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      115
+    ]
+  },
+  {
+    "query_id": "advanced_dev_05",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Mở hình 4.2 trang 119: panel a minh họa incumbents chặn entrant. Agent từ chối; context không có trang 119, do đó thất bại câu có đáp án.",
+    "source_pages": [
+      119
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4730,
+        "completion_tokens": 277,
+        "total_tokens": 6074
+      },
+      "seconds": 11.349501600023359,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_05",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "citation_support": [],
+      "abstention_correct": false,
+      "pass": false,
+      "reason": "Câu hỏi hoàn toàn có thể trả lời được dựa trên tài liệu gốc (Hình 4.2 ở trang 119), nhưng mô hình từ chối trả lời do ngữ cảnh được cung cấp thiếu trang này.",
+      "source_pages": [
+        119
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      119
+    ]
+  },
+  {
+    "query_id": "advanced_dev_06",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Mở hình 4.3 trang 120: trục đứng ghi Productivity or quality of production. Agent từ chối, context thiếu trang này.",
+    "source_pages": [
+      120
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4730,
+        "completion_tokens": 277,
+        "total_tokens": 6074
+      },
+      "seconds": 11.349501600023359,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_06",
+      "answer_grade": 0,
+      "context_grade": 0,
+      "citation_support": [],
+      "abstention_correct": false,
+      "pass": false,
+      "reason": "Câu hỏi có thể trả lời được dựa trên tài liệu gốc (Hình 4.3 ở trang 120: Productivity or quality of production), nhưng mô hình từ chối trả lời do ngữ cảnh thiếu trang liên quan.",
+      "source_pages": [
+        120
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      120
+    ]
+  },
+  {
+    "query_id": "advanced_dev_07",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Mở hình 3.5b trang 108: UMICs = 0,086 GtCO2 equivalent/exajoule. Citation chứa nhãn và đơn vị chính xác.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      108
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_08",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Mở hình 3.1 trang 104: trục ngang 2010–2022. Agent từ chối; context không có hình này.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      104
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_09",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Mở hình 3.3 trang 106: tổng nợ đạt đỉnh gần 2020, cao hơn rất nhiều so với 1950. Agent từ chối; context thiếu trang 106.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      106
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_10",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Văn bản gốc trang 36 xác nhận only 34 economies trong last 34 years. Trang 63 xác nhận 34 nền kinh tế đạt high-income 1990–2021. Cả hai citation hiện diện và hỗ trợ.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      36,
+      63
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_11",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Trang 117 và 119 gốc đều nêu driven by necessity, not business opportunity; cả hai citation hỗ trợ.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      117,
+      119
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_12",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Trang 105 gốc: costs associated with technological fragmentation ... as high as 5 percent ... GDP for many economies. Citation hỗ trợ đầy đủ.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      105
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_13",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Trang 39 bảng O.2 nêu infusion là Higher priority cho lower-middle-income; trang 59 bảng O.3 nêu fluid factor and product markets. Agent từ chối. Context trang 59 chỉ có đoạn cuối vision matrix, không có cả hai điều kiện nên context không đủ.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      39,
+      59
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_14",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "System error không có câu trả lời/citation/context; bắt buộc fail. Nguồn trang 117 giải nghĩa SOE; trang 195 nêu market share, control of grid, influence on regulation.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      117,
+      195
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_15",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Trang 38 gốc yêu cầu nhiều lao động kỹ thuật, kỹ sư, nhà khoa học, quản lý; trang 120 nêu firm entry and exit rates. Cả hai citation đúng nguồn và hỗ trợ mọi phần.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      38,
+      120
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_16",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Quét native text toàn bộ 276 trang: không có 2031; kiểm tra bối cảnh dự báo và tăng trưởng trang 57, cùng nội dung vĩ mô trang 106. Báo cáo xuất bản 2024 không cung cấp GDP thực tế Việt Nam Q4/2031. Từ chối không suy đoán là đúng.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      4,
+      57,
+      106
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_17",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Quét native text 276 trang: 2026 chỉ xuất hiện trang 57 và 107; kiểm tra hai trang và phần thắt chặt tiền tệ trang 106. Không có lãi suất thực tế NHNN Việt Nam ngày 15/11/2026; từ chối đúng.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      57,
+      106,
+      107
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_18",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Quét native text toàn bộ 276 trang: VinFast không xuất hiện. Kiểm tra nội dung doanh nghiệp/công nghệ năng lượng trang 169 và phạm vi xuất bản trang 4: không có doanh thu kiểm toán VinFast FY2030; từ chối đúng.",
+    "source_audit_path": "results/source_audit_dev_dense_advanced.json",
+    "source_pages_checked": [
+      4,
+      169
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen3-Embedding-8B",
+  "revision": "1d8ad4ca9b3dd8059ad90a75d4983776a23d44af",
+  "dimensions": 4096,
+  "normalization": "L2",
+  "precision": "bfloat16",
+  "max_sequence_length": 8192,
+  "inference_batch_size": 4,
+  "query_instruction": "Given a question in Vietnamese or English, retrieve relevant passages from reports that answer the question.",
+  "session": "day07-embedding",
+  "distro": "Debian",
+  "cli": "/opt/colab-cli/bin/colab",
+  "host": "127.0.0.1",
+  "port": 8765,
+  "max_batch": 32,
+  "max_input_chars": 32000,
+  "request_timeout_seconds": 300,
+  "idle_shutdown_minutes": 30,
+  "selection": "User requested a powerful Colab embedding model; evaluate against E5 Day 6 on dev before selecting retrieval configuration. Separate index required."
+}

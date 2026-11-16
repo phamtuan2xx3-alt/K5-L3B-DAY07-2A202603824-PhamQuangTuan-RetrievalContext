@@ -1,0 +1,62 @@
+{
+  "query": "Trường Hogwarts có những hoạt động học tập và sinh hoạt nào?",
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "dimensions": 384,
+  "connection": "Real query against original Day 6 Qdrant using the original compatible Python environment. No upsert/delete, no source text sent to API.",
+  "collections": [
+    {
+      "collection": "hp_11a8ec10234f_a",
+      "points": 8613,
+      "results": [
+        {
+          "chunk_id": "c03ce39842f70d270695a270",
+          "document_id": "harrypotter-complete",
+          "page": 2944,
+          "score": 0.8171245040065546,
+          "excerpt_sha256": "bce6eb0875fac4bad41cb2356cbc2f00e3242b5341b0d648a832b8076dc385eb"
+        },
+        {
+          "chunk_id": "63939b4dfd5ce3de0ecc9353",
+          "document_id": "harrypotter-complete",
+          "page": 1773,
+          "score": 0.8110968179321604,
+          "excerpt_sha256": "218ca13275b021275dc4dbcdcc439ba7f02f5c4949c01eb84c84ad29ff0c9df7"
+        },
+        {
+          "chunk_id": "3aa3e82481854dbee58bf657",
+          "document_id": "harrypotter-complete",
+          "page": 124,
+          "score": 0.8097127116966536,
+          "excerpt_sha256": "8c0a9b4814b8b5aec27b4b3882ab348f605a6100ec687fa081f714d826bb6637"
+        }
+      ]
+    },
+    {
+      "collection": "hp_11a8ec10234f_b",
+      "points": 8487,
+      "results": [
+        {
+          "chunk_id": "a4d5d5e0549741a2fba38181",
+          "document_id": "harrypotter-complete",
+          "page": 284,
+          "score": 0.8163720633240048,
+          "excerpt_sha256": "69584538f601d8ceb33d699a35f0d04430ee31db5448ff6152d1ffba8e08cdb7"
+        },
+        {
+          "chunk_id": "eeb52cb196df72dce348ac7f",
+          "document_id": "harrypotter-complete",
+          "page": 1765,
+          "score": 0.8136750909253331,
+          "excerpt_sha256": "9b029a96a171055ee08c10b283db948fb54e6a21ae88c8e4dd446c65d83c6ba5"
+        },
+        {
+          "chunk_id": "748ed94fba1b64b9be2b26c9",
+          "document_id": "harrypotter-complete",
+          "page": 407,
+          "score": 0.8117236727299968,
+          "excerpt_sha256": "906b8497afb468c908b67a0d03e084449cdcc61bbf72ecaf3d8de5b84256c0ce"
+        }
+      ]
+    }
+  ]
+}

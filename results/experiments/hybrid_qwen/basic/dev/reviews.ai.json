@@ -1,0 +1,502 @@
+[
+  {
+    "query_id": "basic_dev_01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (4%), trích dẫn đúng đoạn văn bản chứa thông tin ở trang 17.",
+    "source_pages": [
+      17
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8832,
+        "completion_tokens": 288,
+        "total_tokens": 10287
+      },
+      "seconds": 15.49935189995449,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (108 quốc gia), các trích dẫn ở trang 63 và 66 đều hỗ trợ trực tiếp và đầy đủ nội dung câu trả lời.",
+    "source_pages": [
+      36,
+      63,
+      66
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8832,
+        "completion_tokens": 288,
+        "total_tokens": 10287
+      },
+      "seconds": 15.49935189995449,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác, nêu rõ mức trung vị khoảng 11% GDP bình quân đầu người của Mỹ theo báo cáo, đồng thời cung cấp thêm thông tin chi tiết và trích dẫn chuẩn xác.",
+    "source_pages": [
+      "wdr2024:p64",
+      "wdr2024:p65",
+      "wdr2024:p75"
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 9565,
+        "completion_tokens": 382,
+        "total_tokens": 11291
+      },
+      "seconds": 12.689017199911177,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo Chiến lược phát triển kinh tế - xã hội 2021–2030 được báo cáo dẫn lại (năm 2045), các trích dẫn đều tồn tại và hỗ trợ nội dung trả lời.",
+    "source_pages": [
+      "wdr2024:p34",
+      "wdr2024:p67"
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 9565,
+        "completion_tokens": 382,
+        "total_tokens": 11291
+      },
+      "seconds": 12.689017199911177,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo tài liệu (khoảng 33.000 USD), các trích dẫn đều tồn tại và hỗ trợ đầy đủ nội dung.",
+    "source_pages": [
+      39,
+      82
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 9378,
+        "completion_tokens": 283,
+        "total_tokens": 11051
+      },
+      "seconds": 13.805635299999267,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (từ 15% năm 2000 lên 42% năm 2012), các trích dẫn đều tồn tại và hỗ trợ đầy đủ nội dung.",
+    "source_pages": [
+      41,
+      95
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 9378,
+        "completion_tokens": 283,
+        "total_tokens": 11051
+      },
+      "seconds": 13.805635299999267,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác và có đầy đủ trích dẫn xác thực từ tài liệu.",
+    "source_pages": [
+      41
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8656,
+        "completion_tokens": 227,
+        "total_tokens": 9655
+      },
+      "seconds": 9.695455400040373,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác và có trích dẫn minh chứng đầy đủ từ tài liệu.",
+    "source_pages": [
+      41
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8656,
+        "completion_tokens": 227,
+        "total_tokens": 9655
+      },
+      "seconds": 9.695455400040373,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_09",
+    "pass": false,
+    "error": "AgentRunError: RuntimeError: Embedding API 503: Colab transport failed; check runtime status (no synthetic fallback)",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "basic_dev_10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo thông tin trong ngữ cảnh được trích dẫn (cao gấp 2,5 lần).",
+    "source_pages": [
+      265
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4710,
+        "completion_tokens": 100,
+        "total_tokens": 5270
+      },
+      "seconds": 11.691280900035053,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo báo cáo, nêu rõ mục đích triệt tiêu các sản phẩm và công nghệ cạnh tranh trong tương lai, đồng thời trích dẫn đầy đủ và chính xác các nguồn.",
+    "source_pages": [
+      52,
+      137,
+      214
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7951,
+        "completion_tokens": 299,
+        "total_tokens": 9429
+      },
+      "seconds": 32.97898150002584,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (11 nền kinh tế đang phát triển) và trích dẫn đúng đoạn ngữ cảnh tại trang 137.",
+    "source_pages": [
+      137
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 7951,
+        "completion_tokens": 299,
+        "total_tokens": 9429
+      },
+      "seconds": 32.97898150002584,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (80%) và các trích dẫn đều chứa nội dung chứng minh rõ ràng.",
+    "source_pages": [
+      91,
+      93
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8647,
+        "completion_tokens": 264,
+        "total_tokens": 9769
+      },
+      "seconds": 12.908225099905394,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (khoảng 88%) và trích dẫn trực tiếp nguồn thông tin phù hợp.",
+    "source_pages": [
+      254
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8647,
+        "completion_tokens": 264,
+        "total_tokens": 9769
+      },
+      "seconds": 12.908225099905394,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_15",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (80%) và trích dẫn đầy đủ, đúng ngữ cảnh tại trang 254.",
+    "source_pages": [
+      254
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8610,
+        "completion_tokens": 252,
+        "total_tokens": 9677
+      },
+      "seconds": 26.700212199939415,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "basic_dev_16",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Báo cáo không có dữ liệu tăng trưởng GDP quý IV năm 2025 của Việt Nam; mô hình đã từ chối trả lời chính xác.",
+    "source_pages": [],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 8610,
+        "completion_tokens": 252,
+        "total_tokens": 9677
+      },
+      "seconds": 26.700212199939415,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "abstention_correct": true,
+    "answer_grade": 2,
+    "citation_support": [],
+    "context_grade": 2,
+    "pass": true,
+    "query_id": "basic_dev_17",
+    "reason": "Báo cáo không có dữ liệu về tỷ lệ lạm phát thực tế cả năm 2026 của Hàn Quốc; hệ thống đã từ chối trả lời chính xác.",
+    "source_pages": [],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4106,
+        "completion_tokens": 132,
+        "total_tokens": 4625
+      },
+      "seconds": 6.0021674000890926,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  }
+]

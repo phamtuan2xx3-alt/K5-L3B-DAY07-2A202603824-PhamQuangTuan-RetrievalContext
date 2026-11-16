@@ -1,0 +1,487 @@
+[
+  {
+    "query_id": "advanced_dev_01",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 36: 8,9%) nhưng hệ thống từ chối trả lời do ngữ cảnh cung cấp thiếu dữ liệu bảng O.1.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6505,
+        "completion_tokens": 260,
+        "total_tokens": 8205
+      },
+      "seconds": 13.45749890001025,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác (60,8%) theo Bảng O.1 và trích dẫn đúng đoạn văn bản nguồn hỗ trợ.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6505,
+        "completion_tokens": 260,
+        "total_tokens": 8205
+      },
+      "seconds": 13.45749890001025,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_03",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Câu hỏi hoàn toàn có thể trả lời được từ tài liệu (trang 36, Bảng O.1 cho kết quả 7,1%), nhưng hệ thống từ chối trả lời do ngữ cảnh truy xuất thiếu dữ liệu cần thiết.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4465,
+        "completion_tokens": 288,
+        "total_tokens": 6152
+      },
+      "seconds": 14.381066500092857,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_04",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Câu hỏi hoàn toàn có thể trả lời được từ tài liệu (trang 115, Hình P2.1 cho thấy Preservation là lực có vòng tròn lớn nhất), nhưng hệ thống từ chối trả lời do ngữ cảnh truy xuất thiếu dữ liệu.",
+    "source_pages": [
+      115
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4465,
+        "completion_tokens": 288,
+        "total_tokens": 6152
+      },
+      "seconds": 14.381066500092857,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_05",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Ngữ cảnh được cung cấp thiếu trang 119 (chứa Hình 4.2). Mô hình từ chối trả lời một câu hỏi vốn có thể trả lời được từ tài liệu gốc.",
+    "source_pages": [
+      119
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5181,
+        "completion_tokens": 257,
+        "total_tokens": 6808
+      },
+      "seconds": 35.11462899995968,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác theo Hình 4.3 tại trang 120 và trích dẫn hỗ trợ đầy đủ.",
+    "source_pages": [
+      120
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5181,
+        "completion_tokens": 257,
+        "total_tokens": 6808
+      },
+      "seconds": 35.11462899995968,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Câu trả lời hoàn toàn chính xác cả giá trị số (0,086) lẫn đơn vị đo, trích dẫn đầy đủ và chuẩn xác từ ngữ cảnh.",
+    "source_pages": [
+      108
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4915,
+        "completion_tokens": 278,
+        "total_tokens": 6664
+      },
+      "seconds": 20.97364669991657,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_08",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Câu hỏi hoàn toàn trả lời được dựa trên tài liệu gốc (Hình 3.1 trang 104: 2010–2022), nhưng ngữ cảnh truy xuất bị thiếu trang 104 khiến hệ thống từ chối trả lời.",
+    "source_pages": [
+      104
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4915,
+        "completion_tokens": 278,
+        "total_tokens": 6664
+      },
+      "seconds": 20.97364669991657,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_09",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (Hình 3.3 trang 106 cho thấy tổng nợ đạt đỉnh vào khoảng năm 2020). Ngữ cảnh thiếu trang 106 và câu trả lời đã từ chối.",
+    "source_pages": [
+      106
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6041,
+        "completion_tokens": 300,
+        "total_tokens": 7936
+      },
+      "seconds": 24.03551780001726,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_10",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 36 nêu rõ chỉ có 34 nền kinh tế thoát khỏi bẫy thu nhập trung bình trong 34 năm qua). Ngữ cảnh thiếu trang 36 và câu trả lời đã từ chối.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 6041,
+        "completion_tokens": 300,
+        "total_tokens": 7936
+      },
+      "seconds": 24.03551780001726,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_11",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 117: do nhu cầu sinh kế/necessity, không phải cơ hội kinh doanh), nhưng mô hình đã từ chối trả lời do ngữ cảnh được cung cấp thiếu thông tin.",
+    "source_pages": [
+      117
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5794,
+        "completion_tokens": 286,
+        "total_tokens": 7824
+      },
+      "seconds": 17.598999400041066,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_12",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 105: ước tính lên tới 5% GDP), nhưng mô hình đã từ chối trả lời do ngữ cảnh được cung cấp thiếu thông tin.",
+    "source_pages": [
+      105
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5794,
+        "completion_tokens": 286,
+        "total_tokens": 7824
+      },
+      "seconds": 17.598999400041066,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "abstention_correct": false,
+    "answer_grade": 0,
+    "citation_support": [],
+    "context_grade": 0,
+    "pass": false,
+    "query_id": "advanced_dev_13",
+    "reason": "Câu hỏi hoàn toàn có thể trả lời được dựa trên Bảng O.2 (trang 39) và Bảng O.3 (trang 59) của tài liệu, nhưng hệ thống không truy xuất được ngữ cảnh liên quan và đã từ chối trả lời sai lệch.",
+    "source_pages": [
+      39,
+      59
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 2566,
+        "completion_tokens": 168,
+        "total_tokens": 3227
+      },
+      "seconds": 8.344592800014652,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_14",
+    "pass": false,
+    "error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval",
+    "reviewer": "system",
+    "reason": "System error counts as advanced failure"
+  },
+  {
+    "query_id": "advanced_dev_15",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Câu hỏi hoàn toàn có thể trả lời được từ tài liệu gốc (trang 6/PDF 38 và trang 88/PDF 120), nhưng câu trả lời lại từ chối trả lời do ngữ cảnh trích xuất bị thiếu.",
+    "source_pages": [
+      38,
+      120
+    ],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4971,
+        "completion_tokens": 275,
+        "total_tokens": 6536
+      },
+      "seconds": 33.924942600075155,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_16",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Dữ liệu về GDP quý IV năm 2031 của Việt Nam không tồn tại trong báo cáo; mô hình đã từ chối trả lời một cách chính xác.",
+    "source_pages": [],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4971,
+        "completion_tokens": 275,
+        "total_tokens": 6536
+      },
+      "seconds": 33.924942600075155,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_17",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Câu hỏi thuộc thời điểm tương lai và không có thông tin trong tài liệu; câu trả lời đã từ chối chính xác.",
+    "source_pages": [],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 3385,
+        "completion_tokens": 230,
+        "total_tokens": 4830
+      },
+      "seconds": 17.25764710002113,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  },
+  {
+    "query_id": "advanced_dev_18",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Tài liệu không chứa thông tin về VinFast năm 2030; câu trả lời đã từ chối chính xác.",
+    "source_pages": [],
+    "reviewer": "AI-assisted; pending original-page final audit",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 3385,
+        "completion_tokens": 230,
+        "total_tokens": 4830
+      },
+      "seconds": 17.25764710002113,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    }
+  }
+]

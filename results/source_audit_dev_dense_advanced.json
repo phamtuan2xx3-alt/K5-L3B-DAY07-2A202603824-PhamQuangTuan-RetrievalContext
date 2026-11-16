@@ -1,0 +1,329 @@
+{
+  "auditor": "Codex AI source audit; not human-reviewed",
+  "scope": "All 18 dense_qwen ADVANCED dev cases only; original native PDF plus visually opened figures. No network/model/retrieval calls. Agreement compares pass labels; answerable abstention_correct is consistently false.",
+  "input_sha256": {
+    "agent_traces": "4d7da3c3180f20c71dc3b5bdebc2eb9766551b631d7c602b461d47defd5222aa",
+    "benchmark": "b1c5a9f3e8d205df3cf7fa413ff3ed2e3a38485bb1acd5b1a8de0feb4276d40d",
+    "reviews_ai_snapshot": "92c381392ff9de2c2bf17f5593d874b5f9439ae94149e015cb0358b372617fb2"
+  },
+  "summary": {
+    "pass": 12,
+    "total": 18,
+    "rate": 0.6666666666666666,
+    "system_errors": 1,
+    "false_abstentions": 5,
+    "disagreements_with_available_ai_pass_labels": 0,
+    "visual_pages_opened": [
+      115,
+      119,
+      120,
+      104,
+      106,
+      108
+    ],
+    "absence_check": "All 276 native PDF pages scanned; relevant native scope pages additionally inspected. Raster-only undiscovered text remains a limitation."
+  },
+  "reviews": [
+    {
+      "query_id": "advanced_dev_01",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Bảng O.1 gốc: Low-income / dân số toàn cầu = 8,9%; cited chunk có đúng hàng, cột, năm, đơn vị.",
+      "original_pages_checked": [
+        36
+      ]
+    },
+    {
+      "query_id": "advanced_dev_02",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Bảng O.1 gốc: High-income / GDP toàn cầu = 60,8%; citation hỗ trợ.",
+      "original_pages_checked": [
+        36
+      ]
+    },
+    {
+      "query_id": "advanced_dev_03",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Bảng O.1 gốc: Upper-middle-income / nghèo cùng cực toàn cầu = 7,1%; citation hỗ trợ.",
+      "original_pages_checked": [
+        36
+      ]
+    },
+    {
+      "query_id": "advanced_dev_04",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Mở ảnh trang 115: vòng tròn Preservation bên trái lớn nhất. Vision chunk được trích dẫn hỗ trợ đúng quan hệ này, dù một số mô tả vị trí khác của chunk chưa chính xác.",
+      "original_pages_checked": [
+        115
+      ]
+    },
+    {
+      "query_id": "advanced_dev_05",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "Mở hình 4.2 trang 119: panel a minh họa incumbents chặn entrant. Agent từ chối; context không có trang 119, do đó thất bại câu có đáp án.",
+      "original_pages_checked": [
+        119
+      ]
+    },
+    {
+      "query_id": "advanced_dev_06",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "Mở hình 4.3 trang 120: trục đứng ghi Productivity or quality of production. Agent từ chối, context thiếu trang này.",
+      "original_pages_checked": [
+        120
+      ]
+    },
+    {
+      "query_id": "advanced_dev_07",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Mở hình 3.5b trang 108: UMICs = 0,086 GtCO2 equivalent/exajoule. Citation chứa nhãn và đơn vị chính xác.",
+      "original_pages_checked": [
+        108
+      ]
+    },
+    {
+      "query_id": "advanced_dev_08",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "Mở hình 3.1 trang 104: trục ngang 2010–2022. Agent từ chối; context không có hình này.",
+      "original_pages_checked": [
+        104
+      ]
+    },
+    {
+      "query_id": "advanced_dev_09",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "Mở hình 3.3 trang 106: tổng nợ đạt đỉnh gần 2020, cao hơn rất nhiều so với 1950. Agent từ chối; context thiếu trang 106.",
+      "original_pages_checked": [
+        106
+      ]
+    },
+    {
+      "query_id": "advanced_dev_10",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Văn bản gốc trang 36 xác nhận only 34 economies trong last 34 years. Trang 63 xác nhận 34 nền kinh tế đạt high-income 1990–2021. Cả hai citation hiện diện và hỗ trợ.",
+      "original_pages_checked": [
+        36,
+        63
+      ]
+    },
+    {
+      "query_id": "advanced_dev_11",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Trang 117 và 119 gốc đều nêu driven by necessity, not business opportunity; cả hai citation hỗ trợ.",
+      "original_pages_checked": [
+        117,
+        119
+      ]
+    },
+    {
+      "query_id": "advanced_dev_12",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Trang 105 gốc: costs associated with technological fragmentation ... as high as 5 percent ... GDP for many economies. Citation hỗ trợ đầy đủ.",
+      "original_pages_checked": [
+        105
+      ]
+    },
+    {
+      "query_id": "advanced_dev_13",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "Trang 39 bảng O.2 nêu infusion là Higher priority cho lower-middle-income; trang 59 bảng O.3 nêu fluid factor and product markets. Agent từ chối. Context trang 59 chỉ có đoạn cuối vision matrix, không có cả hai điều kiện nên context không đủ.",
+      "original_pages_checked": [
+        39,
+        59
+      ]
+    },
+    {
+      "query_id": "advanced_dev_14",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "System error không có câu trả lời/citation/context; bắt buộc fail. Nguồn trang 117 giải nghĩa SOE; trang 195 nêu market share, control of grid, influence on regulation.",
+      "original_pages_checked": [
+        117,
+        195
+      ]
+    },
+    {
+      "query_id": "advanced_dev_15",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Trang 38 gốc yêu cầu nhiều lao động kỹ thuật, kỹ sư, nhà khoa học, quản lý; trang 120 nêu firm entry and exit rates. Cả hai citation đúng nguồn và hỗ trợ mọi phần.",
+      "original_pages_checked": [
+        38,
+        120
+      ]
+    },
+    {
+      "query_id": "advanced_dev_16",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "reason": "Quét native text toàn bộ 276 trang: không có 2031; kiểm tra bối cảnh dự báo và tăng trưởng trang 57, cùng nội dung vĩ mô trang 106. Báo cáo xuất bản 2024 không cung cấp GDP thực tế Việt Nam Q4/2031. Từ chối không suy đoán là đúng.",
+      "original_pages_checked": [
+        4,
+        57,
+        106
+      ]
+    },
+    {
+      "query_id": "advanced_dev_17",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "reason": "Quét native text 276 trang: 2026 chỉ xuất hiện trang 57 và 107; kiểm tra hai trang và phần thắt chặt tiền tệ trang 106. Không có lãi suất thực tế NHNN Việt Nam ngày 15/11/2026; từ chối đúng.",
+      "original_pages_checked": [
+        57,
+        106,
+        107
+      ]
+    },
+    {
+      "query_id": "advanced_dev_18",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "reason": "Quét native text toàn bộ 276 trang: VinFast không xuất hiện. Kiểm tra nội dung doanh nghiệp/công nghệ năng lượng trang 169 và phạm vi xuất bản trang 4: không có doanh thu kiểm toán VinFast FY2030; từ chối đúng.",
+      "original_pages_checked": [
+        4,
+        169
+      ]
+    }
+  ]
+}

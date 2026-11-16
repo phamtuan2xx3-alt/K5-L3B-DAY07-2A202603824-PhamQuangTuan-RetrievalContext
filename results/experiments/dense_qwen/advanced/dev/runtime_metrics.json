@@ -1,0 +1,254 @@
+{
+  "final_context_evidence_rate": {
+    "n": 4,
+    "N": 15,
+    "rate": 0.26666666666666666
+  },
+  "definition": "Actual final context sent to answering model; strict native gold quote+source/page, all multihop groups required; errors scored0. Visual semantic evidence separately source-audited.",
+  "answer_citation_coverage": {
+    "n": 9,
+    "N": 9,
+    "rate": 1.0
+  },
+  "retrieval_tool_call_distribution_successful_queries": {
+    "1": 6,
+    "2": 10,
+    "3": 1
+  },
+  "context_grade_distribution_answerable_successful": {
+    "2": 9,
+    "0": 5
+  },
+  "per_query_context_review": [
+    {
+      "query_id": "advanced_dev_01",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Bảng O.1 gốc: Low-income / dân số toàn cầu = 8,9%; cited chunk có đúng hàng, cột, năm, đơn vị.",
+      "context_ids": [
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p36:g3:c0",
+        "wdr2024:p63:g2:c0",
+        "wdr2024:p36:vision:c1",
+        "wdr2024:p63:vision:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_02",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Bảng O.1 gốc: High-income / GDP toàn cầu = 60,8%; citation hỗ trợ.",
+      "context_ids": [
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p63:vision:c0",
+        "wdr2024:p63:g2:c0",
+        "wdr2024:p36:g3:c0",
+        "wdr2024:p36:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_03",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Bảng O.1 gốc: Upper-middle-income / nghèo cùng cực toàn cầu = 7,1%; citation hỗ trợ.",
+      "context_ids": [
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p36:g3:c0",
+        "wdr2024:p63:g2:c0",
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p36:vision:c1",
+        "wdr2024:p67:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_04",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Mở ảnh trang 115: vòng tròn Preservation bên trái lớn nhất. Vision chunk được trích dẫn hỗ trợ đúng quan hệ này, dù một số mô tả vị trí khác của chunk chưa chính xác.",
+      "context_ids": [
+        "wdr2024:p115:g0:c0",
+        "wdr2024:p115:vision:c0",
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p88:vision:c1",
+        "wdr2024:p49:vision:c0",
+        "wdr2024:p243:vision:c1",
+        "wdr2024:p262:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_05",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Mở hình 4.2 trang 119: panel a minh họa incumbents chặn entrant. Agent từ chối; context không có trang 119, do đó thất bại câu có đáp án.",
+      "context_ids": [
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p258:g3:c0",
+        "wdr2024:p88:vision:c1",
+        "wdr2024:p58:g3:c0",
+        "wdr2024:p262:vision:c1",
+        "wdr2024:p96:vision:c0",
+        "wdr2024:p212:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_06",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Mở hình 4.3 trang 120: trục đứng ghi Productivity or quality of production. Agent từ chối, context thiếu trang này.",
+      "context_ids": [
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p262:vision:c1",
+        "wdr2024:p72:vision:c1",
+        "wdr2024:p262:vision:c0",
+        "wdr2024:p39:vision:c1",
+        "wdr2024:p40:g2:c0",
+        "wdr2024:p196:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_07",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Mở hình 3.5b trang 108: UMICs = 0,086 GtCO2 equivalent/exajoule. Citation chứa nhãn và đơn vị chính xác.",
+      "context_ids": [
+        "wdr2024:p108:vision:c0",
+        "wdr2024:p81:g1:c0",
+        "wdr2024:p265:vision:c1",
+        "wdr2024:p81:g0:c0",
+        "wdr2024:p108:g0:c0",
+        "wdr2024:p82:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_08",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Mở hình 3.1 trang 104: trục ngang 2010–2022. Agent từ chối; context không có hình này.",
+      "context_ids": [
+        "wdr2024:p262:vision:c1",
+        "wdr2024:p72:vision:c1",
+        "wdr2024:p49:vision:c0",
+        "wdr2024:p262:vision:c0",
+        "wdr2024:p115:vision:c0",
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p35:vision:c0",
+        "wdr2024:p102:vision:c0",
+        "wdr2024:p233:vision:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_09",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Mở hình 3.3 trang 106: tổng nợ đạt đỉnh gần 2020, cao hơn rất nhiều so với 1950. Agent từ chối; context thiếu trang 106.",
+      "context_ids": [
+        "wdr2024:p72:vision:c1",
+        "wdr2024:p262:vision:c1",
+        "wdr2024:p262:vision:c0",
+        "wdr2024:p6:g2:c0",
+        "wdr2024:p49:vision:c0",
+        "wdr2024:p105:vision:c0",
+        "wdr2024:p200:g1:c1",
+        "wdr2024:p186:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_10",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Văn bản gốc trang 36 xác nhận only 34 economies trong last 34 years. Trang 63 xác nhận 34 nền kinh tế đạt high-income 1990–2021. Cả hai citation hiện diện và hỗ trợ.",
+      "context_ids": [
+        "wdr2024:p74:g2:c0",
+        "wdr2024:p63:g0:c0",
+        "wdr2024:p17:g0:c0",
+        "wdr2024:p36:g1:c0",
+        "wdr2024:p276:g0:c0",
+        "wdr2024:p65:g0:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_11",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Trang 117 và 119 gốc đều nêu driven by necessity, not business opportunity; cả hai citation hỗ trợ.",
+      "context_ids": [
+        "wdr2024:p236:g2:c0",
+        "wdr2024:p117:g0:c0",
+        "wdr2024:p68:g3:c0",
+        "wdr2024:p126:g2:c0",
+        "wdr2024:p119:g1:c0",
+        "wdr2024:p48:g4:c0",
+        "wdr2024:p12:g2:c0",
+        "wdr2024:p196:g0:c0",
+        "wdr2024:p196:vision:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_12",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Trang 105 gốc: costs associated with technological fragmentation ... as high as 5 percent ... GDP for many economies. Citation hỗ trợ đầy đủ.",
+      "context_ids": [
+        "wdr2024:p105:g2:c0",
+        "wdr2024:p196:vision:c1",
+        "wdr2024:p255:g2:c0",
+        "wdr2024:p128:g0:c0",
+        "wdr2024:p205:g0:c0",
+        "wdr2024:p188:g3:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_13",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Trang 39 bảng O.2 nêu infusion là Higher priority cho lower-middle-income; trang 59 bảng O.3 nêu fluid factor and product markets. Agent từ chối. Context trang 59 chỉ có đoạn cuối vision matrix, không có cả hai điều kiện nên context không đủ.",
+      "context_ids": [
+        "wdr2024:p196:vision:c1",
+        "wdr2024:p36:vision:c0",
+        "wdr2024:p212:g1:c0",
+        "wdr2024:p213:g1:c0",
+        "wdr2024:p87:vision:c1",
+        "wdr2024:p210:g1:c1",
+        "wdr2024:p59:vision:c1",
+        "wdr2024:p197:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_14",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error không có câu trả lời/citation/context; bắt buộc fail. Nguồn trang 117 giải nghĩa SOE; trang 195 nêu market share, control of grid, influence on regulation.",
+      "context_ids": []
+    },
+    {
+      "query_id": "advanced_dev_15",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Trang 38 gốc yêu cầu nhiều lao động kỹ thuật, kỹ sư, nhà khoa học, quản lý; trang 120 nêu firm entry and exit rates. Cả hai citation đúng nguồn và hỗ trợ mọi phần.",
+      "context_ids": [
+        "wdr2024:p127:vision:c1",
+        "wdr2024:p120:g0:c0",
+        "wdr2024:p126:g2:c0",
+        "wdr2024:p120:vision:c0",
+        "wdr2024:p231:g2:c0",
+        "wdr2024:p51:g2:c0",
+        "wdr2024:p38:g0:c0",
+        "wdr2024:p38:g1:c0",
+        "wdr2024:p38:g2:c0",
+        "wdr2024:p38:vision:c1"
+      ]
+    }
+  ],
+  "model_calls": 46,
+  "model_http_attempts_recorded": 46,
+  "usage": {
+    "prompt_tokens": 67432,
+    "completion_tokens": 2306,
+    "total_tokens": 86390
+  },
+  "usd_cost": null,
+  "cost_limitations": "No verified USD tariff; usage available only for recorded model responses, failures/setup may not supply token usage.",
+  "errors": 1
+}

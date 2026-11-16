@@ -1,0 +1,233 @@
+{
+  "final_context_evidence_rate": {
+    "n": 2,
+    "N": 15,
+    "rate": 0.13333333333333333
+  },
+  "definition": "Actual final context sent to answering model; strict native gold quote+source/page, all multihop groups required; errors scored0. Visual semantic evidence separately source-audited.",
+  "answer_citation_coverage": {
+    "n": 3,
+    "N": 3,
+    "rate": 1.0
+  },
+  "retrieval_tool_call_distribution_successful_queries": {
+    "2": 17
+  },
+  "context_grade_distribution_answerable_successful": {
+    "0": 11,
+    "2": 3
+  },
+  "per_query_context_review": [
+    {
+      "query_id": "advanced_dev_01",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 36: 8,9%) nhưng hệ thống từ chối trả lời do ngữ cảnh cung cấp thiếu dữ liệu bảng O.1.",
+      "context_ids": [
+        "wdr2024:p143:g3:c0",
+        "wdr2024:p21:g3:c0",
+        "wdr2024:p141:g0:c0",
+        "wdr2024:p36:g3:c0",
+        "wdr2024:p63:g2:c0",
+        "wdr2024:p215:g3:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_02",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Câu trả lời hoàn toàn chính xác (60,8%) theo Bảng O.1 và trích dẫn đúng đoạn văn bản nguồn hỗ trợ.",
+      "context_ids": [
+        "wdr2024:p36:g0:c0",
+        "wdr2024:p36:g1:c0",
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p36:g3:c0",
+        "wdr2024:p36:vision:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_03",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi hoàn toàn có thể trả lời được từ tài liệu (trang 36, Bảng O.1 cho kết quả 7,1%), nhưng hệ thống từ chối trả lời do ngữ cảnh truy xuất thiếu dữ liệu cần thiết.",
+      "context_ids": [
+        "wdr2024:p143:g3:c0",
+        "wdr2024:p21:g3:c0",
+        "wdr2024:p141:g0:c0",
+        "wdr2024:p215:g3:c0",
+        "wdr2024:p110:g0:c0",
+        "wdr2024:p67:g0:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_04",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi hoàn toàn có thể trả lời được từ tài liệu (trang 115, Hình P2.1 cho thấy Preservation là lực có vòng tròn lớn nhất), nhưng hệ thống từ chối trả lời do ngữ cảnh truy xuất thiếu dữ liệu.",
+      "context_ids": [
+        "wdr2024:p85:g0:c0",
+        "wdr2024:p141:g0:c0",
+        "wdr2024:p21:g3:c0",
+        "wdr2024:p69:g3:c0",
+        "wdr2024:p32:g0:c0",
+        "wdr2024:p269:g3:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_05",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Ngữ cảnh được cung cấp thiếu trang 119 (chứa Hình 4.2). Mô hình từ chối trả lời một câu hỏi vốn có thể trả lời được từ tài liệu gốc.",
+      "context_ids": [
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p85:g0:c0",
+        "wdr2024:p141:g0:c0",
+        "wdr2024:p210:g0:c0",
+        "wdr2024:p129:g0:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_06",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo Hình 4.3 tại trang 120 và trích dẫn hỗ trợ đầy đủ.",
+      "context_ids": [
+        "wdr2024:p46:g3:c0",
+        "wdr2024:p210:g0:c0",
+        "wdr2024:p120:g0:c0",
+        "wdr2024:p95:g3:c0",
+        "wdr2024:p230:g4:c0",
+        "wdr2024:p144:g4:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_07",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác cả giá trị số (0,086) lẫn đơn vị đo, trích dẫn đầy đủ và chuẩn xác từ ngữ cảnh.",
+      "context_ids": [
+        "wdr2024:p108:g0:c0",
+        "wdr2024:p95:g3:c0",
+        "wdr2024:p108:vision:c0",
+        "wdr2024:p69:g3:c0",
+        "wdr2024:p81:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_08",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi hoàn toàn trả lời được dựa trên tài liệu gốc (Hình 3.1 trang 104: 2010–2022), nhưng ngữ cảnh truy xuất bị thiếu trang 104 khiến hệ thống từ chối trả lời.",
+      "context_ids": [
+        "wdr2024:p69:g3:c0",
+        "wdr2024:p95:g3:c0",
+        "wdr2024:p67:g0:c0",
+        "wdr2024:p3:g0:c0",
+        "wdr2024:p21:g3:c0",
+        "wdr2024:p83:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_09",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (Hình 3.3 trang 106 cho thấy tổng nợ đạt đỉnh vào khoảng năm 2020). Ngữ cảnh thiếu trang 106 và câu trả lời đã từ chối.",
+      "context_ids": [
+        "wdr2024:p141:g0:c0",
+        "wdr2024:p95:g3:c0",
+        "wdr2024:p21:g3:c0",
+        "wdr2024:p78:g4:c0",
+        "wdr2024:p77:g3:c0",
+        "wdr2024:p251:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_10",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 36 nêu rõ chỉ có 34 nền kinh tế thoát khỏi bẫy thu nhập trung bình trong 34 năm qua). Ngữ cảnh thiếu trang 36 và câu trả lời đã từ chối.",
+      "context_ids": [
+        "wdr2024:p39:vision:c0",
+        "wdr2024:p67:g0:c0",
+        "wdr2024:p3:g0:c0",
+        "wdr2024:p77:g3:c0",
+        "wdr2024:p62:g3:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_11",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 117: do nhu cầu sinh kế/necessity, không phải cơ hội kinh doanh), nhưng mô hình đã từ chối trả lời do ngữ cảnh được cung cấp thiếu thông tin.",
+      "context_ids": [
+        "wdr2024:p174:vision:c1",
+        "wdr2024:p174:g1:c0",
+        "wdr2024:p127:g1:c0",
+        "wdr2024:p62:g3:c0",
+        "wdr2024:p205:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_12",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi có thể trả lời được từ tài liệu gốc (trang 105: ước tính lên tới 5% GDP), nhưng mô hình đã từ chối trả lời do ngữ cảnh được cung cấp thiếu thông tin.",
+      "context_ids": [
+        "wdr2024:p104:g0:c0",
+        "wdr2024:p111:g0:c0",
+        "wdr2024:p8:g0:c0",
+        "wdr2024:p62:g3:c0",
+        "wdr2024:p177:vision:c1"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_13",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi hoàn toàn có thể trả lời được dựa trên Bảng O.2 (trang 39) và Bảng O.3 (trang 59) của tài liệu, nhưng hệ thống không truy xuất được ngữ cảnh liên quan và đã từ chối trả lời sai lệch.",
+      "context_ids": [
+        "wdr2024:p85:g0:c0",
+        "wdr2024:p21:g3:c0",
+        "wdr2024:p3:g0:c0",
+        "wdr2024:p144:g4:c0",
+        "wdr2024:p230:g4:c0",
+        "wdr2024:p258:g3:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_14",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": [
+        "wdr2024:p199:g1:c0",
+        "wdr2024:p200:g2:c0",
+        "wdr2024:p134:g1:c0"
+      ]
+    },
+    {
+      "query_id": "advanced_dev_15",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "Câu hỏi hoàn toàn có thể trả lời được từ tài liệu gốc (trang 6/PDF 38 và trang 88/PDF 120), nhưng câu trả lời lại từ chối trả lời do ngữ cảnh trích xuất bị thiếu.",
+      "context_ids": [
+        "wdr2024:p145:g0:c0",
+        "wdr2024:p170:g2:c0",
+        "wdr2024:p111:g0:c0",
+        "wdr2024:p210:g2:c0",
+        "wdr2024:p58:g3:c0",
+        "wdr2024:p40:g2:c0"
+      ]
+    }
+  ],
+  "model_calls": 53,
+  "model_http_attempts_recorded": 56,
+  "usage": {
+    "prompt_tokens": 56376,
+    "completion_tokens": 2009,
+    "total_tokens": 77398
+  },
+  "usd_cost": null,
+  "cost_limitations": "No verified USD tariff; usage available only for recorded model responses, failures/setup may not supply token usage.",
+  "errors": 1
+}

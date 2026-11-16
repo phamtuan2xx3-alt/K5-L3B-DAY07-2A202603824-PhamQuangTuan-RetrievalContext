@@ -1,0 +1,517 @@
+[
+  {
+    "query_id": "advanced_dev_01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Rendered original TableO.1 inspected: Low-income population column8.9%; cited row and unit correct.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 10003,
+        "completion_tokens": 244,
+        "total_tokens": 11219
+      },
+      "seconds": 9.470863800030202,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_01",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (8,9%) theo Bảng O.1 và trích dẫn đúng ngữ cảnh hỗ trợ.",
+      "source_pages": [
+        36
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      36
+    ]
+  },
+  {
+    "query_id": "advanced_dev_02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Rendered original TableO.1 inspected: High-income GDP column60.8%; cited row/year/unit correct.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 10003,
+        "completion_tokens": 244,
+        "total_tokens": 11219
+      },
+      "seconds": 9.470863800030202,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_02",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (60,8%) theo Bảng O.1 và trích dẫn đúng ngữ cảnh hỗ trợ.",
+      "source_pages": [
+        36
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      36
+    ]
+  },
+  {
+    "query_id": "advanced_dev_03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Rendered original TableO.1 inspected: Upper-middle-income extreme-poverty column7.1%; full answer supported.",
+    "source_pages": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 5365,
+        "completion_tokens": 102,
+        "total_tokens": 5738
+      },
+      "seconds": 5.351255199988373,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_03",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo Bảng O.1 (7,1%), trích dẫn đúng vị trí và đầy đủ bằng chứng.",
+      "source_pages": [
+        36
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      36
+    ]
+  },
+  {
+    "query_id": "advanced_dev_04",
+    "pass": false,
+    "error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval",
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "reason": "System error: read_page must use a page discovered by retrieval. Rendered original115 inspected: Preservation left circle largest, so answer exists. Missing result counts as failure.",
+    "initial_ai_label": {
+      "query_id": "advanced_dev_04",
+      "pass": false,
+      "error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval",
+      "reviewer": "system",
+      "reason": "System error counts as advanced failure"
+    },
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      115
+    ]
+  },
+  {
+    "query_id": "advanced_dev_05",
+    "pass": false,
+    "error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval",
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "reason": "System error: undiscovered-page read guard. Rendered119 Figure4.2a inspected: incumbent figures block entrant crossing technology frontier; answer exists but system returned no result.",
+    "initial_ai_label": {
+      "query_id": "advanced_dev_05",
+      "pass": false,
+      "error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval",
+      "reviewer": "system",
+      "reason": "System error counts as advanced failure"
+    },
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      119
+    ]
+  },
+  {
+    "query_id": "advanced_dev_06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Rendered original120 Figure4.3 inspected: vertical ladder label Productivity or quality of production. Actual citation contains exact label; correct answer.",
+    "source_pages": [
+      120
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 4284,
+        "completion_tokens": 164,
+        "total_tokens": 8376
+      },
+      "seconds": 31.917067399946973,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "length"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_06",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": false,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo Hình 4.3 (Productivity or quality of production / Năng suất hoặc chất lượng sản xuất). Trích dẫn đoạn văn bản chứa nhãn của Hình 4.3 trên trang 120 là hợp lệ.",
+      "source_pages": [
+        120
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      120
+    ]
+  },
+  {
+    "query_id": "advanced_dev_07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original108 Figure3.5b visually inspected during prior source audit: middle UMIC bar0.086 with GtCO2 equivalent/exajoule axis. Value/group/unit all correct in actual citation.",
+    "source_pages": [
+      108
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 9227,
+        "completion_tokens": 272,
+        "total_tokens": 10542
+      },
+      "seconds": 10.244047999964096,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_07",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác về giá trị (0,086) và đơn vị (GtCO2 equivalent/exajoule) dựa trên Hình 3.5b, trích dẫn chuẩn xác.",
+      "source_pages": [
+        108
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      108
+    ]
+  },
+  {
+    "query_id": "advanced_dev_08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Rendered104 Figure3.1 inspected: horizontal years2010 through2022. Actual cited chunk contains endpoints and figure identity.",
+    "source_pages": [
+      104
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification",
+    "judge_call": {
+      "model": "gemini-3.8-flash-high",
+      "usage": {
+        "prompt_tokens": 9227,
+        "completion_tokens": 272,
+        "total_tokens": 10542
+      },
+      "seconds": 10.244047999964096,
+      "attempts": [
+        {
+          "http_status": 200
+        }
+      ],
+      "finish_reason": "stop"
+    },
+    "initial_ai_label": {
+      "query_id": "advanced_dev_08",
+      "answer_grade": 2,
+      "context_grade": 2,
+      "citation_support": [
+        true
+      ],
+      "abstention_correct": true,
+      "pass": true,
+      "reason": "Câu trả lời hoàn toàn chính xác về khoảng thời gian trên trục ngang của Hình 3.1 (2010–2022) và trích dẫn đúng nguồn.",
+      "source_pages": [
+        104
+      ],
+      "reviewer": "AI-assisted; pending original-page final audit"
+    },
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      104
+    ]
+  },
+  {
+    "query_id": "advanced_dev_09",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "citation_support": [
+      false,
+      false
+    ],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "Rendered original106 independently inspected: total debt peaks near2020 around200% GDP, then declines through2022. Requested peak choice2020 is correct. Added claim continuously increasing is false (post2020 decline and earlier nonmonotonic sections). Native cited chunk lacks numeric trajectories; generated vision citation falsely describes continuous rise to2022 and overstates private debt dominance. Both citation labels are false for full compound claims as used, although original page supports the main peak assertion. Strict advanced all-claims pass must fail.",
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      106
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_10",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original36 native text directly says over last34 years only34 economies broke out. Timeframe/count correctly preserved.",
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      36
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_11",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original117/119 native paragraphs explicitly say majority start businesses driven by necessity, not opportunity. Both actual citations support answer.",
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      117,
+      119
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_12",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Original105 native paragraph estimates technological fragmentation costs as high as5% GDP for many economies; answer preserves estimate qualifier.",
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      105
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_13",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "pass": true,
+    "reason": "Rendered original39 TableO.2: Lower-middle-income infusion Higher priority. Rendered59 TableO.3 lower-middle Enterprise cell: diffuse global technologies with fluid factor/product markets. Two required hops and correctly named row/column present in actual cited chunks.",
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      39,
+      59
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_14",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "False abstention. Original117 defines state-owned enterprises(SOEs); original195 states outsize market share, grid control and regulatory influence block renewables. Question cites printed85/163, corresponding PDF117/195. Actual context has SOE definition onPDF32 but lacks second-hop block-entry mechanism; partialcontext1, answergrade0. Page numbering confusion is a plausible failure mechanism, not a demonstrated internal cause.",
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      117,
+      195
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_15",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 0,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": false,
+    "pass": false,
+    "reason": "System error: undiscovered-page read guard. Original38 native text requires many technical workers/engineers/scientists/managers; rendered120/native text includes firm entry/exit rates. Gold exists at printed6/88=PDF38/120; missing result fails.",
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      38,
+      120
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_16",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention without guessed GDP. Documentwide2031 scan has zero hits; no observedVietnamQ4 GDP2031. Final retrieved context cannot prove documentwide absence, hence contextgrade0.",
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      57,
+      107
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_17",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention. Documentwide exactdate15/11/2026 zero;2026 onlyPDF57 forecast data-center electricity and107 projected debt, inspected in prior audit, neither observedVietnam central-bank rate.",
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [
+      57,
+      107
+    ],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  },
+  {
+    "query_id": "advanced_dev_18",
+    "initial_ai_label": null,
+    "label_origin": "Independent original-page source audit; judge label unavailable",
+    "answer_grade": 2,
+    "context_grade": 0,
+    "citation_support": [],
+    "abstention_correct": true,
+    "pass": true,
+    "reason": "Correct abstention without fabricated audited revenue. Documentwide case-insensitiveVinFast scan across276 pages zero. Original source audit is documentwide here, so no specific relevant page exists; final context absence not documentwide proof.",
+    "source_audit_path": "results/source_audit_dev_hybrid_advanced.json",
+    "source_pages_checked": [],
+    "reviewer": "Codex original-page source audit; AI-authored, not human certification"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "cases": 17,
+  "errors": 1,
+  "tool_use": {
+    "n": 16,
+    "N": 16,
+    "rate": 1.0
+  },
+  "grounded_answer": {
+    "counts": {
+      "0": 0,
+      "1": 0,
+      "2": 14
+    },
+    "mean_normalized": 1.0
+  },
+  "citation_validity": {
+    "n": 25,
+    "N": 25,
+    "rate": 1.0
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 14,
+    "rate": 0.0
+  },
+  "mean_seconds": 54.064881829401095,
+  "advanced_pass": {
+    "n": 16,
+    "N": 17,
+    "rate": 0.9411764705882353
+  },
+  "groups": {
+    "text": {
+      "n": 16,
+      "N": 17,
+      "rate": 0.9411764705882353
+    }
+  },
+  "review_status": "AI assistance; original-page audit and limitations must accompany score"
+}

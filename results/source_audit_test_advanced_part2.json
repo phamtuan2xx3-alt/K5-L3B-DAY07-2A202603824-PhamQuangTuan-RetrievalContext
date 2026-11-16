@@ -1,0 +1,434 @@
+{
+  "auditor": "Codex AI original-source audit; not human approval",
+  "scope": "Held-out hybrid_qwen advanced_test_16 through advanced_test_30 only. Locked pipeline; no code/config/benchmark/trace mutation, retrieval, API or model runs.",
+  "created_at_utc": "2026-11-16T05:27:35.425741+00:00",
+  "method": "Read all15 actual answers and all cited context against originalPDF native passages. Rendered original109,82,182,146,129 viewed during this audit; original36 and108 table/chart visually viewed in earlier sourceaudits. Every required multi-hop fact and complete extra claims checked. Absent context grade0 reflects no exhaustive absence proof inside final retrievedcontext. No rawjudge used; agreementnull.",
+  "individual_trace_hash_algorithm": "SHA256 UTF8 canonicalJSON sort_keys=True,ensure_ascii=False,separators comma/colon",
+  "input_sha256": {
+    "results\\experiments\\hybrid_qwen\\advanced\\test\\agent_traces.json": "ceea39204fa452d413cb6f7ebb0dc6b087c90ee821558d4095da75d6050c691b",
+    "data\\benchmark\\advanced_questions.json": "b1c5a9f3e8d205df3cf7fa413ff3ed2e3a38485bb1acd5b1a8de0feb4276d40d",
+    "data\\source\\world-development-report-2024.pdf": "7f545194763ef2ffd1347c14bcf5a270c622b9c3a29e1c8c8b081aaee6c00df5",
+    "results\\selection_lock.json": "a61a00fb05677a1a0cf4707de5c634a37c54b1148b4bcbbb066a6d54003ee912"
+  },
+  "summary": {
+    "cases": 15,
+    "pass_count": 11,
+    "fail_count": 4,
+    "system_errors": 1,
+    "material_failures": [
+      "16 falseabstain from lost/misdescribed visual mean comparison",
+      "22 missing HIC figure hop; falseabstain",
+      "23 partial criteria; missing jobs/exports/infusion/innovation dimensions",
+      "24 systemerror remains failure"
+    ]
+  },
+  "reviews": [
+    {
+      "query_id": "advanced_test_16",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 1,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "False abstention. Rendered original Figure 3.6 shows right axis weighted average cost of capital (%) and low-income mean near9% above high-income mean near4%. Actual context has native right-axis label but generated description wrongly places low-income average around3-6%, losing original visual relation. Answer does not supply either required component. Context partial1.",
+      "original_pages_checked": [
+        109
+      ],
+      "abstention_correct_applicable": false,
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "9e4e95b15700558c5c278958df1b02498c9cf24c57ac14cf3d96fc7963a7d622",
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_test_17",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Original36 gives108 countries and annual US$1,136-13,845. Actual alternative cited original33/63 support count/exact range, and original276 supports explicitly qualified rounded US$1,100-14,000 range. Annual period implicit in classification rather than restated; complete substantive answer.",
+      "original_pages_checked": [
+        33,
+        36,
+        63,
+        276
+      ],
+      "abstention_correct_applicable": false,
+      "cited_ids_checked": [
+        "wdr2024:p63:g1:c0",
+        "wdr2024:p33:g0:c0",
+        "wdr2024:p276:g0:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "7e112cb26b5d2b186a5b0ac1b05b23ab5f585aa1d68b1715a5586fd20a38e93d",
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_test_18",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Original39 and actual cited chunk support less thanUS$1,200 in1960, aboutUS$33,000 in2023, least-developed early1960s and five-decade growth description. Both years/inequality/units correct.",
+      "original_pages_checked": [
+        39
+      ],
+      "abstention_correct_applicable": false,
+      "cited_ids_checked": [
+        "wdr2024:p39:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "0e26fbf8c59a60d9a9faa5d21392e8605be2f57245d8e3c7c151a1a3f144a785",
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_test_19",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Original119 directly states50-70 percent productivity growth from successful reallocation among firms, incumbents or entrants. Full actual answer and citation verified.",
+      "original_pages_checked": [
+        119
+      ],
+      "abstention_correct_applicable": false,
+      "cited_ids_checked": [
+        "wdr2024:p119:g0:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "e06c4b2ba6812b653060858f9c4253bbefc694d5b48f1141998ed4c682b599c1",
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_test_20",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Original108 native text states weighted average cost of capital can account for20-50 percent of levelized electricity cost for utility-scale solarPV. Actual citation preserves scope and all numeric units.",
+      "original_pages_checked": [
+        108
+      ],
+      "abstention_correct_applicable": false,
+      "cited_ids_checked": [
+        "wdr2024:p108:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "9520a2919de1991f1dbf03c097443f80bf6d5d9f320e91b8b764e57921cd73fb",
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_test_21",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": true
+      },
+      "reason": "Both required hops independently checked: rendered original36 TableO.1 high-income CO2-emissions column35.2% for2022; original39 Korea income aboutUS$33,000 in2023. Actual two citations support correct row/column and year/unit.",
+      "original_pages_checked": [
+        36,
+        39
+      ],
+      "abstention_correct_applicable": false,
+      "cited_ids_checked": [
+        "wdr2024:p36:g2:c0",
+        "wdr2024:p39:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "26494c936a7b2934c82ee1d95789401552a71e8afd74666b4e14bfd5d8ece2b1",
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_test_22",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 1,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "False abstention. Rendered original82 TableS.1 Japan energy intensity4.22 and original108 Figure3.5a HIC5.1 exajoules/trillionUS$;5.1-4.22=0.88. Actual context contains Japan table but noPDF108 Figure3.5a; second hop missing, contextpartial1. No calculation or answer delivered.",
+      "original_pages_checked": [
+        82,
+        108
+      ],
+      "abstention_correct_applicable": false,
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "8dcff95ec06e8d7d901076f1ab3c2017ab2e9b5b9ba79f8e87fc49b60fbb9169",
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_test_23",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 1,
+        "context_grade": 1,
+        "citation_support": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "Partial answer despite lengthy supported material: correctly explains size distortions and gives genuinely sourced25% employment and1%/2.3%TFP estimates. Required Part3 alternative dimensions jobs,exports,technology infusion,innovation from original191 are not supplied; actual context pages127-130,231,233 omit that passage. Replaces requested criterion with firm age and generic productivity/value creation; misses essential second-hop specifics. Original231 supports practical SME subsidy and small firms not aspiring to grow, but does not explicitly support attributed motive of avoiding legal/tax constraints; that citation markedfalse for the full associated assertion. Rendered129 supports young-versus-small jobs headline, although generated description has inaccurate individual bars not repeated as values in answer.",
+      "original_pages_checked": [
+        117,
+        191,
+        127,
+        128,
+        129,
+        130,
+        231,
+        233
+      ],
+      "abstention_correct_applicable": false,
+      "cited_ids_checked": [
+        "wdr2024:p128:g3:c0",
+        "wdr2024:p128:g1:c0",
+        "wdr2024:p129:g1:c0",
+        "wdr2024:p130:g0:c0",
+        "wdr2024:p231:g4:c0",
+        "wdr2024:p233:g2:c0",
+        "wdr2024:p127:g2:c0",
+        "wdr2024:p129:vision:c0",
+        "wdr2024:p233:g0:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "782281ec88b03cb239fcb320cb0417a901e564e12b1b332bebf9cc347aa7a753",
+      "system_error": null
+    },
+    {
+      "query_id": "advanced_test_24",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 0,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": false,
+        "pass": false
+      },
+      "reason": "System error: read_page must use a page discovered by retrieval. Original106 says expensive borrowing puts new investment on hold; original108 says clean-energy assets need considerable upfront capital despite low operating expenses. Printed74/76 correspond PDF106/108. Both required facts exist; missing answer fails and remains in denominator.",
+      "original_pages_checked": [
+        106,
+        108
+      ],
+      "abstention_correct_applicable": false,
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "9831866ff78761b01dff31e11617e8442e96af1cc557eb3cb6b205c94d403277",
+      "system_error": "AgentRunError: ValueError: read_page must use a page discovered by retrieval"
+    },
+    {
+      "query_id": "advanced_test_25",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "reason": "Correct abstention without invented code. Whole-document native scan has no Python, def-space or def simulate. Report discusses models and references rather than a complete source-code program. Final context cannot prove exhaustive absence;context0.",
+      "original_pages_checked": [],
+      "abstention_correct_applicable": true,
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "c91a12f812b86452f590f45f51c60e1e9c2247623e0dfb2208afee0dd3b8dab2",
+      "system_error": null,
+      "documentwide_absence_check": {
+        "pages_checked": 276,
+        "method": "Case-insensitive substring scan on whitespace-normalized original native PDF text; inspect any matches and relevant original visual source",
+        "keyword_pages": {
+          "python": [],
+          "def ": [],
+          "def simulate": []
+        },
+        "finding": "Correct abstention without invented code. Whole-document native scan has no Python, def-space or def simulate. Report discusses models and references rather than a complete source-code program. Final context cannot prove exhaustive absence;context0."
+      }
+    },
+    {
+      "query_id": "advanced_test_26",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "reason": "Correct abstention without invented private phone. Whole-document telephone match only original6 publisher institutional phone, independently read; no personal telephone match. Publisher contact is not Ufuk Akcigit personal number. Finalcontext cannot establish documentwide absence.",
+      "original_pages_checked": [
+        6
+      ],
+      "abstention_correct_applicable": true,
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "73025eb330228e53250a92eaa9bd0335d1ce8963e0c22c6674a9c350261b3cd5",
+      "system_error": null,
+      "documentwide_absence_check": {
+        "pages_checked": 276,
+        "method": "Case-insensitive substring scan on whitespace-normalized original native PDF text; inspect any matches and relevant original visual source",
+        "keyword_pages": {
+          "personal telephone": [],
+          "telephone": [
+            6
+          ]
+        },
+        "finding": "Correct abstention without invented private phone. Whole-document telephone match only original6 publisher institutional phone, independently read; no personal telephone match. Publisher contact is not Ufuk Akcigit personal number. Finalcontext cannot establish documentwide absence."
+      }
+    },
+    {
+      "query_id": "advanced_test_27",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "reason": "Correct abstention plus correct contextual explanation. Rendered original182 Map6.2 displays global transmission networks with insets, not GPS inventory of Vietnam coal plants. Whole-document GPS/coordinates zero. Extra map-description claim supported; no fabricated coordinates.",
+      "original_pages_checked": [
+        182
+      ],
+      "abstention_correct_applicable": true,
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "f65ff8aeef47061b6cc2b7ddb76facbfe0d22de03d40077f3fc0f0a086a4cad1",
+      "system_error": null,
+      "documentwide_absence_check": {
+        "pages_checked": 276,
+        "method": "Case-insensitive substring scan on whitespace-normalized original native PDF text; inspect any matches and relevant original visual source",
+        "keyword_pages": {
+          "gps": [],
+          "coordinates": []
+        },
+        "finding": "Correct abstention plus correct contextual explanation. Rendered original182 Map6.2 displays global transmission networks with insets, not GPS inventory of Vietnam coal plants. Whole-document GPS/coordinates zero. Extra map-description claim supported; no fabricated coordinates."
+      }
+    },
+    {
+      "query_id": "advanced_test_28",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "reason": "Correct abstention and supported extra explanation. Rendered original146 Figure5.2 is aggregate country-level schooling inequality/immobility scatter using GDIM2018; no respondent-name list. Whole-document respondent names zero; finalcontext alone not exhaustiveabsence proof.",
+      "original_pages_checked": [
+        146
+      ],
+      "abstention_correct_applicable": true,
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "5dd0e08efc275c61f55783d510baa138da35e4c37fe410fd5f7b6f832fa8e344",
+      "system_error": null,
+      "documentwide_absence_check": {
+        "pages_checked": 276,
+        "method": "Case-insensitive substring scan on whitespace-normalized original native PDF text; inspect any matches and relevant original visual source",
+        "keyword_pages": {
+          "respondent names": []
+        },
+        "finding": "Correct abstention and supported extra explanation. Rendered original146 Figure5.2 is aggregate country-level schooling inequality/immobility scatter using GDIM2018; no respondent-name list. Whole-document respondent names zero; finalcontext alone not exhaustiveabsence proof."
+      }
+    },
+    {
+      "query_id": "advanced_test_29",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "reason": "Correct abstention without fabricated medical statistics. Whole-document lung cancer zero; no Vietnam hospital-level case table present. Explicit documentwide check supplies absence basis; no invented page anchor.",
+      "original_pages_checked": [],
+      "abstention_correct_applicable": true,
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "0f9f4e1e5c99b625af54cce5056b20c4fb96f912760a5bbe34a23b4296b55a0b",
+      "system_error": null,
+      "documentwide_absence_check": {
+        "pages_checked": 276,
+        "method": "Case-insensitive substring scan on whitespace-normalized original native PDF text; inspect any matches and relevant original visual source",
+        "keyword_pages": {
+          "lung cancer": []
+        },
+        "finding": "Correct abstention without fabricated medical statistics. Whole-document lung cancer zero; no Vietnam hospital-level case table present. Explicit documentwide check supplies absence basis; no invented page anchor."
+      }
+    },
+    {
+      "query_id": "advanced_test_30",
+      "agrees_with_ai_label": null,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "abstention_correct": true,
+        "pass": true
+      },
+      "reason": "Correct abstention without invented credentials. Whole-document password zero; report has Global Trade Alert references and public source links rather than access credentials. No invented page anchor.",
+      "original_pages_checked": [],
+      "abstention_correct_applicable": true,
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "actual_trace_sha256": "97f73128a53bd31234a32939a44474f863954242059dc2728d562d5a84d80ad3",
+      "system_error": null,
+      "documentwide_absence_check": {
+        "pages_checked": 276,
+        "method": "Case-insensitive substring scan on whitespace-normalized original native PDF text; inspect any matches and relevant original visual source",
+        "keyword_pages": {
+          "password": []
+        },
+        "finding": "Correct abstention without invented credentials. Whole-document password zero; report has Global Trade Alert references and public source links rather than access credentials. No invented page anchor."
+      }
+    }
+  ]
+}

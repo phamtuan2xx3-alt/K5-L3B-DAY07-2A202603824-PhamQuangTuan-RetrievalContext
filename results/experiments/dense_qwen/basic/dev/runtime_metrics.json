@@ -1,0 +1,255 @@
+{
+  "final_context_evidence_rate": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+  },
+  "definition": "Actual final context sent to answering model; strict native gold quote+source/page, all multihop groups required; errors scored0. Visual semantic evidence separately source-audited.",
+  "answer_citation_coverage": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+  },
+  "retrieval_tool_call_distribution_successful_queries": {
+    "1": 10,
+    "2": 7
+  },
+  "context_grade_distribution_answerable_successful": {
+    "2": 15
+  },
+  "per_query_context_review": [
+    {
+      "query_id": "basic_dev_01",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original p17 confirms 4% forecast and additional 5%/more than6% decade comparisons.",
+      "context_ids": [
+        "wdr2024:p41:vision:c1",
+        "wdr2024:p72:g2:c0",
+        "wdr2024:p102:g1:c0",
+        "wdr2024:p35:vision:c1",
+        "wdr2024:p17:g3:c0",
+        "wdr2024:p107:vision:c0",
+        "wdr2024:p35:g0:c0",
+        "wdr2024:p63:g0:c0",
+        "wdr2024:p68:g0:c0",
+        "wdr2024:p67:g2:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_02",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Original p66 confirms108 and equal split in2023 classification; p65 independently supports historical58 countries under1978 definition. Years correctly distinguished.",
+      "context_ids": [
+        "wdr2024:p68:g0:c0",
+        "wdr2024:p35:g2:c0",
+        "wdr2024:p35:vision:c2",
+        "wdr2024:p67:g1:c0",
+        "wdr2024:p66:g2:c0",
+        "wdr2024:p65:g1:c0",
+        "wdr2024:p83:g0:c0",
+        "wdr2024:p69:g2:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_03",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Original64/65/75 support11% median and21% mean. Rendered75 chart inspected:5-25% bin tallest. Answer distinguishes median,mean and frequency; all associated citations supported.",
+      "context_ids": [
+        "wdr2024:p75:g1:c0",
+        "wdr2024:p74:g0:c0",
+        "wdr2024:p65:g2:c0",
+        "wdr2024:p65:g0:c0",
+        "wdr2024:p64:g2:c0",
+        "wdr2024:p75:g0:c0",
+        "wdr2024:p35:g0:c0",
+        "wdr2024:p75:vision:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_04",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Both original strategy passages support Vietnam2045 high-income target; answer treats it as target not observed attainment.",
+      "context_ids": [
+        "wdr2024:p33:g0:c0",
+        "wdr2024:p67:g2:c0",
+        "wdr2024:p34:g3:c0",
+        "wdr2024:p67:g1:c0",
+        "wdr2024:p67:g0:c0",
+        "wdr2024:p64:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_05",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original39 confirms aboutUS$33000 in2023; correct country/year/unit.",
+      "context_ids": [
+        "wdr2024:p39:g1:c0",
+        "wdr2024:p35:vision:c1",
+        "wdr2024:p85:g3:c0",
+        "wdr2024:p73:g0:c0",
+        "wdr2024:p40:g0:c0",
+        "wdr2024:p67:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_06",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original41 supports15% in2000 to42% in2012. Added25-34-age condition explicitly supported on original95 and its cited chunk.",
+      "context_ids": [
+        "wdr2024:p41:g3:c0",
+        "wdr2024:p95:g1:c0",
+        "wdr2024:p154:vision:c1",
+        "wdr2024:p223:g0:c0",
+        "wdr2024:p153:vision:c1",
+        "wdr2024:p223:g1:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_07",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original41 confirms Chile first Latin American high-income country in2012.",
+      "context_ids": [
+        "wdr2024:p41:g2:c0",
+        "wdr2024:p40:vision:c1",
+        "wdr2024:p40:g0:c0",
+        "wdr2024:p66:g1:c0",
+        "wdr2024:p35:vision:c1",
+        "wdr2024:p67:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_08",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original41 identifies Norwegian salmon-farming technologies adapted in Chile.",
+      "context_ids": [
+        "wdr2024:p41:g2:c0",
+        "wdr2024:p206:g0:c0",
+        "wdr2024:p235:g1:c0",
+        "wdr2024:p10:g0:c0",
+        "wdr2024:p38:g2:c0",
+        "wdr2024:p50:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_09",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original45 supports3.5 times for all middle-income countries. Answer explicitly disambiguates population. Caveat read as no separate direct subgroup comparison in cited discussion; global absence of subgroup data is not independently certified.",
+      "context_ids": [
+        "wdr2024:p265:g1:c0",
+        "wdr2024:p264:g1:c0",
+        "wdr2024:p46:vision:c0",
+        "wdr2024:p45:g1:c0",
+        "wdr2024:p239:g0:c0",
+        "wdr2024:p264:g2:c0",
+        "wdr2024:p108:g0:c0",
+        "wdr2024:p176:g1:c0",
+        "wdr2024:p36:g2:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_10",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Original265 explicitly supports2.5 times for all middle-income in2022. Rendered108 Figure3.5a inspected: UMIC9.0/HIC5.1 exajoules/trillionUS$, ratio1.7647. Answer qualifies alternate subgroup reading. Full credit; originalgold unchanged despite question ambiguity.",
+      "context_ids": [
+        "wdr2024:p108:g0:c0",
+        "wdr2024:p108:g1:c0",
+        "wdr2024:p108:g2:c0",
+        "wdr2024:p108:vision:c0",
+        "wdr2024:p264:g1:c0",
+        "wdr2024:p265:g1:c0",
+        "wdr2024:p82:g0:c0",
+        "wdr2024:p81:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_11",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original52/214 support killing future competing products/technologies. Added rival-worker hiring observation explicitly present on original137. All three citations support respective claims.",
+      "context_ids": [
+        "wdr2024:p52:g0:c0",
+        "wdr2024:p214:g1:c0",
+        "wdr2024:p135:g0:c0",
+        "wdr2024:p211:g0:c0",
+        "wdr2024:p137:g3:c0",
+        "wdr2024:p123:g1:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_12",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original137 supports11 developing economies; correctly scoped survey description, not conflated with other FAT samples.",
+      "context_ids": [
+        "wdr2024:p137:g1:c0",
+        "wdr2024:p21:g2:c0",
+        "wdr2024:p145:g2:c0",
+        "wdr2024:p200:g1:c1",
+        "wdr2024:p196:vision:c1",
+        "wdr2024:p78:g4:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_13",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original93 is valid alternative to gold91; Estonia80% Western European income by2021 explicit.",
+      "context_ids": [
+        "wdr2024:p93:g1:c0",
+        "wdr2024:p94:g0:c0",
+        "wdr2024:p91:g2:c0",
+        "wdr2024:p67:g0:c0",
+        "wdr2024:p35:vision:c1",
+        "wdr2024:p40:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_14",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original254 supports more than140 targets covering about88% global emissions, present in cited chunk.",
+      "context_ids": [
+        "wdr2024:p265:g2:c0",
+        "wdr2024:p271:g0:c0",
+        "wdr2024:p107:g2:c0",
+        "wdr2024:p254:g0:c0",
+        "wdr2024:p107:g1:c0",
+        "wdr2024:p111:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_15",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Original Izmir paragraph supports80% exported and primarilyEurope. Both answer claims verified.",
+      "context_ids": [
+        "wdr2024:p254:g1:c0",
+        "wdr2024:p179:g0:c0",
+        "wdr2024:p177:g1:c0",
+        "wdr2024:p258:g2:c0",
+        "wdr2024:p179:vision:c0",
+        "wdr2024:p243:vision:c1"
+      ]
+    }
+  ],
+  "model_calls": 41,
+  "model_http_attempts_recorded": 43,
+  "usage": {
+    "prompt_tokens": 66127,
+    "completion_tokens": 3063,
+    "total_tokens": 86469
+  },
+  "usd_cost": null,
+  "cost_limitations": "No verified USD tariff; usage available only for recorded model responses, failures/setup may not supply token usage.",
+  "errors": 0
+}

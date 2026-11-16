@@ -1,0 +1,13 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dimensions": 384,
+  "namespace": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3|384|L2|passage-query",
+  "normalization": "L2",
+  "chunks": 911,
+  "corpus_sha256": "eb781e714532316079b615b6f85390ab0d4a06f38617b4fc89d3641dccaae43e",
+  "seconds": 33.99023670004681,
+  "truncated_inputs": 0,
+  "model_downloads": 0,
+  "day6_model_path": "data/models/multilingual-e5-small"
+}

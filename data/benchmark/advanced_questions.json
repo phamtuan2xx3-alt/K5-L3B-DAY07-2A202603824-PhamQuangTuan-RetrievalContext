@@ -1,0 +1,1309 @@
+[
+  {
+    "id": "advanced_test_01",
+    "split": "test",
+    "question": "Theo bảng O.1 năm 2022, nhóm Low-income chiếm bao nhiêu phần trăm GDP toàn cầu?",
+    "answerable": true,
+    "group": "table",
+    "expected_answer": "0,6%",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": ")\nSHARE OF GLOBAL \nCARBON DIOXIDE (CO2) \nEMISSIONS (%)\nLow-income\n8.9\n0.6\n36.5\n0.5\nLower-middle-income\n40.3\n8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources:",
+        "bbox": [
+          0,
+          0,
+          576.0,
+          756.0
+        ],
+        "locator": {
+          "table": "O.1",
+          "row": "Low-income",
+          "column": "GDP toàn cầu",
+          "unit": "%",
+          "bbox_scope": "whole table page; row/column disambiguate cell"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_02",
+    "split": "test",
+    "question": "Theo bảng O.1 năm 2022, nhóm Lower-middle-income chiếm bao nhiêu phần trăm người nghèo cùng cực toàn cầu?",
+    "answerable": true,
+    "group": "table",
+    "expected_answer": "55,4%",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": "MISSIONS (%)\nLow-income\n8.9\n0.6\n36.5\n0.5\nLower-middle-income\n40.3\n8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources: Population shares and global GDP shares c",
+        "bbox": [
+          0,
+          0,
+          576.0,
+          756.0
+        ],
+        "locator": {
+          "table": "O.1",
+          "row": "Lower-middle-income",
+          "column": "người nghèo cùng cực toàn cầu",
+          "unit": "%",
+          "bbox_scope": "whole table page; row/column disambiguate cell"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_03",
+    "split": "test",
+    "question": "Theo bảng O.1 năm 2022, nhóm Upper-middle-income chiếm bao nhiêu phần trăm phát thải CO2 toàn cầu?",
+    "answerable": true,
+    "group": "table",
+    "expected_answer": "48,6%",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": "er-middle-income\n40.3\n8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources: Population shares and global GDP shares computed from WDI (World Development Indicato",
+        "bbox": [
+          0,
+          0,
+          576.0,
+          756.0
+        ],
+        "locator": {
+          "table": "O.1",
+          "row": "Upper-middle-income",
+          "column": "phát thải CO2 toàn cầu",
+          "unit": "%",
+          "bbox_scope": "whole table page; row/column disambiguate cell"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_04",
+    "split": "test",
+    "question": "Theo bảng O.1 năm 2022, nhóm High-income chiếm bao nhiêu phần trăm dân số toàn cầu?",
+    "answerable": true,
+    "group": "table",
+    "expected_answer": "15,7%",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": "ONS (%)\nLow-income\n8.9\n0.6\n36.5\n0.5\nLower-middle-income\n40.3\n8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources: Population shares and global GDP shares comput",
+        "bbox": [
+          0,
+          0,
+          576.0,
+          756.0
+        ],
+        "locator": {
+          "table": "O.1",
+          "row": "High-income",
+          "column": "dân số toàn cầu",
+          "unit": "%",
+          "bbox_scope": "whole table page; row/column disambiguate cell"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_01",
+    "split": "dev",
+    "question": "Theo bảng O.1 năm 2022, nhóm Low-income chiếm bao nhiêu phần trăm dân số toàn cầu?",
+    "answerable": true,
+    "group": "table",
+    "expected_answer": "8,9%",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": "Y (%)\nSHARE OF GLOBAL \nCARBON DIOXIDE (CO2) \nEMISSIONS (%)\nLow-income\n8.9\n0.6\n36.5\n0.5\nLower-middle-income\n40.3\n8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSour",
+        "bbox": [
+          0,
+          0,
+          576.0,
+          756.0
+        ],
+        "locator": {
+          "table": "O.1",
+          "row": "Low-income",
+          "column": "dân số toàn cầu",
+          "unit": "%",
+          "bbox_scope": "whole table page; row/column disambiguate cell"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_02",
+    "split": "dev",
+    "question": "Theo bảng O.1 năm 2022, nhóm High-income chiếm bao nhiêu phần trăm GDP toàn cầu?",
+    "answerable": true,
+    "group": "table",
+    "expected_answer": "60,8%",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": "8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), \nW",
+        "bbox": [
+          0,
+          0,
+          576.0,
+          756.0
+        ],
+        "locator": {
+          "table": "O.1",
+          "row": "High-income",
+          "column": "GDP toàn cầu",
+          "unit": "%",
+          "bbox_scope": "whole table page; row/column disambiguate cell"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_03",
+    "split": "dev",
+    "question": "Theo bảng O.1 năm 2022, nhóm Upper-middle-income chiếm bao nhiêu phần trăm người nghèo cùng cực toàn cầu?",
+    "answerable": true,
+    "group": "table",
+    "expected_answer": "7,1%",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": "\nLower-middle-income\n40.3\n8.3\n55.4\n15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources: Population shares and global GDP shares computed from WDI (World Development Indi",
+        "bbox": [
+          0,
+          0,
+          576.0,
+          756.0
+        ],
+        "locator": {
+          "table": "O.1",
+          "row": "Upper-middle-income",
+          "column": "người nghèo cùng cực toàn cầu",
+          "unit": "%",
+          "bbox_scope": "whole table page; row/column disambiguate cell"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_05",
+    "split": "test",
+    "question": "Theo bảng S.1, GNI bình quân đầu người của Nhật Bản năm 2023 theo phương pháp Atlas là bao nhiêu?",
+    "answerable": true,
+    "group": "table",
+    "expected_answer": "39.030 USD hiện hành",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 82,
+        "evidence": ", Rep.\nHIC\n35,490\n2.0\n—\n92.5\n98.75\n0.79\n8,483.2\n—\n7.63\n0.05\nJapan\nHIC\n39,030\n2.3\n—\n50.1\n95.50\n0.65\n5,476.3\n—\n4.22\n0.06\nFrance\nHIC\n45,070\n1.3\n0.11\n11.5\n88.40\n0.72\n4,947.1\n40.20\n3.01\n0.04\nUnited \nKingdo",
+        "bbox": [
+          0,
+          0,
+          576.0,
+          756.0
+        ],
+        "locator": {
+          "table": "S.1",
+          "row": "Japan",
+          "column": "GNI per capita, Atlas method (current US$, 2023)",
+          "unit": "USD",
+          "bbox_scope": "whole table page; row/column disambiguate cell"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_06",
+    "split": "test",
+    "question": "Theo bảng S.1, số nhà nghiên cứu trên một triệu dân của Hàn Quốc là bao nhiêu?",
+    "answerable": true,
+    "group": "table",
+    "expected_answer": "8.483,2 nhà nghiên cứu/triệu dân",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 82,
+        "evidence": "sumption, \nGt/exajoules)\nKorea, Rep.\nHIC\n35,490\n2.0\n—\n92.5\n98.75\n0.79\n8,483.2\n—\n7.63\n0.05\nJapan\nHIC\n39,030\n2.3\n—\n50.1\n95.50\n0.65\n5,476.3\n—\n4.22\n0.06\nFrance\nHIC\n45,070\n1.3\n0.11\n11.5\n88.40\n0.72\n4,947.1\n",
+        "bbox": [
+          0,
+          0,
+          576.0,
+          756.0
+        ],
+        "locator": {
+          "table": "S.1",
+          "row": "Korea, Rep.",
+          "column": "Researchers per million inhabitants",
+          "unit": "nhà nghiên cứu/triệu dân",
+          "bbox_scope": "whole table page; row/column disambiguate cell"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_07",
+    "split": "test",
+    "question": "Trong hình P2.1, kích thước tương đối của Preservation và Destruction thay đổi thế nào từ trái sang phải?",
+    "answerable": true,
+    "group": "diagram_image",
+    "expected_answer": "Preservation thu nhỏ, Destruction lớn lên; ba lực trở nên cân bằng hơn.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 115,
+        "evidence": "Creation",
+        "bbox": [
+          65,
+          115,
+          500,
+          330
+        ],
+        "locator": {
+          "region_id": "figure_P2.1",
+          "caption": "Figure P2.1",
+          "source": "WDR 2024 team"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_08",
+    "split": "test",
+    "question": "Trong sơ đồ 4.2, panel nào minh họa cả doanh nghiệp hiện hữu và doanh nghiệp mới cùng tạo giá trị?",
+    "answerable": true,
+    "group": "diagram_image",
+    "expected_answer": "Panel c, quan điểm Akcigit và Kerr: cả incumbents và entrants cùng tạo giá trị.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 119,
+        "evidence": "Incumbent",
+        "bbox": [
+          65,
+          445,
+          510,
+          690
+        ],
+        "locator": {
+          "region_id": "figure_4.2",
+          "caption": "Figure 4.2",
+          "source": "WDR 2024 team"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_09",
+    "split": "test",
+    "question": "Trong thang chất lượng hình 4.3, mũi tên IN đi vào hãng nào, còn OUT đi ra từ hãng nào?",
+    "answerable": true,
+    "group": "diagram_image",
+    "expected_answer": "IN vào Firm 5; OUT ra từ Firm 4.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 120,
+        "evidence": "Firm 5",
+        "bbox": [
+          295,
+          85,
+          510,
+          365
+        ],
+        "locator": {
+          "region_id": "figure_4.3",
+          "caption": "Figure 4.3",
+          "source": "WDR 2024 team"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_10",
+    "split": "test",
+    "question": "Theo sơ đồ 4.4, Internal R&D nâng chất lượng trên dòng sản phẩm hiện hữu hay chuyển sang dòng khác? External R&D khác thế nào?",
+    "answerable": true,
+    "group": "diagram_image",
+    "expected_answer": "Internal R&D nâng chất lượng trên cùng dòng sản phẩm; External R&D mở rộng sang dòng sản phẩm khác.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 121,
+        "evidence": "Internal R&D",
+        "bbox": [
+          65,
+          460,
+          510,
+          690
+        ],
+        "locator": {
+          "region_id": "figure_4.4",
+          "caption": "Figure 4.4",
+          "source": "Akcigit and Kerr 2018"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_11",
+    "split": "test",
+    "question": "Trong sơ đồ 7.2, ba ô đáy dẫn đến ô nào, rồi ô đó dẫn đến mục tiêu nào phía trên?",
+    "answerable": true,
+    "group": "diagram_image",
+    "expected_answer": "Institutions, Incentives, Interventions dẫn đến Contestability, rồi đến Disciplining incumbency.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 195,
+        "evidence": "Contestability",
+        "bbox": [
+          65,
+          480,
+          285,
+          690
+        ],
+        "locator": {
+          "region_id": "figure_7.2",
+          "caption": "Figure 7.2",
+          "source": "WDR 2024 team"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_04",
+    "split": "dev",
+    "question": "Trong hình P2.1 bên trái, lực nào có vòng tròn lớn nhất?",
+    "answerable": true,
+    "group": "diagram_image",
+    "expected_answer": "Preservation.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 115,
+        "evidence": "Preservation",
+        "bbox": [
+          65,
+          115,
+          500,
+          330
+        ],
+        "locator": {
+          "region_id": "figure_P2.1",
+          "source": "WDR 2024 team",
+          "caption": "Figure P2.1"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_05",
+    "split": "dev",
+    "question": "Trong hình 4.2 panel a, doanh nghiệp hiện hữu được minh họa đang làm gì với doanh nghiệp mới?",
+    "answerable": true,
+    "group": "diagram_image",
+    "expected_answer": "Chặn doanh nghiệp mới tiến tới biên công nghệ.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 119,
+        "evidence": "TECHNOLOGY FRONTIER",
+        "bbox": [
+          65,
+          445,
+          510,
+          690
+        ],
+        "locator": {
+          "region_id": "figure_4.2",
+          "source": "WDR 2024 team",
+          "caption": "Figure 4.2"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_06",
+    "split": "dev",
+    "question": "Trục thẳng đứng của thang hình 4.3 thể hiện đại lượng gì?",
+    "answerable": true,
+    "group": "diagram_image",
+    "expected_answer": "Năng suất hoặc chất lượng sản xuất.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 120,
+        "evidence": "Productivity or quality of production",
+        "bbox": [
+          295,
+          85,
+          510,
+          365
+        ],
+        "locator": {
+          "region_id": "figure_4.3",
+          "source": "WDR 2024 team",
+          "caption": "Figure 4.3"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_12",
+    "split": "test",
+    "question": "Trong hình 3.1, năm 2018 đường chính sách hữu ích hay có hại cao hơn; năm 2022 thì sao?",
+    "answerable": true,
+    "group": "chart",
+    "expected_answer": "2018: hữu ích cao hơn; 2022: có hại cao hơn.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 104,
+        "evidence": "Number of new global trade policies",
+        "bbox": [
+          65,
+          375,
+          515,
+          610
+        ],
+        "locator": {
+          "region_id": "figure_3.1",
+          "caption": "Figure 3.1",
+          "source": "WDR 2024 team; see native source note"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_13",
+    "split": "test",
+    "question": "Trong hình 3.2, năm 2023 tổng cột can thiệp có hại lớn hay nhỏ hơn tổng cột hữu ích, và hai màu đại diện mã gì?",
+    "answerable": true,
+    "group": "chart",
+    "expected_answer": "Có hại lớn hơn nhiều; hai màu là mã bán dẫn 8541 và 8542.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 105,
+        "evidence": "8541 semiconductors",
+        "bbox": [
+          65,
+          85,
+          515,
+          460
+        ],
+        "locator": {
+          "region_id": "figure_3.2",
+          "caption": "Figure 3.2",
+          "source": "WDR 2024 team; see native source note"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_14",
+    "split": "test",
+    "question": "Hình 3.3 dùng đơn vị nào và năm 2022 phần nợ tư nhân hay công lớn hơn?",
+    "answerable": true,
+    "group": "chart",
+    "expected_answer": "Phần trăm GDP; nợ tư nhân lớn hơn nợ công.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 106,
+        "evidence": "Debt as share of GDP (%)",
+        "bbox": [
+          65,
+          85,
+          515,
+          460
+        ],
+        "locator": {
+          "region_id": "figure_3.3",
+          "caption": "Figure 3.3",
+          "source": "WDR 2024 team; see native source note"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_15",
+    "split": "test",
+    "question": "Trong hình 3.5a, cường độ năng lượng LMIC và HIC chênh nhau bao nhiêu?",
+    "answerable": true,
+    "group": "chart",
+    "expected_answer": "12,1 − 5,1 = 7,0 exajoule/nghìn tỷ USD.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 108,
+        "evidence": "12.1",
+        "bbox": [
+          65,
+          85,
+          515,
+          460
+        ],
+        "locator": {
+          "region_id": "figure_3.5",
+          "caption": "Figure 3.5",
+          "source": "WDR 2024 team; see native source note"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_16",
+    "split": "test",
+    "question": "Trong hình 3.6, trục phải đo gì và đường bình quân nhóm thu nhập thấp cao hay thấp hơn nhóm thu nhập cao?",
+    "answerable": true,
+    "group": "chart",
+    "expected_answer": "Trục phải đo WACC (%); bình quân thu nhập thấp cao hơn thu nhập cao.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 109,
+        "evidence": "Weighted average cost of capital (%)",
+        "bbox": [
+          65,
+          85,
+          515,
+          460
+        ],
+        "locator": {
+          "region_id": "figure_3.6",
+          "caption": "Figure 3.6",
+          "source": "WDR 2024 team; see native source note"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_07",
+    "split": "dev",
+    "question": "Hình 3.5b cho cường độ carbon của UMIC bằng bao nhiêu và đơn vị gì?",
+    "answerable": true,
+    "group": "chart",
+    "expected_answer": "0,086 GtCO2 tương đương/exajoule.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 108,
+        "evidence": "0.086",
+        "bbox": [
+          65,
+          85,
+          515,
+          610
+        ],
+        "locator": {
+          "region_id": "figure_3.5",
+          "caption": "Figure 3.5",
+          "source": "WDR 2024 team"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_08",
+    "split": "dev",
+    "question": "Hình 3.1 có khoảng năm nào trên trục ngang?",
+    "answerable": true,
+    "group": "chart",
+    "expected_answer": "2010–2022.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 104,
+        "evidence": "2010",
+        "bbox": [
+          65,
+          85,
+          515,
+          610
+        ],
+        "locator": {
+          "region_id": "figure_3.1",
+          "caption": "Figure 3.1",
+          "source": "WDR 2024 team"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_09",
+    "split": "dev",
+    "question": "Hình 3.3 tổng nợ đạt đỉnh khoảng năm 2020 hay 1950?",
+    "answerable": true,
+    "group": "chart",
+    "expected_answer": "Khoảng năm 2020.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 106,
+        "evidence": "2020",
+        "bbox": [
+          65,
+          85,
+          515,
+          610
+        ],
+        "locator": {
+          "region_id": "figure_3.3",
+          "caption": "Figure 3.3",
+          "source": "WDR 2024 team"
+        },
+        "evidence_mode": "visual"
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_17",
+    "split": "test",
+    "question": "Báo cáo hiện phân loại bao nhiêu nước là thu nhập trung bình và khoảng thu nhập đầu người nào?",
+    "answerable": true,
+    "group": "text",
+    "expected_answer": "108 nước; 1.136–13.845 USD/năm.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": "they are today. \nOne trap or two?\nThe World Bank presently classifies 108 countries \nas “middle-income”—that is, those with annual \nincome per capita ranging from US$1,136 to \nUS$13,845.1 These countr",
+        "bbox": [
+          220.98,
+          215.8,
+          278.95,
+          228.01
+        ],
+        "locator": {
+          "anchor_quote": "108 countries",
+          "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_18",
+    "split": "test",
+    "question": "Thu nhập đầu người của Hàn Quốc năm 1960 và 2023 được mô tả ra sao?",
+    "answerable": true,
+    "group": "text",
+    "expected_answer": "Dưới 1.200 USD năm 1960, khoảng 33.000 USD năm 2023.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 39,
+        "evidence": "ped countries globally in the early 1960s, \nwith income per capita of less than US$1,200 in \n1960. By 2023, after an unparalleled five-decade \nrun of high output growth, Korea’s income per \ncapita had",
+        "bbox": [
+          413.65,
+          647.32,
+          496.36,
+          659.53
+        ],
+        "locator": {
+          "anchor_quote": "less than US$1,200",
+          "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_19",
+    "split": "test",
+    "question": "Tỷ lệ tăng năng suất bắt nguồn từ tái phân bổ nguồn lực thành công giữa các doanh nghiệp là bao nhiêu?",
+    "answerable": true,
+    "group": "text",
+    "expected_answer": "50–70%.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 119,
+        "evidence": "\nbut are utilized more efficiently by grow­\ning enterprises. In fact, 50–70 percent of \nproductivity growth stems from success­\nful resource reallocation among firms—\nwhether incumbents or entrants.1\n",
+        "bbox": [
+          434.81,
+          149.87,
+          496.0,
+          162.08
+        ],
+        "locator": {
+          "anchor_quote": "50–70 percent",
+          "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_20",
+    "split": "test",
+    "question": "WACC có thể chiếm bao nhiêu chi phí điện quy dẫn của dự án điện mặt trời PV quy mô tiện ích?",
+    "answerable": true,
+    "group": "text",
+    "expected_answer": "20–50%.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 108,
+        "evidence": " is key because the weighted average \ncost of capital can account for 20–50 percent of \nthe levelized cost of electricity from utility-scale \nsolar PV projects.20 And yet the cost of capital \nfor util",
+        "bbox": [
+          204.91,
+          503.32,
+          266.9,
+          515.52
+        ],
+        "locator": {
+          "anchor_quote": "20–50 percent",
+          "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_10",
+    "split": "dev",
+    "question": "Trong 34 năm qua, bao nhiêu nền kinh tế thoát bẫy thu nhập trung bình theo báo cáo?",
+    "answerable": true,
+    "group": "text",
+    "expected_answer": "34 nền kinh tế.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 36,
+        "evidence": "s \ndependence the “middle-income trap.”2 And over \nthe last 34 years, only 34 economies have suc­\nceeded in breaking out of it. \nTo achieve high-income status, a middle-​\nincome country needs to ramp ",
+        "bbox": [
+          378.73,
+          388.31,
+          462.5,
+          400.51
+        ],
+        "locator": {
+          "anchor_quote": "only 34 economies",
+          "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_11",
+    "split": "dev",
+    "question": "Vì sao phần lớn doanh nhân ở nước thu nhập trung bình lập doanh nghiệp?",
+    "answerable": true,
+    "group": "text",
+    "expected_answer": "Do nhu cầu sinh kế, không phải cơ hội kinh doanh.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 117,
+        "evidence": "ants disrupt because the majority of \n­entrepreneurs start businesses driven by necessity, not business opportunity. And too few \nincumbents infuse global technologies and know-how. Instead, they abus",
+        "bbox": [
+          235.17,
+          320.36,
+          317.01,
+          332.57
+        ],
+        "locator": {
+          "anchor_quote": "driven by necessity",
+          "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_dev_12",
+    "split": "dev",
+    "question": "Chi phí phân mảnh công nghệ được ước tính cao đến mức nào cho nhiều nền kinh tế?",
+    "answerable": true,
+    "group": "text",
+    "expected_answer": "Tới 5% GDP.",
+    "gold": [
+      {
+        "source_id": "wdr2024",
+        "page": 105,
+        "evidence": "ed with technolog­\nical fragmentation are estimated to be as high as \n5 percent of the gross domestic product (GDP) \nfor many economies.12 Compounding that are \nthe high risks associated with disrupti",
+        "bbox": [
+          67.5,
+          634.44,
+          109.44,
+          646.64
+        ],
+        "locator": {
+          "anchor_quote": "5 percent",
+          "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+        }
+      }
+    ]
+  },
+  {
+    "id": "advanced_test_21",
+    "split": "test",
+    "question": "Kết hợp bảng O.1 và phần giải thích Hàn Quốc: nhóm thu nhập cao chiếm bao nhiêu phát thải CO2 năm 2022, và Hàn Quốc đạt khoảng thu nhập đầu người nào năm 2023?",
+    "answerable": true,
+    "group": "multi_hop",
+    "expected_answer": "35,2%; khoảng 33.000 USD.",
+    "gold": [],
+    "evidence_groups": [
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 36,
+          "evidence": "15.7\nUpper-middle-income\n35.1\n30.3\n7.1\n48.6\nHigh-income\n15.7\n60.8\n1.0\n35.2\nSources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), \nWorld Bank",
+          "bbox": [
+            449.61,
+            589.17,
+            464.94,
+            599.79
+          ],
+          "locator": {
+            "anchor_quote": "35.2",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ],
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 39,
+          "evidence": " of high output growth, Korea’s income per \ncapita had risen to about US$33,000. \nTable O.2  To achieve high-income status, countries will need to recalibrate their mix of \n­investment, infusion, and ",
+          "bbox": [
+            405.02,
+            687.08,
+            450.58,
+            699.29
+          ],
+          "locator": {
+            "anchor_quote": "US$33,000",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ]
+    ],
+    "all_groups_required": true
+  },
+  {
+    "id": "advanced_test_22",
+    "split": "test",
+    "question": "Kết hợp bảng S.1 và hình 3.5a: cường độ năng lượng của Nhật Bản so với bình quân HIC thấp hơn bao nhiêu?",
+    "answerable": true,
+    "group": "multi_hop",
+    "expected_answer": "5,1 − 4,22 = 0,88 exajoule/nghìn tỷ USD.",
+    "gold": [],
+    "evidence_groups": [
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 82,
+          "evidence": "\n8,483.2\n—\n7.63\n0.05\nJapan\nHIC\n39,030\n2.3\n—\n50.1\n95.50\n0.65\n5,476.3\n—\n4.22\n0.06\nFrance\nHIC\n45,070\n1.3\n0.11\n11.5\n88.40\n0.72\n4,947.1\n40.20\n3.01\n0.04\nUnited \nKingdom\nHIC\n47,800\n1.6\n—\n9.9\n83.33\n0.79\n4,491",
+          "bbox": [
+            179.29,
+            181.39,
+            189.9,
+            196.72
+          ],
+          "locator": {
+            "anchor_quote": "4.22",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ],
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 108,
+          "evidence": "Carbon intensity\nof energy consumption\n0\n5\n10\n15\n12.1\nLMICs\n9.0\nUMICs\n5.1\nHICs\nEnergy intensity\n(exajoules/trillion US$)\n0\n0.020\n0.040\n0.060\n0.080\n0.100\n0.120\n0.098\nLMICs\n0.086\nUMICs\n0.056\nHICs\nCarbon",
+          "bbox": [
+            237.33,
+            223.72,
+            250.16,
+            235.66
+          ],
+          "locator": {
+            "anchor_quote": "5.1",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ]
+    ],
+    "all_groups_required": true
+  },
+  {
+    "id": "advanced_test_23",
+    "split": "test",
+    "question": "Kết hợp chương Creation và Part 3: chính sách dựa vào quy mô doanh nghiệp gây vấn đề gì và tiêu chí thay thế được đề xuất là gì?",
+    "answerable": true,
+    "group": "multi_hop",
+    "expected_answer": "Ưu ái doanh nghiệp nhỏ, giảm động lực tăng trưởng; đánh giá giá trị gia tăng về việc làm, xuất khẩu, tiếp nhận công nghệ và đổi mới.",
+    "gold": [],
+    "evidence_groups": [
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 117,
+          "evidence": "ize of firms rather \nthan their ability to create value. As a result, policies tend to favor small firms and reduce \nthe incentives of firms to grow.\n•\t Governments will need more reliable diagnostics",
+          "bbox": [
+            296.08,
+            373.37,
+            438.26,
+            385.57
+          ],
+          "locator": {
+            "anchor_quote": "policies tend to favor small firms",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ],
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 191,
+          "evidence": "-being. This entails redesigning poli­\ncies to focus on assessing the value added \nof firms in jobs, exports, technology infu­\nsion, and innovation instead of designing \npolicies that simply focus on ",
+          "bbox": [
+            457.33,
+            465.33,
+            508.45,
+            477.54
+          ],
+          "locator": {
+            "anchor_quote": "value added",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ]
+    ],
+    "all_groups_required": true
+  },
+  {
+    "id": "advanced_test_24",
+    "split": "test",
+    "question": "Theo trang 74 và 76, nợ đắt đỏ ảnh hưởng đầu tư mới thế nào và vì sao chuyển đổi năng lượng đặc biệt cần vốn rẻ?",
+    "answerable": true,
+    "group": "multi_hop",
+    "expected_answer": "Đầu tư mới có thể bị trì hoãn; tài sản năng lượng sạch đòi hỏi vốn ban đầu lớn dù chi phí vận hành thấp.",
+    "gold": [],
+    "evidence_groups": [
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 106,
+          "evidence": "nsition, education, the capacity to \ninnovate, and infrastructure—are likely to be put \non hold.\nEncouraging growth in low- and middle-­income \ncountries under the current circumstances will \nnot be e",
+          "bbox": [
+            445.1,
+            376.12,
+            508.48,
+            388.33
+          ],
+          "locator": {
+            "anchor_quote": "likely to be put",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ],
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 108,
+          "evidence": "Cs\nCarbon intensity\nof energy consumption\n(GtCO2 equivalent/exajoule)\nrequire considerable up-front capital despite lower \noperating expenses.19 Thus middle-income coun­\ntries need access to low-cost ",
+          "bbox": [
+            67.5,
+            384.05,
+            221.34,
+            396.26
+          ],
+          "locator": {
+            "anchor_quote": "require considerable up-front capital",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ]
+    ],
+    "all_groups_required": true
+  },
+  {
+    "id": "advanced_dev_13",
+    "split": "dev",
+    "question": "Kết hợp bảng O.2 và O.3: nhóm thu nhập trung bình thấp ưu tiên infusion ở mức nào và cần làm gì để lan tỏa công nghệ toàn cầu?",
+    "answerable": true,
+    "group": "multi_hop",
+    "expected_answer": "Ưu tiên cao; làm thị trường yếu tố và sản phẩm thông suốt để lan tỏa công nghệ toàn cầu.",
+    "gold": [],
+    "evidence_groups": [
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 39,
+          "evidence": "ation\nINCOME CLASSIFICATION\nINVESTMENT\nINFUSION\nINNOVATION\nLow-income\nHigher priority\nLower priority\nLower priority\nLower-middle-income\nHigher priority\nHigher priority\nLower priority\nUpper-middle-inco",
+          "bbox": [
+            216.37,
+            155.49,
+            265.47,
+            166.11
+          ],
+          "locator": {
+            "anchor_quote": "Higher priority",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ],
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 59,
+          "evidence": "et leaders through integration into \nglobally contestable markets.\n•\t\nDiffuse global technologies with fluid factor and \nproduct markets.\n•\t\nReward value-adding firms to stimulate business \ndynamism.\n",
+          "bbox": [
+            222.25,
+            412.4,
+            317.16,
+            423.02
+          ],
+          "locator": {
+            "anchor_quote": "Diffuse global technologies",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ]
+    ],
+    "all_groups_required": true
+  },
+  {
+    "id": "advanced_dev_14",
+    "split": "dev",
+    "question": "Kết hợp trang 85 và 163: SOE có nghĩa là gì và họ ngăn doanh nghiệp năng lượng tái tạo mới bằng những nguồn lực nào?",
+    "answerable": true,
+    "group": "multi_hop",
+    "expected_answer": "Doanh nghiệp nhà nước; thị phần lớn, kiểm soát lưới điện và ảnh hưởng lên quy định.",
+    "gold": [],
+    "evidence_groups": [
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 117,
+          "evidence": "rt because the government had \nenacted import restrictions to protect state-owned \nenterprises (SOEs). To allow foreign hardware \nto be imported, the government required Indian \ncompanies to commit to",
+          "bbox": [
+            225.05,
+            616.68,
+            277.98,
+            628.89
+          ],
+          "locator": {
+            "anchor_quote": "state-owned",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ],
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 195,
+          "evidence": "ntry of \nnew players in renewables using their outsize \nmarket share, control of the grid, and influence \non regulation.\nContestable markets—and the policies that \nenable them—are vital for middle-inc",
+          "bbox": [
+            131.09,
+            255.83,
+            212.18,
+            268.04
+          ],
+          "locator": {
+            "anchor_quote": "control of the grid",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ]
+    ],
+    "all_groups_required": true
+  },
+  {
+    "id": "advanced_dev_15",
+    "split": "dev",
+    "question": "Kết hợp trang 6 và 88: nước áp dụng công nghệ mới cần loại lao động nào, và bộ đo động lực doanh nghiệp hiện đại có xem xét gia nhập/rút lui không?",
+    "answerable": true,
+    "group": "multi_hop",
+    "expected_answer": "Cần nhiều lao động kỹ thuật, kỹ sư, nhà khoa học, nhà quản lý; có, gồm tỷ lệ gia nhập và rút lui.",
+    "gold": [],
+    "evidence_groups": [
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 38,
+          "evidence": " firms to make \nthe most of new technologies, they need tech­\nnically skilled workers in large numbers and a \nsufficient supply of engineers, scientists, man­\nagers, and other highly skilled professio",
+          "bbox": [
+            100.86,
+            687.24,
+            168.85,
+            699.45
+          ],
+          "locator": {
+            "anchor_quote": "skilled workers",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ],
+      [
+        {
+          "source_id": "wdr2024",
+          "page": 120,
+          "evidence": "at \nincludes market concentration, markups, \nproductivity dispersion, firm entry and \nexit rates, and job reallocation. \nThis chapter examines the forces of creation \nfrom the perspective of firms wit",
+          "bbox": [
+            210.1,
+            216.08,
+            231.17,
+            228.29
+          ],
+          "locator": {
+            "anchor_quote": "firm entry and",
+            "bbox_scope": "anchor; verify surrounding paragraph for full excerpt"
+          }
+        }
+      ]
+    ],
+    "all_groups_required": true
+  },
+  {
+    "id": "advanced_dev_16",
+    "split": "dev",
+    "question": "GDP thực tế Việt Nam quý IV năm 2031 là bao nhiêu?",
+    "answerable": false,
+    "group": "absent",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kết quả kinh tế thực tế năm 2031 sau xuất bản, không phải dự báo. Kiểm tra native text toàn bộ 276 trang và đối chiếu phạm vi mục lục; không chỉ kiểm tra top-k. Chuỗi kiểm tra: Q4 2031; trang khớp: [].",
+    "documentwide_checks": {
+      "pages_checked": 276,
+      "query": "Q4 2031",
+      "matching_pages": []
+    }
+  },
+  {
+    "id": "advanced_dev_17",
+    "split": "dev",
+    "question": "Lãi suất điều hành thực tế của Ngân hàng Nhà nước Việt Nam ngày 15/11/2026 là bao nhiêu?",
+    "answerable": false,
+    "group": "absent",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có quan sát lãi suất chính sách Việt Nam ngày này sau xuất bản. Kiểm tra native text toàn bộ 276 trang và đối chiếu phạm vi mục lục; không chỉ kiểm tra top-k. Chuỗi kiểm tra: November 15, 2026; trang khớp: [].",
+    "documentwide_checks": {
+      "pages_checked": 276,
+      "query": "November 15, 2026",
+      "matching_pages": []
+    }
+  },
+  {
+    "id": "advanced_dev_18",
+    "split": "dev",
+    "question": "Doanh thu kiểm toán của VinFast năm tài chính 2030 là bao nhiêu?",
+    "answerable": false,
+    "group": "absent",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có báo cáo tài chính kiểm toán VinFast năm 2030. Kiểm tra native text toàn bộ 276 trang và đối chiếu phạm vi mục lục; không chỉ kiểm tra top-k. Chuỗi kiểm tra: VinFast; trang khớp: [].",
+    "documentwide_checks": {
+      "pages_checked": 276,
+      "query": "VinFast",
+      "matching_pages": []
+    }
+  },
+  {
+    "id": "advanced_test_25",
+    "split": "test",
+    "question": "Mã nguồn Python hoàn chỉnh để tái lập mô hình Akcigit–Kerr trong báo cáo là gì?",
+    "answerable": false,
+    "group": "absent",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu mô tả mô hình và trích dẫn nghiên cứu, không chứa chương trình Python hoàn chỉnh. Kiểm tra native text toàn bộ 276 trang và đối chiếu phạm vi mục lục; không chỉ kiểm tra top-k. Chuỗi kiểm tra: def simulate; trang khớp: [].",
+    "documentwide_checks": {
+      "pages_checked": 276,
+      "query": "def simulate",
+      "matching_pages": []
+    }
+  },
+  {
+    "id": "advanced_test_26",
+    "split": "test",
+    "question": "Số điện thoại cá nhân của tác giả Ufuk Akcigit là gì?",
+    "answerable": false,
+    "group": "absent",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu nêu tác giả nghiên cứu, không cung cấp số điện thoại cá nhân. Kiểm tra native text toàn bộ 276 trang và đối chiếu phạm vi mục lục; không chỉ kiểm tra top-k. Chuỗi kiểm tra: personal telephone; trang khớp: [].",
+    "documentwide_checks": {
+      "pages_checked": 276,
+      "query": "personal telephone",
+      "matching_pages": []
+    }
+  },
+  {
+    "id": "advanced_test_27",
+    "split": "test",
+    "question": "Tọa độ GPS từng nhà máy điện than tại Việt Nam trong bản đồ 6.2 là gì?",
+    "answerable": false,
+    "group": "absent",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Bản đồ lưới điện minh họa không phải danh mục tọa độ GPS từng nhà máy Việt Nam. Kiểm tra native text toàn bộ 276 trang và đối chiếu phạm vi mục lục; không chỉ kiểm tra top-k. Chuỗi kiểm tra: GPS coordinates; trang khớp: [].",
+    "documentwide_checks": {
+      "pages_checked": 276,
+      "query": "GPS coordinates",
+      "matching_pages": []
+    }
+  },
+  {
+    "id": "advanced_test_28",
+    "split": "test",
+    "question": "Danh sách tên từng người thuộc mẫu khảo sát di động xã hội trong hình 5.2 là gì?",
+    "answerable": false,
+    "group": "absent",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Báo cáo trình bày tổng hợp, không công bố danh tính từng người trả lời. Kiểm tra native text toàn bộ 276 trang và đối chiếu phạm vi mục lục; không chỉ kiểm tra top-k. Chuỗi kiểm tra: respondent names; trang khớp: [].",
+    "documentwide_checks": {
+      "pages_checked": 276,
+      "query": "respondent names",
+      "matching_pages": []
+    }
+  },
+  {
+    "id": "advanced_test_29",
+    "split": "test",
+    "question": "Số ca ung thư phổi tại từng bệnh viện Việt Nam năm 2022 được báo cáo là bao nhiêu?",
+    "answerable": false,
+    "group": "absent",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có bảng bệnh viện Việt Nam và số ca ung thư phổi. Kiểm tra native text toàn bộ 276 trang và đối chiếu phạm vi mục lục; không chỉ kiểm tra top-k. Chuỗi kiểm tra: lung cancer; trang khớp: [].",
+    "documentwide_checks": {
+      "pages_checked": 276,
+      "query": "lung cancer",
+      "matching_pages": []
+    }
+  },
+  {
+    "id": "advanced_test_30",
+    "split": "test",
+    "question": "Mật khẩu truy cập cơ sở dữ liệu Global Trade Alert được báo cáo cung cấp là gì?",
+    "answerable": false,
+    "group": "absent",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chỉ có nguồn và đường dẫn dữ liệu; không có thông tin xác thực. Kiểm tra native text toàn bộ 276 trang và đối chiếu phạm vi mục lục; không chỉ kiểm tra top-k. Chuỗi kiểm tra: password; trang khớp: [].",
+    "documentwide_checks": {
+      "pages_checked": 276,
+      "query": "password",
+      "matching_pages": []
+    }
+  }
+]

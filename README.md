@@ -1,33 +1,83 @@
 # Day 7 — Agentic RAG
 
-**Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
+**Phạm Quang Tuấn · 2A202603824 · L3B**
 
-Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
+PDF 276 trang → native text + mô tả bảng/hình → E5 Day 6 / Qwen3-Embedding-8B →
+Qdrant local + BM25/RRF → model gọi retrieval thật → trả lời có nguồn hoặc từ chối.
 
-> **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
+[Báo cáo](report/individual/2A202603824_PhamQuangTuan.md) ·
+[Nguồn và quyền](docs/DATA_ACCESS.md) ·
+[Kết quả validation](results/submission_validation.json)
 
-## Bài cần làm
+## Kiểm tra bản nộp
 
-![Agent tìm tài liệu trong kho Day 6 và trả lời có nguồn](assets/retrieval-pipeline.svg)
+Python 3.12; chạy từ thư mục gốc bằng PowerShell:
 
-1. Kết nối dữ liệu, embedding và vector store Day 6.
-2. Xây agent dùng model thật và ít nhất một khả năng truy xuất dữ liệu. Agent có thể dùng nhiều tool và nhiều lượt gọi.
-3. Thử **ít nhất 3 phương pháp retrieval khác nhau**, trong đó có dense retrieval dùng vector store Day 6. Tự chọn các phương pháp còn lại; xem [gợi ý](GUIDE.md#2-thử-các-phương-pháp-retrieval).
-4. Thử nhiều cấu hình, benchmark, phân tích lỗi và chọn cấu hình tốt trên **dev**; sau đó đánh giá trên **test**.
+```powershell
+py -m pip install -r requirements.txt
+py scripts/download_source.py
+py -m src.indexing restore
+py -m unittest discover -s tests -v
+py scripts/validate_submission.py
+py scripts/replay_metrics.py
+```
 
-Benchmark tối thiểu có **24 câu**: dev gồm 15 câu có đáp án và 2 câu thiếu bằng chứng; test gồm 5 câu có đáp án và 2 câu thiếu bằng chứng. Xem [benchmark](BENCHMARK.md) và [rubric](RUBRIC.md).
+`restore` dùng final vector NPZ, không gọi API hoặc tải model. PDF/crop/model weights,
+cache/Qdrant và log debug không đưa vào Git. Manifest, chunk, final vectors, benchmark,
+trace/nhãn/metrics và code được giữ để kiểm tra/tái lập. Nhãn AI không được giả là nhãn người chấm.
 
-## Thử thách nâng cao · +15 điểm
+Qdrant local giữ file lock: không chạy `restore`, `search`, `answer` hoặc benchmark
+ở hai tiến trình cùng lúc trên một đường dẫn index. Unit tests dùng store tạm riêng.
 
-Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và biểu đồ; xây agent truy xuất và trả lời các câu hỏi về nội dung đó. Hoàn thành [thử thách nâng cao](ADVANCED.md) và đạt **ít nhất 90% benchmark test** để nhận 15 điểm bonus. Phần cơ bản tối đa 85 điểm; toàn bài tối đa 100 điểm.
+## Truy xuất và hỏi đáp
 
-## Bắt đầu
+Lexical không cần GPU/API:
 
-1. Đọc [hướng dẫn](GUIDE.md), [rubric](RUBRIC.md) và [quy tắc](RULES.md).
-2. Tạo repo cá nhân theo [cách nộp bài](SUBMISSION.md), chuẩn bị đầu ra Day 6 và model hỗ trợ tool calling.
-3. Dùng hoặc thay thế [starter](starter/README.md); bạn cần kết nối model và vector store thật.
-4. Chạy `python -m unittest discover -s tests -v`. Test mock chỉ kiểm tra code, không phải benchmark agent thật.
+```powershell
+py -m src.run search --method bm25 --question "Figure O.4 investment infusion innovation"
+```
 
-![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
+Dense E5 dùng model và venv có sẵn ở repo Day 6 bên cạnh; không tải lại.
+Qwen query cần Colab session/model và bridge local theo [hướng dẫn](docs/COLAB_EMBEDDING.md).
+Đặt `API_KEY` trong `.env` theo `.env.example` cho model trả lời:
 
-Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+```powershell
+py -m src.run search --method dense_e5 --question "Chiến lược 3i gồm những gì?"
+py -m src.run answer --question "Chiến lược 3i gồm những gì?" --output .runtime/answer.json
+```
+
+Model trả lời qua OpenProvider; gateway không hỗ trợ đầy đủ chuẩn OpenAI.
+Adapter ghi việc chuyển tool result sang user-context và không giả kết quả khi lỗi.
+
+## Tái chạy pipeline
+
+```powershell
+py -m src.ingest
+py scripts/embed_e5.py
+# Colab setup, upload corpus, batch Qwen và vision: xem docs/COLAB_EMBEDDING.md
+py -m src.indexing finalize
+py -m src.indexing build
+py -m src.experiments dev
+py -m src.experiments test
+py scripts/make_report.py
+py scripts/validate_submission.py
+```
+
+Không ghi đè run/selection đã khóa. Muốn làm thí nghiệm mới, dùng checkout/thư mục
+kết quả mới và công bố version; kết quả sau khi xem test là replay, không phải holdout mới.
+
+## Định dạng và bằng chứng
+
+`data/chunks.json` giữ nguyên schema example: `id,text,source_id,source,page,metadata`.
+`page` là trang PDF gốc 1-based; metadata giữ bbox, loại native/vision và model version.
+Gold không vào index/agent. Multi-hop dùng `evidence_groups` (mọi nhóm bắt buộc).
+
+- [Index manifest](data/index_manifest.json), [thống kê xử lý](data/processing_summary.json).
+- [Benchmark cơ bản](data/benchmark/basic_questions.json), [nâng cao](data/benchmark/advanced_questions.json).
+- `results/experiments/<config>/<suite>/<split>/`: tool trace, context, câu trả lời,
+  citation, labels/reasons, metrics, usage và lỗi theo từng query.
+- `py scripts/render_evidence.py` tạo gallery local từ PDF/bbox; không phát hành crop bên thứ ba.
+
+Phần cơ bản tối đa 85 điểm; bonus nâng cao chỉ khi đủ yêu cầu và ≥90% test thực tế.
+Không dùng kết quả mock hoặc bỏ câu lỗi để báo đạt. Đề gốc: [GUIDE](GUIDE.md),
+[BENCHMARK](BENCHMARK.md), [ADVANCED](ADVANCED.md), [SUBMISSION](SUBMISSION.md).

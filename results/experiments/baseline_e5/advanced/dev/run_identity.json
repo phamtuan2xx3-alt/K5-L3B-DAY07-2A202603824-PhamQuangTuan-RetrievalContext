@@ -1,0 +1,18 @@
+{
+  "config": {
+    "id": "baseline_e5",
+    "method": "dense_e5",
+    "top_k": 3,
+    "context_budget": 6000,
+    "max_rounds": 2,
+    "page_expansion": false,
+    "model": "gemini-3.8-flash-high",
+    "hypothesis": "Day 6 E5 dense baseline with a compact context."
+  },
+  "cases_sha256": "50645a13bb97e9d18392ff992915b99751c1c7e212f21a06437746dc96d2fd4c",
+  "index_manifest_sha256": "03f73b1bc1a3d7b288ac621bf04f86337c58a74ac556522b32b5248059678869",
+  "implementation_sha256": {
+    "src/agent.py": "3b6568e9ff7e282e13ea986f9b4f82e35e172d7bac83e98d36b11a47f53d429c",
+    "src/retrieval.py": "7dbb5032f452e81ce2c0f426949cff95de554c40c4e214c8aeb8a1bea9173646"
+  }
+}

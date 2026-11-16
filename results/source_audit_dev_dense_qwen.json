@@ -1,0 +1,454 @@
+{
+  "auditor": "Codex source audit; AI-authored, not human review",
+  "scope": "dense_qwen/basic/dev only; all17; no test inspection or model/API/retrieval execution; original labels and benchmark untouched",
+  "created_at_utc": "2026-11-16T05:09:52.217336+00:00",
+  "method": "Read all actual answers and cited chunk text against original PDF native pages. Rendered original75/108 viewed to verify chart mappings. Reran documentwide year scan for absence; year-hit pages inspected in earlier source audit. Answerable abstention_correct flags excluded from comparison as not applicable.",
+  "input_sha256": {
+    "results\\experiments\\dense_qwen\\basic\\dev\\agent_traces.json": "f0116e9f795ea25e4e1a2873d7a97e7e5cfd48f5ede46c59c7680565b82b34ea",
+    "results\\experiments\\dense_qwen\\basic\\dev\\reviews.ai.json": "923e2c4e41c8f45bdcb37ea81f31b66b743d31fb8f63fcc0488d94af3ad9585e",
+    "data\\benchmark\\basic_questions.json": "2036f614f945f5a826ead344a87312bbee86125e60b4d437f52922b89688e7db",
+    "data\\source\\world-development-report-2024.pdf": "7f545194763ef2ffd1347c14bcf5a270c622b9c3a29e1c8c8b081aaee6c00df5"
+  },
+  "summary": {
+    "cases": 17,
+    "answerable_fully_correct": 15,
+    "correct_abstentions": 2,
+    "pass_count": 17,
+    "fail_count": 0,
+    "disagreements": [
+      "basic_dev_16",
+      "basic_dev_17"
+    ],
+    "label_caution": "Absent initial contextgrade2 changed to0; correct abstention established by separate documentwide audit. Dev10 alternate subgroup1.76 verified, originalgold preserved. Dev9 broad subgroup absence caveat not independently certified documentwide."
+  },
+  "reviews": [
+    {
+      "query_id": "basic_dev_01",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original p17 confirms 4% forecast and additional 5%/more than6% decade comparisons.",
+      "original_pages_checked": [
+        17
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p17:g3:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_02",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original p66 confirms108 and equal split in2023 classification; p65 independently supports historical58 countries under1978 definition. Years correctly distinguished.",
+      "original_pages_checked": [
+        36,
+        65,
+        66
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p66:g2:c0",
+        "wdr2024:p65:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_03",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original64/65/75 support11% median and21% mean. Rendered75 chart inspected:5-25% bin tallest. Answer distinguishes median,mean and frequency; all associated citations supported.",
+      "original_pages_checked": [
+        36,
+        64,
+        65,
+        75
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p64:g2:c0",
+        "wdr2024:p65:g0:c0",
+        "wdr2024:p75:g0:c0",
+        "wdr2024:p75:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_04",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Both original strategy passages support Vietnam2045 high-income target; answer treats it as target not observed attainment.",
+      "original_pages_checked": [
+        34,
+        67
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p34:g3:c0",
+        "wdr2024:p67:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_05",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original39 confirms aboutUS$33000 in2023; correct country/year/unit.",
+      "original_pages_checked": [
+        39
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p39:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_06",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original41 supports15% in2000 to42% in2012. Added25-34-age condition explicitly supported on original95 and its cited chunk.",
+      "original_pages_checked": [
+        41,
+        95
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p41:g3:c0",
+        "wdr2024:p95:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_07",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original41 confirms Chile first Latin American high-income country in2012.",
+      "original_pages_checked": [
+        41
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p41:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_08",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original41 identifies Norwegian salmon-farming technologies adapted in Chile.",
+      "original_pages_checked": [
+        41
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p41:g2:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_09",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original45 supports3.5 times for all middle-income countries. Answer explicitly disambiguates population. Caveat read as no separate direct subgroup comparison in cited discussion; global absence of subgroup data is not independently certified.",
+      "original_pages_checked": [
+        45
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p45:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_10",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original265 explicitly supports2.5 times for all middle-income in2022. Rendered108 Figure3.5a inspected: UMIC9.0/HIC5.1 exajoules/trillionUS$, ratio1.7647. Answer qualifies alternate subgroup reading. Full credit; originalgold unchanged despite question ambiguity.",
+      "original_pages_checked": [
+        45,
+        108,
+        265
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p265:g1:c0",
+        "wdr2024:p108:g0:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_11",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true,
+          true,
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original52/214 support killing future competing products/technologies. Added rival-worker hiring observation explicitly present on original137. All three citations support respective claims.",
+      "original_pages_checked": [
+        52,
+        137,
+        214
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p52:g0:c0",
+        "wdr2024:p137:g3:c0",
+        "wdr2024:p214:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_12",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original137 supports11 developing economies; correctly scoped survey description, not conflated with other FAT samples.",
+      "original_pages_checked": [
+        137
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p137:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_13",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original93 is valid alternative to gold91; Estonia80% Western European income by2021 explicit.",
+      "original_pages_checked": [
+        91,
+        93
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p93:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_14",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original254 supports more than140 targets covering about88% global emissions, present in cited chunk.",
+      "original_pages_checked": [
+        254
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p254:g0:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_15",
+      "agrees_with_ai_label": true,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 2,
+        "citation_support": [
+          true
+        ],
+        "pass": true,
+        "abstention_correct": false
+      },
+      "abstention_correct_applicable": false,
+      "reason": "Original Izmir paragraph supports80% exported and primarilyEurope. Both answer claims verified.",
+      "original_pages_checked": [
+        254
+      ],
+      "cited_ids_checked": [
+        "wdr2024:p254:g1:c0"
+      ],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {}
+    },
+    {
+      "query_id": "basic_dev_16",
+      "agrees_with_ai_label": false,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "pass": true,
+        "abstention_correct": true
+      },
+      "abstention_correct_applicable": true,
+      "reason": "Correct abstention with no guessed number. Documentwide2025 hits only107(projected debt)/171(China renewable target), neither Vietnam observedQ4 GDP or forecast. Retrieved long-term targets do not establish absence: contextgrade0.",
+      "original_pages_checked": [
+        34,
+        67,
+        107,
+        171
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {
+        "context_grade": {
+          "ai": 2,
+          "recommended": 0
+        }
+      }
+    },
+    {
+      "query_id": "basic_dev_17",
+      "agrees_with_ai_label": false,
+      "recommended": {
+        "answer_grade": 2,
+        "context_grade": 0,
+        "citation_support": [],
+        "pass": true,
+        "abstention_correct": true
+      },
+      "abstention_correct_applicable": true,
+      "reason": "Correct abstention. Documentwide2026 hits only57(data-center electricity forecast)/107(projected debt), neither Korea annual inflation. Retrieved growth/R&D/charts do not establish absence: contextgrade0.",
+      "original_pages_checked": [
+        39,
+        57,
+        107
+      ],
+      "cited_ids_checked": [],
+      "citation_ids_all_in_actual_context": true,
+      "differences": {
+        "context_grade": {
+          "ai": 2,
+          "recommended": 0
+        }
+      }
+    }
+  ]
+}

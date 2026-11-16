@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen3-Embedding-8B",
+  "revision": "1d8ad4ca9b3dd8059ad90a75d4983776a23d44af",
+  "dimensions": 4096,
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "vram_gb": 79.25,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 67.87928771099996,
+  "max_sequence_length": 8192,
+  "allocated_vram_gb": 14.1,
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "4.57.3",
+    "sentence-transformers": "5.1.2",
+    "huggingface-hub": "0.36.0"
+  }
+}

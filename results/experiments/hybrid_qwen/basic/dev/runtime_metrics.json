@@ -1,0 +1,380 @@
+{
+  "final_context_evidence_rate": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.7333333333333333
+  },
+  "definition": "Actual final context sent to answering model; strict native gold quote+source/page, all multihop groups required; errors scored0. Visual semantic evidence separately source-audited.",
+  "answer_citation_coverage": {
+    "n": 14,
+    "N": 14,
+    "rate": 1.0
+  },
+  "retrieval_tool_call_distribution_successful_queries": {
+    "1": 10,
+    "2": 2,
+    "3": 4
+  },
+  "context_grade_distribution_answerable_successful": {
+    "2": 14
+  },
+  "per_query_context_review": [
+    {
+      "query_id": "basic_dev_01",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (4%), trích dẫn đúng đoạn văn bản chứa thông tin ở trang 17.",
+      "context_ids": [
+        "wdr2024:p17:g3:c0",
+        "wdr2024:p18:g0:c0",
+        "wdr2024:p76:g0:c0",
+        "wdr2024:p58:g0:c0",
+        "wdr2024:p41:vision:c1",
+        "wdr2024:p42:g0:c0",
+        "wdr2024:p111:g4:c0",
+        "wdr2024:p74:g2:c0",
+        "wdr2024:p17:g0:c0",
+        "wdr2024:p17:g1:c0",
+        "wdr2024:p17:g2:c0",
+        "wdr2024:p18:g1:c0",
+        "wdr2024:p77:g0:c0",
+        "wdr2024:p255:g0:c0",
+        "wdr2024:p171:vision:c0",
+        "wdr2024:p35:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_02",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Câu trả lời hoàn toàn chính xác (108 quốc gia), các trích dẫn ở trang 63 và 66 đều hỗ trợ trực tiếp và đầy đủ nội dung câu trả lời.",
+      "context_ids": [
+        "wdr2024:p63:g1:c0",
+        "wdr2024:p11:g2:c0",
+        "wdr2024:p210:g1:c1",
+        "wdr2024:p249:g0:c0",
+        "wdr2024:p262:vision:c1",
+        "wdr2024:p245:g5:c0",
+        "wdr2024:p66:g2:c0",
+        "wdr2024:p230:g4:c0",
+        "wdr2024:p63:g0:c0",
+        "wdr2024:p63:g2:c0",
+        "wdr2024:p63:vision:c0",
+        "wdr2024:p63:vision:c1",
+        "wdr2024:p11:g0:c0",
+        "wdr2024:p11:g1:c0",
+        "wdr2024:p35:g2:c0",
+        "wdr2024:p35:vision:c2",
+        "wdr2024:p68:g0:c0",
+        "wdr2024:p35:vision:c1",
+        "wdr2024:p5:g0:c0",
+        "wdr2024:p1:g0:c0",
+        "wdr2024:p3:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_03",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Câu trả lời hoàn toàn chính xác, nêu rõ mức trung vị khoảng 11% GDP bình quân đầu người của Mỹ theo báo cáo, đồng thời cung cấp thêm thông tin chi tiết và trích dẫn chuẩn xác.",
+      "context_ids": [
+        "wdr2024:p75:g1:c0",
+        "wdr2024:p76:vision:c0",
+        "wdr2024:p76:g0:c0",
+        "wdr2024:p75:g0:c0",
+        "wdr2024:p65:g0:c0",
+        "wdr2024:p64:g2:c0",
+        "wdr2024:p65:g2:c0",
+        "wdr2024:p76:g1:c0",
+        "wdr2024:p75:g2:c0",
+        "wdr2024:p75:g3:c0",
+        "wdr2024:p75:vision:c0",
+        "wdr2024:p74:g0:c0",
+        "wdr2024:p132:vision:c0",
+        "wdr2024:p53:vision:c1",
+        "wdr2024:p109:vision:c1"
+      ]
+    },
+    {
+      "query_id": "basic_dev_04",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo Chiến lược phát triển kinh tế - xã hội 2021–2030 được báo cáo dẫn lại (năm 2045), các trích dẫn đều tồn tại và hỗ trợ nội dung trả lời.",
+      "context_ids": [
+        "wdr2024:p67:g2:c0",
+        "wdr2024:p216:g0:c0",
+        "wdr2024:p33:g0:c0",
+        "wdr2024:p145:vision:c1",
+        "wdr2024:p205:vision:c1",
+        "wdr2024:p34:g3:c0",
+        "wdr2024:p197:g0:c0",
+        "wdr2024:p67:g1:c0",
+        "wdr2024:p67:g0:c0",
+        "wdr2024:p67:vision:c0",
+        "wdr2024:p67:vision:c1",
+        "wdr2024:p216:g1:c0",
+        "wdr2024:p216:g2:c0",
+        "wdr2024:p216:g3:c0",
+        "wdr2024:p216:g4:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_05",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo tài liệu (khoảng 33.000 USD), các trích dẫn đều tồn tại và hỗ trợ đầy đủ nội dung.",
+      "context_ids": [
+        "wdr2024:p82:g0:c0",
+        "wdr2024:p82:g1:c0",
+        "wdr2024:p82:g2:c0",
+        "wdr2024:p82:vision:c0",
+        "wdr2024:p82:vision:c1",
+        "wdr2024:p39:g1:c0",
+        "wdr2024:p67:g0:c0",
+        "wdr2024:p40:g0:c0",
+        "wdr2024:p35:vision:c1",
+        "wdr2024:p40:vision:c0",
+        "wdr2024:p38:g0:c0",
+        "wdr2024:p35:vision:c0",
+        "wdr2024:p39:g0:c0",
+        "wdr2024:p39:vision:c0",
+        "wdr2024:p67:g2:c0",
+        "wdr2024:p83:g1:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_06",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (từ 15% năm 2000 lên 42% năm 2012), các trích dẫn đều tồn tại và hỗ trợ đầy đủ nội dung.",
+      "context_ids": [
+        "wdr2024:p41:g3:c0",
+        "wdr2024:p154:vision:c1",
+        "wdr2024:p95:g1:c0",
+        "wdr2024:p153:g2:c0",
+        "wdr2024:p40:g0:c0",
+        "wdr2024:p154:g0:c0",
+        "wdr2024:p40:vision:c1",
+        "wdr2024:p145:vision:c1",
+        "wdr2024:p41:g0:c0",
+        "wdr2024:p41:g1:c0",
+        "wdr2024:p41:g2:c0",
+        "wdr2024:p41:vision:c0",
+        "wdr2024:p41:vision:c1",
+        "wdr2024:p154:g1:c0",
+        "wdr2024:p154:g2:c0",
+        "wdr2024:p154:vision:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_07",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác và có đầy đủ trích dẫn xác thực từ tài liệu.",
+      "context_ids": [
+        "wdr2024:p41:g2:c0",
+        "wdr2024:p40:vision:c1",
+        "wdr2024:p40:vision:c0",
+        "wdr2024:p35:vision:c1",
+        "wdr2024:p224:g2:c1",
+        "wdr2024:p224:g2:c0",
+        "wdr2024:p216:g0:c0",
+        "wdr2024:p21:g0:c1",
+        "wdr2024:p41:g0:c0",
+        "wdr2024:p41:g1:c0",
+        "wdr2024:p41:g3:c0",
+        "wdr2024:p41:vision:c0",
+        "wdr2024:p41:vision:c1",
+        "wdr2024:p40:g0:c0",
+        "wdr2024:p40:g1:c0",
+        "wdr2024:p40:g2:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_08",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác và có trích dẫn minh chứng đầy đủ từ tài liệu.",
+      "context_ids": [
+        "wdr2024:p41:g2:c0",
+        "wdr2024:p21:g0:c1",
+        "wdr2024:p206:g0:c0",
+        "wdr2024:p235:g1:c0",
+        "wdr2024:p257:g0:c0",
+        "wdr2024:p10:g0:c0",
+        "wdr2024:p40:vision:c1",
+        "wdr2024:p257:vision:c0",
+        "wdr2024:p41:g0:c0",
+        "wdr2024:p41:g1:c0",
+        "wdr2024:p41:g3:c0",
+        "wdr2024:p41:vision:c0",
+        "wdr2024:p41:vision:c1",
+        "wdr2024:p21:g0:c0",
+        "wdr2024:p21:g1:c0",
+        "wdr2024:p21:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_09",
+      "context_grade": 0,
+      "strict_complete_evidence": false,
+      "reason": "System error counts as advanced failure",
+      "context_ids": [
+        "wdr2024:p265:g1:c0",
+        "wdr2024:p109:vision:c1",
+        "wdr2024:p264:g2:c0",
+        "wdr2024:p216:g0:c0",
+        "wdr2024:p132:vision:c0",
+        "wdr2024:p45:g1:c0",
+        "wdr2024:p232:vision:c0",
+        "wdr2024:p46:vision:c0",
+        "wdr2024:p265:g0:c0",
+        "wdr2024:p265:g2:c0",
+        "wdr2024:p265:g3:c0",
+        "wdr2024:p265:vision:c0",
+        "wdr2024:p265:vision:c1",
+        "wdr2024:p109:g0:c0",
+        "wdr2024:p109:g1:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_10",
+      "context_grade": 2,
+      "strict_complete_evidence": false,
+      "reason": "Câu trả lời hoàn toàn chính xác theo thông tin trong ngữ cảnh được trích dẫn (cao gấp 2,5 lần).",
+      "context_ids": [
+        "wdr2024:p265:g1:c0",
+        "wdr2024:p109:vision:c1",
+        "wdr2024:p109:vision:c0",
+        "wdr2024:p216:g0:c0",
+        "wdr2024:p132:vision:c0",
+        "wdr2024:p264:g1:c0",
+        "wdr2024:p232:vision:c0",
+        "wdr2024:p82:g0:c0",
+        "wdr2024:p265:g0:c0",
+        "wdr2024:p265:g2:c0",
+        "wdr2024:p265:g3:c0",
+        "wdr2024:p265:vision:c0",
+        "wdr2024:p265:vision:c1",
+        "wdr2024:p109:g0:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_11",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác theo báo cáo, nêu rõ mục đích triệt tiêu các sản phẩm và công nghệ cạnh tranh trong tương lai, đồng thời trích dẫn đầy đủ và chính xác các nguồn.",
+      "context_ids": [
+        "wdr2024:p214:g1:c0",
+        "wdr2024:p52:g0:c0",
+        "wdr2024:p137:g3:c0",
+        "wdr2024:p139:g2:c0",
+        "wdr2024:p135:g2:c0",
+        "wdr2024:p9:g0:c0",
+        "wdr2024:p12:g1:c0",
+        "wdr2024:p135:g0:c0",
+        "wdr2024:p214:g0:c0",
+        "wdr2024:p214:g2:c0",
+        "wdr2024:p214:g3:c0",
+        "wdr2024:p52:g1:c0",
+        "wdr2024:p52:g2:c0",
+        "wdr2024:p52:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_12",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (11 nền kinh tế đang phát triển) và trích dẫn đúng đoạn ngữ cảnh tại trang 137.",
+      "context_ids": [
+        "wdr2024:p137:g1:c0",
+        "wdr2024:p145:g2:c0",
+        "wdr2024:p21:g2:c0",
+        "wdr2024:p145:g1:c0",
+        "wdr2024:p200:g1:c1",
+        "wdr2024:p265:g1:c0",
+        "wdr2024:p196:vision:c1",
+        "wdr2024:p265:g3:c0",
+        "wdr2024:p137:g0:c0",
+        "wdr2024:p137:g2:c0",
+        "wdr2024:p137:g3:c0",
+        "wdr2024:p137:g4:c0",
+        "wdr2024:p145:g0:c0",
+        "wdr2024:p145:vision:c0",
+        "wdr2024:p145:vision:c1"
+      ]
+    },
+    {
+      "query_id": "basic_dev_13",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (80%) và các trích dẫn đều chứa nội dung chứng minh rõ ràng.",
+      "context_ids": [
+        "wdr2024:p93:g1:c0",
+        "wdr2024:p94:g0:c0",
+        "wdr2024:p91:g2:c0",
+        "wdr2024:p94:g1:c0",
+        "wdr2024:p95:g1:c0",
+        "wdr2024:p77:g2:c0",
+        "wdr2024:p259:g2:c0",
+        "wdr2024:p67:g0:c0",
+        "wdr2024:p93:g0:c0",
+        "wdr2024:p94:g2:c0",
+        "wdr2024:p94:g3:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_14",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (khoảng 88%) và trích dẫn trực tiếp nguồn thông tin phù hợp.",
+      "context_ids": [
+        "wdr2024:p265:g2:c0",
+        "wdr2024:p271:g0:c0",
+        "wdr2024:p254:g0:c0",
+        "wdr2024:p111:g3:c0",
+        "wdr2024:p107:g1:c0",
+        "wdr2024:p268:g3:c0",
+        "wdr2024:p172:g0:c0",
+        "wdr2024:p107:g2:c0",
+        "wdr2024:p265:g0:c0",
+        "wdr2024:p265:g1:c0",
+        "wdr2024:p265:g3:c0",
+        "wdr2024:p265:vision:c0",
+        "wdr2024:p265:vision:c1",
+        "wdr2024:p271:g1:c0",
+        "wdr2024:p271:g2:c0"
+      ]
+    },
+    {
+      "query_id": "basic_dev_15",
+      "context_grade": 2,
+      "strict_complete_evidence": true,
+      "reason": "Câu trả lời hoàn toàn chính xác (80%) và trích dẫn đầy đủ, đúng ngữ cảnh tại trang 254.",
+      "context_ids": [
+        "wdr2024:p254:g1:c0",
+        "wdr2024:p14:g1:c0",
+        "wdr2024:p179:g0:c0",
+        "wdr2024:p1:g0:c0",
+        "wdr2024:p177:g1:c0",
+        "wdr2024:p3:g0:c0",
+        "wdr2024:p258:g2:c0",
+        "wdr2024:p5:g0:c0",
+        "wdr2024:p254:g0:c0",
+        "wdr2024:p254:g2:c0",
+        "wdr2024:p254:g3:c0",
+        "wdr2024:p14:g0:c0"
+      ]
+    }
+  ],
+  "model_calls": 44,
+  "model_http_attempts_recorded": 45,
+  "usage": {
+    "prompt_tokens": 138891,
+    "completion_tokens": 2995,
+    "total_tokens": 158239
+  },
+  "usd_cost": null,
+  "cost_limitations": "No verified USD tariff; usage available only for recorded model responses, failures/setup may not supply token usage.",
+  "errors": 1
+}
