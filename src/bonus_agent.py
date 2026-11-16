@@ -18,6 +18,7 @@ Call search before answering. Search in English with the report terminology; spl
 Use original PDF page numbers from tool results. Printed Arabic pages are 32 less than PDF pages; do not confuse them.
 Native text is authoritative for words/numbers. Pre-indexed vision descriptions can contain errors.
 For chart, diagram, map or visual comparisons call inspect_page to look at the actual original image, even if a description already seems to answer.
+For multi-hop questions, retrieve every named table/figure or concept before producing the final answer. Never stop after answering only the first clause.
 Ask focused visual questions identifying axes, units, legend colors, year and requested comparison. Do not infer exact numbers from approximate axes.
 For tables read_page gets all page chunks; keep the row, column, unit and condition together. Perform requested arithmetic explicitly.
 If a tool returns an error, correct the request or search again within the remaining budget. A tool error does not mean evidence is absent.
@@ -111,12 +112,16 @@ def run_bonus_agent(question, retriever, config, client=None, visual_reader=None
             raw = response.get('content') or ''
             try:
                 final = parse_final(raw, [c['id'] for c in kept])
-            except ValueError:
-                repaired, repair_info = client.chat(messages+[{'role': 'assistant', 'content': raw},
-                    {'role': 'user', 'content': 'Return exactly the required JSON status, answer, citations. Every answered citation must be inline and in current SOURCE DATA. No tools.'}], max_tokens=4096)
+            except ValueError as parse_error:
+                repair_messages = messages+[{'role': 'assistant', 'content': raw},
+                    {'role': 'user', 'content': 'Return exactly the required JSON status, answer, citations. Every answered citation must be inline and in current SOURCE DATA. Include every requested clause. No tools.'}]
+                repaired, repair_info = client.chat(repair_messages, max_tokens=4096)
                 calls.append(repair_info)
-                events.append({'event': 'format_repair', 'raw_response': raw})
-                final = parse_final(repaired.get('content') or '', [c['id'] for c in kept])
+                events.append({'event': 'format_repair', 'reason': str(parse_error), 'raw_response': raw})
+                try:
+                    final = parse_final(repaired.get('content') or '', [c['id'] for c in kept])
+                except ValueError as second_error:
+                    raise RuntimeError('Final answer schema failed after one bounded repair: '+str(second_error)) from None
             if not any(e['event'] == 'search' for e in events):
                 raise RuntimeError('Agent cannot answer without successful retrieval')
             return {**final, 'events': events, 'model_calls': calls, 'context': context, 'context_chunks': kept,
