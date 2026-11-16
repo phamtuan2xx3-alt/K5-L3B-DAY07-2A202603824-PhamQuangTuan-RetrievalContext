@@ -1,0 +1,14 @@
+{
+  "benchmark": "bonus_v2",
+  "run": "results/bonus_v2_run/agent_traces.json",
+  "test_cases": 30,
+  "answerable_answered_before_source_audit": 21,
+  "answerable_abstain_before_source_audit": 2,
+  "system_errors": 1,
+  "absent_correct_abstentions_before_source_audit": 5,
+  "upper_bound_before_source_audit": "26/30",
+  "bonus_threshold": "27/30",
+  "bonus_eligible": false,
+  "colab_runtime_released": true,
+  "note": "Answerable cases still require original-page semantic audit. This upper bound already stays below the 27/30 threshold. The benchmark audit records inherited evidence provenance for review."
+}
